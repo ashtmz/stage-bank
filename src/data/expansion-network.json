@@ -1,0 +1,1780 @@
+[
+  {
+    "id": "network-ip",
+    "name": "IPアドレス",
+    "reading": "あいぴーあどれす",
+    "english": "IP address",
+    "aliases": [
+      "論理アドレス"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "IP ネットワークで機器やインターフェースを識別し、パケットの宛先や送信元を示す番号。",
+    "detail": "舞台では卓、スイッチ、制御用パソコン、映像送出機などが別々のアドレスを持つ。IP が見えること、機器探索が成功すること、音声や映像が正しく流れることは、それぞれ異なる確認事項である。アドレスの形式に加えて、同じ通信範囲にいるか、経路があるかを考えると障害を整理しやすい。",
+    "usage": "仕込み資料に制御用とメディア伝送用のアドレス範囲を記載する。",
+    "examples": [
+      "仕込み資料に制御用とメディア伝送用のアドレス範囲を記載する。"
+    ],
+    "pitfalls": [
+      "同じ番号の重複や別サブネットへの配置は、ケーブルの断線とは別の問題。"
+    ],
+    "japan": "「IPアドレス」または英語表記で使用。",
+    "us": "IP address。",
+    "uk": "IP address。",
+    "note": "",
+    "related": [
+      "IPv4",
+      "IPv6",
+      "サブネット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Apple｜IP アドレスと DHCP",
+        "url": "https://support.apple.com/en-euro/guide/mac-help/mchlp2718/27/mac/27"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-ipv4",
+    "name": "IPv4",
+    "reading": "あいぴーぶいふぉー",
+    "english": "Internet Protocol version 4",
+    "aliases": [
+      "アイピーブイフォー"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "32 ビットのアドレスを用いる IP の方式。舞台用の制御・メディア機器でも広く使われる。",
+    "detail": "通常は数字四組をピリオドで区切って表す。ネットワーク部分と機器を区別する部分があり、実際の通信範囲はサブネットの設定にも依存する。卓とパソコンの画面に似た番号が表示されているだけでは、直接通信できることの証明にはならない。",
+    "usage": "既設の音響 LAN と持込み制御機器の IPv4 設定を資料で照合する。",
+    "examples": [
+      "既設の音響 LAN と持込み制御機器の IPv4 設定を資料で照合する。"
+    ],
+    "pitfalls": [
+      "IPv6 とはアドレス形式や関連する制御の仕組みが異なる。"
+    ],
+    "japan": "「IPv4」または英語表記で使用。",
+    "us": "Internet Protocol version 4。",
+    "uk": "Internet Protocol version 4。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv6",
+      "サブネット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜RFC 791 Internet Protocol",
+        "url": "https://www.rfc-editor.org/rfc/rfc791"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-ipv6",
+    "name": "IPv6",
+    "reading": "あいぴーぶいしっくす",
+    "english": "Internet Protocol version 6",
+    "aliases": [
+      "アイピーブイシックス"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "128 ビットのアドレス空間を用いる IP の方式。IPv4 の単なる桁数の追加ではなく、関連する動作も異なる。",
+    "detail": "OS やネットワーク機器が IPv6 に対応していても、接続する音響・照明・映像アプリが同じ方式を使うとは限らない。一台のパソコンで IPv4 と IPv6 が併存することもあるため、設定表や障害記録ではどちらの通信を見ているかを明記する。",
+    "usage": "会場の管理ネットワークと持込みソフトの対応方式を確認する。",
+    "examples": [
+      "会場の管理ネットワークと持込みソフトの対応方式を確認する。"
+    ],
+    "pitfalls": [
+      "IPv6 対応を理由に、IPv4 専用の機器との相互接続まで保証しない。"
+    ],
+    "japan": "「IPv6」または英語表記で使用。",
+    "us": "Internet Protocol version 6。",
+    "uk": "Internet Protocol version 6。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv4",
+      "サブネット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜RFC 8200 IPv6",
+        "url": "https://www.rfc-editor.org/rfc/rfc8200"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-subnet",
+    "name": "サブネット",
+    "reading": "さぶねっと",
+    "english": "Subnet",
+    "aliases": [
+      "IPサブネット"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "IP ネットワークを論理的な範囲に分けたもの。マスクやプレフィックスがアドレスのネットワーク部分を示す。",
+    "detail": "同じ物理スイッチに挿さっていても、IP の範囲や VLAN が異なると通信経路が変わる。舞台のネットワーク設計では、機器発見、制御、音声や映像の伝送を同一範囲で扱うのか、ルーターを通すのかを区別して記録する。",
+    "usage": "会場 LAN とツアー機器のサブネットが重ならないか、設計資料で確認する。",
+    "examples": [
+      "会場 LAN とツアー機器のサブネットが重ならないか、設計資料で確認する。"
+    ],
+    "pitfalls": [
+      "サブネットと VLAN は異なる層の概念で、名称を同義語として置き換えない。"
+    ],
+    "japan": "「サブネット」または英語表記で使用。",
+    "us": "Subnet。",
+    "uk": "Subnet。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv4",
+      "IPv6",
+      "サブネットマスク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Apple｜IP アドレスと DHCP",
+        "url": "https://support.apple.com/en-euro/guide/mac-help/mchlp2718/27/mac/27"
+      },
+      {
+        "label": "IETF｜RFC 791 Internet Protocol",
+        "url": "https://www.rfc-editor.org/rfc/rfc791"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-mac",
+    "name": "MACアドレス",
+    "reading": "まっくあどれす",
+    "english": "Media Access Control address",
+    "aliases": [
+      "物理アドレス"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "Ethernet などのリンクでインターフェースを識別するためのアドレス。IP アドレスとは別の識別情報。",
+    "detail": "スイッチは MAC アドレスとポートの関係を使ってフレームの転送先を判断する。機器台帳では同じモデルの個体を区別する手掛かりにもなるが、一台に複数のネットワーク端子があれば複数のアドレスを持つ。OS の設定によって表示が変わる場合もある。",
+    "usage": "ネットワーク台帳に機器名、接続ポート、MAC、IP を分けて記録する。",
+    "examples": [
+      "ネットワーク台帳に機器名、接続ポート、MAC、IP を分けて記録する。"
+    ],
+    "pitfalls": [
+      "MAC を把握していても、IP 設定やアプリの接続先が正しいとは限らない。"
+    ],
+    "japan": "「MACアドレス」または英語表記で使用。",
+    "us": "Media Access Control address。",
+    "uk": "Media Access Control address。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv4",
+      "IPv6"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜SWP1 Specifications",
+        "url": "https://usa.yamaha.com/products/proaudio/network_switches/swp1/specs.html"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-dhcp",
+    "name": "DHCP",
+    "reading": "でぃーえいちしーぴー",
+    "english": "Dynamic Host Configuration Protocol",
+    "aliases": [
+      "自動アドレス割当"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "IP アドレスや関連するネットワーク設定をサーバーから自動配布する仕組み。",
+    "detail": "仮設会場でも機器の導入を簡単にするが、配布するサーバーの有無やリース、固定割当との整合が運用に影響する。DHCP で取得したアドレスと手動で固定したアドレスを区別して台帳に記録すると、機材の交換や再起動後の変化を追いやすい。",
+    "usage": "制御用ノートパソコンが会場の DHCP から設定を得ているか確認する。",
+    "examples": [
+      "制御用ノートパソコンが会場の DHCP から設定を得ているか確認する。"
+    ],
+    "pitfalls": [
+      "DHCP サーバーがない状態の自動設定と、DHCP で正常に取得した状態を混同しない。"
+    ],
+    "japan": "「DHCP」または英語表記で使用。",
+    "us": "Dynamic Host Configuration Protocol。",
+    "uk": "Dynamic Host Configuration Protocol。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv4",
+      "IPv6"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜RFC 2131 DHCP",
+        "url": "https://www.rfc-editor.org/rfc/rfc2131"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-dns",
+    "name": "DNS",
+    "reading": "でぃーえぬえす",
+    "english": "Domain Name System",
+    "aliases": [
+      "名前解決"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "ドメイン名などの名前に対応する情報を問い合わせる分散した仕組み。IP アドレスの配布とは異なる。",
+    "detail": "人が覚えやすい名前を接続先の情報へ結び付ける。公演システムではクラウドサービスや管理画面の接続、機器名を用いる管理などに関係する。IP 宛ての通信ができるのに名前での接続だけ失敗する場合は、物理配線とは別に名前解決を整理できる。",
+    "usage": "配信サービスの接続障害で、IP の通信と名前解決を分けて確認する。",
+    "examples": [
+      "配信サービスの接続障害で、IP の通信と名前解決を分けて確認する。"
+    ],
+    "pitfalls": [
+      "DNS を使うすべての通信がインターネット接続を必要とするわけではない。"
+    ],
+    "japan": "「DNS」または英語表記で使用。",
+    "us": "Domain Name System。",
+    "uk": "Domain Name System。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv4",
+      "IPv6"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜RFC 1034 DNS",
+        "url": "https://www.rfc-editor.org/rfc/rfc1034"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-mdns",
+    "name": "mDNS",
+    "reading": "えむでぃーえぬえす",
+    "english": "Multicast DNS",
+    "aliases": [
+      "マルチキャストDNS"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "definition": "中央の DNS サーバーに頼らず、主に同じリンク内の機器同士がマルチキャストで名前を解決する仕組み。",
+    "detail": "音響・映像ソフトの自動探索に関係することがある。名前が一覧に現れる範囲はネットワークの構成に依存し、VLAN やルーターを越える場合にはそのまま同じ動きになるとは限らない。発見用の通信と実際のメディア伝送を区別して見ると切り分けやすい。",
+    "usage": "同一会場内で送出機器が自動探索一覧に表示される範囲を整理する。",
+    "examples": [
+      "同一会場内で送出機器が自動探索一覧に表示される範囲を整理する。"
+    ],
+    "pitfalls": [
+      "機器名が見えていても、必要な音声・映像ストリームまで受信できるとは限らない。"
+    ],
+    "japan": "「mDNS」または英語表記で使用。",
+    "us": "Multicast DNS。",
+    "uk": "Multicast DNS。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "IPv4",
+      "IPv6"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜RFC 6762 Multicast DNS",
+        "url": "https://www.rfc-editor.org/rfc/rfc6762"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-vlan",
+    "name": "VLAN",
+    "reading": "ぶいらん",
+    "english": "Virtual Local Area Network",
+    "aliases": [
+      "仮想LAN"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "一つの物理ネットワーク上で、ポートやタグを使って論理的な LAN を分ける仕組み。",
+    "detail": "舞台では音声伝送、照明制御、管理用端末などの通信範囲を整理するために使う。複数の VLAN を一つの幹線へ載せる構成もあるが、物理機器を共用する点は変わらない。信号の分離と、スイッチ故障に対する冗長性を別々に設計することが重要。",
+    "usage": "同じ会場幹線で音声系と制御系を論理的に分ける。",
+    "examples": [
+      "同じ会場幹線で音声系と制御系を論理的に分ける。"
+    ],
+    "pitfalls": [
+      "同一スイッチ内で分けた二つの VLAN は、物理的に独立した二台のスイッチとは異なる。"
+    ],
+    "japan": "「VLAN」または英語表記で使用。",
+    "us": "Virtual Local Area Network。",
+    "uk": "Virtual Local Area Network。",
+    "note": "",
+    "related": [
+      "QoS",
+      "DSCP",
+      "IGMPスヌーピング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜Dante Network Design Guide / VLAN",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/dante_network_design_guide/201_vlan.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-qos",
+    "name": "QoS",
+    "reading": "きゅーおーえす",
+    "english": "Quality of Service",
+    "aliases": [
+      "通信優先制御"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "通信の種類や優先度に応じて、転送時の扱いを制御する仕組みの総称。",
+    "detail": "音声や映像のネットワークでは、同期用パケットやリアルタイムのデータが他の転送に埋もれないよう設計する際に使う。分類の仕方、キューへの割当、ポートの動作は機器によって異なる。QoS という機能名があるだけで、必要な設定が自動で完成するわけではない。",
+    "usage": "音響用ネットワークの同期通信と一般通信の扱いを設計資料に示す。",
+    "examples": [
+      "音響用ネットワークの同期通信と一般通信の扱いを設計資料に示す。"
+    ],
+    "pitfalls": [
+      "優先順位は通信容量を増やす機能ではない。"
+    ],
+    "japan": "「QoS」または英語表記で使用。",
+    "us": "Quality of Service。",
+    "uk": "Quality of Service。",
+    "note": "",
+    "related": [
+      "VLAN",
+      "DSCP",
+      "IGMPスヌーピング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜Selecting Network Switches",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/dante_network_design_guide/101_network_switches.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-dscp",
+    "name": "DSCP",
+    "reading": "でぃーえすしーぴー",
+    "english": "Differentiated Services Code Point",
+    "aliases": [],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "IP パケットのサービス上の分類を示す値。ネットワーク機器が優先制御などを行う際の手掛かりになる。",
+    "detail": "パケットに付いた値と、スイッチで実際にどのキューへ入るかは分けて考える。送り側がマーキングしていても、途中の装置が信頼しない、付け替える、別の方式で分類する場合がある。異なるメーカーの機器を組み合わせる現場では、数値だけでなく扱いの対応を確認する。",
+    "usage": "メーカーのネットワーク推奨仕様とスイッチの DSCP 対応を照合する。",
+    "examples": [
+      "メーカーのネットワーク推奨仕様とスイッチの DSCP 対応を照合する。"
+    ],
+    "pitfalls": [
+      "DSCP の値が同じでも、装置のキュー構成や動作が同じとは限らない。"
+    ],
+    "japan": "「DSCP」または英語表記で使用。",
+    "us": "Differentiated Services Code Point。",
+    "uk": "Differentiated Services Code Point。",
+    "note": "DiffServは通信品質を区別する仕組みの体系で、DSCPはその中でパケットの処理クラスを示す符号。両者を同じ略語として扱わない。",
+    "related": [
+      "VLAN",
+      "QoS",
+      "IGMPスヌーピング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜RFC 2474 Differentiated Services",
+        "url": "https://www.rfc-editor.org/rfc/rfc2474"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-igmpsnoop",
+    "name": "IGMPスヌーピング",
+    "reading": "あいじーえむぴーすぬーぴんぐ",
+    "english": "IGMP snooping",
+    "aliases": [
+      "IGMP Snooping"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "マルチキャストの受信希望に関する通信をスイッチが参照し、必要なポートへ転送を絞る機能。",
+    "detail": "同じ音声や映像を複数の受信先へ送るとき、不要な配信を抑えるために使う。受信グループの情報は状態として管理されるため、ケーブルを接続した直後と時間が経った後で見え方が変わる場合もある。グループの確認役であるクエリアとは役割が異なる。",
+    "usage": "多台数の受信機がある会場でマルチキャストの転送範囲を管理する。",
+    "examples": [
+      "多台数の受信機がある会場でマルチキャストの転送範囲を管理する。"
+    ],
+    "pitfalls": [
+      "単純にすべてのマルチキャストを遮断する機能ではない。"
+    ],
+    "japan": "「IGMPスヌーピング」または英語表記で使用。",
+    "us": "IGMP snooping。",
+    "uk": "IGMP snooping。",
+    "note": "",
+    "related": [
+      "VLAN",
+      "QoS",
+      "DSCP"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜Multicast Settings",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/dante_network_design_guide/201_multicast.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-igmpquerier",
+    "name": "IGMPクエリア",
+    "reading": "あいじーえむぴーくえりあ",
+    "english": "IGMP querier",
+    "aliases": [
+      "マルチキャストクエリア"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "マルチキャストの受信者へ問い合わせを行い、グループ参加状況の維持に関係する役割。",
+    "detail": "IGMP スヌーピングが転送先を絞るのに対し、クエリアは受信要求を確認するための問い合わせを行う。機器や VLAN の構成によって担当が決まり、複数候補がある場合には選出が関係することもある。スヌーピングの有効表示だけを見て、両方の役割が整っていると判断しない。",
+    "usage": "会場ネットワークでどの機器がクエリアを担当するか台帳へ残す。",
+    "examples": [
+      "会場ネットワークでどの機器がクエリアを担当するか台帳へ残す。"
+    ],
+    "pitfalls": [
+      "クエリアと PTP のクロックリーダーは無関係な役割。"
+    ],
+    "japan": "「IGMPクエリア」または英語表記で使用。",
+    "us": "IGMP querier。",
+    "uk": "IGMP querier。",
+    "note": "",
+    "related": [
+      "VLAN",
+      "QoS",
+      "DSCP"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜SWP1 FAQ",
+        "url": "https://usa.yamaha.com/products/proaudio/network_switches/swp1/faq.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-ptp",
+    "name": "PTP",
+    "reading": "ぴーてぃーぴー",
+    "english": "Precision Time Protocol",
+    "aliases": [
+      "IEEE 1588"
+    ],
+    "category": "network",
+    "subcategory": "同期・時刻",
+    "definition": "ネットワーク上の機器の時刻や周波数の整合に使う精密な同期プロトコル。",
+    "detail": "舞台のデジタル音声や IP 映像では、各機器が同じ基準でサンプルやフレームを扱うために関係する。対応バージョンやプロファイル、ドメイン、リーダー選出などの条件があり、単に PTP 対応と書かれている二台が同じ同期系へ参加できるとは限らない。",
+    "usage": "音声と映像のシステム図に、それぞれのクロック系と境界を示す。",
+    "examples": [
+      "音声と映像のシステム図に、それぞれのクロック系と境界を示す。"
+    ],
+    "pitfalls": [
+      "時間位置を再生機器へ知らせるタイムコードと、クロック同期は目的が異なる。"
+    ],
+    "japan": "「PTP」または英語表記で使用。",
+    "us": "Precision Time Protocol。",
+    "uk": "Precision Time Protocol。",
+    "note": "",
+    "related": [],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Audinate｜How does Dante clocking work?",
+        "url": "https://support.getdante.com/hc/en-gb/articles/5508293251743-How-does-Dante-clocking-work"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-poe",
+    "name": "PoE",
+    "reading": "ぴーおーいー",
+    "english": "Power over Ethernet",
+    "aliases": [
+      "イーサネット給電"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "対応する Ethernet 配線を使い、通信と一緒に直流電力を機器へ供給する方式。",
+    "detail": "無線アクセスポイント、カメラ、インカム、制御パネルなどの配置で使われる。給電側と受電側の対応規格、ポート単位の能力、スイッチ全体の電源容量は別々の条件である。LAN ケーブルに見える接続でも、独自の給電方式や非対応機器を同じものとして扱わない。",
+    "usage": "舞台袖の PoE 対応インカムの電源系統をネットワーク図に併記する。",
+    "examples": [
+      "舞台袖の PoE 対応インカムの電源系統をネットワーク図に併記する。"
+    ],
+    "pitfalls": [
+      "PoE 対応は、すべてのポートへ同時に最大電力を供給できるという意味ではない。"
+    ],
+    "japan": "「PoE」または英語表記で使用。",
+    "us": "Power over Ethernet。",
+    "uk": "Power over Ethernet。",
+    "note": "",
+    "related": [
+      "PoEバジェット",
+      "UPS",
+      "有効電力"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Cisco｜What is Power over Ethernet?",
+        "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-power-over-ethernet.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-poebudget",
+    "name": "PoEバジェット",
+    "reading": "ぴーおーいーばじぇっと",
+    "english": "PoE power budget",
+    "aliases": [
+      "給電予算",
+      "総給電容量"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "PoE 給電機器が接続先全体へ供給できる電力の枠。ポート一つあたりの上限とは別の値。",
+    "detail": "受電機器の必要量を各ポートの能力と比較するだけでは、スイッチ全体の余裕を判断できない。電源ユニットの構成や機器の要求クラスによって割当が変わる場合もあるため、機材追加時には全体の給電状態を記録する。ネットワークの通信帯域とは別の資源である。",
+    "usage": "アクセスポイントとカメラを増やす前に、総給電容量を機器資料で照合する。",
+    "examples": [
+      "アクセスポイントとカメラを増やす前に、総給電容量を機器資料で照合する。"
+    ],
+    "pitfalls": [
+      "「PoE+ ポートが多数ある」ことと、全ポートへ同時に十分な給電ができることを分ける。"
+    ],
+    "japan": "「PoEバジェット」または英語表記で使用。",
+    "us": "PoE power budget。",
+    "uk": "PoE power budget。",
+    "note": "",
+    "related": [
+      "PoE",
+      "UPS",
+      "有効電力"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Cisco｜PoE Configuration Guide",
+        "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/c9000/infra/poe/poe-configuration-guide/g-poe/c-poe.html"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-sfp",
+    "name": "SFP",
+    "reading": "えすえふぴー",
+    "english": "Small Form-factor Pluggable",
+    "aliases": [
+      "小型トランシーバー"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "ネットワーク機器の対応スロットに装着する小型の送受信モジュールの形式。光用や銅線用などがある。",
+    "detail": "遠距離の幹線や異なる配線媒体を扱う際に使う。モジュールの形状だけでなく、速度、波長、光ファイバーの種類、機器側の対応が関係する。SFP+ など名称が似る別の仕様もあり、端子へ挿せることだけをもって通信互換性があるとは判断できない。",
+    "usage": "舞台と客席卓を結ぶ光幹線で、両端のモジュール仕様を図面に記載する。",
+    "examples": [
+      "舞台と客席卓を結ぶ光幹線で、両端のモジュール仕様を図面に記載する。"
+    ],
+    "pitfalls": [
+      "コネクター形状が同じでも、光方式や通信速度が合うとは限らない。"
+    ],
+    "japan": "「SFP」または英語表記で使用。",
+    "us": "Small Form-factor Pluggable。",
+    "uk": "Small Form-factor Pluggable。",
+    "note": "",
+    "related": [
+      "光ファイバー",
+      "LANケーブルカテゴリー",
+      "etherCON",
+      "SFP+"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Cisco｜SFP and SFP+ Modules",
+        "url": "https://www.cisco.com/c/en/us/td/docs/interfaces_modules/transceiver_modules/installation/note/78_15160.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-fiber",
+    "name": "光ファイバー",
+    "reading": "ひかりふぁいばー",
+    "english": "Optical fiber",
+    "aliases": [
+      "光ケーブル",
+      "ファイバー"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "光を使って信号を伝える媒体。舞台の長距離幹線や多チャンネルの通信にも使われる。",
+    "detail": "シングルモードとマルチモードでは光の伝わり方や対応する送受信機器が異なる。伝送距離だけでなく、光モジュール、端面、コネクター、経路の損失などを含めた系統として考える。光に変換すれば、どんな信号形式でも無条件で延長できるわけではない。",
+    "usage": "会場の既設光回線と持込み機器が使うファイバーの種類を照合する。",
+    "examples": [
+      "会場の既設光回線と持込み機器が使うファイバーの種類を照合する。"
+    ],
+    "pitfalls": [
+      "同じ LC 端子であっても、シングルモード用とマルチモード用の組合せは確認が必要。"
+    ],
+    "japan": "「光ファイバー」または英語表記で使用。",
+    "us": "Optical fiber。",
+    "uk": "Optical fiber。",
+    "note": "",
+    "related": [
+      "SFP",
+      "LANケーブルカテゴリー",
+      "etherCON"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Cisco｜Single-Mode vs Multi-Mode Fiber",
+        "url": "https://blogs.cisco.com/sp/fiberopticspt2singlemultifiber"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-lancategory",
+    "name": "LANケーブルカテゴリー",
+    "reading": "らんけーぶるかてごりー",
+    "english": "Twisted-pair cabling category",
+    "aliases": [
+      "ケーブルカテゴリー"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "平衡ツイストペア配線の伝送性能を区分する規格上の等級。Cat5e・Cat6・Cat6Aなどがある。",
+    "detail": "音響や映像機器の配線条件を読むときに使う。必要なカテゴリーに加え、完成した経路の長さ、接続部、シールド、機械的な強度などが運用に関係する。舞台向けの柔軟なケーブルと常設用の配線材では構造が異なるため、同じ Cat 表記だけで扱いを統一しない。",
+    "usage": "ツアーの回線表へ LAN ケーブルのカテゴリーと用途を記載する。",
+    "examples": [
+      "ツアーの回線表へ LAN ケーブルのカテゴリーと用途を記載する。"
+    ],
+    "pitfalls": [
+      "RJ45 形状は、その配線経路が特定カテゴリーの性能を満たす証明ではない。"
+    ],
+    "japan": "「LANケーブルカテゴリー」または英語表記で使用。",
+    "us": "Twisted-pair cabling category。",
+    "uk": "Twisted-pair cabling category。",
+    "note": "",
+    "related": [
+      "SFP",
+      "光ファイバー",
+      "etherCON"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜Selecting Cables",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/dante_network_design_guide/101_cables.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-ethercon",
+    "name": "etherCON",
+    "reading": "いーさこん",
+    "english": "etherCON",
+    "aliases": [
+      "イーサコン"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "Neutrik の堅牢化された RJ45 接続システム。プロ音響・映像・照明などのデータ配線に使われる。",
+    "detail": "RJ45 のデータ接続部を外装やロック機構で保護し、繰り返し持ち運ぶ現場の接続に対応させる製品群である。カテゴリーやシリーズによって組合せが異なるため、etherCON という名称だけで全製品の相互接続や防水を判断しない。使用する信号の規格は別に確認する。",
+    "usage": "持込みステージボックスと会場パネルのコネクター系列を台帳で照合する。",
+    "examples": [
+      "持込みステージボックスと会場パネルのコネクター系列を台帳で照合する。"
+    ],
+    "pitfalls": [
+      "etherCON は Dante 専用の信号規格の名前ではない。"
+    ],
+    "japan": "「etherCON」または英語表記で使用。",
+    "us": "etherCON。",
+    "uk": "etherCON。",
+    "note": "",
+    "related": [
+      "SFP",
+      "光ファイバー",
+      "LANケーブルカテゴリー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Neutrik｜etherCON FAQ",
+        "url": "https://www.neutrik.com/en/neutrik/faq/ethercon"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03",
+    "manufacturer": "Neutrik"
+  },
+  {
+    "id": "network-powercon",
+    "name": "powerCON",
+    "reading": "ぱわこん",
+    "english": "powerCON",
+    "aliases": [
+      "パワコン"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "Neutrik のロック付き機器電源コネクターの製品群。音声用の speakON とは用途が異なる。",
+    "detail": "舞台機材の電源接続で見かけるが、シリーズごとに機械的な組合せや定格、使用条件が異なる。従来の powerCON と TRUE1 系列などを同じ構造として扱わず、機器の受け口とケーブル側の製品を確認する。色や似た輪郭だけでは用途を判断しない。",
+    "usage": "機材表に「powerCON」とだけ書かず、機器に付く系列まで確認する。",
+    "examples": [
+      "機材表に「powerCON」とだけ書かず、機器に付く系列まで確認する。"
+    ],
+    "pitfalls": [
+      "speakON と powerCON は似た外観でも、音声接続と電源接続という別用途。"
+    ],
+    "japan": "「powerCON」または英語表記で使用。",
+    "us": "powerCON。",
+    "uk": "powerCON。",
+    "note": "",
+    "related": [
+      "SFP",
+      "光ファイバー",
+      "LANケーブルカテゴリー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Neutrik｜powerCON",
+        "url": "https://www.neutrik.com/en/products/audio/powercon"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03",
+    "manufacturer": "Neutrik"
+  },
+  {
+    "id": "network-true1",
+    "name": "powerCON TRUE1 TOP",
+    "reading": "ぱわこんとぅるーわんとっぷ",
+    "english": "powerCON TRUE1 TOP",
+    "aliases": [
+      "TRUE1 TOP"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "Neutrik のロック付き電源コネクター系列。屋外用途を意識した構造を持ち、従来系列とは仕様が異なる。",
+    "detail": "公式資料では接続状態などの条件を伴って屋外保護性能を示している。規格上の特性と、公演現場で実際に使用できる条件は別々に読む必要がある。系列名が同じでも機器側、ケーブル側、保護部品の構成を含めて確認するための、製品固有の項目である。",
+    "usage": "屋外用灯体の接続仕様に記載された TRUE1 TOP の構成を確認する。",
+    "examples": [
+      "屋外用灯体の接続仕様に記載された TRUE1 TOP の構成を確認する。"
+    ],
+    "pitfalls": [
+      "屋外対応の表記を、未接続の端子や任意の組合せにまで広げない。"
+    ],
+    "japan": "「powerCON TRUE1 TOP」または英語表記で使用。",
+    "us": "powerCON TRUE1 TOP。",
+    "uk": "powerCON TRUE1 TOP。",
+    "note": "",
+    "related": [
+      "etherCON Mini NE8MRC"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Neutrik｜NAC3FX-W-TOP",
+        "url": "https://www.neutrik.com/en/product/nac3fx-w-top"
+      }
+    ],
+    "kind": "equipment",
+    "verifiedAt": "2026-11-03",
+    "manufacturer": "Neutrik"
+  },
+  {
+    "id": "network-mini",
+    "name": "etherCON Mini NE8MRC",
+    "reading": "いーさこんみにえぬいーはちえむあーるしー",
+    "english": "etherCON Mini RJ45 Carrier NE8MRC",
+    "aliases": [
+      "NE8MRC"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "definition": "標準的な RJ45 プラグに機械的な保護を追加する Neutrik の小型キャリア製品。",
+    "detail": "公式データシートではストレインリリーフとロック爪の保護を特徴としている。RJ45 プラグ自体を含む完成したネットワーク機器ではなく、適合するプラグとの組合せを確認する部品である。大きな etherCON 外装が使いにくい場所で、どの部分を保護したいかを考える際の例になる。",
+    "usage": "狭い機器パネルで使う RJ45 接続部の保護部品を比較する。",
+    "examples": [
+      "狭い機器パネルで使う RJ45 接続部の保護部品を比較する。"
+    ],
+    "pitfalls": [
+      "Mini の名称を、通常の etherCON 全系列や屋外保護性能との互換保証として扱わない。"
+    ],
+    "japan": "「etherCON Mini NE8MRC」または英語表記で使用。",
+    "us": "etherCON Mini RJ45 Carrier NE8MRC。",
+    "uk": "etherCON Mini RJ45 Carrier NE8MRC。",
+    "note": "",
+    "related": [
+      "powerCON TRUE1 TOP"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Neutrik｜etherCON Mini NE8MRC datasheet",
+        "url": "https://www.neutrik.com/en/NE8MRC-3.pdf"
+      }
+    ],
+    "kind": "equipment",
+    "verifiedAt": "2026-11-03",
+    "manufacturer": "Neutrik",
+    "specs": [
+      {
+        "label": "種類",
+        "value": "RJ45プラグ用キャリア。RJ45プラグは付属しない。"
+      },
+      {
+        "label": "保護",
+        "value": "データシートの保護等級は IP20。"
+      }
+    ]
+  },
+  {
+    "id": "network-ups",
+    "name": "UPS",
+    "reading": "ゆーぴーえす",
+    "english": "Uninterruptible Power Supply",
+    "aliases": [
+      "無停電電源装置"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "商用電源の中断時などに、蓄えたエネルギーで機器へ電力を供給する装置。",
+    "detail": "制御用パソコン、卓、ネットワーク機器などの停止リスクを検討するときに使う。出力容量、接続する負荷、バックアップ時間、給電方式、電池の状態は別々の選定要素である。公演設備全体を無制限に動かせる装置ではなく、どの機器をどの目的で支えるかを決める。",
+    "usage": "送出パソコンと制御ネットワークの電源維持の範囲を資料に示す。",
+    "examples": [
+      "送出パソコンと制御ネットワークの電源維持の範囲を資料に示す。"
+    ],
+    "pitfalls": [
+      "照明の「不滅電源」は、電池で停電を補う UPS の意味ではない。"
+    ],
+    "japan": "「UPS」または英語表記で使用。",
+    "us": "Uninterruptible Power Supply。",
+    "uk": "Uninterruptible Power Supply。",
+    "note": "",
+    "related": [
+      "PoE",
+      "PoEバジェット",
+      "有効電力"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Eaton｜UPS fundamentals handbook",
+        "url": "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-ups-fundamentals-handbook-en-us-2025.pdf"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-watts",
+    "name": "有効電力",
+    "reading": "ゆうこうでんりょく",
+    "english": "Active power / Real power",
+    "aliases": [
+      "W",
+      "ワット",
+      "消費電力"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "電気的なエネルギーが仕事や熱などへ変換される速さを表す電力。単位はワット。",
+    "detail": "機器の消費電力や給電設計を読むための基礎概念。交流の電圧と電流を掛けた皮相電力とは区別し、UPS などの機器資料に W と VA の両方が書かれている場合は別々の制限として扱う。銘板の数値と特定の動作中に観測される消費も同一とは限らない。",
+    "usage": "消費電力と電源機器の W 定格を、VA の値と分けて記録する。",
+    "examples": [
+      "消費電力と電源機器の W 定格を、VA の値と分けて記録する。"
+    ],
+    "pitfalls": [
+      "W と VA の表示を、常に同じ数値として置き換えない。"
+    ],
+    "japan": "「有効電力」または英語表記で使用。",
+    "us": "Active power / Real power。",
+    "uk": "Active power / Real power。",
+    "note": "",
+    "related": [
+      "PoE",
+      "PoEバジェット",
+      "UPS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Eaton｜UPS fundamentals handbook",
+        "url": "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-ups-fundamentals-handbook-en-us-2025.pdf"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-va",
+    "name": "皮相電力",
+    "reading": "ひそうでんりょく",
+    "english": "Apparent power",
+    "aliases": [
+      "VA",
+      "ボルトアンペア"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "交流の実効電圧と実効電流の積で表す電力の尺度。単位は VA で、有効電力 W とは区別する。",
+    "detail": "電源装置や UPS の容量表記でよく使われる。機材が消費する有効電力だけでなく、電源が扱う電流との関係を読むための指標である。実際の選定では負荷の性質や装置側の仕様が関係し、VA の大きさだけで稼働時間まで決まるわけではない。",
+    "usage": "UPS の仕様欄で VA と W の定格をそれぞれ照合する。",
+    "examples": [
+      "UPS の仕様欄で VA と W の定格をそれぞれ照合する。"
+    ],
+    "pitfalls": [
+      "VA は電池容量やバックアップ時間そのものの単位ではない。"
+    ],
+    "japan": "「皮相電力」または英語表記で使用。",
+    "us": "Apparent power。",
+    "uk": "Apparent power。",
+    "note": "",
+    "related": [
+      "PoE",
+      "PoEバジェット",
+      "UPS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Eaton｜Power factor fundamentals",
+        "url": "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/power-factor-corrections/portfolio/eaton-pfc-guide-plant-engineer-SA02607001E.pdf"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-powerfactor",
+    "name": "力率",
+    "reading": "りきりつ",
+    "english": "Power factor",
+    "aliases": [
+      "PF"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "有効電力と皮相電力の比。交流電源から機器へ流れる電力の関係を表す指標。",
+    "detail": "音響アンプや照明、パソコンの電源仕様を読む際にも関係する。出力音量や明るさの効率を直接表す値ではなく、電源側の電力と電流に関する概念である。波形が歪む負荷では単純な位相差だけで説明できないため、機器資料の測定条件と合わせて扱う。",
+    "usage": "電源容量の検討で、消費電力と力率の表記を区別する。",
+    "examples": [
+      "電源容量の検討で、消費電力と力率の表記を区別する。"
+    ],
+    "pitfalls": [
+      "音響の「位相」と電源の力率を同じ調整項目として扱わない。"
+    ],
+    "japan": "「力率」または英語表記で使用。",
+    "us": "Power factor。",
+    "uk": "Power factor。",
+    "note": "",
+    "related": [
+      "PoE",
+      "PoEバジェット",
+      "UPS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Eaton｜Power factor fundamentals",
+        "url": "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/power-factor-corrections/portfolio/eaton-pfc-guide-plant-engineer-SA02607001E.pdf"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-pdu",
+    "name": "PDU",
+    "reading": "ぴーでぃーゆー",
+    "english": "Power Distribution Unit",
+    "aliases": [
+      "配電ユニット",
+      "電源分配器"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "一つの電源系統から複数の機器へ電力を分配する装置。蓄電による停電補償とは別の機能。",
+    "detail": "ラック内の給電をまとめる基本型に加え、電流表示やネットワーク監視、個別出力の操作に対応する製品もある。舞台では電源の分配経路や監視範囲を整理するときに使うが、PDU の名称だけで保護、電源品質の改善、遠隔制御のすべてを備えるとは限らない。",
+    "usage": "送出ラック内の機器と PDU の出力系統を一覧にする。",
+    "examples": [
+      "送出ラック内の機器と PDU の出力系統を一覧にする。"
+    ],
+    "pitfalls": [
+      "PDU と UPS は役割が異なり、単なる電源分配でバックアップ電力は生まれない。"
+    ],
+    "japan": "「PDU」または英語表記で使用。",
+    "us": "Power Distribution Unit。",
+    "uk": "Power Distribution Unit。",
+    "note": "",
+    "related": [
+      "PoE",
+      "PoEバジェット",
+      "UPS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Eaton｜Power distribution FAQ",
+        "url": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/power-distribution-unit-faq.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-inrush",
+    "name": "突入電流",
+    "reading": "とつにゅうでんりゅう",
+    "english": "Inrush current",
+    "aliases": [
+      "インラッシュカレント"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "機器の電源投入時などに、一時的に大きく流れる電流。通常動作時の消費電流とは別に扱う。",
+    "detail": "スイッチング電源の内部でコンデンサーへ充電する際などに生じる。多数の LED 灯体や電源機器を扱う現場では、定常時の消費電力だけでは起動時の現象を説明できないことがある。大きさや持続は製品と条件に依存するため、数値は個々の公式仕様で読む。",
+    "usage": "灯体の電源仕様を検討する資料に、定常消費と突入電流を分けて記載する。",
+    "examples": [
+      "灯体の電源仕様を検討する資料に、定常消費と突入電流を分けて記載する。"
+    ],
+    "pitfalls": [
+      "短時間の突入と継続的な過負荷を、同じ意味の用語として置き換えない。"
+    ],
+    "japan": "「突入電流」または英語表記で使用。",
+    "us": "Inrush current。",
+    "uk": "Inrush current。",
+    "note": "",
+    "related": [
+      "PoE",
+      "PoEバジェット",
+      "UPS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "TDK-Lambda｜Glossary of power supply terms",
+        "url": "https://at.tdk-lambda.com/content/glossary/doc/Glossary_69639_3.pdf"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-rcd",
+    "name": "漏電保護装置",
+    "reading": "ろうでんほごそうち",
+    "english": "Residual current device",
+    "aliases": [
+      "RCD",
+      "漏電遮断器"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "電流の不均衡などを検出して電源を遮断する保護装置。過電流だけを見る保護とは役割が異なる。",
+    "detail": "英語圏の資料では RCD という語が用いられる。検出方式や機能を組み合わせた装置には種類があり、日本の製品名称と完全な一対一対応になるとは限らない。保護装置の存在があらゆる感電や故障を防ぐわけではなく、用語の意味と具体的な設計・施工条件は分けて扱う。",
+    "usage": "海外の会場設備資料で RCD の記載が何を指すか確認する。",
+    "examples": [
+      "海外の会場設備資料で RCD の記載が何を指すか確認する。"
+    ],
+    "pitfalls": [
+      "ブレーカーという呼び方だけでは、過電流保護と漏電保護のどちらを備えるか決まらない。"
+    ],
+    "japan": "「漏電保護装置」または英語表記で使用。",
+    "us": "Residual current device。装置の具体的な仕様と適用規格を確認する。",
+    "uk": "Residual current device（RCD）。",
+    "note": "",
+    "related": [
+      "保護接地"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Work using electrically powered equipment",
+        "url": "https://www.hse.gov.uk/electricity/electricequip.htm"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-pe",
+    "name": "保護接地",
+    "reading": "ほごせっち",
+    "english": "Protective earthing",
+    "aliases": [
+      "PE",
+      "Protective earth",
+      "安全接地"
+    ],
+    "category": "network",
+    "subcategory": "電源・給電・保護",
+    "definition": "故障時の感電などの危険を抑えるために設ける接地。信号の基準や音響ノイズ対策だけを目的とする接続と区別する。",
+    "detail": "機器の金属部や電源の保護導体に関係する概念で、資料上では PE などの表記を使う。音響のハムや信号のグラウンドループを考える場合も、安全上の保護接地と回路の信号基準を同一視しない。実際の接続方法や必要条件は設備・機器の正式な仕様に依存する。",
+    "usage": "海外機器の電源図で PE と信号グラウンドの表記を区別する。",
+    "examples": [
+      "海外機器の電源図で PE と信号グラウンドの表記を区別する。"
+    ],
+    "pitfalls": [
+      "ノイズ対策の用語を理由に、保護導体を任意に省略できるとは解釈しない。"
+    ],
+    "japan": "「保護接地」または英語表記で使用。",
+    "us": "Protective earthing。",
+    "uk": "Protective earthing。",
+    "note": "",
+    "related": [
+      "漏電保護装置"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Electricity at Work guidance",
+        "url": "https://www.hse.gov.uk/pUbns/priced/hsr25.pdf"
+      }
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-swp2",
+    "name": "Yamaha SWP2シリーズ",
+    "reading": "やまはえすだぶりゅーぴーつーしりーず",
+    "english": "Yamaha SWP2 series",
+    "aliases": [
+      "SWP2-10SMF",
+      "SWP2-10MMF"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "Dante 用の設定や光幹線の接続を考慮した Yamaha の L2 スイッチ製品群。",
+    "detail": "公式ページでは 10G の光アップリンクや Dante 向け設定、LAN Monitor との組合せを案内している。SMF と MMF のモデルでは光接続の方式が異なるため、製品群全体の説明と個別機種の仕様を分けて読む。ここでは資料確認日に公式掲載されている機材の例として扱い、新発売を意味しない。",
+    "usage": "常設とツアー間の光幹線を設計する際に、機種別の光方式を比較する。",
+    "examples": [
+      "常設とツアー間の光幹線を設計する際に、機種別の光方式を比較する。"
+    ],
+    "pitfalls": [
+      "MMF と SMF は単なる外装違いではなく、対応する光方式を確認する。"
+    ],
+    "japan": "「Yamaha SWP2シリーズ」または英語表記で使用。",
+    "us": "Yamaha SWP2 series。",
+    "uk": "Yamaha SWP2 series。",
+    "note": "",
+    "related": [
+      "Yamaha LAN Monitor"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜SWP2 Features",
+        "url": "https://usa.yamaha.com/products/proaudio/network_switches/swp2/features.html"
+      }
+    ],
+    "kind": "equipment",
+    "verifiedAt": "2026-11-03",
+    "manufacturer": "Yamaha",
+    "specs": [
+      {
+        "label": "区分",
+        "value": "L2 ネットワークスイッチ"
+      },
+      {
+        "label": "幹線",
+        "value": "10G 光アップリンク。SMF / MMF は機種別。"
+      }
+    ]
+  },
+  {
+    "id": "network-lanmonitor",
+    "name": "Yamaha LAN Monitor",
+    "reading": "やまはらんもにたー",
+    "english": "Yamaha LAN Monitor",
+    "aliases": [
+      "LAN Monitor"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "対応する Yamaha ネットワーク機器などの接続状態を可視化し、管理に役立てるソフトウェア。",
+    "detail": "公式の製品説明ではネットワーク負荷、スイッチの状態、Dante 機器情報などの確認に用いる。接続図を把握する管理ツールと、音声の送受信を設定するツールは目的が異なる。見える範囲や操作できる機能は、スイッチとソフトの対応条件、ネットワーク構成に依存する。",
+    "usage": "仕込み完了時の接続状態と、本番中の変化を比べるために利用する。",
+    "examples": [
+      "仕込み完了時の接続状態と、本番中の変化を比べるために利用する。"
+    ],
+    "pitfalls": [
+      "ネットワークの可視化だけで、すべての音声ルーティングを編集できるとは限らない。"
+    ],
+    "japan": "「Yamaha LAN Monitor」または英語表記で使用。",
+    "us": "Yamaha LAN Monitor。",
+    "uk": "Yamaha LAN Monitor。",
+    "note": "",
+    "related": [
+      "Yamaha SWP2シリーズ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜SWP2 / LAN Monitor",
+        "url": "https://jp.yamaha.com/products/proaudio/network_switches/swp2/index.html"
+      }
+    ],
+    "kind": "feature",
+    "verifiedAt": "2026-11-03",
+    "manufacturer": "Yamaha"
+  },
+  {
+    "id": "network-eee",
+    "name": "EEE",
+    "reading": "いーいーいー",
+    "english": "Energy Efficient Ethernet",
+    "aliases": [
+      "省電力Ethernet",
+      "IEEE 802.3az"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "Ethernet の通信状態に応じて消費電力を抑える技術。リアルタイム伝送では機器の推奨条件に注意する。",
+    "detail": "一般用途での省電力と、舞台の同期に敏感な音声伝送では重視する条件が異なる。Dante 向けスイッチの説明で EEE を無効にする設定が案内されることがあるのは、このような運用差が背景にある。すべての通信規格や機器へ一律の設定を当てはめるのではなく、対象の正式な仕様を読む。",
+    "usage": "会場スイッチの設定表と、採用する音声方式の推奨条件を照合する。",
+    "examples": [
+      "会場スイッチの設定表と、採用する音声方式の推奨条件を照合する。"
+    ],
+    "pitfalls": [
+      "一般的な省電力機能の有効表示を、リアルタイム伝送への最適化の証明としない。"
+    ],
+    "japan": "「EEE」または英語表記で使用。",
+    "us": "Energy Efficient Ethernet。",
+    "uk": "Energy Efficient Ethernet。",
+    "note": "",
+    "related": [
+      "VLAN",
+      "QoS",
+      "DSCP"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜SWP1 FAQ",
+        "url": "https://usa.yamaha.com/products/proaudio/network_switches/swp1/faq.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-switch",
+    "name": "ネットワークスイッチ",
+    "reading": "ねっとわーくすいっち",
+    "english": "Network switch",
+    "aliases": [
+      "L2スイッチ",
+      "スイッチングハブ"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "複数の Ethernet 機器を接続し、フレームを適切なポートへ転送する装置。映像スイッチャーとは役割が異なる。",
+    "detail": "管理に対応した製品では、VLAN、QoS、マルチキャストの制御、ポート状態の監視などを扱える。舞台の通信系では単なる端子数だけでなく、幹線の容量、転送性能、必要な管理機能、電源や冷却条件を含めて機器の役割を決める。音声や映像の形式の変換を自動で行う装置ではない。",
+    "usage": "客席卓と舞台上の機器を結ぶネットワークの接続点を図面に記載する。",
+    "examples": [],
+    "pitfalls": [
+      "同じ RJ45 端子数でも、管理機能や同時転送能力は機種により異なる。"
+    ],
+    "japan": "「ネットワークスイッチ」または英語表記で使用。",
+    "us": "Network switch。",
+    "uk": "Network switch。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "VLAN",
+      "QoS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜ネットワーク設計",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/dante_network_design_guide/101_network_switches.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-ethernet",
+    "name": "Ethernet",
+    "reading": "いーさねっと",
+    "english": "Ethernet",
+    "aliases": [
+      "イーサネット"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "LAN の有線接続で使われる通信方式の規格群。音声や映像の専用形式そのものとは異なる層を担う。",
+    "detail": "舞台のネットワークでは銅線や光などの媒体を介し、音声、照明、映像、機器管理などのデータを運ぶ。上に載せる通信方式や対応する速度、機器の接続構成が一致して初めて必要な用途へ利用できる。見慣れたネットワーク端子があるだけで、別の信号規格を相互に変換できるわけではない。",
+    "usage": "音声ネットワークと制御ネットワークがどの Ethernet 幹線を共有するか整理する。",
+    "examples": [],
+    "pitfalls": [
+      "RJ45 形状を使う独自の伝送方式を、すべて Ethernet と判断しない。"
+    ],
+    "japan": "「Ethernet」または英語表記で使用。",
+    "us": "Ethernet。",
+    "uk": "Ethernet。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "VLAN",
+      "QoS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Yamaha｜ネットワーク設計",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/dante_network_design_guide/101_cables.html"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-router",
+    "name": "ルーター",
+    "reading": "るーたー",
+    "english": "Router",
+    "aliases": [
+      "ルータ"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "異なる IP ネットワーク間で、パケットを次に送る先を判断する機器や機能。",
+    "detail": "会場の LAN と外部回線、あるいは別のサブネット間を接続するときに関係する。一般家庭向け機器には無線アクセスポイント、DHCP、NAT などの機能が同居することもあるが、それぞれの役割は同じではない。音声や映像の方式によっては、経路があること以外にも探索や同期の条件を確認する。",
+    "usage": "配信用の外部回線と会場内の制御 LAN の境界をシステム図で明示する。",
+    "examples": [],
+    "pitfalls": [
+      "ルーターを置けばすべての機器発見やリアルタイム伝送が自動で成立するわけではない。"
+    ],
+    "japan": "「ルーター」または英語表記で使用。",
+    "us": "Router。",
+    "uk": "Router。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "VLAN",
+      "QoS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜Router",
+        "url": "https://www.rfc-editor.org/rfc/rfc791"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-udp",
+    "name": "UDP",
+    "reading": "ゆーでぃーぴー",
+    "english": "User Datagram Protocol",
+    "aliases": [],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "データグラム単位で情報を運ぶ通信プロトコル。アプリ側の要求に応じて、到達や順序を別途扱う。",
+    "detail": "音声、映像、照明や OSC の制御などで使われることがある。接続の維持や再送の性質が TCP と異なるため、機器の設定資料では通信方式とポート番号を分けて記録する。UDP を使うという共通点だけでは、二つの機器が同じアプリケーションのメッセージを理解するとは限らない。",
+    "usage": "ネットワーク制御の資料に UDP の送信先とアプリの役割を区別して記載する。",
+    "examples": [],
+    "pitfalls": [
+      "UDP 自体は、すべてのデータの到達と順序を保証する仕組みではない。"
+    ],
+    "japan": "「UDP」または英語表記で使用。",
+    "us": "User Datagram Protocol。",
+    "uk": "User Datagram Protocol。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "VLAN",
+      "QoS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜User Datagram Protocol",
+        "url": "https://www.rfc-editor.org/rfc/rfc768"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-tcp",
+    "name": "TCP",
+    "reading": "てぃーしーぴー",
+    "english": "Transmission Control Protocol",
+    "aliases": [],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "順序を保ったバイト列のやり取りや再送制御などを提供する通信プロトコル。",
+    "detail": "機器管理やファイル転送、制御アプリの接続などで利用される。TCP で接続できることと、相手アプリが理解できるメッセージを送れることは別の条件である。また、再送や混雑への対応があるため、リアルタイムの媒体伝送に必要な振る舞いは、採用する方式全体から考える。",
+    "usage": "機器管理の通信とメディア本線の通信で、どのプロトコルを使用するか整理する。",
+    "examples": [],
+    "pitfalls": [
+      "信頼性のある伝送という説明を、時間制限内の到達保証と同じ意味にしない。"
+    ],
+    "japan": "「TCP」または英語表記で使用。",
+    "us": "Transmission Control Protocol。",
+    "uk": "Transmission Control Protocol。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "VLAN",
+      "QoS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜Transmission Control Protocol",
+        "url": "https://www.rfc-editor.org/rfc/rfc9293"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "network-mtu",
+    "name": "MTU",
+    "reading": "えむてぃーゆー",
+    "english": "Maximum Transmission Unit",
+    "aliases": [
+      "最大伝送単位"
+    ],
+    "category": "network",
+    "subcategory": "通信機器・管理",
+    "definition": "あるネットワーク経路やリンクで扱うパケットの大きさに関係する上限。",
+    "detail": "IP のパケットと Ethernet のフレームは同じ単位ではなく、どの層の大きさを資料が指すかを確認する必要がある。大きいパケットを扱う構成では途中の機器や経路との整合も関係し、送信側だけの設定で全経路が同じ条件になるとは限らない。",
+    "usage": "映像や音声ネットワークの仕様書で、必要なパケットサイズの条件を照合する。",
+    "examples": [],
+    "pitfalls": [
+      "ジャンボフレームの表示や MTU の値を、通信速度そのものの数値と混同しない。"
+    ],
+    "japan": "「MTU」または英語表記で使用。",
+    "us": "Maximum Transmission Unit。",
+    "uk": "Maximum Transmission Unit。",
+    "note": "",
+    "related": [
+      "IPアドレス",
+      "VLAN",
+      "QoS"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "IETF｜Maximum Transmission Unit",
+        "url": "https://www.rfc-editor.org/rfc/rfc8200"
+      }
+    ],
+    "kind": "technology",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "usage": "",
+    "japan": "",
+    "us": "",
+    "uk": "",
+    "europe": "",
+    "note": "",
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "verifiedAt": "2026-11-04",
+    "id": "network-subnet-mask",
+    "name": "サブネットマスク",
+    "reading": "さぶねっとますく",
+    "english": "Subnet mask",
+    "aliases": [
+      "IPv4ネットマスク"
+    ],
+    "category": "network",
+    "subcategory": "アドレス・名前解決",
+    "kind": "term",
+    "definition": "IPv4アドレスのどのビットがネットワーク部かを示す32ビットの値。",
+    "detail": "サブネットマスクとIPv4アドレスを組み合わせて、その機器が属するネットワークの範囲を求める。255.255.255.0は先頭24ビットをネットワーク部とする一般的な表記例で、プレフィックス長では /24 と書く。同じアドレス帯に見えてもマスクが違えば通信経路の判断が変わる。サブネットは区分されたネットワークそのもの、マスクは区分を示す値であり、同義語ではない。",
+    "examples": [
+      "音響卓と制御用PCを接続する前に、IPv4アドレスとマスクを一緒に確認する。"
+    ],
+    "pitfalls": [
+      "/24などのプレフィックス長は値の表記法。IPv6にもプレフィックス長は使うが、IPv4のドット区切りマスクをそのまま設定しない。"
+    ],
+    "related": [
+      "サブネット",
+      "IPv4",
+      "IPアドレス"
+    ],
+    "sources": [
+      {
+        "label": "IETF RFC 950 — Internet Standard Subnetting Procedure",
+        "url": "https://www.rfc-editor.org/rfc/rfc950"
+      }
+    ]
+  },
+  {
+    "usage": "",
+    "japan": "",
+    "us": "",
+    "uk": "",
+    "europe": "",
+    "note": "",
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "verifiedAt": "2026-11-04",
+    "id": "network-sfp-plus",
+    "name": "SFP+",
+    "reading": "えすえふぴーぷらす",
+    "english": "Enhanced Small Form-factor Pluggable",
+    "aliases": [
+      "エスエフピープラス"
+    ],
+    "category": "network",
+    "subcategory": "配線・接続",
+    "kind": "technology",
+    "definition": "主に10ギガビット級のリンクで使われる、小型の着脱式トランシーバーモジュールの形式。",
+    "detail": "SFPと近い外形のモジュール形式で、光ファイバー用トランシーバーや接続ケーブルなどに使われる。現場では形状だけで選ばず、ポートの対応速度、モジュールの種類、光の波長、ファイバー種別、相手側の仕様を照合する。SFP+ポートでSFPを利用できるかは機器の対応によるため、メーカーの互換表で確認する。SFPという名称をすべての高速モジュールの規格名として一括りにしない。",
+    "examples": [
+      "映像用ネットワークの10GbEアップリンクで、スイッチと光モジュールの対応を確認する。"
+    ],
+    "pitfalls": [
+      "外形が合うことだけでは動作を保証できない。SFP28など別の速度クラスとの互換性も機種ごとの仕様を確認する。"
+    ],
+    "related": [
+      "SFP",
+      "光ファイバー",
+      "LANケーブルカテゴリー"
+    ],
+    "sources": [
+      {
+        "label": "Cisco — Installing SFP and SFP+ Transceiver Modules",
+        "url": "https://www.cisco.com/c/en/us/td/docs/interfaces_modules/transceiver_modules/installation/note/78_15160.html"
+      }
+    ]
+  }
+]

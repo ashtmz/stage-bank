@@ -1,0 +1,4511 @@
+[
+  {
+    "id": "lighting-fixture",
+    "name": "灯体",
+    "reading": "とうたい",
+    "english": "Lighting fixture / Luminaire",
+    "aliases": [
+      "照明器具",
+      "フィクスチャー",
+      "ランタン",
+      "Instrument",
+      "Lantern"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "光源やレンズ、反射鏡などを収めた照明器具本体。明るさだけでなく配光や光学機構によって用途が変わる。",
+    "usage": "仕込み図の灯体種類と台数を照合する。",
+    "japan": "国内では「灯体」「照明器具」がよく使われる。",
+    "us": "fixture、instrument、luminaireなどを使う。",
+    "uk": "lantern、luminaire、fixtureなどを使う。",
+    "note": "英語の fixture、instrument、lantern は地域や現場で使い分ける。",
+    "related": [
+      "フレネルスポット",
+      "プロファイルスポット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      },
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-flood",
+    "name": "フラッドライト",
+    "reading": "ふらっどらいと",
+    "english": "Floodlight",
+    "aliases": [
+      "フラッド",
+      "投光器"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "広い範囲に光を拡散して照らす器具。輪郭を細かく切る投影用スポットとは光学構造や用途が異なる。",
+    "usage": "背景や舞台面を広く照らす灯体を選ぶ。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Floodlight と表記する。",
+    "uk": "Floodlight と表記する。",
+    "note": "",
+    "related": [
+      "ウォッシュ",
+      "ホリゾントライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-par",
+    "name": "PARライト",
+    "reading": "ぱーらいと",
+    "english": "PAR light",
+    "aliases": [
+      "パーライト",
+      "パーカン",
+      "PAR can",
+      "Parabolic Aluminized Reflector",
+      "パー"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "伝統的には反射鏡・光源・レンズを一体化したPARランプを用いる器具。LED型もPARの名称で流通する。",
+    "usage": "ビームの形や広がりを確認して配置する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "PAR light と表記する。",
+    "uk": "PAR light と表記する。",
+    "note": "LED PARが従来の一体型ランプを使うとは限らない。",
+    "related": [
+      "LED照明",
+      "ビーム角"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lighting-fresnel",
+    "name": "フレネルスポット",
+    "reading": "ふれねるすぽっと",
+    "english": "Fresnel spotlight",
+    "aliases": [
+      "フレネル",
+      "フレネルレンズスポット",
+      "Fresnel lantern"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "同心円状の溝を持つフレネルレンズを用いるスポット。柔らかい輪郭の光を作り、地明かりなどに使う。",
+    "usage": "隣り合う照射範囲をなじませる。",
+    "japan": "「フレネル」「フレネルスポット」と呼ぶ。",
+    "us": "Fresnel、Fresnel spotlightと呼ぶ。",
+    "uk": "Fresnel lantern、Fresnelと呼ぶ。",
+    "note": "",
+    "related": [
+      "地明かり",
+      "バンドア"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ],
+    "detail": "同心円状の溝を持つフレネルレンズを用いるスポット。柔らかい輪郭の光を作り、地明かりなどに使う。柔らかい境界の光を隣の灯体と重ねて広い面を作る用途に向く。投影像のピントを合わせるプロファイルとは構造が違う。バンドアは周辺の漏れを調整するもので、内部シャッターのような鋭い輪郭を必ず作れるわけではない。照射範囲を変えると光の密度も変わるため、舞台面のつながりを見て判断する。",
+    "examples": [
+      "複数灯を重ねた地明かりの境界を演技範囲で確認する。"
+    ],
+    "pitfalls": [
+      "フレネルというレンズ名からLEDかハロゲンかは特定できない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-profile",
+    "name": "プロファイルスポット",
+    "reading": "ぷろふぁいるすぽっと",
+    "english": "Profile spotlight / Ellipsoidal reflector spotlight",
+    "aliases": [
+      "エリスポ",
+      "エリプソイダル",
+      "ERS",
+      "Ellipsoidal",
+      "Leko"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "明瞭な輪郭を作り、シャッターで形を切ったりゴボを投影したりできるスポット。米英で呼び方に違いがある。",
+    "usage": "窓の形を切り、必要な場所だけを照らす。",
+    "japan": "「エリスポ」「プロファイル」や製品名で呼ぶことがある。",
+    "us": "ellipsoidal、ERSなどの呼称を使う。",
+    "uk": "profile spotlight、profileなどの呼称を使う。",
+    "note": "LekoやSource Fourは商品由来の呼称で、すべての製品の正式名称ではない。",
+    "related": [
+      "フレーミングシャッター",
+      "ゴボ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      },
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ],
+    "detail": "明瞭な輪郭を作り、シャッターで形を切ったりゴボを投影したりできるスポット。米英で呼び方に違いがある。内部の光学位置でシャッターやゴボを扱い、必要な形を投影する。レンズ角やズーム、ピント、光源の配置で輪郭と配光が変わるため、単に明るいスポットを置く作業とは異なる。模様とシャッターの両方を使う場合はそれぞれの像の見え方を確認し、器種とアクセサリーの適合を調べる。",
+    "examples": [
+      "窓の形へ光を切り、床へ模様を投影する。"
+    ],
+    "pitfalls": [
+      "LekoやSource Fourは商品由来の名称。全ての同種灯体の正式名ではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-moving",
+    "name": "ムービングライト",
+    "reading": "むーびんぐらいと",
+    "english": "Moving light / Automated luminaire",
+    "aliases": [
+      "ムービング",
+      "インテリジェントライト",
+      "Automated fixture"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "向きや色、ビーム形状などを遠隔制御できる灯体の総称。機種ごとに搭載する機能や必要な制御数が異なる。",
+    "usage": "器種とモードを合わせて卓に登録する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Moving light / Automated luminaire と表記する。",
+    "uk": "Moving light / Automated luminaire と表記する。",
+    "note": "",
+    "related": [
+      "パン",
+      "チルト",
+      "フィクスチャープロファイル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ],
+    "detail": "向きや色、ビーム形状などを遠隔制御できる灯体の総称。機種ごとに搭載する機能や必要な制御数が異なる。複数の属性を一つの論理灯体として扱うため、機種だけでなくDMXモードを合わせてパッチする必要がある。白色光源とフィルターの方式、多色LEDの方式、光学機構によって色や効果の挙動は違う。照射位置を記録しただけで会場変更に対応できるとは考えず、原点と取付方向、動作範囲を確認する。",
+    "examples": [
+      "同じ位置プリセットを複数場面から参照して修正する。"
+    ],
+    "pitfalls": [
+      "パン／チルト以外の属性も含むため、占有DMX数を灯体台数と混同しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-washmoving",
+    "name": "ウォッシュ型ムービング",
+    "reading": "うぉっしゅがたむーびんぐ",
+    "english": "Moving wash",
+    "aliases": [
+      "ウォッシュムービング",
+      "Wash fixture"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "舞台面を柔らかく広く染める用途を中心に設計されたムービングライト。ズームや色混合などの機能を持つ。",
+    "usage": "舞台全体の色の変化を作る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Moving wash と表記する。",
+    "uk": "Moving wash と表記する。",
+    "note": "ウォッシュ、スポット、ビームの区分は製品によって重なる。",
+    "related": [
+      "ウォッシュ",
+      "ズーム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-spotmoving",
+    "name": "スポット型ムービング",
+    "reading": "すぽっとがたむーびんぐ",
+    "english": "Moving spot",
+    "aliases": [
+      "スポットムービング",
+      "Moving-head spot"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "比較的輪郭の明確な光やゴボ投影を中心に使うムービングライト。フレーミング機構の有無は機種による。",
+    "usage": "床面のゴボ模様を動かす。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Moving spot と表記する。",
+    "uk": "Moving spot と表記する。",
+    "note": "",
+    "related": [
+      "ゴボ",
+      "ムービングライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-beamfixture",
+    "name": "ビーム型ムービング",
+    "reading": "びーむがたむーびんぐ",
+    "english": "Moving beam",
+    "aliases": [
+      "ビームムービング",
+      "Beam fixture"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "細く密度のある光線を作る用途に重点を置くムービングライト。空中の光線を演出に使うことが多い。",
+    "usage": "空間に細い光の束を並べる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Moving beam と表記する。",
+    "uk": "Moving beam と表記する。",
+    "note": "客席や出演者への照射条件は機材と公演の管理条件による。",
+    "related": [
+      "ヘイズ",
+      "ビーム角"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-followspot",
+    "name": "フォロースポット",
+    "reading": "ふぉろーすぽっと",
+    "english": "Followspot",
+    "aliases": [
+      "ピンスポット",
+      "ピンスポ",
+      "ピン",
+      "Follow spot",
+      "センターピン"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "動く出演者などを追尾して照らすスポット。人が直接操作する方式のほか遠隔操作する方式もある。",
+    "usage": "出演者の移動に合わせて光を追う。",
+    "japan": "「ピンスポ」「ピン」と略すことがある。",
+    "us": "followspotと呼ぶ。",
+    "uk": "followspotと呼ぶ。",
+    "note": "日本の「ピン」は担当者や操作を含む略称としても使う。",
+    "related": [
+      "アイリス",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lighting-cyc",
+    "name": "ホリゾントライト",
+    "reading": "ほりぞんとらいと",
+    "english": "Cyclorama light / Cyc light",
+    "aliases": [
+      "ホリライト",
+      "Cyc flood"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "ホリゾント幕や背景面を広く均一に照らすための器具。上方・床面など設置位置に応じた配光を持つ。",
+    "usage": "背景全体に色のグラデーションを作る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Cyclorama light / Cyc light と表記する。",
+    "uk": "Cyclorama light / Cyc light と表記する。",
+    "note": "日本の「ホリ」は幕や照明のどちらを指すか文脈で確かめる。",
+    "related": [
+      "アッパーホリゾント",
+      "ロアーホリゾント"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-strip",
+    "name": "ボーダーライト",
+    "reading": "ぼーだーらいと",
+    "english": "Borderlight / Striplight",
+    "aliases": [
+      "ボーダー",
+      "ボダ",
+      "BL",
+      "Strip light"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "複数の光源を横長に配置した照明器具。舞台上方から広い範囲を照らす用途などに使われる。",
+    "usage": "ホール設備表でボーダー回路を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Borderlight / Striplight と表記する。",
+    "uk": "Borderlight / Striplight と表記する。",
+    "note": "ボーダー幕とは別の設備。LEDバーすべてをボーダーと呼ぶわけではない。",
+    "related": [
+      "地明かり",
+      "LEDバー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-ledbar",
+    "name": "LEDバー",
+    "reading": "えるいーでぃーばー",
+    "english": "LED batten / LED bar",
+    "aliases": [
+      "LEDバトン",
+      "Linear fixture"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "LED光源を直線状に配置した器具。面を染めたり、個別セルの制御で動きのある効果を作ったりする。",
+    "usage": "複数のバーを連続配置して背景を照らす。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "LED batten / LED bar と表記する。",
+    "uk": "LED batten / LED bar と表記する。",
+    "note": "吊り物用のバトンと灯体のbattenを区別する。",
+    "related": [
+      "ピクセルマッピング",
+      "LED照明"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-led",
+    "name": "LED照明",
+    "reading": "えるいーでぃーしょうめい",
+    "english": "LED lighting",
+    "aliases": [
+      "LED灯体",
+      "Light-emitting diode"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "発光ダイオードを光源とする照明。光色、調光特性、撮影時のちらつきなどは機種や制御方式で変わる。",
+    "usage": "撮影を伴う公演で調光と発色を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "LED lighting と表記する。",
+    "uk": "LED lighting と表記する。",
+    "note": "",
+    "related": [
+      "RGB加法混色",
+      "PWM調光",
+      "演色性"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ],
+    "detail": "発光ダイオードを光源とする照明。光色、調光特性、撮影時のちらつきなどは機種や制御方式で変わる。多色LEDを混ぜる方式と白色LEDをフィルターで変える方式では、色と明るさの関係が異なる。色温度、演色性、暗い領域での調光、ファン音、撮影時のちらつきなどを使用条件で比較する。外部の調光電源で制御する従来灯体と同じ配線を当然に使えるわけではないため、電源仕様を機種ごとに確認する。",
+    "examples": [
+      "カメラ撮影を伴う公演で暗い調光と肌の色を比較する。"
+    ],
+    "pitfalls": [
+      "LEDというだけで無熱、無音、ちらつきなしを保証しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-tungsten",
+    "name": "タングステン光源",
+    "reading": "たんぐすてんこうげん",
+    "english": "Tungsten source",
+    "aliases": [
+      "白熱光源",
+      "タングステンランプ",
+      "Tungsten-halogen"
+    ],
+    "category": "lighting",
+    "subcategory": "灯体・光源技術",
+    "definition": "タングステンのフィラメントを加熱して発光する光源。舞台ではハロゲン電球も含めて呼ぶことがある。",
+    "usage": "従来灯体とLED灯体の色の変化を比較する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Tungsten source と表記する。",
+    "uk": "Tungsten source と表記する。",
+    "note": "調光で色温度も変わり得る。LEDのディマー機能とは構造が異なる。",
+    "related": [
+      "色温度",
+      "調光カーブ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ],
+    "detail": "タングステンのフィラメントを加熱して発光する光源。舞台ではハロゲン電球も含めて呼ぶことがある。フィラメントの温度が変わることで明るさと光色が連動しやすく、低い調光で赤みが増す傾向がある。LEDの赤方偏移を模した機能とは発光の仕組みが違う。照射器具としての配光、電球の指定、調光回路との対応を合わせて確認し、同じワット数なら同じ舞台照度になると考えない。",
+    "examples": [
+      "LEDへ置き換える場面で暗転へ落ちる色の変化を比較する。"
+    ],
+    "pitfalls": [
+      "電球の定格消費電力と灯体の実測光束は別の値。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-ceiling",
+    "name": "シーリング",
+    "reading": "しーりんぐ",
+    "english": "Front-of-house overhead lighting position",
+    "aliases": [
+      "CL",
+      "シーリングライト",
+      "Ceiling light"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "舞台照明では客席の天井付近に設ける照射位置。舞台前方から顔や舞台面を照らす灯体を置く。",
+    "usage": "CLの配置と照射範囲を図面で確認する。",
+    "japan": "客席天井付近の照射位置を「CL」「シーリング」と呼ぶ。",
+    "us": "FOHのoverhead positionなど、客席側の位置を具体的に示す。",
+    "uk": "FOH bridgeなど、劇場の設備名を添えて示す。",
+    "note": "英語のceiling lightだけでは住宅用天井灯にも聞こえる。位置を具体的に伝える。",
+    "related": [
+      "フロントサイド",
+      "フロントライト"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "PAC｜照明 シーリング・フロント",
+        "url": "https://www.pacnet.co.jp/column/2020/11/24100000.html"
+      }
+    ],
+    "detail": "舞台照明では客席の天井付近に設ける照射位置。舞台前方から顔や舞台面を照らす灯体を置く。客席の天井付近という設置位置を表す国内の呼称で、同じCLでも劇場によって列数や高さ、角度が違う。役者の顔の見え方と、装置に落ちる影の両方を見て用途を決める。英語へ伝える際はceilingだけで済ませず、FOH側の照射位置と実際の設備名を図面へ添えると誤解を減らせる。",
+    "examples": [
+      "会場のCL位置を断面図で確認して顔明かりを計画する。"
+    ],
+    "pitfalls": [
+      "住宅照明のシーリングライトとは用途と設備が異なる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-frontside",
+    "name": "フロントサイド",
+    "reading": "ふろんとさいど",
+    "english": "Front-of-house side lighting position",
+    "aliases": [
+      "FR",
+      "フロント",
+      "サイドフロント",
+      "Front side spotlight"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "客席の左右側面から舞台へ斜め前方の光を送る照射位置。日本の劇場設備図ではFRなどの略号を使う。",
+    "usage": "上手側と下手側のFRを区別して確認する。",
+    "japan": "「FR」「フロント」は客席両側面の照射位置を指す場合がある。",
+    "us": "FOHのside positionなど、設備の位置を添える。",
+    "uk": "FOHのside positionなど、設備の位置を添える。",
+    "note": "日本の「フロント」は客席側面設備の略称の場合があり、front light全体と同義ではない。",
+    "related": [
+      "シーリング",
+      "フロントライト"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "PAC｜照明 シーリング・フロント",
+        "url": "https://www.pacnet.co.jp/column/2020/11/24100000.html"
+      }
+    ],
+    "detail": "客席の左右側面から舞台へ斜め前方の光を送る照射位置。日本の劇場設備図ではFRなどの略号を使う。客席両側から舞台へ向かう照射位置で、舞台袖から横へ当てるSSとは区別する。左右の角度や届く範囲は客席の形と装置に影響される。日本の「フロント」だけで正面照明全体を意味すると解釈せず、どの位置と回路の話なのかを図面や設備表で特定する。",
+    "examples": [
+      "CLとFRを組み合わせたときの顔の陰影を比較する。"
+    ],
+    "pitfalls": [
+      "FRとfront light全体を一対一の翻訳として扱わない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-frontlight",
+    "name": "フロントライト",
+    "reading": "ふろんとらいと",
+    "english": "Front light",
+    "aliases": [
+      "前明かり",
+      "正面明かり",
+      "Face light"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "出演者の客席側から当てる光。顔を見せる役割を担い、上下左右の角度によって影や立体感が変わる。",
+    "usage": "顔の見え方と背景に出る影を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Front light と表記する。",
+    "uk": "Front light と表記する。",
+    "note": "",
+    "related": [
+      "シーリング",
+      "バックライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-backlight",
+    "name": "バックライト",
+    "reading": "ばっくらいと",
+    "english": "Back light",
+    "aliases": [
+      "逆光",
+      "バック明かり",
+      "Backlighting"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "出演者や対象物の後方から客席側へ向けて当てる光。輪郭を出し、背景との分離や奥行きに役立つ。",
+    "usage": "衣装の輪郭が背景から浮かぶようにする。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Back light と表記する。",
+    "uk": "Back light と表記する。",
+    "note": "",
+    "related": [
+      "フロントライト",
+      "トップライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-sidelight",
+    "name": "サイドライト",
+    "reading": "さいどらいと",
+    "english": "Side light",
+    "aliases": [
+      "横明かり",
+      "横照明",
+      "Sidelighting"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "出演者を横方向から照らす光。身体の立体感や動きを強調し、特に舞踊などでよく用いられる。",
+    "usage": "体の側面の陰影を見ながら調整する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Side light と表記する。",
+    "uk": "Side light と表記する。",
+    "note": "",
+    "related": [
+      "ステージサイド",
+      "ブーム",
+      "シンライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-toplight",
+    "name": "トップライト",
+    "reading": "とっぷらいと",
+    "english": "Top light / Downlight",
+    "aliases": [
+      "真上明かり",
+      "ダウンライト"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "対象物のほぼ真上から当てる光。床に範囲を作りやすく、顔や身体には上方向からの強い陰影が生じる。",
+    "usage": "床の光だまりと顔の影を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Top light / Downlight と表記する。",
+    "uk": "Top light / Downlight と表記する。",
+    "note": "照射方向を表す語で、吊り位置の名称と常に一致するわけではない。",
+    "related": [
+      "サスペンションライト",
+      "バックライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-uplight",
+    "name": "アップライト",
+    "reading": "あっぷらいと",
+    "english": "Up light / Uplight",
+    "aliases": [
+      "下明かり",
+      "あおり光",
+      "Uplighting"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "低い位置から上方向に当てる光。壁や装置を染めたり、顔に普段と異なる陰影を作ったりする。",
+    "usage": "装置の柱を下から照らす。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Up light / Uplight と表記する。",
+    "uk": "Up light / Uplight と表記する。",
+    "note": "",
+    "related": [
+      "フットライト",
+      "ロアーホリゾント"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-boom",
+    "name": "ブーム",
+    "reading": "ぶーむ",
+    "english": "Lighting boom / Lighting tree",
+    "aliases": [
+      "ライティングツリー",
+      "Boom tower"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "複数の灯体を高さを変えて取り付けるための縦方向の支持設備。舞台袖のサイドライトなどに使う。",
+    "usage": "袖の動線と各灯体の照射高さを照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Lighting boom / Lighting tree と表記する。",
+    "uk": "Lighting boom / Lighting tree と表記する。",
+    "note": "音響のマイクブームとは用途が異なる。",
+    "related": [
+      "サイドライト",
+      "シンライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-shin",
+    "name": "シンライト",
+    "reading": "しんらいと",
+    "english": "Shin light / Shins",
+    "aliases": [
+      "Shin-buster",
+      "シンバスター"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "舞台袖の低い位置から横に当てる光。床を避けて身体を照らし、舞踊の立体感や浮遊感を作る。",
+    "usage": "足元の照射位置を図面で示す。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Shin light / Shins と表記する。",
+    "uk": "Shin light / Shins と表記する。",
+    "note": "日本式のSS全体と完全な同義ではなく、低い高さを指す呼称。",
+    "related": [
+      "サイドライト",
+      "ステージサイド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Angles",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-5"
+      }
+    ]
+  },
+  {
+    "id": "lighting-sus",
+    "name": "サスペンションライト",
+    "reading": "さすぺんしょんらいと",
+    "english": "Overstage lighting / Lighting on electrics",
+    "aliases": [
+      "サス",
+      "SUS",
+      "Suspension light"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "舞台上方の吊り位置に設置する照明。日本では吊りバトンの列を第一サス、第二サスなどと呼ぶ。",
+    "usage": "一サスと二サスの灯体配置を確認する。",
+    "japan": "舞台上方の吊り列を「一サス」「二サス」などと呼ぶ。",
+    "us": "灯体を吊る列はelectricなどと呼ぶ。",
+    "uk": "lighting barやLX barなどと呼ぶ。劇場図面の設備名を確認する。",
+    "note": "英米ではelectricsやlighting barsなど、設備や位置を示す表現が使われる。",
+    "related": [
+      "サスペンションライト",
+      "トップライト"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会｜知っておきたい舞台用語",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25/h25_jinzai_t2014.pdf"
+      },
+      {
+        "label": "University of California｜Lighting",
+        "url": "https://www.ucop.edu/safety-and-loss-prevention/environmental/program-resources/performing-arts/lighting.html"
+      },
+      {
+        "label": "St George’s Theatre｜Technical specifications",
+        "url": "https://stgeorgestheatre.com/technical-specifications/"
+      }
+    ],
+    "detail": "舞台上方の吊り位置に設置する照明。日本では吊りバトンの列を第一サス、第二サスなどと呼ぶ。舞台上方に設ける吊り列を第一サス、第二サスなどと呼ぶが、番号の始点や設備の形式は劇場図面で確認する。吊り位置の名前であって、全ての光が真上に落ちるという意味ではない。装置の高さや幕との関係を考え、灯体の配置と照射方向、電源・信号の対応をそれぞれ記録する。",
+    "examples": [
+      "一サスの灯体を前明かりと逆光へどう振り分けるか検討する。"
+    ],
+    "pitfalls": [
+      "SUSの略号だけで灯体の種類やビーム角は分からない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-ss",
+    "name": "ステージサイド",
+    "reading": "すてーじさいど",
+    "english": "Stage side lighting",
+    "aliases": [
+      "SS",
+      "エスエス",
+      "ステージサイドスポット"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "舞台袖から演者や装置へ横方向の光を送る照明。日本ではステージサイドスポットをSSと略すことがある。",
+    "usage": "SSの高さと袖幕の見切れを確認する。",
+    "japan": "舞台袖の横明かりを「SS」「エスエス」と略す。",
+    "us": "side lightや、設置に応じてboom lightなどと呼ぶ。",
+    "uk": "side lightや、設置に応じてboom lightなどと呼ぶ。",
+    "note": "高さや具体的な設置方法までSSだけでは特定できない。",
+    "related": [
+      "サイドライト",
+      "シンライト"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会｜知っておきたい舞台用語",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25/h25_jinzai_t2014.pdf"
+      }
+    ],
+    "detail": "舞台袖から演者や装置へ横方向の光を送る照明。日本ではステージサイドスポットをSSと略すことがある。舞台袖の設置位置から横明かりを作り、身体や装置の立体感を出す用途がある。高さが違えば床や顔への当たり方も変わるので、SSという略称だけで設置高さまで確定しない。袖幕による見切れと出演者の移動経路を図面で照合し、客席からの見え方と照射面の両方を確認する。",
+    "examples": [
+      "舞踊の身体が背景から分かれて見える横明かりを計画する。"
+    ],
+    "pitfalls": [
+      "低い位置のshin lightはSS全体の完全な同義語ではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-foot",
+    "name": "フットライト",
+    "reading": "ふっとらいと",
+    "english": "Footlights",
+    "aliases": [
+      "フット",
+      "足元灯"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "舞台前端や花道沿いの床付近から演者を照らす照明。足元から上がる特徴的な陰影を作る。",
+    "usage": "舞台前端のフットの配置を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Footlights と表記する。",
+    "uk": "Footlights と表記する。",
+    "note": "非常用の足元誘導灯とは区別する。",
+    "related": [
+      "アップライト",
+      "フロントライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会｜知っておきたい舞台用語",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25/h25_jinzai_t2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lighting-uppercyc",
+    "name": "アッパーホリゾント",
+    "reading": "あっぱーほりぞんと",
+    "english": "Overhead cyclorama lighting",
+    "aliases": [
+      "アッパー",
+      "UH",
+      "Upper horizon light"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "ホリゾント幕を上方から照らす照明。下方からの照明と組み合わせ、背景の色や明るさを整える。",
+    "usage": "アッパーとロアーの色のつながりを見る。",
+    "japan": "「アッパー」「UH」などと略す。",
+    "us": "overhead cycなど、背景照明の位置を添えて呼ぶ。",
+    "uk": "overhead cycなど、背景照明の位置を添えて呼ぶ。",
+    "note": "英語では設置位置を伴うcyc lightingで説明すると伝わりやすい。",
+    "related": [
+      "ホリゾントライト",
+      "ロアーホリゾント"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "丸茂電機｜ライティングニュース",
+        "url": "https://www.marumo.co.jp/ex/ln/"
+      }
+    ],
+    "detail": "ホリゾント幕を上方から照らす照明。下方からの照明と組み合わせ、背景の色や明るさを整える。背景面を上から照らす配光を持つ設備で、下から照らすロアーと組み合わせることが多い。背景の材質、器具と幕の距離、色の混ざり方で均一性が変わる。舞台の演者へ当てる灯体と目的が違うため、光量だけで選ばず、背景の上端から下端までの見え方と漏れ光を確認する。",
+    "examples": [
+      "上と下の色が連続する背景のグラデーションを作る。"
+    ],
+    "pitfalls": [
+      "日本のUHという略号を海外の全現場で通じる前提にしない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-lowercyc",
+    "name": "ロアーホリゾント",
+    "reading": "ろあーほりぞんと",
+    "english": "Groundrow cyclorama lighting",
+    "aliases": [
+      "ロアー",
+      "LH",
+      "Lower horizon light",
+      "Groundrow",
+      "ローホリ"
+    ],
+    "category": "lighting",
+    "subcategory": "照射位置",
+    "definition": "ホリゾント幕を床付近から照らす照明。背景下部からの色や明るさを作る用途に使われる。",
+    "usage": "ロアーの明るさと背景下端を確認する。",
+    "japan": "「ロアー」「LH」などと略す。",
+    "us": "groundrowやfloor cycなどの表現を使う。",
+    "uk": "groundrowやfloor cycなどの表現を使う。",
+    "note": "英語のgroundrowは背景照明の列や設備を指すこともある。",
+    "related": [
+      "ホリゾントライト",
+      "アッパーホリゾント"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "丸茂電機｜ライティングニュース",
+        "url": "https://www.marumo.co.jp/ex/ln/"
+      },
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "detail": "ホリゾント幕を床付近から照らす照明。背景下部からの色や明るさを作る用途に使われる。背景面の床付近から上へ光を送り、背景下部の色や明るさを作る。器具の配光、背景までの距離、床や演者への漏れによって印象が変わる。舞台前方のフットライトとは設置位置も照らす対象も違う。アッパーと併用する場合は、中央のつながりと色の混ざり方を実際の幕で確認する。",
+    "examples": [
+      "下から夕景の色を作り上方の青色とつなげる。"
+    ],
+    "pitfalls": [
+      "ロアーという略称だけで電球式かLED式かは分からない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-illuminance",
+    "name": "照度",
+    "reading": "しょうど",
+    "english": "Illuminance",
+    "aliases": [
+      "lx",
+      "ルクス",
+      "Lux"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "ある面に入る光束の単位面積当たりの量。ルクスで表し、灯体自体の出力を表す光束とは区別する。",
+    "usage": "舞台上の測定位置を決めて照度を比較する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Illuminance と表記する。",
+    "uk": "Illuminance と表記する。",
+    "note": "卓の明るさ設定のパーセントは照度そのものではない。",
+    "related": [
+      "光束",
+      "光度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ],
+    "detail": "ある面に入る光束の単位面積当たりの量。ルクスで表し、灯体自体の出力を表す光束とは区別する。灯体から出る総量ではなく、測定する面にどれだけ光が届くかを表す。距離、角度、配光、遮りが変わると値も変わるため、測定位置と受光面の向きをそろえる。舞台で顔の見え方やカメラの露光を評価するときも一つの位置の値だけで全体を判断せず、演技範囲や対象面を分けて比較する。",
+    "examples": [
+      "演者の立ち位置ごとの顔の高さで条件をそろえて比較する。"
+    ],
+    "pitfalls": [
+      "卓の50%出力は照度が最大時の半分という意味とは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-luminousflux",
+    "name": "光束",
+    "reading": "こうそく",
+    "english": "Luminous flux",
+    "aliases": [
+      "lm",
+      "ルーメン",
+      "Lumen"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "人の目の感度を考慮した光の量。ルーメンで表し、ある面に届く光の量を表す照度とは異なる。",
+    "usage": "同じ条件で灯体の光束データを見る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Luminous flux と表記する。",
+    "uk": "Luminous flux と表記する。",
+    "note": "光束が同じでも配光や距離で舞台面の照度は変わる。",
+    "related": [
+      "照度",
+      "光度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ],
+    "detail": "人の目の感度を考慮した光の量。ルーメンで表し、ある面に届く光の量を表す照度とは異なる。光源や器具から出る、人の目の感度を考慮した光の量として比較する。どの範囲を積算した値なのか、光源単体か器具を通った後かを確認する。同じルーメンでも狭いビームと広いウォッシュでは照射面の照度は違うため、距離と配光、使用する色やモードを合わせて灯体を選ぶ。",
+    "examples": [
+      "メーカー資料の光源ルーメンと器具の光束を分けて読む。"
+    ],
+    "pitfalls": [
+      "色や高演色モードの切替で出力が変わる機種もある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-intensitycd",
+    "name": "光度",
+    "reading": "こうど",
+    "english": "Luminous intensity",
+    "aliases": [
+      "cd",
+      "カンデラ",
+      "Candela"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "光源から特定の方向に出る光束の立体角当たりの量。カンデラで表し、光の方向性を扱う。",
+    "usage": "配光図の中心光度を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Luminous intensity と表記する。",
+    "uk": "Luminous intensity と表記する。",
+    "note": "卓のIntensityというパラメーター名とは物理量の意味が異なる。",
+    "related": [
+      "光束",
+      "照度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-luminance",
+    "name": "輝度",
+    "reading": "きど",
+    "english": "Luminance",
+    "aliases": [
+      "カンデラ毎平方メートル",
+      "cd/m²"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "ある方向から見た面の輝きの度合いを表す測光量。光が面へ入る量を示す照度とは異なる。",
+    "usage": "背景面や発光面の見え方を比較する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Luminance と表記する。",
+    "uk": "Luminance と表記する。",
+    "note": "",
+    "related": [
+      "照度",
+      "グレア"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-cct",
+    "name": "色温度",
+    "reading": "いろおんど",
+    "english": "Color temperature / Correlated color temperature",
+    "aliases": [
+      "相関色温度",
+      "CCT",
+      "ケルビン",
+      "K"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "白色光の色味を温度の尺度で表す値。通常ケルビンを使い、光源の実際の表面温度と同じとは限らない。",
+    "usage": "舞台照明と撮影用照明の白色を合わせる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color temperature / Correlated color temperature と表記する。",
+    "uk": "Color temperature / Correlated color temperature と表記する。",
+    "note": "数値が同じでも分光分布や緑・マゼンタ方向の色味が同じとは限らない。",
+    "related": [
+      "CTO",
+      "CTB",
+      "演色性"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ],
+    "detail": "白色光の色味を温度の尺度で表す値。通常ケルビンを使い、光源の実際の表面温度と同じとは限らない。白色光の暖かい・冷たい方向の目安になるが、同じ値の光源が同じ分光分布を持つわけではない。緑・マゼンタ方向の差や演色性は別に評価する必要がある。多色LEDでは設定によって出力や色の精度も変わるため、カメラや衣装と合わせて実際の状態を確認し、数値と使用モードを記録する。",
+    "examples": [
+      "複数の灯体を同じ白色へ近づけ、衣装とカメラで比較する。"
+    ],
+    "pitfalls": [
+      "ケルビン値だけを完全な色一致の証拠にしない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-colorender",
+    "name": "演色性",
+    "reading": "えんしょくせい",
+    "english": "Color rendering / Colour rendering",
+    "aliases": [
+      "演色",
+      "Colour rendition"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "光で照らされた物の色の見え方に関する性質。衣装や肌の再現に関係し、色温度だけでは判断できない。",
+    "usage": "衣装と肌を実際の灯体で確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color rendering / Colour rendering と表記する。",
+    "uk": "Color rendering / Colour rendering と表記する。",
+    "note": "",
+    "related": [
+      "平均演色評価数",
+      "色温度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-glare",
+    "name": "グレア",
+    "reading": "ぐれあ",
+    "english": "Glare",
+    "aliases": [
+      "眩しさ",
+      "まぶしさ"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "強い光や明暗差によって、まぶしさや見えにくさが生じること。客席から灯体が直接見える状況などに関係する。",
+    "usage": "客席の視点からまぶしさを確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Glare と表記する。",
+    "uk": "Glare と表記する。",
+    "note": "",
+    "related": [
+      "バンドア",
+      "スピル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-beamangle",
+    "name": "ビーム角",
+    "reading": "びーむかく",
+    "english": "Beam angle",
+    "aliases": [
+      "ビームアングル",
+      "Beam spread"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "中心付近の光の広がりを角度で示したもの。測光上の定義を持つため、器具の公称角やフィールド角と区別する。",
+    "usage": "必要な照射範囲とメーカー配光図を照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Beam angle と表記する。",
+    "uk": "Beam angle と表記する。",
+    "note": "比較にはメーカーが示す測定条件と定義をそろえる。",
+    "related": [
+      "フィールド角",
+      "ズーム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-fieldangle",
+    "name": "フィールド角",
+    "reading": "ふぃーるどかく",
+    "english": "Field angle",
+    "aliases": [
+      "フィールドアングル"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "ビーム角より外側まで含む光の広がりを表す角度。一般に中心光度に対する所定の割合で境界を定める。",
+    "usage": "配光表でビーム角とフィールド角を分けて読む。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Field angle と表記する。",
+    "uk": "Field angle と表記する。",
+    "note": "メーカーの公称レンズ角と必ず一致するとは限らない。",
+    "related": [
+      "ビーム角",
+      "スピル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "照明学会｜基礎事項解説",
+        "url": "https://www.ieij.or.jp/what/yougo.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-intensity",
+    "name": "インテンシティ",
+    "reading": "いんてんしてぃ",
+    "english": "Intensity / Level",
+    "aliases": [
+      "明るさ",
+      "レベル",
+      "Dimmer parameter"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "照明卓で灯体の明るさを扱う制御項目。通常パーセントなどで指定し、照度や物理的な光度とは区別する。",
+    "usage": "色を保ったままインテンシティを下げる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Intensity / Level と表記する。",
+    "uk": "Intensity / Level と表記する。",
+    "note": "",
+    "related": [
+      "照度",
+      "調光カーブ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Controllable Properties of Light",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-3"
+      }
+    ]
+  },
+  {
+    "id": "lighting-hardsoft",
+    "name": "ハードライト／ソフトライト",
+    "reading": "はーどらいとそふとらいと",
+    "english": "Hard light / Soft light",
+    "aliases": [
+      "硬い光",
+      "柔らかい光",
+      "Softness"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "影や照射範囲の境界が明瞭な光と、柔らかい光を区別する表現。光源の見かけの大きさや光学系などが影響する。",
+    "usage": "人物の影の輪郭を見て光の質を選ぶ。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Hard light / Soft light と表記する。",
+    "uk": "Hard light / Soft light と表記する。",
+    "note": "",
+    "related": [
+      "ディフュージョン",
+      "フレネルスポット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Controllable Properties of Light",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-3"
+      }
+    ]
+  },
+  {
+    "id": "lighting-spill",
+    "name": "スピル",
+    "reading": "すぴる",
+    "english": "Spill light",
+    "aliases": [
+      "漏れ光",
+      "光漏れ",
+      "Spillage"
+    ],
+    "category": "lighting",
+    "subcategory": "光・色の評価",
+    "definition": "意図した照射範囲の外へ漏れたり回り込んだりする光。袖幕、背景、客席などへの不要な光を指す。",
+    "usage": "背景に漏れる光を調整する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Spill light と表記する。",
+    "uk": "Spill light と表記する。",
+    "note": "",
+    "related": [
+      "バンドア",
+      "フレーミングシャッター",
+      "グレア"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Controllable Properties of Light",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-3"
+      }
+    ]
+  },
+  {
+    "id": "lighting-gel",
+    "name": "カラーフィルター",
+    "reading": "からーふぃるたー",
+    "english": "Color filter / Colour gel",
+    "aliases": [
+      "ゼラ",
+      "ゼラチン",
+      "色フィルター",
+      "Gel"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "灯体の光に色を付けたり色味を補正したりする透過素材。製品系列ごとに色番号や特性が異なる。",
+    "usage": "仕込み表のメーカー名と色番号を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color filter / Colour gel と表記する。",
+    "uk": "Color filter / Colour gel と表記する。",
+    "note": "現代のフィルターがゼラチン素材とは限らず、同じ番号でもメーカー間で同じ色とは限らない。",
+    "related": [
+      "色枠",
+      "CTO",
+      "CTB"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Rosco｜Filters and Diffusions",
+        "url": "https://us.rosco.com/en/products/family/filters-and-diffusions"
+      }
+    ],
+    "detail": "灯体の光に色を付けたり色味を補正したりする透過素材。製品系列ごとに色番号や特性が異なる。光を透過させる素材であり、光源そのもののスペクトルに含まれない色成分を追加するものではない。同じ色番号でもメーカーや系列が違うと色や耐熱条件は異なる。灯体、色枠、距離や使用条件への適合を確認し、複数灯で共有するときは品名と番号をセットで記録して取り違いを防ぐ。",
+    "examples": [
+      "仕込み表へメーカー、系列、番号をまとめて記す。"
+    ],
+    "pitfalls": [
+      "ゼラという慣用名でも素材がゼラチンであるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-diffusion",
+    "name": "ディフュージョン",
+    "reading": "でぃふゅーじょん",
+    "english": "Diffusion",
+    "aliases": [
+      "拡散フィルター",
+      "フロスト",
+      "Diffuser"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "光を散らし、影や照射範囲の境界、光の広がりを調整する素材や効果。透明な色フィルターとは目的が異なる。",
+    "usage": "光の境界が強すぎる箇所をなじませる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Diffusion と表記する。",
+    "uk": "Diffusion と表記する。",
+    "note": "拡散の方向や強さは素材と設置条件で異なる。",
+    "related": [
+      "ハードライト／ソフトライト",
+      "フレネルスポット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Rosco｜Filters and Diffusions",
+        "url": "https://us.rosco.com/en/products/family/filters-and-diffusions"
+      }
+    ]
+  },
+  {
+    "id": "lighting-cto",
+    "name": "CTO",
+    "reading": "しーてぃーおー",
+    "english": "Color Temperature Orange",
+    "aliases": [
+      "C.T. Orange",
+      "色温度変換オレンジ"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "白色光の色温度を低い側へ補正するアンバー系フィルターの呼称。強度をフル、ハーフなどで区分する。",
+    "usage": "白色光の色味を暖かい側へそろえる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color Temperature Orange と表記する。",
+    "uk": "Color Temperature Orange と表記する。",
+    "note": "変換後の値は元の光源と製品の特性に依存する。",
+    "related": [
+      "色温度",
+      "CTB"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "LEE Filters Direct｜Technical Filters",
+        "url": "https://ca.leefiltersdirect.com/collections/technical-filters"
+      }
+    ]
+  },
+  {
+    "id": "lighting-ctb",
+    "name": "CTB",
+    "reading": "しーてぃーびー",
+    "english": "Color Temperature Blue",
+    "aliases": [
+      "C.T. Blue",
+      "色温度変換ブルー"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "白色光の色温度を高い側へ補正する青系フィルターの呼称。舞台演出の青色フィルターすべてを指すわけではない。",
+    "usage": "タングステン系の白色を高い色温度側へ補正する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color Temperature Blue と表記する。",
+    "uk": "Color Temperature Blue と表記する。",
+    "note": "補正に伴う光量低下も製品データで確認する。",
+    "related": [
+      "色温度",
+      "CTO"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "LEE Filters Direct｜Technical Filters",
+        "url": "https://ca.leefiltersdirect.com/collections/technical-filters"
+      }
+    ]
+  },
+  {
+    "id": "lighting-nd",
+    "name": "NDフィルター",
+    "reading": "えぬでぃーふぃるたー",
+    "english": "Neutral density filter",
+    "aliases": [
+      "ND",
+      "減光フィルター",
+      "Neutral density"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "色味への影響を抑えながら光量を減らすフィルター。灯体の調光だけでは得にくい条件を調整する場合に使う。",
+    "usage": "明るさを減らすためのND指定を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Neutral density filter と表記する。",
+    "uk": "Neutral density filter と表記する。",
+    "note": "完全に無影響な色を保証する呼称ではない。",
+    "related": [
+      "カラーフィルター",
+      "インテンシティ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "LEE Filters Direct｜Technical Filters",
+        "url": "https://ca.leefiltersdirect.com/collections/technical-filters"
+      }
+    ]
+  },
+  {
+    "id": "lighting-plusgreen",
+    "name": "プラスグリーン",
+    "reading": "ぷらすぐりーん",
+    "english": "Plus green",
+    "aliases": [
+      "緑補正",
+      "Plusgreen"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "光に緑方向の色味を加える補正フィルター。既存光源との色合わせや、撮影時の光源間の調整などに使う。",
+    "usage": "会場の既存照明と追加照明の色味を合わせる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Plus green と表記する。",
+    "uk": "Plus green と表記する。",
+    "note": "色温度の高低とは別の方向の色補正。",
+    "related": [
+      "マイナスグリーン",
+      "色温度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "LEE Filters Direct｜Technical Filters",
+        "url": "https://ca.leefiltersdirect.com/collections/technical-filters"
+      }
+    ]
+  },
+  {
+    "id": "lighting-minusgreen",
+    "name": "マイナスグリーン",
+    "reading": "まいなすぐりーん",
+    "english": "Minus green",
+    "aliases": [
+      "マゼンタ補正",
+      "Minusgreen"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "光の緑かぶりを抑えるためのマゼンタ系補正フィルター。肌や白い物の色合わせなどに使う。",
+    "usage": "撮影時の緑かぶりの原因を見ながら補正する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Minus green と表記する。",
+    "uk": "Minus green と表記する。",
+    "note": "撮影機材や光源の分光特性によって結果が変わる。",
+    "related": [
+      "プラスグリーン",
+      "演色性"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "LEE Filters Direct｜Technical Filters",
+        "url": "https://ca.leefiltersdirect.com/collections/technical-filters"
+      }
+    ]
+  },
+  {
+    "id": "lighting-rgb",
+    "name": "RGB加法混色",
+    "reading": "あーるじーびーかほうこんしょく",
+    "english": "RGB additive color mixing",
+    "aliases": [
+      "RGB",
+      "加色法",
+      "Additive mixing"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "赤・緑・青の光を重ねて色を作る方式。LED灯体などで用い、成分を足す方向に混色する。",
+    "usage": "RGBの各成分を変えて照射色を作る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "RGB additive color mixing と表記する。",
+    "uk": "RGB additive color mixing と表記する。",
+    "note": "実際の発色範囲や白色の品質はLEDの種類と制御方式で異なる。",
+    "related": [
+      "CMY減法混色",
+      "LED照明"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ],
+    "detail": "赤・緑・青の光を重ねて色を作る方式。LED灯体などで用い、成分を足す方向に混色する。光の各成分を足して色を作る方式で、印刷インクや色フィルターの減法混色とは関係が逆になる。実際のLEDは単純な三色以外に白、ライム、アンバーなどを持つことがあり、卓がまとめて色を計算する場合もある。同じRGBの数値でも機器の光源や校正で発色は違うため、値の一致と見た目の一致を分けて考える。",
+    "examples": [
+      "異なるLED灯体で基本色と白の見え方をそろえる。"
+    ],
+    "pitfalls": [
+      "赤・緑・青の全成分最大が必ず指定した色温度の白になるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-cmy",
+    "name": "CMY減法混色",
+    "reading": "しーえむわいげんぽうこんしょく",
+    "english": "CMY subtractive color mixing",
+    "aliases": [
+      "CMY",
+      "減色法",
+      "Subtractive mixing"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "白色光からシアン・マゼンタ・イエローのフィルターで成分を取り除き色を作る方式。ムービングなどで使う。",
+    "usage": "CMYの混合量で目的の色に近づける。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "CMY subtractive color mixing と表記する。",
+    "uk": "CMY subtractive color mixing と表記する。",
+    "note": "",
+    "related": [
+      "RGB加法混色",
+      "カラーホイール"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ],
+    "detail": "白色光からシアン・マゼンタ・イエローのフィルターで成分を取り除き色を作る方式。ムービングなどで使う。白色光の中から成分をフィルターで取り除くことで色を作る。複数フィルターを入れると光量も変わり、RGBの各光源を足す方式と同じ値では対応しない。色の境目や混ざり方は機構と光学設計によるので、淡色と濃色の両方で確認する。カラーホイールの固定色との組合せも機種ごとに扱う。",
+    "examples": [
+      "ムービングの淡い青と濃い青の出力差を確認する。"
+    ],
+    "pitfalls": [
+      "CMYをRGBへ単純に反転した数値で同じ色になるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-saturation",
+    "name": "彩度",
+    "reading": "さいど",
+    "english": "Saturation",
+    "aliases": [
+      "サチュレーション",
+      "Saturate"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "色の鮮やかさや白色との混ざり具合を扱う表現。照明卓では色相と組み合わせて色を指定する場合がある。",
+    "usage": "同じ色相のまま彩度を下げる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Saturation と表記する。",
+    "uk": "Saturation と表記する。",
+    "note": "",
+    "related": [
+      "色相",
+      "RGB加法混色"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-hue",
+    "name": "色相",
+    "reading": "しきそう",
+    "english": "Hue",
+    "aliases": [
+      "ヒュー",
+      "Hue angle"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "赤や青など色の種類を区別する性質。照明卓のカラーピッカーなどでは彩度などと組み合わせて使う。",
+    "usage": "色相を変えて暖色から寒色へ移る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Hue と表記する。",
+    "uk": "Hue と表記する。",
+    "note": "",
+    "related": [
+      "彩度",
+      "RGB加法混色"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-openwhite",
+    "name": "生",
+    "reading": "なま",
+    "english": "Open white / No color",
+    "aliases": [
+      "ナマ",
+      "素明かり",
+      "NC",
+      "No colour"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "日本の照明現場で、色フィルターを通さない灯体の光を指す呼称。光源そのものの色味は残る。",
+    "usage": "フィルター入りと生の回路を区別する。",
+    "japan": "色フィルターを入れていない光を「生」「ナマ」と呼ぶ。",
+    "us": "open white、no colorなどと表す。",
+    "uk": "open white、no colourなどと表す。",
+    "note": "無色の光や特定の色温度を保証する意味ではない。",
+    "related": [
+      "カラーフィルター",
+      "色温度"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-cri",
+    "name": "平均演色評価数",
+    "reading": "へいきんえんしょくひょうかすう",
+    "english": "General color rendering index",
+    "aliases": [
+      "Ra",
+      "CRI",
+      "演色評価数",
+      "Color Rendering Index"
+    ],
+    "category": "lighting",
+    "subcategory": "色・フィルター",
+    "definition": "光源による色の見え方を基準光と比較して平均化した指標。一般にRaで示すが、すべての色の再現性を単独で表せない。",
+    "usage": "肌や衣装の見え方を実物と指標の両方で確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "General color rendering index と表記する。",
+    "uk": "General color rendering index と表記する。",
+    "note": "一般に示すRaと、赤色などの特殊演色評価数は区別する。",
+    "related": [
+      "演色性",
+      "色温度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Color metrics explained",
+        "url": "https://blog.etcconnect.com/color-metrics"
+      }
+    ],
+    "detail": "光源による色の見え方を基準光と比較して平均化した指標。一般にRaで示すが、すべての色の再現性を単独で表せない。一般にRaは定められた試験色の平均による評価で、強い赤のR9などは別に見る。人の目を前提とする評価と、カメラでの見え方は同一ではない。高い数値でも肌や衣装の全てが意図通りになるとは限らないので、TLCIやSSIなど目的に応じた資料と実物の照射・収録を合わせて判断する。",
+    "examples": [
+      "候補灯体のRaとR9を確認して実際の肌を撮影する。"
+    ],
+    "pitfalls": [
+      "異なる色温度やモードで測った値を無条件に比較しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-gobo",
+    "name": "ゴボ",
+    "reading": "ごぼ",
+    "english": "Gobo / Pattern",
+    "aliases": [
+      "パターン",
+      "テンプレート",
+      "Pattern plate"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "灯体の光学系に入れて模様や文字などを投影する金属・ガラス製などのパターン。サイズや耐熱条件は器種に合うものを使う。",
+    "usage": "床へ木漏れ日の模様を投影する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Gobo / Pattern と表記する。",
+    "uk": "Gobo / Pattern と表記する。",
+    "note": "映像分野で光を遮る板をgoboと呼ぶ用法もあり、文脈を確かめる。",
+    "related": [
+      "プロファイルスポット",
+      "ゴボローテーター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Rosco｜The Basics of Film Lighting",
+        "url": "https://spectrum.rosco.com/the-basics-of-film-lighting"
+      }
+    ],
+    "detail": "灯体の光学系に入れて模様や文字などを投影する金属・ガラス製などのパターン。サイズや耐熱条件は器種に合うものを使う。模様を光学的に投影するため、対応する外径や像径、厚さ、材質を器具と合わせる必要がある。模様の向き、回転の基準、レンズのピントによって結果が変わる。シャッターとゴボを併用すると片方だけが明瞭になる場合もあるため、目的の面に投影し、距離と画角を含めて確認する。",
+    "examples": [
+      "床へ投影する窓模様の大きさと角度を合わせる。"
+    ],
+    "pitfalls": [
+      "同じ直径のゴボでも全機種で使えるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-blackwrap",
+    "name": "ブラックラップ",
+    "reading": "ぶらっくらっぷ",
+    "english": "Blackwrap / Black foil",
+    "aliases": [
+      "シネフォイル",
+      "黒アルミ",
+      "Cinefoil",
+      "Photofoil"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "光を遮ったり形を整えたりするための黒い金属箔状素材。灯体周辺の漏れ光処理などで使う。",
+    "usage": "意図しない光の漏れを扱う素材として記載する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Blackwrap / Black foil と表記する。",
+    "uk": "Blackwrap / Black foil と表記する。",
+    "note": "Blackwrap、Cinefoil、Photofoilは商品由来の名称。",
+    "related": [
+      "スピル",
+      "バンドア"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Rosco｜The Basics of Film Lighting",
+        "url": "https://spectrum.rosco.com/the-basics-of-film-lighting"
+      }
+    ]
+  },
+  {
+    "id": "lighting-barndoor",
+    "name": "バンドア",
+    "reading": "ばんどあ",
+    "english": "Barn doors",
+    "aliases": [
+      "バーンドア",
+      "羽根",
+      "Barn door"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "灯体の前面に取り付け、光の広がりや漏れを調整する可動式の羽根。内蔵シャッターとは位置と効果が異なる。",
+    "usage": "袖幕や客席への漏れ光を調整する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Barn doors と表記する。",
+    "uk": "Barn doors と表記する。",
+    "note": "",
+    "related": [
+      "フレネルスポット",
+      "スピル",
+      "フレーミングシャッター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-shutter",
+    "name": "フレーミングシャッター",
+    "reading": "ふれーみんぐしゃったー",
+    "english": "Framing shutters",
+    "aliases": [
+      "カッター",
+      "シャッター",
+      "Beam-shaping shutters"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "プロファイル系の灯体内で光の輪郭を切り取る機構。複数の羽根で四角形などの照射範囲を作る。",
+    "usage": "舞台装置の面に合わせて光を切る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Framing shutters と表記する。",
+    "uk": "Framing shutters と表記する。",
+    "note": "カメラのシャッターや点滅用の遮光シャッターとは区別する。",
+    "related": [
+      "プロファイルスポット",
+      "バンドア"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-zoom",
+    "name": "ズーム",
+    "reading": "ずーむ",
+    "english": "Zoom",
+    "aliases": [
+      "ズームレンズ",
+      "Zoom range"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "灯体の照射角を変え、照射範囲の大きさを調整する光学機能。像のピントを調整するフォーカスとは別の働き。",
+    "usage": "同じ距離のまま照射範囲を広げる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Zoom と表記する。",
+    "uk": "Zoom と表記する。",
+    "note": "",
+    "related": [
+      "ビーム角",
+      "フォーカス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-colorframe",
+    "name": "色枠",
+    "reading": "いろわく",
+    "english": "Color frame / Gel frame",
+    "aliases": [
+      "フィルター枠",
+      "カラーフレーム",
+      "Gel holder"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "カラーフィルターや拡散材を灯体の前面に保持する枠。灯体ごとに適合する寸法や構造がある。",
+    "usage": "灯体に合う色枠の数を準備表で確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color frame / Gel frame と表記する。",
+    "uk": "Color frame / Gel frame と表記する。",
+    "note": "",
+    "related": [
+      "カラーフィルター",
+      "ディフュージョン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-lens",
+    "name": "レンズチューブ",
+    "reading": "れんずちゅーぶ",
+    "english": "Lens tube / Lens barrel",
+    "aliases": [
+      "レンズバレル",
+      "レンズ筒"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "プロファイルスポットなどで投影レンズを保持する部分。交換式ではレンズの選択によって照射角が変わる。",
+    "usage": "器種に対応するレンズ角を照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Lens tube / Lens barrel と表記する。",
+    "uk": "Lens tube / Lens barrel と表記する。",
+    "note": "公称の角度だけで異なる製品間の互換性は判断できない。",
+    "related": [
+      "プロファイルスポット",
+      "ズーム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Types of Lights",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-4"
+      }
+    ]
+  },
+  {
+    "id": "lighting-iris",
+    "name": "アイリス",
+    "reading": "あいりす",
+    "english": "Iris",
+    "aliases": [
+      "絞り",
+      "Iris diaphragm"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "羽根を連動させて円形の開口を変え、照射範囲を絞る光学機構。フォロースポットや一部の灯体に備わる。",
+    "usage": "出演者の大きさに合わせて光の円を変える。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Iris と表記する。",
+    "uk": "Iris と表記する。",
+    "note": "",
+    "related": [
+      "フォロースポット",
+      "フレーミングシャッター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ]
+  },
+  {
+    "id": "lighting-prism",
+    "name": "プリズム",
+    "reading": "ぷりずむ",
+    "english": "Prism",
+    "aliases": [
+      "多面プリズム",
+      "Prism effect"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "灯体内などに入れ、光束やゴボ像を複数に分ける光学部品。回転や重ね合わせができる製品もある。",
+    "usage": "一つの模様を複数に分けて動かす。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Prism と表記する。",
+    "uk": "Prism と表記する。",
+    "note": "分裂する数や回転機能は製品により異なる。",
+    "related": [
+      "ゴボ",
+      "ムービングライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ]
+  },
+  {
+    "id": "lighting-goborotate",
+    "name": "ゴボローテーター",
+    "reading": "ごぼろーてーたー",
+    "english": "Gobo rotator",
+    "aliases": [
+      "ローテートゴボ",
+      "Rotating gobo"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "ゴボを回転させるための機構やアクセサリー。回転速度や方向、角度を制御して模様に動きを与える。",
+    "usage": "水面や歯車の模様に回転を加える。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Gobo rotator と表記する。",
+    "uk": "Gobo rotator と表記する。",
+    "note": "",
+    "related": [
+      "ゴボ",
+      "ゴボインデックス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ]
+  },
+  {
+    "id": "lighting-goboindex",
+    "name": "ゴボインデックス",
+    "reading": "ごぼいんでっくす",
+    "english": "Gobo indexing",
+    "aliases": [
+      "インデックス",
+      "Gobo orientation"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "ゴボの回転角を一定の位置へ指定する機能。連続回転とは異なり、模様や文字の向きを固定するために使う。",
+    "usage": "窓枠の投影角度をそろえる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Gobo indexing と表記する。",
+    "uk": "Gobo indexing と表記する。",
+    "note": "",
+    "related": [
+      "ゴボローテーター",
+      "ゴボ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ]
+  },
+  {
+    "id": "lighting-colorwheel",
+    "name": "カラーホイール",
+    "reading": "からーほいーる",
+    "english": "Color wheel",
+    "aliases": [
+      "色円盤",
+      "Fixed color wheel"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "複数の色フィルターを円盤に配置し、光路に選択して入れる機構。連続混色方式とは動作や中間色の作り方が異なる。",
+    "usage": "所定のカラーホイール位置をキューに記録する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color wheel と表記する。",
+    "uk": "Color wheel と表記する。",
+    "note": "",
+    "related": [
+      "CMY減法混色",
+      "ムービングライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ]
+  },
+  {
+    "id": "lighting-pan",
+    "name": "パン",
+    "reading": "ぱん",
+    "english": "Pan",
+    "aliases": [
+      "水平回転",
+      "Pan position"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "ムービングライトの主に水平方向の回転を表す制御項目。チルトと組み合わせて照射方向を指定する。",
+    "usage": "位置データのパンとチルトを確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Pan と表記する。",
+    "uk": "Pan と表記する。",
+    "note": "機器の取付方向によって、見た目の左右と制御値の増減が変わる。",
+    "related": [
+      "チルト",
+      "ポジションパレット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ],
+    "detail": "ムービングライトの主に水平方向の回転を表す制御項目。チルトと組み合わせて照射方向を指定する。パンとチルトを組にして位置を表すが、吊り方、原点、回転範囲によって同じ値でも向きは違う。左右対称のリグでは反転や選択順序も関係する。画面上の角度と実機の方向を確認し、位置パレットを使う場合は会場ごとの修正がどのキューへ反映されるかを把握して管理する。",
+    "examples": [
+      "左右の灯体を同じ位置へ向けるパレットを調整する。"
+    ],
+    "pitfalls": [
+      "パンの反転と光学的な左右反転は別の問題。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-tilt",
+    "name": "チルト",
+    "reading": "ちると",
+    "english": "Tilt",
+    "aliases": [
+      "垂直回転",
+      "Tilt position"
+    ],
+    "category": "lighting",
+    "subcategory": "光学・アクセサリー",
+    "definition": "ムービングライトの主に上下方向の回転を表す制御項目。パンと組み合わせて光の向きを指定する。",
+    "usage": "演者の高さに合わせた位置を記録する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Tilt と表記する。",
+    "uk": "Tilt と表記する。",
+    "note": "機器の取付方向や可動範囲によって向きの関係が変わる。",
+    "related": [
+      "パン",
+      "ポジションパレット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ],
+    "detail": "ムービングライトの主に上下方向の回転を表す制御項目。パンと組み合わせて光の向きを指定する。上下方向の回転として扱うが、機器を床置きするか逆さに吊るかで見た目の動きは変わる。パンとの組合せによって同じ照射点へ別の経路で到達する場合もある。次のキューまでの移動が客席へどう見えるかを確認し、点灯前のマークや位置パレットの更新と合わせて計画する。",
+    "examples": [
+      "消灯中に次の演技位置へ灯体を準備する。"
+    ],
+    "pitfalls": [
+      "同じ照射点へ向くことと同じ動作経路になることは別。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-dmx",
+    "name": "DMX512",
+    "reading": "でぃーえむえっくすごーいちに",
+    "english": "DMX512-A",
+    "aliases": [
+      "DMX",
+      "DMX-512",
+      "Digital Multiplex"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "照明機器や周辺装置の制御データを送るためのデジタル通信規格。明るさ以外の各種パラメーターも扱う。",
+    "usage": "卓と灯体の対応するDMX系統を図面で示す。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX512-A と表記する。",
+    "uk": "DMX512-A と表記する。",
+    "note": "制御信号の規格で、電源を供給する規格ではない。",
+    "related": [
+      "ユニバース",
+      "DMXアドレス",
+      "RDM"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ESTA｜Control Protocols Working Group",
+        "url": "https://tsp.esta.org/tsp/working_groups/CP/cp.html"
+      }
+    ],
+    "detail": "照明機器や周辺装置の制御データを送るためのデジタル通信規格。明るさ以外の各種パラメーターも扱う。制御値を順序立てて送り、各機器が割り当てられたアドレスを読む仕組み。ユニバース、開始アドレス、モード、属性の占有数を組で管理する。送信側と受信側で配置がずれると色や向きが意図せず変わるため、電源が来ていることと信号の設定が正しいことを分けて確認する。",
+    "examples": [
+      "卓のパッチと灯体の開始アドレス・モードを照合する。"
+    ],
+    "pitfalls": [
+      "DMXケーブルを接続しただけで器種の定義が自動一致するとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-sacn",
+    "name": "sACN",
+    "reading": "えすえーしーえぬ",
+    "english": "Streaming ACN",
+    "aliases": [
+      "ストリーミングACN",
+      "E1.31",
+      "ANSI E1.31"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "DMX512のデータをIPネットワーク上で運ぶための制御プロトコル。ANSI E1.31として規定される。",
+    "usage": "照明ネットワークの送受信プロトコルを確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Streaming ACN と表記する。",
+    "uk": "Streaming ACN と表記する。",
+    "note": "ACN全体とsACNは同一の名称ではない。",
+    "related": [
+      "Art-Net",
+      "DMXノード",
+      "ユニバース"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ESTA｜Control Protocols Working Group",
+        "url": "https://tsp.esta.org/tsp/working_groups/CP/cp.html"
+      }
+    ],
+    "detail": "DMX512のデータをIPネットワーク上で運ぶための制御プロトコル。ANSI E1.31として規定される。IP上で複数ユニバースを配る用途に使い、送信元の優先や受信側の対応条件も関係する。ネットワークへつながっていることと必要なユニバースを受けていることは別である。マルチキャストなどの方式、送信する範囲、ノード側の割り付けを確認し、Art-NetやRDMnetとの役割の違いを明確にして系統図へ記す。",
+    "examples": [
+      "照明卓から複数ノードへ必要なユニバースを送る。"
+    ],
+    "pitfalls": [
+      "sACNを使うだけでRDMの双方向管理が同じように通るとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-rdmnet",
+    "name": "RDMnet",
+    "reading": "あーるでぃーえむねっと",
+    "english": "RDMnet",
+    "aliases": [
+      "E1.33",
+      "ANSI E1.33"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "IPネットワーク上で照明機器の管理やRDM関連メッセージを扱うための規格。sACNとは役割が異なる。",
+    "usage": "ネットワーク機器の管理方式を仕様書で確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "RDMnet と表記する。",
+    "uk": "RDMnet と表記する。",
+    "note": "DMXデータの配信と機器管理を分けて考える。",
+    "related": [
+      "RDM",
+      "sACN"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ESTA｜Control Protocols Working Group",
+        "url": "https://tsp.esta.org/tsp/working_groups/CP/cp.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-rdm",
+    "name": "RDM",
+    "reading": "あーるでぃーえむ",
+    "english": "Remote Device Management",
+    "aliases": [
+      "リモートデバイスマネジメント",
+      "ANSI E1.20"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "DMX回線上で対応機器と双方向にやり取りし、機器情報の取得や設定などを行う仕組み。ANSI E1.20に基づく。",
+    "usage": "灯体がRDMで検出されるか確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Remote Device Management と表記する。",
+    "uk": "Remote Device Management と表記する。",
+    "note": "送受信機器や中継装置のRDM対応状況に依存する。",
+    "related": [
+      "DMX512",
+      "RDMnet"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜RDM",
+        "url": "https://www.etcconnect.com/WebDocs/Networking/GCEHelp/Content/00Definitions/RDM.htm"
+      }
+    ],
+    "detail": "DMX回線上で対応機器と双方向にやり取りし、機器情報の取得や設定などを行う仕組み。ANSI E1.20に基づく。対応機器の発見、設定、状態情報などをDMX回線上で扱うための仕組み。単方向のレベル送信だけとは違い、中継装置の対応も必要になる。機器が見つかるかと、必要な属性を遠隔で変更できるかを分けて確認し、メーカー固有項目や対応版を資料で照合する。ネットワーク上のRDMnetとも同じ伝送方式ではない。",
+    "examples": [
+      "灯体の型式や状態を離れた位置から確認する。"
+    ],
+    "pitfalls": [
+      "非対応の分配器を挟むとRDMの管理情報が通らない場合がある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-artnet",
+    "name": "Art-Net",
+    "reading": "あーとねっと",
+    "english": "Art-Net",
+    "aliases": [
+      "アートネット",
+      "ArtNet"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "DMXやRDMのデータなどをEthernetネットワーク上で扱う照明制御プロトコル。対応機器間でユニバース等を設定する。",
+    "usage": "卓とノードでArt-Netの設定を照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Art-Net と表記する。",
+    "uk": "Art-Net と表記する。",
+    "note": "Art-NetはArtistic Licenceが設計したプロトコル名。",
+    "related": [
+      "sACN",
+      "DMXノード",
+      "ユニバース"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Art-Net｜公式プロトコル資料",
+        "url": "https://art-net.org.uk/"
+      }
+    ],
+    "detail": "DMXやRDMのデータなどをEthernetネットワーク上で扱う照明制御プロトコル。対応機器間でユニバース等を設定する。Ethernet上で照明の制御や管理情報を扱うプロトコルで、ユニバースの割り付けや送信方法を設定する。ネットワークへ接続できたことだけで照明値が届くとは限らない。機器間で番号表記や対応機能が違う場合があるため、Art-Netのユニバース番号、ノードの物理出力、卓の論理出力を対応表で確認する。",
+    "examples": [
+      "卓の出力をノードのDMXポートへ割り付ける。"
+    ],
+    "pitfalls": [
+      "sACNの設定値やユニバース表記をそのまま流用できるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-universe",
+    "name": "ユニバース",
+    "reading": "ゆにばーす",
+    "english": "DMX universe",
+    "aliases": [
+      "Universe",
+      "DMXユニバース"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "DMXの制御データをまとめる単位。通常一つのユニバースは最大512スロットの制御値を扱う。",
+    "usage": "灯体の割り付けをユニバースごとに整理する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX universe と表記する。",
+    "uk": "DMX universe と表記する。",
+    "note": "512台の灯体を必ず制御できるという意味ではない。",
+    "related": [
+      "DMXアドレス",
+      "DMX512"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "DMXの制御データをまとめる単位。通常一つのユニバースは最大512スロットの制御値を扱う。灯体台数ではなくDMXスロットのまとまりである。調光だけの機器は少ないスロットで済むが、多機能灯体は多数を連続使用する。割り付けでは個々のフットプリント、開始アドレス、モードを確認する。論理ユニバース容量と卓の物理DMX出力端子数は別なので、必要ならネットワークやノードを含めて構成する。",
+    "examples": [
+      "灯体の占有数を合計して必要な系統数を整理する。"
+    ],
+    "pitfalls": [
+      "一つのユニバースが常に512台の灯体に相当するわけではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-address",
+    "name": "DMXアドレス",
+    "reading": "でぃーえむえっくすあどれす",
+    "english": "DMX address / Start address",
+    "aliases": [
+      "スタートアドレス",
+      "開始アドレス",
+      "DMX start"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "DMXユニバース内で機器が制御データを読み始める位置。灯体のモードに応じて複数の連続した値を使う。",
+    "usage": "灯体本体と卓の開始アドレスを照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX address / Start address と表記する。",
+    "uk": "DMX address / Start address と表記する。",
+    "note": "卓のチャンネル番号とは別の番号。",
+    "related": [
+      "ユニバース",
+      "フットプリント",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "DMXユニバース内で機器が制御データを読み始める位置。灯体のモードに応じて複数の連続した値を使う。灯体の開始位置と占有する属性数を組にして管理する。例えば一台が複数スロットを使うと、次の灯体の開始位置は台数の通し番号と一致しない。ユニバース、開始位置、モードのどれかが違うだけでも意図しない属性が動く場合があるので、本体表示と卓のパッチ、仕様書のDMX表を照合する。",
+    "examples": [
+      "仕込み変更後の開始位置とチャンネルモードを確認する。"
+    ],
+    "pitfalls": [
+      "卓のチャンネル番号とDMXアドレスは同じ番号体系とは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-footprint",
+    "name": "フットプリント",
+    "reading": "ふっとぷりんと",
+    "english": "DMX footprint",
+    "aliases": [
+      "占有チャンネル数",
+      "DMX channel count"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "ある機器が選択したモードで占有するDMXスロット数。多機能な灯体では複数の制御値をまとめて使う。",
+    "usage": "アドレス割り付けで機器の占有数を見る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX footprint と表記する。",
+    "uk": "DMX footprint と表記する。",
+    "note": "照明卓の論理チャンネル数とは区別する。",
+    "related": [
+      "DMXアドレス",
+      "DMXモード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "ある機器が選択したモードで占有するDMXスロット数。多機能な灯体では複数の制御値をまとめて使う。機種が同じでもモードを変えると占有数が変わる場合がある。パンや調光を16ビットにする、セルを個別に扱うなどの機能が増えると必要なスロットも増える。割り付け表ではユニバースの末尾を越えないか、他の機器と重ならないかを確認し、モード変更時にはプロファイルとアドレス表も一緒に見直す。",
+    "examples": [
+      "LEDバーの個別セルモードで必要なスロット数を確認する。"
+    ],
+    "pitfalls": [
+      "灯体一台と卓の一論理チャンネルと一DMXスロットを同じ数として数えない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-dmxmode",
+    "name": "DMXモード",
+    "reading": "でぃーえむえっくすもーど",
+    "english": "DMX mode / Personality mode",
+    "aliases": [
+      "チャンネルモード",
+      "Mode"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "灯体がどの制御項目をどの順序と数で受け取るかを選ぶ設定。モードによって占有するアドレス数などが変わる。",
+    "usage": "灯体の設定と卓のプロファイルのモードを合わせる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX mode / Personality mode と表記する。",
+    "uk": "DMX mode / Personality mode と表記する。",
+    "note": "",
+    "related": [
+      "フットプリント",
+      "フィクスチャープロファイル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "灯体がどの制御項目をどの順序と数で受け取るかを選ぶ設定。モードによって占有するアドレス数などが変わる。モードは単なる性能の高低ではなく、使う機能や分解能、割り付け方法を選ぶもの。機器本体と卓の定義で同じモードを選ばないと、同じアドレスでも別の機能を操作することになる。更新されたファームウェアでDMX表が変わる場合もあるため、モード名と版、必要なスロット数を仕込み資料へ記録する。",
+    "examples": [
+      "複数の同機種を同じ制御モードへそろえる。"
+    ],
+    "pitfalls": [
+      "モードを変えた後に開始アドレスだけ確認して終わらない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-dimmer",
+    "name": "ディマー",
+    "reading": "でぃまー",
+    "english": "Dimmer",
+    "aliases": [
+      "調光器",
+      "調光装置",
+      "Dimmer rack"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "灯体の明るさを変える調光装置、または灯体内の明るさ制御を指す呼称。電源回路の方式と制御項目を区別する。",
+    "usage": "設備表で調光回路と直電源を区別する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Dimmer と表記する。",
+    "uk": "Dimmer と表記する。",
+    "note": "外部の調光電源に接続できるかは機器仕様による。",
+    "related": [
+      "調光カーブ",
+      "インテンシティ",
+      "不滅電源"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ]
+  },
+  {
+    "id": "lighting-node",
+    "name": "DMXノード",
+    "reading": "でぃーえむえっくすのーど",
+    "english": "DMX gateway / DMX node",
+    "aliases": [
+      "ゲートウェイ",
+      "DMX gateway",
+      "Ethernet-DMX converter"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "ネットワーク上の照明制御データと物理DMXなどを橋渡しする機器。入出力数や対応プロトコルは製品ごとに異なる。",
+    "usage": "ノードの各ポートとユニバースを対応付ける。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX gateway / DMX node と表記する。",
+    "uk": "DMX gateway / DMX node と表記する。",
+    "note": "",
+    "related": [
+      "Art-Net",
+      "sACN",
+      "DMX512"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ]
+  },
+  {
+    "id": "lighting-splitter",
+    "name": "DMXスプリッター",
+    "reading": "でぃーえむえっくすすぷりったー",
+    "english": "DMX splitter",
+    "aliases": [
+      "DMX分配器",
+      "Opto-splitter"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "DMX信号を複数の系統へ分配する機器。ポート間の絶縁やRDMへの対応は製品により異なる。",
+    "usage": "分配する系統と対応機器を図面に記す。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "DMX splitter と表記する。",
+    "uk": "DMX splitter と表記する。",
+    "note": "単純なケーブル分岐と同じ意味ではない。",
+    "related": [
+      "DMX512",
+      "RDM"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ]
+  },
+  {
+    "id": "lighting-pwm",
+    "name": "PWM調光",
+    "reading": "ぴーだぶりゅーえむちょうこう",
+    "english": "Pulse-width modulation dimming",
+    "aliases": [
+      "PWM",
+      "パルス幅変調"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "点灯している時間の割合を変えるなどして明るさを調整する方式。LEDの撮影時のちらつきに関係することがある。",
+    "usage": "収録条件と灯体の調光特性を照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Pulse-width modulation dimming と表記する。",
+    "uk": "Pulse-width modulation dimming と表記する。",
+    "note": "周波数の数値だけで、すべての撮影条件でのちらつきの有無は判断できない。",
+    "related": [
+      "フリッカー",
+      "LED照明"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Flickering or Rolling on Camera",
+        "url": "https://support.etcconnect.com/ETC/Fixtures/ColorSource/ColorSource_Family_General_Topics/Flickering_or_Rolling_on_Camera_when_using_ColorSource_Fixtures"
+      }
+    ],
+    "detail": "点灯している時間の割合を変えるなどして明るさを調整する方式。LEDの撮影時のちらつきに関係することがある。点灯と消灯の時間配分で平均的な明るさを制御する方式で、点滅の周期と映像フレームの周期は別になる。肉眼で安定して見えても、カメラの露光時間や読み出しと組み合わさって縞が現れる場合がある。周波数、調光値、撮影設定を組で確認し、一つのカメラで良好だった結果を全ての撮影へ当てはめない。",
+    "examples": [
+      "暗い調光を含めてカメラの縞や明滅を確認する。"
+    ],
+    "pitfalls": [
+      "高いPWM周波数という仕様だけで全ての撮影条件の無ちらつきを保証しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-flicker",
+    "name": "フリッカー",
+    "reading": "ふりっかー",
+    "english": "Flicker",
+    "aliases": [
+      "ちらつき",
+      "Flickering",
+      "Rolling band"
+    ],
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "光の明るさが時間的に変動してちらつく現象。肉眼で気付かなくても撮影映像に縞や明滅として現れることがある。",
+    "usage": "本番と同じカメラ設定で照明の見え方を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Flicker と表記する。",
+    "uk": "Flicker と表記する。",
+    "note": "演出用のストロボ点滅とは区別する。",
+    "related": [
+      "PWM調光",
+      "LED照明"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Flickering or Rolling on Camera",
+        "url": "https://support.etcconnect.com/ETC/Fixtures/ColorSource/ColorSource_Family_General_Topics/Flickering_or_Rolling_on_Camera_when_using_ColorSource_Fixtures"
+      }
+    ],
+    "detail": "光の明るさが時間的に変動してちらつく現象。肉眼で気付かなくても撮影映像に縞や明滅として現れることがある。光の時間変動による見え方の問題で、演出として意図する点滅とは区別する。LEDのPWM、電源、カメラの露光や読み出し、表示装置の走査など原因は複数ある。どの光源や画面がどの設定で変動するかを切り分け、本番と同じ機材・レート・調光条件で確認する。数値一つを上げるだけで解決するとは考えない。",
+    "examples": [
+      "収録の全カメラで明暗の帯が出ないか比較する。"
+    ],
+    "pitfalls": [
+      "空間的なモアレと時間的な明滅を同じ原因として扱わない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-console",
+    "name": "照明卓",
+    "reading": "しょうめいたく",
+    "english": "Lighting console / Lighting desk",
+    "aliases": [
+      "調光卓",
+      "操作卓",
+      "Lighting board",
+      "Desk"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "灯体の明るさ、色、位置などを制御し、キューや各種データを作成・再生する操作装置。",
+    "usage": "公演データを照明卓で読み込む。",
+    "japan": "「照明卓」「調光卓」などと呼ぶ。",
+    "us": "lighting console、lighting boardなどと呼ぶ。",
+    "uk": "lighting desk、lighting consoleなどと呼ぶ。",
+    "note": "console、board、deskは文脈に応じた呼称で厳密な地域境界ではない。",
+    "related": [
+      "照明キュー",
+      "パッチ",
+      "サブマスター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "灯体の明るさ、色、位置などを制御し、キューや各種データを作成・再生する操作装置。灯体の定義、パッチ、プリセットやキュー、出力系統などをまとめて管理する。画面上の値と実際のDMX値、物理出力は別の層なので、機器が反応しないときは順に確認する。異なるメーカー間では同名機能でも記録や再生の仕様が違う場合があり、操作名の直訳だけでデータの互換を判断しない。",
+    "examples": [
+      "使用する卓とノード、灯体のモードを構成表にまとめる。"
+    ],
+    "pitfalls": [
+      "ユニバース容量と本体のDMX端子数を同じ意味で扱わない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-channel",
+    "name": "照明チャンネル",
+    "reading": "しょうめいちゃんねる",
+    "english": "Channel",
+    "aliases": [
+      "CH",
+      "回路番号",
+      "Control channel"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "照明卓で灯体や制御対象を呼び出すための論理的な番号や単位。DMXの一つのスロットとは意味が異なる場合がある。",
+    "usage": "チャンネル番号を指定して灯体を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Channel と表記する。",
+    "uk": "Channel と表記する。",
+    "note": "「回路」は物理電源回路の意味もあるので番号体系を確認する。",
+    "related": [
+      "DMXアドレス",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "照明卓で灯体や制御対象を呼び出すための論理的な番号や単位。DMXの一つのスロットとは意味が異なる場合がある。一台の多機能灯体を一つの番号で選択しても、内部では複数のDMXスロットを使う場合がある。物理電源回路の番号をチャンネルと呼ぶ現場もあるため、卓の論理番号、ディマー回路、出力アドレスを分けて資料に記す。同じ番号が続いていても、パッチで別の出力位置へ割り当てられることを理解して操作する。",
+    "examples": [
+      "担当者が指定するCHと実際の灯体をパッチ表で照合する。"
+    ],
+    "pitfalls": [
+      "チャンネル数をそのまま物理回路数や灯体台数と読み替えない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-patch",
+    "name": "パッチ",
+    "reading": "ぱっち",
+    "english": "Patch",
+    "aliases": [
+      "ソフトパッチ",
+      "パッチング",
+      "Patching"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "卓上のチャンネルと実際の出力アドレスや灯体の種類などを対応させる設定。物理配線を指す場合もある。",
+    "usage": "仕込み表と卓のパッチを照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Patch と表記する。",
+    "uk": "Patch と表記する。",
+    "note": "音響のパッチとは対象が異なるが、対応付けという考え方は共通。",
+    "related": [
+      "照明チャンネル",
+      "DMXアドレス",
+      "フィクスチャープロファイル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "卓上のチャンネルと実際の出力アドレスや灯体の種類などを対応させる設定。物理配線を指す場合もある。論理番号と実際の制御先、機種、モードを対応させる設定である。ケーブルを物理的につなぎ替えることと、卓内部の対応を変えることを分けて考える。灯体を変更するときはチャンネル番号だけ保てば全ての属性が同じになるとは限らず、プリセットやキューがどの情報を参照するかまで確認する。",
+    "examples": [
+      "会場の回路番号と卓の操作番号を対応付ける。"
+    ],
+    "pitfalls": [
+      "パッチを変えると既存キューの実出力先が変わる可能性がある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-cue",
+    "name": "照明キュー",
+    "reading": "しょうめいきゅー",
+    "english": "Lighting cue / LX cue",
+    "aliases": [
+      "明かりキュー",
+      "LX",
+      "LQ",
+      "Cue"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "公演の所定の時点で再生する照明の状態や変化の指示。灯体の値と変化にかかる時間などを記録する。",
+    "usage": "台詞のきっかけに合わせてキューを実行する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Lighting cue / LX cue と表記する。",
+    "uk": "Lighting cue / LX cue と表記する。",
+    "note": "cueは照明だけの語ではなく、部門を添えて区別する。",
+    "related": [
+      "キューリスト",
+      "クロスフェード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ],
+    "detail": "公演の所定の時点で再生する照明の状態や変化の指示。灯体の値と変化にかかる時間などを記録する。値だけでなく時間、待ち、次への進行条件などが組み合わさる。台本上のきっかけと卓の番号を対応させ、同時にどの属性がどう変わるのかを確認する。トラッキング方式では前からの値を引き継ぐため、キュー単体の見た目だけでは全ての記録内容を把握できない。変更時は前後の場面と再生の入口も含めて確認する。",
+    "examples": [
+      "同じ台詞のきっかけで人物と背景を別の時間で変える。"
+    ],
+    "pitfalls": [
+      "記録データと、その場面の実際の出力状態を同一と決めつけない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-crossfade",
+    "name": "クロスフェード",
+    "reading": "くろすふぇーど",
+    "english": "Crossfade",
+    "aliases": [
+      "クロス",
+      "X-fade"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "前の照明状態から次の状態へ移るとき、下がる光と上がる光を時間的に重ねて変化させること。",
+    "usage": "夕景から夜景へゆっくり移る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Crossfade と表記する。",
+    "uk": "Crossfade と表記する。",
+    "note": "すべての灯体や項目を同じ時間で変化させるとは限らない。",
+    "related": [
+      "フェードイン",
+      "フェードアウト",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Lighting Systems",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-7"
+      }
+    ]
+  },
+  {
+    "id": "lighting-profiledata",
+    "name": "フィクスチャープロファイル",
+    "reading": "ふぃくすちゃーぷろふぁいる",
+    "english": "Fixture profile / Personality",
+    "aliases": [
+      "パーソナリティー",
+      "灯体ライブラリー",
+      "Fixture personality"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "灯体のDMX配置や各制御値の意味を卓へ知らせる定義データ。機種名だけでなく動作モードまで一致させる。",
+    "usage": "同じ機種でも必要なモードを選んでパッチする。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Fixture profile / Personality と表記する。",
+    "uk": "Fixture profile / Personality と表記する。",
+    "note": "プロファイルスポットという灯体の種類とは別の用語。",
+    "related": [
+      "DMXモード",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC ColorSource｜Patch",
+        "url": "https://www.etcconnect.com/webdocs/controls/colorsource_onlinehelp/en/Content/ButtonPatch.html"
+      }
+    ]
+  },
+  {
+    "id": "lighting-playback",
+    "name": "プレイバック",
+    "reading": "ぷれいばっく",
+    "english": "Playback",
+    "aliases": [
+      "再生",
+      "Playback fader"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "記録したキューリストなどを再生する機能や、その操作部。フェーダーやボタンへの割り当て方法は卓による。",
+    "usage": "公演で使うキューリストを再生部へ割り当てる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Playback と表記する。",
+    "uk": "Playback と表記する。",
+    "note": "",
+    "related": [
+      "照明キュー",
+      "キューリスト",
+      "照明卓"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜About Cue Playback",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/13_Cue_Playback/About_Cue_Playback.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-cuelist",
+    "name": "キューリスト",
+    "reading": "きゅーりすと",
+    "english": "Cue list / Sequence",
+    "aliases": [
+      "シーケンス",
+      "Cuelist",
+      "Cue stack"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "複数の照明キューを順序や再生条件とともにまとめたもの。公演の進行に沿って手動または自動で再生する。",
+    "usage": "台本とキューリストの順序を照合する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Cue list / Sequence と表記する。",
+    "uk": "Cue list / Sequence と表記する。",
+    "note": "メーカーによりcue listやsequenceなど呼称と構造が異なる。",
+    "related": [
+      "照明キュー",
+      "フォロー",
+      "プレイバック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜About Cue Playback",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/13_Cue_Playback/About_Cue_Playback.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-submaster",
+    "name": "サブマスター",
+    "reading": "さぶますたー",
+    "english": "Submaster",
+    "aliases": [
+      "サブ",
+      "Sub"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "複数の灯体や記録した状態をまとめて扱う制御部。加算や抑制などの動作方式は卓や設定によって異なる。",
+    "usage": "客席灯のまとまりをフェーダーで扱う。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Submaster と表記する。",
+    "uk": "Submaster と表記する。",
+    "note": "必ずしもすべての値を単純に加算する機能ではない。",
+    "related": [
+      "グランドマスター",
+      "HTP",
+      "LTP"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Submaster Properties",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/15_Submasters/Submaster_Properties.htm"
+      }
+    ],
+    "detail": "複数の灯体や記録した状態をまとめて扱う制御部。加算や抑制などの動作方式は卓や設定によって異なる。記録した状態をまとめて手動で扱えるが、明るさを足す方式、上限を抑える方式、色や位置を準備する方式などがある。フェーダーを下げたときの復帰先や時間、他の再生部との優先順位は卓と設定による。公演では単にサブという呼び方だけで動作を決めず、各フェーダーへ何が割り当てられているかを確認する。",
+    "examples": [
+      "客席灯や即応する効果を個別のフェーダーへまとめる。"
+    ],
+    "pitfalls": [
+      "フェーダーがゼロならその内容が全て解放されるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-grandmaster",
+    "name": "グランドマスター",
+    "reading": "ぐらんどますたー",
+    "english": "Grandmaster",
+    "aliases": [
+      "GM",
+      "グラマス",
+      "Grand master"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "対象となる照明出力全体などの明るさに上限や比率をかける総括制御。除外対象や適用範囲は卓の設定による。",
+    "usage": "適用される対象を確認して全体の明るさを扱う。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Grandmaster と表記する。",
+    "uk": "Grandmaster と表記する。",
+    "note": "全機器の電源を切る機能とは異なる。",
+    "related": [
+      "サブマスター",
+      "インテンシティ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Submaster Properties",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/15_Submasters/Submaster_Properties.htm"
+      }
+    ],
+    "detail": "対象となる照明出力全体などの明るさに上限や比率をかける総括制御。除外対象や適用範囲は卓の設定による。全体の出力を制限する総括操作として使うが、適用される属性や除外設定は卓による。明るさを下げてもムービングの位置や色が元へ戻るとは限らない。出力が想定より暗い場合はキューや灯体の値だけでなく、グランドマスターや抑制系が掛かっていないかを確認し、運用中の設定を共有する。",
+    "examples": [
+      "卓の表示値が高いのに舞台が暗い原因を調べる。"
+    ],
+    "pitfalls": [
+      "非常時の電源遮断や安全装置と同じ機能として扱わない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-tracking",
+    "name": "トラッキング",
+    "reading": "とらっきんぐ",
+    "english": "Tracking",
+    "aliases": [
+      "Tracking mode",
+      "トラック"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "あるキューで変えた値を、次の変更指示などが現れるまで後続のキューへ引き継ぐ考え方。",
+    "usage": "修正が後続キューへどこまで及ぶかを確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Tracking と表記する。",
+    "uk": "Tracking と表記する。",
+    "note": "被写体の追尾という意味のtrackingとは異なる。",
+    "related": [
+      "キューオンリー",
+      "ブロック",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ],
+    "detail": "あるキューで変えた値を、次の変更指示などが現れるまで後続のキューへ引き継ぐ考え方。変えていない値を前から継承するため、キューを修正すると後の場面へ影響が伸びる場合がある。データ量を減らし修正をまとめやすい一方、どこで新しい値やブロックが入るかを理解する必要がある。灯体を消したキューでも色や位置の値が残ることがあるので、明るさ以外の属性も含めて前後を調べる。",
+    "examples": [
+      "一場面の色変更がどこまで続くか確認する。"
+    ],
+    "pitfalls": [
+      "フォロースポットの追尾という意味のtrackingとは異なる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-cueonly",
+    "name": "キューオンリー",
+    "reading": "きゅーおんりー",
+    "english": "Cue Only",
+    "aliases": [
+      "Q Only",
+      "Cue-only"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "修正や記録の影響を特定のキューに限定し、後続への引き継ぎを抑えるための操作やモード。",
+    "usage": "一場面だけ明るさを変える際に記録範囲を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Cue Only と表記する。",
+    "uk": "Cue Only と表記する。",
+    "note": "具体的な適用範囲や例外は卓と機能により異なる。",
+    "related": [
+      "トラッキング",
+      "ブロック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ],
+    "detail": "修正や記録の影響を特定のキューに限定し、後続への引き継ぎを抑えるための操作やモード。特定の記録操作や編集を一つのキューへ限定する考え方で、卓のモードや専用キーとして用いられる。後続を守るためのデータが自動的に作られる方式もある。効果や参照データ、末尾に新しく足すキューなどには別の挙動がある場合があるため、名称だけで全ての引き継ぎがなくなると考えず使用卓の定義を確認する。",
+    "examples": [
+      "既存の一場面だけ明るさを変え前後を比較する。"
+    ],
+    "pitfalls": [
+      "キューオンリーでも参照元パレットの修正が複数場面へ及ぶことがある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-block",
+    "name": "ブロック",
+    "reading": "ぶろっく",
+    "english": "Block",
+    "aliases": [
+      "Block cue",
+      "ブロックキュー"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "トラッキングする値を特定のキューなどで区切り、前の変更が流れ込むことを抑える指示。",
+    "usage": "場面の境目にあるデータの保護範囲を確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Block と表記する。",
+    "uk": "Block と表記する。",
+    "note": "データの区切り方と出力優先の動作は卓の仕様による。",
+    "related": [
+      "トラッキング",
+      "キューオンリー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ],
+    "detail": "トラッキングする値を特定のキューなどで区切り、前の変更が流れ込むことを抑える指示。前から流れてくる値をそこで止めるため、場面の境界を保護する用途がある。ブロックしている値と新たに動く値の表示が同じではない卓もある。出力の制御を取り戻すアサートとは目的が異なるので、データ上の保護なのか再生中の優先なのかを分けて確認する。全体と属性単位の設定範囲も使用卓の資料で確認する。",
+    "examples": [
+      "後の場面へ前場面の修正が流れ込まない境界を設ける。"
+    ],
+    "pitfalls": [
+      "ブロックがあれば全ての外部出力から必ず保護されるという意味ではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-htp",
+    "name": "HTP",
+    "reading": "えいちてぃーぴー",
+    "english": "Highest Takes Precedence",
+    "aliases": [
+      "Highest Takes Priority",
+      "高値優先"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "同じ制御対象に複数の値が来たとき、最も高い値を優先する考え方。主に明るさの合成に使う。",
+    "usage": "複数の再生部に同じ灯体があるときの動作を見る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Highest Takes Precedence と表記する。",
+    "uk": "Highest Takes Precedence と表記する。",
+    "note": "色や位置に単純適用できるとは限らない。",
+    "related": [
+      "LTP",
+      "サブマスター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ],
+    "detail": "同じ制御対象に複数の値が来たとき、最も高い値を優先する考え方。主に明るさの合成に使う。複数の制御元を重ねるとき明るさの最大値を採用する方式として使う。フェーダーを下げても別の制御元が高い値を出していれば明るさが残る。LTPや優先レベル、マスターによる制限も関係するため、最終値だけでなく出力元を確認する。色や位置のような非明るさ属性に同じ計算を当然に適用しない。",
+    "examples": [
+      "二つの再生部が同じ灯体を持つとき残る明かりを調べる。"
+    ],
+    "pitfalls": [
+      "HTPという設定だけでプログラマーやパークより高い優先になるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-ltp",
+    "name": "LTP",
+    "reading": "えるてぃーぴー",
+    "english": "Latest Takes Precedence",
+    "aliases": [
+      "Latest Takes Priority",
+      "最新値優先",
+      "Last Takes Precedence"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "同じ制御対象へ複数の指示が来たとき、最新の指示を優先する考え方。位置や色などの制御にも使う。",
+    "usage": "色の指示がどの再生部から更新されたか確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Latest Takes Precedence と表記する。",
+    "uk": "Latest Takes Precedence と表記する。",
+    "note": "単に値が大きいものを優先する方式ではない。",
+    "related": [
+      "HTP",
+      "プレイバック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ],
+    "detail": "同じ制御対象へ複数の指示が来たとき、最新の指示を優先する考え方。位置や色などの制御にも使う。新しい指示が来たときに制御を渡す方式で、値の大小による判断とは違う。色や位置ではフェーダーを戻しただけで前の状態へ戻るとは限らず、リリースや優先設定が関係する。どの再生部が属性を所有しているかを確認し、キューの変更指示と単なるトラッキング値を分けて理解すると原因を追いやすい。",
+    "examples": [
+      "別のキューリストで変えた色を元の制御へ戻す。"
+    ],
+    "pitfalls": [
+      "最新値という語だけで他の全ての制御優先関係を説明できるわけではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-blind",
+    "name": "ブラインド",
+    "reading": "ぶらいんど",
+    "english": "Blind",
+    "aliases": [
+      "Blind mode",
+      "ブラインド編集"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "舞台へ出力している状態を直接変えずに、記録済みのキューなどを編集する操作領域やモード。",
+    "usage": "本番出力を保ちながら後のキューデータを確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Blind と表記する。",
+    "uk": "Blind と表記する。",
+    "note": "編集の保存方法や反映タイミングは卓の仕様による。",
+    "related": [
+      "ライブ",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-live",
+    "name": "ライブ",
+    "reading": "らいぶ",
+    "english": "Live",
+    "aliases": [
+      "Live mode",
+      "ライブ編集"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "照明卓で現在の舞台出力を扱う操作領域やモード。操作が舞台の見た目に反映されるため、編集中の対象を確認する。",
+    "usage": "現在の出力を確認しながら明かりを作る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Live と表記する。",
+    "uk": "Live と表記する。",
+    "note": "ライブ公演という意味とは文脈が異なる。",
+    "related": [
+      "ブラインド",
+      "照明卓"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Important Concepts",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/04_System_Basics/Important_Concepts.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-palette",
+    "name": "パレット",
+    "reading": "ぱれっと",
+    "english": "Palette",
+    "aliases": [
+      "Palette reference"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "色や位置など、再利用する灯体の設定を参照データとして記録するもの。参照先の修正を複数キューへ反映できる。",
+    "usage": "同じ色を複数のキューから参照する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Palette と表記する。",
+    "uk": "Palette と表記する。",
+    "note": "対応する参照方式や分類はメーカーごとに異なる。",
+    "related": [
+      "カラーパレット",
+      "ポジションパレット",
+      "プリセット"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜About Palettes",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/10_Palettes/About_Palettes.htm"
+      }
+    ],
+    "detail": "色や位置など、再利用する灯体の設定を参照データとして記録するもの。参照先の修正を複数キューへ反映できる。繰り返し使う色や向きを参照元としてまとめると、会場変更や演出修正を複数キューへ反映しやすい。参照して記録した値と、絶対値として直接記録した値は更新の伝わり方が違う。メーカーによってプリセットとの区分や型式別の記録方式が異なるため、どの灯体とどの属性が含まれ、どこから参照されるかを把握して管理する。",
+    "examples": [
+      "一つの白色パレットを調整して複数場面をそろえる。"
+    ],
+    "pitfalls": [
+      "パレットを修正すると意図しない場面にも影響する場合がある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-colorpalette",
+    "name": "カラーパレット",
+    "reading": "からーぱれっと",
+    "english": "Color palette / Colour palette",
+    "aliases": [
+      "CP",
+      "Color preset"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "灯体の色に関する設定をまとめた参照データ。複数キューで共通の色を使い、色合わせをまとめて修正する。",
+    "usage": "公演で使う基本色を登録する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Color palette / Colour palette と表記する。",
+    "uk": "Color palette / Colour palette と表記する。",
+    "note": "メーカーによってはcolor presetなどの名称を使う。",
+    "related": [
+      "パレット",
+      "RGB加法混色",
+      "CMY減法混色"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜About Palettes",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/10_Palettes/About_Palettes.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-positionpalette",
+    "name": "ポジションパレット",
+    "reading": "ぽじしょんぱれっと",
+    "english": "Position palette / Focus palette",
+    "aliases": [
+      "FP",
+      "フォーカスパレット",
+      "Position preset"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "ムービングの向きなどの位置情報を再利用する参照データ。会場変更時などに共通の照射位置をまとめて調整できる。",
+    "usage": "センター位置を登録して複数キューで参照する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Position palette / Focus palette と表記する。",
+    "uk": "Position palette / Focus palette と表記する。",
+    "note": "EosのFocus Paletteは向きの分類で、像のピントのFocusとは区別する。",
+    "related": [
+      "パレット",
+      "パン",
+      "チルト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜About Palettes",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/10_Palettes/About_Palettes.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-preset",
+    "name": "プリセット",
+    "reading": "ぷりせっと",
+    "english": "Preset",
+    "aliases": [
+      "Preset reference",
+      "プリセットデータ"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "事前に記録した灯体設定などを呼び出すデータ。色や位置をまとめるか項目ごとに分けるかは卓の設計による。",
+    "usage": "複数の設定をまとめて再利用する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Preset と表記する。",
+    "uk": "Preset と表記する。",
+    "note": "卓によってpaletteに相当する名称だったり、別の機能だったりする。",
+    "related": [
+      "パレット",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Eos Programming Level 2",
+        "url": "https://www.etcconnect.com/uploadedFiles/Main_Site/Documents/Public/Video_Tutorial/Eos_Family_L2_Enhanced_v3.2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lighting-follow",
+    "name": "フォロー",
+    "reading": "ふぉろー",
+    "english": "Follow time",
+    "aliases": [
+      "オートフォロー",
+      "Follow"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "キューの実行後、所定の時間で次のキューを自動開始させる設定。どの時点を計時の基準にするかが重要になる。",
+    "usage": "連続する演出の自動進行時間を確認する。",
+    "japan": "卓に応じて「フォロー」「オートフォロー」などと呼ぶ。",
+    "us": "Eosではfollow timeはキュー開始からの時間。",
+    "uk": "Eosではfollow timeはキュー開始からの時間。",
+    "note": "Eosでは現在のキュー開始から計時する。卓ごとの定義を確認する。",
+    "related": [
+      "ハング",
+      "キューリスト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Follow/Hang",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/12_Cues_and_Cue_Lists/04_Cue_Attributes/Follow_Hang.htm"
+      }
+    ],
+    "detail": "キューの実行後、所定の時間で次のキューを自動開始させる設定。どの時点を計時の基準にするかが重要になる。キュー開始から次を自動開始させる時間なのか、現在の変化が終わってから待つ時間なのかを分けて考える。EosではFollowは開始を基準とし、Hangは完了を基準にする。長いフェード中に次のキューが始まる構成も作れるため、時間表だけでなく実際の重なりを見て確認する。卓による定義の違いも記録する。",
+    "examples": [
+      "連続した背景の変化を自動的に次へ進める。"
+    ],
+    "pitfalls": [
+      "他社卓のFollowやWaitへ同じ値を移せば同じ動作になるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-hang",
+    "name": "ハング",
+    "reading": "はんぐ",
+    "english": "Hang time",
+    "aliases": [
+      "Hang"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "現在のキューの変化が完了してから、次のキューを開始するまでの時間を扱う設定。フォローと基準時点が異なる。",
+    "usage": "フェード終了後に間を置いて次へ進める。",
+    "japan": "Eosなどの卓でフォローと異なる自動進行時間を指す。",
+    "us": "Eosではキュー完了を基準とするhang timeを扱う。",
+    "uk": "Eosではキュー完了を基準とするhang timeを扱う。",
+    "note": "Eosでの用法。すべての照明卓が同じ名称や仕様を持つとは限らない。",
+    "related": [
+      "フォロー",
+      "クロスフェード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Follow/Hang",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/12_Cues_and_Cue_Lists/04_Cue_Attributes/Follow_Hang.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-generalwash",
+    "name": "地明かり",
+    "reading": "じあかり",
+    "english": "General cover / General wash",
+    "aliases": [
+      "地明り",
+      "ベース明かり",
+      "General lighting"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "演技する範囲を広く支える基礎の照明。特定の人物や装置だけを狙う明かりと組み合わせて舞台の状態を作る。",
+    "usage": "演技範囲を移動しながら明るさのつながりを見る。",
+    "japan": "「地明かり」「地明り」と呼ぶ。",
+    "us": "general wash、general coverなどと呼ぶ。",
+    "uk": "general cover、general washなどと呼ぶ。",
+    "note": "",
+    "related": [
+      "ウォッシュ",
+      "スペシャル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Planning Your Design",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-8"
+      }
+    ]
+  },
+  {
+    "id": "lighting-special",
+    "name": "スペシャル",
+    "reading": "すぺしゃる",
+    "english": "Special",
+    "aliases": [
+      "Special light",
+      "Specials"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "特定の場所、人物、装置や効果のために用意する専用の照明。舞台全体を照らす基礎照明と区別して計画する。",
+    "usage": "独白位置だけを照らす灯体を用意する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Special と表記する。",
+    "uk": "Special と表記する。",
+    "note": "",
+    "related": [
+      "地明かり",
+      "フォーカス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Planning Your Design",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-8"
+      }
+    ]
+  },
+  {
+    "id": "lighting-plot",
+    "name": "照明仕込み図",
+    "reading": "しょうめいしこみず",
+    "english": "Lighting plot / Lighting plan",
+    "aliases": [
+      "仕込み図",
+      "照明図",
+      "ライトプロット",
+      "Light plot"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "灯体の種類、取付位置、向き、番号、色などを図面上に示した資料。仕込みや調整の共通情報として使う。",
+    "usage": "会場図面に灯体配置を重ねて確認する。",
+    "japan": "「照明仕込み図」「仕込み図」と呼ぶ。",
+    "us": "lighting plot、light plotと呼ぶ。",
+    "uk": "lighting planと呼ぶことが多い。",
+    "note": "米国ではplot、英国ではplanがよく使われるが、現場により併用される。",
+    "related": [
+      "パッチ",
+      "フォーカス",
+      "照明チャンネル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Planning Your Design",
+        "url": "https://blog.etcconnect.com/stage-lighting-design-part-8"
+      },
+      {
+        "label": "Yale｜Head Electrician",
+        "url": "https://up.yale.edu/roles-responsibilities/head-electrician"
+      }
+    ]
+  },
+  {
+    "id": "lighting-focus",
+    "name": "フォーカス",
+    "reading": "ふぉーかす",
+    "english": "Focus / Focusing",
+    "aliases": [
+      "シュート",
+      "明かり合わせ",
+      "当たり合わせ",
+      "Focusing session",
+      "ねらい"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "灯体の照射位置、大きさ、輪郭などを目的に合わせる作業。光学系の像のピントだけを指す場合もある。",
+    "usage": "指定したエリアに灯体の向きを合わせる。",
+    "japan": "照射位置などを合わせる作業を「シュート」「明かり合わせ」と呼ぶ。",
+    "us": "focus、focusingと呼ぶ。",
+    "uk": "focus、focusingと呼ぶ。",
+    "note": "卓のFocus分類はムービングの向きなどを指す場合があり、意味を区別する。",
+    "related": [
+      "照明仕込み図",
+      "ズーム",
+      "フレーミングシャッター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "detail": "灯体の照射位置、大きさ、輪郭などを目的に合わせる作業。光学系の像のピントだけを指す場合もある。照射位置だけでなく範囲、輪郭、シャッターやゴボの状態を目的へ合わせる。レンズで像を明瞭にするピント調整と、現場の灯体合わせ全体を指す用法は区別する。舞台床で合っていても顔や装置の高さでは当たり方が違うため、対象の面と動きの範囲で確認する。複数灯のつながりと客席への漏れも合わせて見る。",
+    "examples": [
+      "台本で使う立ち位置の顔と床の両方を確認する。"
+    ],
+    "pitfalls": [
+      "卓のFocus Paletteは通常ムービングの向きを扱い、像のピントとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "lighting-wash",
+    "name": "ウォッシュ",
+    "reading": "うぉっしゅ",
+    "english": "Wash",
+    "aliases": [
+      "色染め",
+      "面明かり",
+      "Stage wash"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "ある面や範囲を広く覆う照明の状態や用途。灯体の種類名にも使われるが、特定の光源方式を意味しない。",
+    "usage": "舞台面を一色で広く染める。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Wash と表記する。",
+    "uk": "Wash と表記する。",
+    "note": "",
+    "related": [
+      "地明かり",
+      "ウォッシュ型ムービング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-fadein",
+    "name": "フェードイン",
+    "reading": "ふぇーどいん",
+    "english": "Fade in / Fade up",
+    "aliases": [
+      "FI",
+      "フェードアップ",
+      "Fade-up"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "時間をかけて照明の明るさを上げる変化。開始点や到達値、時間の設定によって見え方が変わる。",
+    "usage": "朝の明かりをゆっくり立ち上げる。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Fade in / Fade up と表記する。",
+    "uk": "Fade in / Fade up と表記する。",
+    "note": "",
+    "related": [
+      "フェードアウト",
+      "クロスフェード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-fadeout",
+    "name": "フェードアウト",
+    "reading": "ふぇーどあうと",
+    "english": "Fade out / Fade down",
+    "aliases": [
+      "FO",
+      "フェードダウン",
+      "Fade-down"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "時間をかけて照明の明るさを下げる変化。必ずしも全灯を完全消灯するとは限らず、対象と終点を指定する。",
+    "usage": "場面の終わりに指定した灯体を落とす。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Fade out / Fade down と表記する。",
+    "uk": "Fade out / Fade down と表記する。",
+    "note": "",
+    "related": [
+      "フェードイン",
+      "クロスフェード",
+      "暗転"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-blackout",
+    "name": "暗転",
+    "reading": "あんてん",
+    "english": "Blackout",
+    "aliases": [
+      "BO",
+      "B/O",
+      "ブラックアウト",
+      "Black out"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "舞台の明かりを落として暗い状態にする演出や、その状態。即時か時間をかけるかはキューで区別する。",
+    "usage": "終幕の暗転のきっかけを台本で確認する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Blackout と表記する。",
+    "uk": "Blackout と表記する。",
+    "note": "舞台の暗転と避難用設備や作業環境の管理は別に扱う。",
+    "related": [
+      "フェードアウト",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜A Guide for Lighting the Stage",
+        "url": "https://www.etcconnect.com/workarea/DownloadAsset.aspx?id=10737493970"
+      }
+    ]
+  },
+  {
+    "id": "lighting-strobe",
+    "name": "ストロボ",
+    "reading": "すとろぼ",
+    "english": "Strobe",
+    "aliases": [
+      "ストロボ効果",
+      "Strobing"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "光を繰り返し短く点滅させる演出や機能。専用灯体のほかムービングやLED灯体にも備わる。",
+    "usage": "点滅効果の有無を演出資料に記載する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Strobe と表記する。",
+    "uk": "Strobe と表記する。",
+    "note": "点滅は観客や出演者への影響を考慮し、公演の管理条件に合わせて扱う。",
+    "related": [
+      "フリッカー",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "PRG｜AYRTON 製品ガイド",
+        "url": "https://www.prg.com/-/media/Emea-Apac/PRG-KK/web_ayrton2025_guide.ashx"
+      }
+    ]
+  },
+  {
+    "id": "lighting-curve",
+    "name": "調光カーブ",
+    "reading": "ちょうこうかーぶ",
+    "english": "Dimming curve",
+    "aliases": [
+      "ディマーカーブ",
+      "Dimmer curve"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "入力した制御値と出力の変化との関係を決める特性。明るさの立ち上がりや変化の感覚を調整するために使う。",
+    "usage": "灯体同士の明るさの変化を比較する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Dimming curve と表記する。",
+    "uk": "Dimming curve と表記する。",
+    "note": "キューの時間変化を扱うフェードカーブとは適用対象を区別する。",
+    "related": [
+      "ディマー",
+      "インテンシティ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜How Do I Set a Dimming Curve?",
+        "url": "https://support.etcconnect.com/ETC/Consoles/Eos_Family/Software_and_Programming/How_Do_I_Set_a_Dimming_Curve"
+      }
+    ]
+  },
+  {
+    "id": "lighting-haze",
+    "name": "ヘイズ",
+    "reading": "へいず",
+    "english": "Haze",
+    "aliases": [
+      "ヘイザー",
+      "Hazer",
+      "Atmospheric haze"
+    ],
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "空間に薄く広がる演出用の霧状効果。光線を空中に見せる用途などに使い、濃い霧や低く漂う効果とは区別する。",
+    "usage": "光の見え方に必要な演出効果として資料に記す。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Haze と表記する。",
+    "uk": "Haze と表記する。",
+    "note": "使用する液や装置によって性質が異なる。会場の許可や換気・検知設備の管理条件に従う。",
+    "related": [
+      "ビーム型ムービング",
+      "スモーク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Rosco｜Fog FAQs",
+        "url": "https://us.rosco.com/en/rosco-fog-faqs"
+      },
+      {
+        "label": "Yale｜Production Electricians’ Handbook",
+        "url": "https://dgsdinfo.yale.edu/wp-content/uploads/2024/05/Prod-Elec-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "lighting-effect",
+    "name": "照明エフェクト",
+    "reading": "しょうめいえふぇくと",
+    "english": "Lighting effect",
+    "aliases": [
+      "FX",
+      "エフェクト",
+      "Effect engine"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "明るさ、色、位置などを時間的に変化させるためのプログラム。周期や順序、位相を設定して複数灯体の動きを作る。",
+    "usage": "波のように動く色の変化を作る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Lighting effect と表記する。",
+    "uk": "Lighting effect と表記する。",
+    "note": "特定の灯体内蔵効果と、卓が生成する制御のどちらかを区別する。",
+    "related": [
+      "チェイス",
+      "照明キュー",
+      "プレイバック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜Effects Editor",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/14_Effects/01_Effects_Editor/About_the_Effects_Editor.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-chase",
+    "name": "チェイス",
+    "reading": "ちぇいす",
+    "english": "Chase",
+    "aliases": [
+      "追いかけ",
+      "Chaser"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "複数の灯体や状態を一定の順序やリズムで次々に変える効果。明るさの点滅だけでなく色や位置の変化も扱う。",
+    "usage": "灯体が順番に点灯する動きを作る。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Chase と表記する。",
+    "uk": "Chase と表記する。",
+    "note": "ステップの時間や重なりの設定方法は卓により異なる。",
+    "related": [
+      "照明エフェクト",
+      "照明キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Common Effects and How to Program Them",
+        "url": "https://support.etcconnect.com/ETC/Consoles/Eos_Family/Software_and_Programming/Common_Effects_and_How_to_Program_Them_on_an_Eos_Family_Console"
+      }
+    ]
+  },
+  {
+    "id": "lighting-go",
+    "name": "GO",
+    "reading": "ごー",
+    "english": "Go",
+    "aliases": [
+      "ゴー",
+      "Go button"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "待機している照明キューなどを開始する操作や合図。具体的にどの再生対象を進めるかは卓の割り当てで決まる。",
+    "usage": "舞台監督の合図を受けて次のキューを開始する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Go と表記する。",
+    "uk": "Go と表記する。",
+    "note": "一般的な開始合図として他部門でも使う。部門とキュー番号を添えて区別する。",
+    "related": [
+      "照明キュー",
+      "プレイバック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC Eos｜About Cue Playback",
+        "url": "https://www.etcconnect.com/WebDocs/Controls/EosFamilyOnlineHelp/en/Content/13_Cue_Playback/About_Cue_Playback.htm"
+      }
+    ]
+  },
+  {
+    "id": "lighting-mark",
+    "name": "マーク",
+    "reading": "まーく",
+    "english": "Mark / Marking",
+    "aliases": [
+      "マーキング",
+      "プリポジション",
+      "Move in black"
+    ],
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "灯体が消灯中などに、次の点灯に備えて色や向きをあらかじめ整える制御。移動や色替えを見せないために使う。",
+    "usage": "次のキューで点灯する前に位置を準備する。",
+    "japan": "国内でも同じ概念を表す照明用語。",
+    "us": "Mark / Marking と表記する。",
+    "uk": "Mark / Marking と表記する。",
+    "note": "自動化の条件や処理時点は卓による。舞台床の位置を示すバミリとは別の意味。",
+    "related": [
+      "ポジションパレット",
+      "照明キュー",
+      "ムービングライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Eos Programming Level 3",
+        "url": "https://www.etcconnect.com/uploadedFiles/Main_Site/Documents/Public/Video_Tutorial/Eos_Family_L3_Intermediate_v2.9A.pdf"
+      }
+    ]
+  }
+]

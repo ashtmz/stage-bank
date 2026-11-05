@@ -1,0 +1,5280 @@
+[
+  {
+    "id": "stage-kamite",
+    "name": "上手",
+    "reading": "かみて",
+    "english": "Stage left",
+    "aliases": [
+      "かみ",
+      "SL",
+      "ステージレフト",
+      "Kamite",
+      "côté cour",
+      "cote cour",
+      "cour",
+      "クール側"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "客席から舞台へ向かって右側。舞台上で客席を向いた演者からは左側になり、英米の Stage left に対応する。",
+    "usage": "「上手袖で待機」と指示されたら、客席から見て右の袖へ向かう。",
+    "japan": "客席から見て右。立つ人の向きが変わっても上手の位置は変わらない。",
+    "us": "Stage left（SL）。客席を向く演者の左。",
+    "uk": "Stage left（SL）。通常の Prompt side（PS）に相当。",
+    "note": "Stage right ではない。客席左右の House right とも基準が違う。",
+    "related": [
+      "下手",
+      "プロンプト側",
+      "ハウスライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "Comédie-Française・Côté cour, côté jardin",
+        "url": "https://www.comedie-francaise.fr/le-saviez-vous"
+      }
+    ],
+    "europe": "仏：côté cour（クール側）。客席から右、演者から左で、日本の上手に対応する。",
+    "kind": "term",
+    "detail": "客席から舞台へ向かって右側。舞台上で客席を向いた演者からは左側になり、英米の Stage left に対応する。呼び方の基準をそろえることが、海外スタッフとの図面共有の出発点になる。舞台上から客席を向く人の左は英米の Stage left であり、日本の上手はその同じ物理的な側を指す。立つ場所や向きが変わっても、上手と下手そのものが入れ替わることはない。「上手袖で待機」と指示されたら、客席から見て右の袖へ向かう。House right は客席基準の右なので同じ側に当たるが、House left や Stage right と混ぜて略さない。",
+    "examples": [
+      "「上手袖で待機」と指示されたら、客席から見て右の袖へ向かう。"
+    ],
+    "pitfalls": [
+      "House right は客席基準の右なので同じ側に当たるが、House left や Stage right と混ぜて略さない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-shimote",
+    "name": "下手",
+    "reading": "しもて",
+    "english": "Stage right",
+    "aliases": [
+      "しも",
+      "SR",
+      "ステージライト",
+      "Shimote",
+      "côté jardin",
+      "cote jardin",
+      "jardin",
+      "ジャルダン側"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "客席から舞台へ向かって左側。舞台上で客席を向いた演者からは右側になり、英米の Stage right に対応する。",
+    "usage": "「下手から出る」は、客席から見て左側から登場すること。",
+    "japan": "客席から見て左。下手側の花道など、固定の位置を表す。",
+    "us": "Stage right（SR）。客席を向く演者の右。",
+    "uk": "Stage right（SR）。通常の Opposite prompt（OP）に相当。",
+    "note": "Stage left ではない。英語の Left／Right だけでは基準が曖昧になる。",
+    "related": [
+      "上手",
+      "オポジットプロンプト側",
+      "ハウスレフト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "Comédie-Française・Côté cour, côté jardin",
+        "url": "https://www.comedie-francaise.fr/le-saviez-vous"
+      }
+    ],
+    "europe": "仏：côté jardin（ジャルダン側）。客席から左、演者から右で、日本の下手に対応する。",
+    "kind": "term",
+    "detail": "客席から舞台へ向かって左側。舞台上で客席を向いた演者からは右側になり、英米の Stage right に対応する。英米の Stage right と同じ物理的な側を指し、客席へ向く演者の右側に当たる。花道が下手にあるという説明は客席から左側のこと。左右だけを口頭で伝えると相手の立場で逆になるため、図面の凡例や対象とともに使うと取り違えを減らせる。「下手から出る」は、客席から見て左側から登場すること。音響の SR や照明資料の略語など別の意味もある。舞台方向の SR であることを文脈でそろえる。",
+    "examples": [
+      "「下手から出る」は、客席から見て左側から登場すること。"
+    ],
+    "pitfalls": [
+      "音響の SR や照明資料の略語など別の意味もある。舞台方向の SR であることを文脈でそろえる。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-upstage",
+    "name": "舞台奥",
+    "reading": "ぶたいおく",
+    "english": "Upstage",
+    "aliases": [
+      "奥",
+      "アップステージ",
+      "US"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "舞台のうち客席から遠い側、またはその方向。上下の高さではなく、客席からの前後関係を示す位置表現。",
+    "usage": "立ち位置を舞台奥へ移す。",
+    "japan": "「舞台奥」と呼ぶ。",
+    "us": "Upstage の呼称が使われる。",
+    "uk": "Upstage の呼称が使われる。",
+    "note": "Upstage の US は、文脈によって米国の略記 US と区別する。",
+    "related": [
+      "舞台前",
+      "センター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台のうち客席から遠い側、またはその方向。上下の高さではなく、客席からの前後関係を示す位置表現。舞台奥という場所の呼称と、そこへ向かう移動の指示を両方含む。英語の up は舞台床の傾斜に由来する説明があるが、現在の床が水平でも使う。奥中央、上手奥などの組み合わせにより、左右と前後を同時に伝えることもできる。立ち位置を舞台奥へ移す。ステージの上という高さの意味へ直訳しない。対面や四方囲みの会場では、作品が採用する方向の基準も確認する。",
+    "examples": [
+      "立ち位置を舞台奥へ移す。"
+    ],
+    "pitfalls": [
+      "ステージの上という高さの意味へ直訳しない。対面や四方囲みの会場では、作品が採用する方向の基準も確認する。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-downstage",
+    "name": "舞台前",
+    "reading": "ぶたいまえ",
+    "english": "Downstage",
+    "aliases": [
+      "前",
+      "ダウンステージ",
+      "DS"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "舞台のうち客席に近い側、またはその方向。舞台奥と対になる呼び方で、舞台床の高低そのものは表さない。",
+    "usage": "台詞の場面では舞台前へ進む。",
+    "japan": "「舞台前」と呼ぶ。",
+    "us": "Downstage の呼称が使われる。",
+    "uk": "Downstage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "舞台奥",
+      "舞台端"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台のうち客席に近い側、またはその方向。舞台奥と対になる呼び方で、舞台床の高低そのものは表さない。舞台の客席寄りという相対的な区域を表し、舞台の端そのものとは違う。装置の前へ出ることと、舞台前へ進むことも文脈によって異なる。立ち位置を記録する時は、舞台芯からの位置や床の目印などと組み合わせると再現しやすい。台詞の場面では舞台前へ進む。床の低い場所という意味だけではない。観客が複数方向にいる舞台では、基準とする正面を先に共有する。",
+    "examples": [
+      "台詞の場面では舞台前へ進む。"
+    ],
+    "pitfalls": [
+      "床の低い場所という意味だけではない。観客が複数方向にいる舞台では、基準とする正面を先に共有する。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-centre",
+    "name": "センター",
+    "reading": "せんたー",
+    "english": "Centre stage / Center stage",
+    "aliases": [
+      "中央",
+      "舞台中央",
+      "CS",
+      "C"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "舞台や演技区域の中央。左右の中央だけを指す場合と、奥行きも含む中央を指す場合があり、図面で位置を確かめる。",
+    "usage": "センターの立ち位置を図面に記す。",
+    "japan": "「センター」と呼ぶ。",
+    "us": "Center stage。Center は米式綴り。",
+    "uk": "Centre stage。Centre は英式綴り。",
+    "note": "",
+    "related": [
+      "芯",
+      "演技区域"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台や演技区域の中央。左右の中央だけを指す場合と、奥行きも含む中央を指す場合があり、図面で位置を確かめる。左右の中央を示すのか、前後も含めた演技区域の中心なのかで位置が変わる。演出の中心と建築上の中心が一致しない舞台もあるため、舞台図では芯や基準線を記す。英式 centre と米式 center の綴りは違っても、ここでの概念は共通する。センターの立ち位置を図面に記す。センターという一語だけで、どの奥行きの位置かまで決まるとは考えない。",
+    "examples": [
+      "センターの立ち位置を図面に記す。"
+    ],
+    "pitfalls": [
+      "センターという一語だけで、どの奥行きの位置かまで決まるとは考えない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-centreline",
+    "name": "芯",
+    "reading": "しん",
+    "english": "Centre line / Center line",
+    "aliases": [
+      "舞台芯",
+      "センターライン",
+      "CL"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "舞台や道具の位置を決める基準となる中心線。舞台の左右位置を測る際は、舞台芯からの距離で示すことが多い。",
+    "usage": "舞台芯から上手側へ道具の位置を取る。",
+    "japan": "「芯」と呼ぶ。",
+    "us": "Centre line / Center line の呼称が使われる。",
+    "uk": "Centre line / Center line の呼称が使われる。",
+    "note": "劇場の建築中心線と演出上の中心が一致しない場合もある。",
+    "related": [
+      "センター",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台や道具の位置を決める基準となる中心線。舞台の左右位置を測る際は、舞台芯からの距離で示すことが多い。芯は測定の原点として使う線であり、出演者一人の立ち位置とは限らない。舞台芯、道具芯など対象を付けると、装置自体の中心と舞台全体の中心を区別できる。再演やツアーでは、現地のどの線を基準にした図面かを合わせることが重要になる。舞台芯から上手側へ道具の位置を取る。客席の中心、建築の中心、演技区域の中心がすべて同じとは限らず、既存の印だけで断定しない。",
+    "examples": [
+      "舞台芯から上手側へ道具の位置を取る。"
+    ],
+    "pitfalls": [
+      "客席の中心、建築の中心、演技区域の中心がすべて同じとは限らず、既存の印だけで断定しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-houseleft",
+    "name": "ハウスレフト",
+    "reading": "はうすれふと",
+    "english": "House left",
+    "aliases": [
+      "HL",
+      "客席左"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "客席に座って舞台を向いたときの左側。演者の向きを基準にする Stage left とは逆で、通常は下手側に当たる。",
+    "usage": "客席からの登場は House left の通路を使う。",
+    "japan": "「客席から見て左」と基準を添える。",
+    "us": "House left の呼称が使われる。",
+    "uk": "House left の呼称が使われる。",
+    "note": "Stage left＝上手とは逆。客席移動の指示で区別する。",
+    "related": [
+      "下手",
+      "ハウスライト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ],
+    "kind": "term",
+    "detail": "客席に座って舞台を向いたときの左側。演者の向きを基準にする Stage left とは逆で、通常は下手側に当たる。客席に座って舞台を向く観客の左で、正面一方向の配置では日本の下手、英米の Stage right と同じ側になる。客席通路からの登場や案内係の配置を伝える時に使われ、舞台上の左右と客席内の左右を明示的に切り替えられる。客席からの登場は House left の通路を使う。HL の略だけを図面に書く場合は、ハウス基準であることを凡例へ示す。",
+    "examples": [
+      "客席からの登場は House left の通路を使う。"
+    ],
+    "pitfalls": [
+      "HL の略だけを図面に書く場合は、ハウス基準であることを凡例へ示す。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-houseright",
+    "name": "ハウスライト",
+    "reading": "はうすらいと",
+    "english": "House right",
+    "aliases": [
+      "HR",
+      "客席右"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "客席に座って舞台を向いたときの右側。演者の向きを基準にする Stage right とは逆で、通常は上手側に当たる。",
+    "usage": "House right の客席通路に出演者が入る。",
+    "japan": "「客席から見て右」と基準を添える。",
+    "us": "House right の呼称が使われる。",
+    "uk": "House right の呼称が使われる。",
+    "note": "照明の house lights（客電）と、発音や日本語表記が似ているため区別する。",
+    "related": [
+      "上手",
+      "ハウスレフト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ],
+    "kind": "term",
+    "detail": "客席に座って舞台を向いたときの右側。演者の向きを基準にする Stage right とは逆で、通常は上手側に当たる。客席に座って舞台を向く観客の右で、正面一方向の配置では日本の上手、英米の Stage left と同じ側になる。客席側での人や機材の位置を説明する時、誰の向きを基準にしているかが分かる表現として役立つ。House right の客席通路に出演者が入る。日本語のハウスライトは house lights（客席の照明）にも聞こえる。方向なのか照明なのかを対象とともに伝える。",
+    "examples": [
+      "House right の客席通路に出演者が入る。"
+    ],
+    "pitfalls": [
+      "日本語のハウスライトは house lights（客席の照明）にも聞こえる。方向なのか照明なのかを対象とともに伝える。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-promptside",
+    "name": "プロンプト側",
+    "reading": "ぷろんぷとがわ",
+    "english": "Prompt side",
+    "aliases": [
+      "PS",
+      "プロンプトサイド"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "英国系の劇場で、プロンプトコーナーがある側を表す呼称。通常は Stage left、すなわち日本の上手側を指す。",
+    "usage": "英国の図面にある PS の凡例を確認する。",
+    "japan": "日本の上手側に通常対応する。",
+    "us": "Stage left（SL）で位置を表すことが多い。",
+    "uk": "Prompt side（PS）。通常は Stage left。",
+    "note": "舞台構造や運用でプロンプト位置が反対になる場合がある。必ず現場の凡例を確認する。",
+    "related": [
+      "上手",
+      "オポジットプロンプト側",
+      "プロンプトコーナー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "英国系の劇場で、プロンプトコーナーがある側を表す呼称。通常は Stage left、すなわち日本の上手側を指す。英国系の舞台用語で、プロンプトコーナー側を指す。通常の Stage left という対応を覚えるだけでなく、劇場の図面に示される実際の卓の位置も確認する。日本の上下を使う資料へ訳す際には、上手に相当することと呼称の根拠を分けて理解する。英国の図面にある PS の凡例を確認する。例外的な卓位置を持つ劇場もあるため、PS を普遍的な地理方向の記号として扱わない。",
+    "examples": [
+      "英国の図面にある PS の凡例を確認する。"
+    ],
+    "pitfalls": [
+      "例外的な卓位置を持つ劇場もあるため、PS を普遍的な地理方向の記号として扱わない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-oppositeprompt",
+    "name": "オポジットプロンプト側",
+    "reading": "おぽじっとぷろんぷとがわ",
+    "english": "Opposite prompt",
+    "aliases": [
+      "OP",
+      "Off prompt",
+      "オフプロンプト"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "英国系の劇場で、プロンプト側と反対の側。通常は Stage right、日本の下手側に当たる位置を示す。",
+    "usage": "OP 側の袖に転換道具を用意する。",
+    "japan": "日本の下手側に通常対応する。",
+    "us": "Stage right（SR）で位置を表すことが多い。",
+    "uk": "Opposite prompt（OP）または Off prompt。",
+    "note": "プロンプト側が通常と異なる配置では、固定の左右と同一視しない。",
+    "related": [
+      "下手",
+      "プロンプト側"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "英国系の劇場で、プロンプト側と反対の側。通常は Stage right、日本の下手側に当たる位置を示す。プロンプト側を基準に反対側を呼ぶための語で、英国系では通常 Stage right、日本の下手へ対応する。古い図面や劇場資料では OP の略が現れる。舞台上の誰かが向きを変えたために反対になるという意味ではなく、劇場の運用上の側を示す。OP 側の袖に転換道具を用意する。プロンプト位置が通常と異なる場合の用法は、現地の凡例と担当者の説明で確認する。",
+    "examples": [
+      "OP 側の袖に転換道具を用意する。"
+    ],
+    "pitfalls": [
+      "プロンプト位置が通常と異なる場合の用法は、現地の凡例と担当者の説明で確認する。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-onstage",
+    "name": "オンステージ",
+    "reading": "おんすてーじ",
+    "english": "Onstage",
+    "aliases": [
+      "On stage",
+      "舞台上"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "観客に見える演技区域にいること、またはその区域。舞台の床全体が、常に観客から見える区域になるとは限らない。",
+    "usage": "次の場面で道具がオンステージに残る。",
+    "japan": "「オンステージ」と呼ぶ。",
+    "us": "Onstage の呼称が使われる。",
+    "uk": "Onstage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "オフステージ",
+      "演技区域"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-offstage",
+    "name": "オフステージ",
+    "reading": "おふすてーじ",
+    "english": "Offstage",
+    "aliases": [
+      "Off stage",
+      "舞台外"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "観客の視界の外にある舞台周辺、またはそこで行う行為。袖や奥など、演技区域の外側を文脈に応じて指す。",
+    "usage": "台詞の声をオフステージから出す。",
+    "japan": "「オフステージ」と呼ぶ。",
+    "us": "Offstage の呼称が使われる。",
+    "uk": "Offstage の呼称が使われる。",
+    "note": "Offstage の声や音は、舞台外で発生する演出を指す場合がある。",
+    "related": [
+      "オンステージ",
+      "舞台袖"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-sightline",
+    "name": "見切れ",
+    "reading": "みきれ",
+    "english": "Sightline / Unwanted visibility",
+    "aliases": [
+      "見切れる",
+      "サイトライン",
+      "Sightlines",
+      "sforo"
+    ],
+    "category": "stage",
+    "subcategory": "位置・方向",
+    "definition": "本来隠しておきたい袖や舞台裏、機材などが客席から見えてしまうこと。端の席や上階席を含めた視線で確認する。",
+    "usage": "袖幕の間から待機者が見切れていないか確認する。",
+    "japan": "「見切れ」と呼ぶ。",
+    "us": "Sightline / Unwanted visibility の呼称が使われる。",
+    "uk": "Sightline / Unwanted visibility の呼称が使われる。",
+    "note": "映像分野では画角の端で人などが切れる意味でも使う。Sightline は視線そのものを指し、常に不具合を意味する語ではない。",
+    "related": [
+      "袖幕",
+      "マスキング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：sforo。見せるべきでない舞台裏や装置が見える状態を指す用語。",
+    "kind": "term",
+    "detail": "本来隠しておきたい袖や舞台裏、機材などが客席から見えてしまうこと。端の席や上階席を含めた視線で確認する。マスキングが不足していると、中央の客席からは問題がなくても端席や上階席から舞台裏が見える。扉や窓が開く場面、装置が移動する場面では視線の通り方も変わるため、静止した配置の確認だけでなく進行中の状態を考える。袖幕の間から待機者が見切れていないか確認する。英語 sightline は視線や見通しそのものを指し、必ず失敗や不要物の露出を意味するわけではない。",
+    "examples": [
+      "袖幕の間から待機者が見切れていないか確認する。"
+    ],
+    "pitfalls": [
+      "英語 sightline は視線や見通しそのものを指し、必ず失敗や不要物の露出を意味するわけではない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-stage",
+    "name": "舞台",
+    "reading": "ぶたい",
+    "english": "Stage",
+    "aliases": [
+      "ステージ",
+      "palcoscenico",
+      "パルコシェーニコ"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "演者が演技や演奏を行うための区域。固定の高い床に限らず、平土間や仮設の会場内に設けた演技空間も含む。",
+    "usage": "公演に合わせて舞台と客席の配置を決める。",
+    "japan": "「舞台」と呼ぶ。",
+    "us": "Stage の呼称が使われる。",
+    "uk": "Stage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "演技区域",
+      "舞台床"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：palcoscenico。舞台という空間を指す。"
+  },
+  {
+    "id": "stage-actingarea",
+    "name": "演技区域",
+    "reading": "えんぎくいき",
+    "english": "Acting area",
+    "aliases": [
+      "アクティングエリア",
+      "Playing area"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "演者が観客に見せる演技を行う範囲。舞台の建築的な広さと同一ではなく、美術や照明、客席配置によって決まる。",
+    "usage": "今回の演技区域は前方の平台までとする。",
+    "japan": "「演技区域」と呼ぶ。",
+    "us": "Acting area の呼称が使われる。",
+    "uk": "Acting area の呼称が使われる。",
+    "note": "",
+    "related": [
+      "舞台",
+      "オンステージ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "AACT・Theatre Terms",
+        "url": "https://aact.org/theatre-terms"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-proscenium",
+    "name": "プロセニアム",
+    "reading": "ぷろせにあむ",
+    "english": "Proscenium",
+    "aliases": [
+      "プロセ",
+      "額縁",
+      "Proscenium arch",
+      "boccascena",
+      "arco scenico",
+      "ボッカシェーナ"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台と客席の境にある額縁状の開口部、またはその構造。観客が一方向から舞台を見る形式の基準となる。",
+    "usage": "プロセニアムの開口寸法に合わせて美術を計画する。",
+    "japan": "「プロセニアム」と呼ぶ。",
+    "us": "Proscenium の呼称が使われる。",
+    "uk": "Proscenium の呼称が使われる。",
+    "note": "",
+    "related": [
+      "間口",
+      "前舞台",
+      "可動プロセニアム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：boccascena、arco scenico。観客が舞台を見る額縁や開口に関する語。",
+    "kind": "term",
+    "detail": "舞台と客席の境にある額縁状の開口部、またはその構造。観客が一方向から舞台を見る形式の基準となる。観客が舞台を見る窓のような関係を作り、幕や美術、照明の見切りの基準になる。舞台全体の広さと開口の幅・高さは違う数値で、可動の枠を使用する場合には実際に見せる範囲がさらに変わる。前舞台が開口より客席側へ伸びる劇場もある。プロセニアムの開口寸法に合わせて美術を計画する。建築上の開口と装飾的な仮設の枠、可動枠を同じ寸法として扱わない。",
+    "examples": [
+      "プロセニアムの開口寸法に合わせて美術を計画する。"
+    ],
+    "pitfalls": [
+      "建築上の開口と装飾的な仮設の枠、可動枠を同じ寸法として扱わない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-falseproscenium",
+    "name": "可動プロセニアム",
+    "reading": "かどうぷろせにあむ",
+    "english": "Adjustable proscenium / False proscenium",
+    "aliases": [
+      "可動プロセ",
+      "仮設プロセニアム"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台の見える開口幅や高さを調整するための可動の枠。固定の建築開口の内側に設け、公演に合わせて見え方を変える。",
+    "usage": "可動プロセニアムを使った際の有効間口を確認する。",
+    "japan": "「可動プロセニアム」と呼ぶ。",
+    "us": "Adjustable proscenium / False proscenium の呼称が使われる。",
+    "uk": "Adjustable proscenium / False proscenium の呼称が使われる。",
+    "note": "False proscenium は仮設の額縁も含むため、可動設備だけを意味する語ではない。",
+    "related": [
+      "プロセニアム",
+      "間口"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-width",
+    "name": "間口",
+    "reading": "まぐち",
+    "english": "Stage width / Opening width",
+    "aliases": [
+      "開口幅",
+      "有効間口"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台や装置の左右方向の幅。舞台全体の幅、プロセニアムの開口幅、実際に使える幅のどれかを区別して示す。",
+    "usage": "仕込み図に有効間口を記載する。",
+    "japan": "「間口」と呼ぶ。",
+    "us": "Stage width / Opening width の呼称が使われる。",
+    "uk": "Stage width / Opening width の呼称が使われる。",
+    "note": "",
+    "related": [
+      "奥行",
+      "プロセニアム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台や装置の左右方向の幅。舞台全体の幅、プロセニアムの開口幅、実際に使える幅のどれかを区別して示す。客席から見える幅と、袖を含む舞台床の全幅は別の情報である。仕込み図では、何の幅を示しているかを明記し、舞台芯から左右へ取った寸法と全体寸法を区別する。仮設の枠や幕で見せる幅を変える場合も、有効な演技区域を更新する。仕込み図に有効間口を記載する。間口という一語だけで、搬入口や大道具の幅など別の対象の寸法と混同しない。",
+    "examples": [
+      "仕込み図に有効間口を記載する。"
+    ],
+    "pitfalls": [
+      "間口という一語だけで、搬入口や大道具の幅など別の対象の寸法と混同しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-depth",
+    "name": "奥行",
+    "reading": "おくゆき",
+    "english": "Stage depth",
+    "aliases": [
+      "有効奥行",
+      "舞台奥行"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台や舞台装置の前後方向の長さ。どの線からどこまでを測るかによって値が変わるため、基準線と一緒に示す。",
+    "usage": "前縁からホリゾント幕までの奥行を確かめる。",
+    "japan": "「奥行」と呼ぶ。",
+    "us": "Stage depth の呼称が使われる。",
+    "uk": "Stage depth の呼称が使われる。",
+    "note": "",
+    "related": [
+      "間口",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-apron",
+    "name": "前舞台",
+    "reading": "まえぶたい",
+    "english": "Apron / Forestage",
+    "aliases": [
+      "エプロン",
+      "エプロンステージ",
+      "proscenio",
+      "ribalta",
+      "プロシェーニオ"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "プロセニアムより客席側へ張り出した演技区域。舞台本体と続いていて、観客に近い位置で演じるために使われる。",
+    "usage": "前舞台に出演者を配置する。",
+    "japan": "「前舞台」と呼ぶ。",
+    "us": "Apron / Forestage の呼称が使われる。",
+    "uk": "Apron / Forestage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "プロセニアム",
+      "舞台端"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：proscenio、ribalta。幕より前の、客席側へ張り出した部分を指す。",
+    "kind": "term",
+    "detail": "プロセニアムより客席側へ張り出した演技区域。舞台本体と続いていて、観客に近い位置で演じるために使われる。プロセニアムと客席の間にある前方の舞台で、演者を観客へ近づける空間として使う。主幕を閉めても手前で演じられる場合があるが、実際の幕位置や演技可能な範囲は劇場による。ピット床の状態で広さが変わる施設もあるため、図面で確認する。前舞台に出演者を配置する。客席へ細長く伸びる花道やランウェイと、形が似ていても同じ機能の空間とは限らない。",
+    "examples": [
+      "前舞台に出演者を配置する。"
+    ],
+    "pitfalls": [
+      "客席へ細長く伸びる花道やランウェイと、形が似ていても同じ機能の空間とは限らない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-edge",
+    "name": "舞台端",
+    "reading": "ぶたいばな",
+    "english": "Stage edge",
+    "aliases": [
+      "ぶたいはな",
+      "舞台鼻",
+      "前縁"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台床の客席側の端。舞台前方という広い区域とは異なり、床の終わりに当たる境界を指す。",
+    "usage": "舞台端から立ち位置までの距離を確認する。",
+    "japan": "「舞台端」と呼ぶ。",
+    "us": "Stage edge の呼称が使われる。",
+    "uk": "Stage edge の呼称が使われる。",
+    "note": "",
+    "related": [
+      "前舞台",
+      "舞台前"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-wings",
+    "name": "舞台袖",
+    "reading": "ぶたいそで",
+    "english": "Wings",
+    "aliases": [
+      "袖",
+      "ウイング",
+      "ウィング"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "演技区域の左右にあり、客席から隠される空間。出演者の待機や出入り、道具の待機や転換に利用する。",
+    "usage": "上手袖に次の場面の道具を待機させる。",
+    "japan": "「舞台袖」と呼ぶ。",
+    "us": "Wings の呼称が使われる。",
+    "uk": "Wings の呼称が使われる。",
+    "note": "",
+    "related": [
+      "袖幕",
+      "オフステージ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ],
+    "kind": "term",
+    "detail": "演技区域の左右にあり、客席から隠される空間。出演者の待機や出入り、道具の待機や転換に利用する。出演者の待機、道具の出し入れ、衣裳の早替えなど複数の用途が重なりやすい。客席から隠れていることと、自由に物を置けることは別で、出入口や転換経路を含めて配置を共有する。袖幕の列が舞台袖の区分や動線の手掛かりになることもある。上手袖に次の場面の道具を待機させる。袖の広さを図面で見る時は、置いた道具の外形と人が動くための空間を分ける。",
+    "examples": [
+      "上手袖に次の場面の道具を待機させる。"
+    ],
+    "pitfalls": [
+      "袖の広さを図面で見る時は、置いた道具の外形と人が動くための空間を分ける。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-crossover",
+    "name": "クロスオーバー",
+    "reading": "くろすおーばー",
+    "english": "Crossover",
+    "aliases": [
+      "裏通り",
+      "渡り廊下"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "客席から見えないまま舞台の片側から反対側へ移動する通路。舞台後方や舞台下など、劇場によって経路が異なる。",
+    "usage": "出番の間にクロスオーバーで反対袖へ移動する。",
+    "japan": "「クロスオーバー」と呼ぶ。",
+    "us": "Crossover の呼称が使われる。",
+    "uk": "Crossover の呼称が使われる。",
+    "note": "音響では帯域を分けるクロスオーバーを意味する。同音の別概念。",
+    "related": [
+      "舞台袖",
+      "バックヤード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "客席から見えないまま舞台の片側から反対側へ移動する通路。舞台後方や舞台下など、劇場によって経路が異なる。上手から下手へ、または反対方向へ、客席に姿を見せずに移動する経路。舞台奥にあるとは限らず、床下や建物内の廊下を使う会場もある。公演の短い出番間隔へ収まるかを考えるためには、図面上の距離と実際の経路を合わせて把握する。出番の間にクロスオーバーで反対袖へ移動する。音響で帯域を分ける crossover とは別概念。舞台奥に空間があるだけで通行可能とは判断しない。",
+    "examples": [
+      "出番の間にクロスオーバーで反対袖へ移動する。"
+    ],
+    "pitfalls": [
+      "音響で帯域を分ける crossover とは別概念。舞台奥に空間があるだけで通行可能とは判断しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-backstage",
+    "name": "バックヤード",
+    "reading": "ばっくやーど",
+    "english": "Backstage / Back of house",
+    "aliases": [
+      "舞台裏",
+      "Backstage",
+      "BOH"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台裏、楽屋、スタッフの作業区域など、主に公演関係者が使う空間の総称。客席側の共用区域と区別して用いる。",
+    "usage": "搬入時にバックヤードの動線を確認する。",
+    "japan": "「バックヤード」と呼ぶ。",
+    "us": "Backstage / Back of house の呼称が使われる。",
+    "uk": "Backstage / Back of house の呼称が使われる。",
+    "note": "Back of house の範囲は劇場によって異なる。舞台袖だけを指す語ではない。",
+    "related": [
+      "舞台袖",
+      "楽屋",
+      "搬入口"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-deck",
+    "name": "舞台床",
+    "reading": "ぶたいゆか",
+    "english": "Deck / Stage floor",
+    "aliases": [
+      "デッキ",
+      "板"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "演技や舞台装置の設置に使う舞台の床面。常設の床と公演用に上から設ける床を区別して扱うことがある。",
+    "usage": "舞台床に使える仕上げ材を会館と相談する。",
+    "japan": "「舞台床」と呼ぶ。",
+    "us": "Deck / Stage floor の呼称が使われる。",
+    "uk": "Deck / Stage floor の呼称が使われる。",
+    "note": "",
+    "related": [
+      "地がすり",
+      "平台"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-rake",
+    "name": "傾斜舞台",
+    "reading": "けいしゃぶたい",
+    "english": "Raked stage",
+    "aliases": [
+      "レーキ",
+      "Rake",
+      "八百屋舞台",
+      "declivio",
+      "schräge Bühne",
+      "schrage Buhne",
+      "八百屋",
+      "八百屋飾り"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台床が傾斜している舞台。古典的な劇場では舞台奥が高い構成があり、作品の美術として傾斜床を設ける場合もある。",
+    "usage": "傾斜舞台を前提に演技と美術を計画する。",
+    "japan": "「傾斜舞台」と呼ぶ。",
+    "us": "Raked stage の呼称が使われる。",
+    "uk": "Raked stage の呼称が使われる。",
+    "note": "「八百屋」は傾斜した床や道具の飾り方を指す現場語でもある。",
+    "related": [
+      "舞台床",
+      "舞台奥"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "europe": "伊：declivio は舞台床の傾斜。独：schräge Bühne は傾斜した舞台。",
+    "kind": "term",
+    "detail": "舞台床が傾斜している舞台。古典的な劇場では舞台奥が高い構成があり、作品の美術として傾斜床を設ける場合もある。床の勾配は、演者の動きや道具の見え方、家具の姿勢などに影響する。常設舞台そのものの傾斜と、美術として設けた局所的な斜面を分けて図示すると、他部署も条件を把握しやすい。平面図だけでなく断面や高さの情報が重要になる。傾斜舞台を前提に演技と美術を計画する。傾斜を持つ舞台の上に置けば、道具や床材が水平舞台と同じ条件になるとは限らない。",
+    "examples": [
+      "傾斜舞台を前提に演技と美術を計画する。"
+    ],
+    "pitfalls": [
+      "傾斜を持つ舞台の上に置けば、道具や床材が水平舞台と同じ条件になるとは限らない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-orchestrapit",
+    "name": "オーケストラピット",
+    "reading": "おーけすとらぴっと",
+    "english": "Orchestra pit",
+    "aliases": [
+      "オケピ",
+      "ピット",
+      "golfo mistico",
+      "buca d’orchestra",
+      "ゴルフォミスティコ"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台と客席の間などに設け、オーケストラが演奏する空間。床を昇降して前舞台や客席へ転用できる施設もある。",
+    "usage": "ピットを使用するため客席配置を変更する。",
+    "japan": "「オーケストラピット」と呼ぶ。",
+    "us": "Orchestra pit の呼称が使われる。",
+    "uk": "Orchestra pit の呼称が使われる。",
+    "note": "",
+    "related": [
+      "前舞台",
+      "迫り"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：buca d’orchestra、golfo mistico。オーケストラの演奏空間を表す。",
+    "kind": "term",
+    "detail": "舞台と客席の間などに設け、オーケストラが演奏する空間。床を昇降して前舞台や客席へ転用できる施設もある。オーケストラが舞台演技と同時に演奏するための空間で、客席からの視線や舞台前縁との関係が重要になる。昇降する床を客席や前舞台へ転用する施設もあるが、利用可能な状態は会場の設備と運用によって異なる。音楽と舞台の連絡方法も公演ごとに考える。ピットを使用するため客席配置を変更する。ピット使用時の客席数や動線を、通常の客席配置のまま判断しない。",
+    "examples": [
+      "ピットを使用するため客席配置を変更する。"
+    ],
+    "pitfalls": [
+      "ピット使用時の客席数や動線を、通常の客席配置のまま判断しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-auditorium",
+    "name": "客席",
+    "reading": "きゃくせき",
+    "english": "Auditorium / House",
+    "aliases": [
+      "ハウス",
+      "Audience seating"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "観客が公演を見るための座席や区域。舞台、ホワイエ、楽屋などと区分され、英語では House とも呼ばれる。",
+    "usage": "客席から袖幕の見切れを確認する。",
+    "japan": "「客席」と呼ぶ。",
+    "us": "Auditorium / House の呼称が使われる。",
+    "uk": "Auditorium / House の呼称が使われる。",
+    "note": "House は文脈により劇場全体や観客を指すこともある。",
+    "related": [
+      "ホワイエ",
+      "桟敷"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-stalls",
+    "name": "平土間客席",
+    "reading": "ひらどまきゃくせき",
+    "english": "Stalls / Orchestra seating",
+    "aliases": [
+      "平土間",
+      "Stalls",
+      "Orchestra seats"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "バルコニーなどの上階席に対する、主階床側の客席。日本の伝統劇場の「土間」は座席形式や歴史的区分も含む。",
+    "usage": "主階の客席を図面で確認する。",
+    "japan": "主階席・一階席など、会場の区分名を使う。",
+    "us": "Orchestra または Orchestra seating と表す劇場がある。",
+    "uk": "Stalls と呼ぶ劇場が多い。",
+    "note": "日本語の平土間は「段床を持たない平らな床」も意味する。英米の座席区分と完全に同義ではない。",
+    "related": [
+      "客席",
+      "バルコニー席"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-balcony",
+    "name": "バルコニー席",
+    "reading": "ばるこにーせき",
+    "english": "Balcony / Circle",
+    "aliases": [
+      "上階席",
+      "Circle",
+      "Mezzanine"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "主階席より上の階に張り出した客席。劇場により階層名が異なり、英米でも Balcony、Mezzanine、Circle などを使い分ける。",
+    "usage": "上階のバルコニー席から見切れを確認する。",
+    "japan": "二階席・三階席などの階数表示が多い。",
+    "us": "Balcony や Mezzanine。階層名は劇場ごとに異なる。",
+    "uk": "Dress circle、Upper circle、Balcony など。劇場固有の呼称もある。",
+    "note": "Balcony と Mezzanine、Circle の階層を一律に対応させない。",
+    "related": [
+      "客席",
+      "平土間客席"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-foyer",
+    "name": "ホワイエ",
+    "reading": "ほわいえ",
+    "english": "Foyer / Lobby",
+    "aliases": [
+      "ロビー",
+      "フォワイエ"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "客席の外側にあり、開演前や休憩中に観客が滞在する共用空間。受付、飲食、展示などの機能を備える場合もある。",
+    "usage": "休憩時の案内をホワイエに掲示する。",
+    "japan": "「ホワイエ」と呼ぶ。",
+    "us": "Foyer / Lobby の呼称が使われる。",
+    "uk": "Foyer / Lobby の呼称が使われる。",
+    "note": "",
+    "related": [
+      "客席",
+      "フロントオブハウス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-foh",
+    "name": "フロントオブハウス",
+    "reading": "ふろんとおぶはうす",
+    "english": "Front of house",
+    "aliases": [
+      "FOH",
+      "表方"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "劇場のうち観客に開かれた区域、または接客・客席管理部門。音響や照明では客席側の設置位置を指す用法もある。",
+    "usage": "接客部門としての FOH と連絡を取る。",
+    "japan": "「フロントオブハウス」と呼ぶ。",
+    "us": "Front of house の呼称が使われる。",
+    "uk": "Front of house の呼称が使われる。",
+    "note": "音響の FOH ミックスや照明の FOH 位置とは、同じ語でも対象が異なる。",
+    "related": [
+      "ホワイエ",
+      "バックヤード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-dressingroom",
+    "name": "楽屋",
+    "reading": "がくや",
+    "english": "Dressing room",
+    "aliases": [
+      "ドレッシングルーム"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "出演者が衣装や化粧を整え、出番まで待機する部屋。共有の休憩室である Green room とは機能が異なる。",
+    "usage": "楽屋割を出演者ごとに決める。",
+    "japan": "「楽屋」と呼ぶ。",
+    "us": "Dressing room の呼称が使われる。",
+    "uk": "Dressing room の呼称が使われる。",
+    "note": "",
+    "related": [
+      "グリーンルーム",
+      "バックヤード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-greenroom",
+    "name": "グリーンルーム",
+    "reading": "ぐりーんるーむ",
+    "english": "Green room",
+    "aliases": [
+      "出演者控室",
+      "共用控室"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "出演者などが舞台裏で休憩・待機する共用の部屋。着替えを行う楽屋とは別に設けられる場合がある。",
+    "usage": "出番までグリーンルームで待機する。",
+    "japan": "「グリーンルーム」と呼ぶ。",
+    "us": "Green room の呼称が使われる。",
+    "uk": "Green room の呼称が使われる。",
+    "note": "必ず緑色の部屋を指す名称ではない。",
+    "related": [
+      "楽屋",
+      "バックヤード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-loadingdoor",
+    "name": "搬入口",
+    "reading": "はんにゅうぐち",
+    "english": "Loading dock / Scene dock",
+    "aliases": [
+      "荷捌き口",
+      "ローディングドック"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "道具や機材を建物内へ搬入・搬出するための出入口。入口の開口寸法や床レベル、経路が搬入計画の基準となる。",
+    "usage": "道具の大きさと搬入口の寸法を照合する。",
+    "japan": "「搬入口」と呼ぶ。",
+    "us": "Loading dock / Scene dock の呼称が使われる。",
+    "uk": "Loading dock / Scene dock の呼称が使われる。",
+    "note": "Loading dock は荷役のための床や区域を含むため、出入口だけの意味に限定しない。",
+    "related": [
+      "バックヤード",
+      "引枠"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-thrust",
+    "name": "スラストステージ",
+    "reading": "すらすとすてーじ",
+    "english": "Thrust stage",
+    "aliases": [
+      "張出し舞台",
+      "三方囲み"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台が客席へ突き出し、通常三方向を観客に囲まれる配置。額縁舞台に比べ、客席と演者の距離を近づけやすい。",
+    "usage": "三方の客席に対応した美術を考える。",
+    "japan": "「スラストステージ」と呼ぶ。",
+    "us": "Thrust stage の呼称が使われる。",
+    "uk": "Thrust stage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "プロセニアム",
+      "アリーナステージ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-round",
+    "name": "シアターインザラウンド",
+    "reading": "しあたーいんざらうんど",
+    "english": "Theatre in the round",
+    "aliases": [
+      "四方囲み",
+      "In the round"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "演技区域の全周を客席で囲む配置。名称にラウンドとあるが、舞台や客席の平面形状が円形である必要はない。",
+    "usage": "四方の視線を妨げない舞台美術にする。",
+    "japan": "「シアターインザラウンド」と呼ぶ。",
+    "us": "Theatre in the round の呼称が使われる。",
+    "uk": "Theatre in the round の呼称が使われる。",
+    "note": "",
+    "related": [
+      "アリーナステージ",
+      "見切れ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      }
+    ]
+  },
+  {
+    "id": "stage-arena",
+    "name": "アリーナステージ",
+    "reading": "ありーなすてーじ",
+    "english": "Arena stage",
+    "aliases": [
+      "Arena theatre",
+      "センターステージ"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "中央の演技区域を周囲の観客が囲む舞台形式。大規模な段床客席を持つ会場にも使われ、円形の舞台に限らない。",
+    "usage": "アリーナ配置で全方向への演出を計画する。",
+    "japan": "「アリーナステージ」と呼ぶ。",
+    "us": "Arena stage の呼称が使われる。",
+    "uk": "Arena stage の呼称が使われる。",
+    "note": "公演によって「アリーナ」は床上の客席区分を意味することもある。",
+    "related": [
+      "シアターインザラウンド",
+      "演技区域"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      }
+    ]
+  },
+  {
+    "id": "stage-blackbox",
+    "name": "ブラックボックス",
+    "reading": "ぶらっくぼっくす",
+    "english": "Black-box theatre",
+    "aliases": [
+      "スタジオシアター",
+      "可変劇場"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台や客席を固定せず、公演に合わせて柔軟に配置する上演空間。黒い内装が典型だが、名称の要点は可変性にある。",
+    "usage": "ブラックボックスで客席を対面配置にする。",
+    "japan": "「ブラックボックス」と呼ぶ。",
+    "us": "Black-box theatre の呼称が使われる。",
+    "uk": "Black-box theatre の呼称が使われる。",
+    "note": "",
+    "related": [
+      "演技区域",
+      "スラストステージ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-traverse",
+    "name": "トラバースステージ",
+    "reading": "とらばーすすてーじ",
+    "english": "Traverse stage",
+    "aliases": [
+      "対面式舞台",
+      "二方囲み"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "細長い演技区域を挟み、向かい合う二方向に客席を置く配置。観客が舞台越しに反対側の観客を見る構造になる。",
+    "usage": "二方向から見えることを踏まえて配置する。",
+    "japan": "「トラバースステージ」と呼ぶ。",
+    "us": "Traverse stage の呼称が使われる。",
+    "uk": "Traverse stage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "スラストステージ",
+      "見切れ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-promenade",
+    "name": "プロムナード形式",
+    "reading": "ぷろむなーどけいしき",
+    "english": "Promenade theatre",
+    "aliases": [
+      "移動型演劇",
+      "プロムナード"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "観客が一つの席に留まらず、演者や場面の進行に合わせて場所を移動しながら見る上演形式。場所の移動も体験に含まれる。",
+    "usage": "場面ごとに観客の移動経路を組む。",
+    "japan": "「プロムナード形式」と呼ぶ。",
+    "us": "Promenade theatre の呼称が使われる。",
+    "uk": "Promenade theatre の呼称が使われる。",
+    "note": "",
+    "related": [
+      "サイトスペシフィック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      }
+    ]
+  },
+  {
+    "id": "stage-sitespecific",
+    "name": "サイトスペシフィック",
+    "reading": "さいとすぺしふぃっく",
+    "english": "Site-specific theatre",
+    "aliases": [
+      "場所特定型演劇",
+      "Site specific"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "特定の場所の歴史や構造、雰囲気と結び付けて作る上演。通常の劇場以外を用いることが多いが、場所への固有性が要点。",
+    "usage": "建物の特徴を作品の構成に取り入れる。",
+    "japan": "「サイトスペシフィック」と呼ぶ。",
+    "us": "Site-specific theatre の呼称が使われる。",
+    "uk": "Site-specific theatre の呼称が使われる。",
+    "note": "非劇場空間で行う上演すべてが、必ずサイトスペシフィックになるわけではない。",
+    "related": [
+      "プロムナード形式"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      }
+    ]
+  },
+  {
+    "id": "stage-maincurtain",
+    "name": "緞帳",
+    "reading": "どんちょう",
+    "english": "Main curtain / House curtain",
+    "aliases": [
+      "主幕",
+      "グランドドレープ",
+      "Grand drape",
+      "sipario",
+      "シパーリオ"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台と客席の間を仕切る主幕。開閉によって舞台を見せたり隠したりし、布の仕様や昇降方式は施設により異なる。",
+    "usage": "開演のきっかけで緞帳を開ける。",
+    "japan": "「緞帳」と呼ぶ。",
+    "us": "Main curtain / House curtain の呼称が使われる。",
+    "uk": "Main curtain。舞台の幕を tabs と呼ぶ用法もある。",
+    "note": "",
+    "related": [
+      "定式幕",
+      "引割幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：sipario。幕の機構や開き方を特定する場合は、別途方式を添える。",
+    "kind": "term",
+    "detail": "舞台と客席の間を仕切る主幕。開閉によって舞台を見せたり隠したりし、布の仕様や昇降方式は施設により異なる。開閉の動きは、公演の始まりや終わりを伝える演出にもなる。昇降する幕と左右へ開く幕など方式があり、閉じた見た目だけでは必要な収納範囲や機構は分からない。舞台前で演じる場合は、幕の位置と演者が使う範囲を図面に表す。開演のきっかけで緞帳を開ける。主幕は防火幕の代用品ではない。幕があることと、どのタイミングでも動かせることを同じに考えない。",
+    "examples": [
+      "開演のきっかけで緞帳を開ける。"
+    ],
+    "pitfalls": [
+      "主幕は防火幕の代用品ではない。幕があることと、どのタイミングでも動かせることを同じに考えない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-traveller",
+    "name": "引割幕",
+    "reading": "ひきわりまく",
+    "english": "Traveller / Traveler",
+    "aliases": [
+      "トラベラー",
+      "引き割り幕"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "中央付近から左右へ分かれて開閉する幕。舞台を前後に区切ったり、後方の装置を隠したりするために使う。",
+    "usage": "引割幕の奥で次の場面を準備する。",
+    "japan": "「引割幕」と呼ぶ。",
+    "us": "Traveler の綴り。",
+    "uk": "Traveller の綴り。",
+    "note": "",
+    "related": [
+      "緞帳",
+      "暗転幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "中央付近から左右へ分かれて開閉する幕。舞台を前後に区切ったり、後方の装置を隠したりするために使う。左右へ寄せるため、開いた後の布がどこへ収まるかも舞台の配置に関係する。舞台の中央だけでなく奥や前方にも設けられ、後ろの転換を隠すなど目的によって使い方が変わる。劇場の固有名で呼ばれる幕は、図面の位置と対応させて覚えると分かりやすい。引割幕の奥で次の場面を準備する。左右へ開く仕組みと、布の色・用途は別の情報。黒い引割幕がすべて大黒幕という呼称になるわけではない。",
+    "examples": [
+      "引割幕の奥で次の場面を準備する。"
+    ],
+    "pitfalls": [
+      "左右へ開く仕組みと、布の色・用途は別の情報。黒い引割幕がすべて大黒幕という呼称になるわけではない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-border",
+    "name": "一文字幕",
+    "reading": "いちもんじまく",
+    "english": "Border",
+    "aliases": [
+      "一文字",
+      "ボーダー幕",
+      "Border curtain",
+      "cielo",
+      "soffitto",
+      "Soffitte",
+      "ソフィット"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台上部に横長に吊り、上方の設備や幕の吊元を隠す幕。左右の袖幕と組み合わせて、観客から見える範囲を整える。",
+    "usage": "一文字幕の高さで上部の見え方を整える。",
+    "japan": "「一文字幕」と呼ぶ。",
+    "us": "Border の呼称が使われる。",
+    "uk": "Border の呼称が使われる。",
+    "note": "照明のボーダーライトとは別の物。",
+    "related": [
+      "袖幕",
+      "マスキング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      },
+      {
+        "label": "Deutsches Archiv für Theaterpädagogik・Bühnentechnik",
+        "url": "https://archivdatp.de/worterbuch-buhnentechnik/"
+      }
+    ],
+    "europe": "伊：cielo／soffitto。独：Soffitte。舞台上部の見え方を整える横方向の幕や装置。",
+    "kind": "term",
+    "detail": "舞台上部に横長に吊り、上方の設備や幕の吊元を隠す幕。左右の袖幕と組み合わせて、観客から見える範囲を整える。客席から上方の設備が見えないようにする横方向のマスキング。袖幕との組み合わせで舞台の見える窓を作るが、下げ過ぎると高い装置や演者の動きの輪郭も隠れることがある。中央席だけでなく客席の位置により、上部の見え方が変化する。一文字幕の高さで上部の見え方を整える。ボーダーライトという横長の照明器具とは物が異なるので、幕か器具かを添える。",
+    "examples": [
+      "一文字幕の高さで上部の見え方を整える。"
+    ],
+    "pitfalls": [
+      "ボーダーライトという横長の照明器具とは物が異なるので、幕か器具かを添える。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-legs",
+    "name": "袖幕",
+    "reading": "そでまく",
+    "english": "Legs / Leg curtains",
+    "aliases": [
+      "レッグ",
+      "Legs",
+      "quinta",
+      "quinte",
+      "クインタ"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台の左右に縦長に吊り、袖の待機者や機材を客席から隠す幕。複数の列を設け、出入り口を作ることもある。",
+    "usage": "端席から袖幕の重なりを確認する。",
+    "japan": "「袖幕」と呼ぶ。",
+    "us": "Legs / Leg curtains の呼称が使われる。",
+    "uk": "Legs / Leg curtains の呼称が使われる。",
+    "note": "",
+    "related": [
+      "舞台袖",
+      "一文字幕",
+      "見切れ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "伊：quinta（複数 quinte）。布だけでなく、枠付きや車輪付きの側方装置も含む。",
+    "kind": "term",
+    "detail": "舞台の左右に縦長に吊り、袖の待機者や機材を客席から隠す幕。複数の列を設け、出入り口を作ることもある。左右の舞台裏を隠す縦方向の幕で、列と列の間を出演者や道具の出入りに使う。幕の重なりや向きは客席の視線と関係するため、開口の広さだけで配置を決めない。公演中に道具が動く場合は、その前後で隠したい範囲がどう変わるかを見る。端席から袖幕の重なりを確認する。袖幕と袖の空間を同じ物として数えず、何列・どの位置の幕なのかを特定する。",
+    "examples": [
+      "端席から袖幕の重なりを確認する。"
+    ],
+    "pitfalls": [
+      "袖幕と袖の空間を同じ物として数えず、何列・どの位置の幕なのかを特定する。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-blackbackdrop",
+    "name": "大黒幕",
+    "reading": "おおぐろまく",
+    "english": "Black backdrop / Black cloth",
+    "aliases": [
+      "大黒",
+      "黒バック"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台後方を大きく覆う黒い幕。奥の設備や空間を隠し、演技や舞台美術の背景を黒でまとめるために使う。",
+    "usage": "大黒幕を背景に式典を行う。",
+    "japan": "「大黒幕」と呼ぶ。",
+    "us": "Black backdrop / Black cloth の呼称が使われる。",
+    "uk": "Black backdrop / Black cloth の呼称が使われる。",
+    "note": "Blackout curtain は遮光性能を指す場合もあり、一律に大黒幕の訳とはしない。",
+    "related": [
+      "ホリゾント幕",
+      "背景幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台後方を大きく覆う黒い幕。奥の設備や空間を隠し、演技や舞台美術の背景を黒でまとめるために使う。背景を黒でまとめる時に使う大きな幕だが、色が黒いことだけで光を完全に遮るとは限らない。照明や映像が当たる面になる場合には、毛並みや艶、継ぎ目などが見た目へ影響する。ホリゾント幕を使う場面との切替では、前後関係も図面で共有する。大黒幕を背景に式典を行う。大黒幕の仕様と、防火や完全遮光の性能を名称だけで結び付けない。",
+    "examples": [
+      "大黒幕を背景に式典を行う。"
+    ],
+    "pitfalls": [
+      "大黒幕の仕様と、防火や完全遮光の性能を名称だけで結び付けない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-cyclorama",
+    "name": "ホリゾント幕",
+    "reading": "ほりぞんとまく",
+    "english": "Cyclorama",
+    "aliases": [
+      "ホリ幕",
+      "ホリ",
+      "Cyc",
+      "サイクロラマ"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台後方に広く設け、空や色面などの背景を作る幕。照明や映像の当て方で、奥行きや時間の変化を表現する。",
+    "usage": "ホリゾント幕を夕景の色に照らす。",
+    "japan": "「ホリゾント幕」と呼ぶ。",
+    "us": "Cyclorama の呼称が使われる。",
+    "uk": "Cyclorama の呼称が使われる。",
+    "note": "Cyclorama は曲面の背景や背景面全体も指す。すべてのホリ幕が湾曲しているわけではない。",
+    "related": [
+      "大黒幕",
+      "背景幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台後方に広く設け、空や色面などの背景を作る幕。照明や映像の当て方で、奥行きや時間の変化を表現する。空や抽象的な色面を見せる背景として使われ、照明の色・方向・均一さによって空間の印象が変わる。幕の前に人物や道具を置くと影や反射が生じるため、舞台奥の余裕と併せて計画する。素材や継ぎ目の有無は、映像を投影する場合にも関係する。ホリゾント幕を夕景の色に照らす。Cyclorama の語は背景面全体や曲面も含む。日本のホリ幕がすべて同じ白布や同じ形状とは限らない。",
+    "examples": [
+      "ホリゾント幕を夕景の色に照らす。"
+    ],
+    "pitfalls": [
+      "Cyclorama の語は背景面全体や曲面も含む。日本のホリ幕がすべて同じ白布や同じ形状とは限らない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-backdrop",
+    "name": "背景幕",
+    "reading": "はいけいまく",
+    "english": "Backdrop / Backcloth",
+    "aliases": [
+      "道具幕",
+      "ドロップ",
+      "Drop",
+      "fondale",
+      "Prospekt"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "風景や室内などを描いて場面の背景にする幕。無地の幕を照らす方法とは別に、絵そのものが場所や空間を示す。",
+    "usage": "背景幕を場面に合わせて入れ替える。",
+    "japan": "「背景幕」と呼ぶ。",
+    "us": "Backdrop / Backcloth の呼称が使われる。",
+    "uk": "Backdrop / Backcloth の呼称が使われる。",
+    "note": "",
+    "related": [
+      "遠見",
+      "カットクロス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      },
+      {
+        "label": "Deutsches Archiv für Theaterpädagogik・Bühnentechnik",
+        "url": "https://archivdatp.de/worterbuch-buhnentechnik/"
+      }
+    ],
+    "europe": "伊：fondale。独：Prospekt。舞台後方の背景に使われる語。",
+    "kind": "term",
+    "detail": "風景や室内などを描いて場面の背景にする幕。無地の幕を照らす方法とは別に、絵そのものが場所や空間を示す。布そのものに描かれた絵によって、場所や時代、遠方の景色を示す。装置の奥へ吊る場合は人物との縮尺や視線を合わせ、複数枚を使う場合は前後の重なりで奥行きを作る。背景の内容と幕の昇降方式は別の情報として記録すると、再演時にも使いやすい。背景幕を場面に合わせて入れ替える。背景幕という用途名だけでは、生地や透け方、投影への適性までは決まらない。",
+    "examples": [
+      "背景幕を場面に合わせて入れ替える。"
+    ],
+    "pitfalls": [
+      "背景幕という用途名だけでは、生地や透け方、投影への適性までは決まらない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-scrim",
+    "name": "紗幕",
+    "reading": "しゃまく",
+    "english": "Scrim / Gauze",
+    "aliases": [
+      "しゃ",
+      "ガーゼ幕"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "目の粗い透ける布を使う幕。前後の照明の関係によって、幕面を見せたり、後方の人物や装置を透かして見せたりする。",
+    "usage": "紗幕の向こうの人物が現れる演出を作る。",
+    "japan": "「紗幕」と呼ぶ。",
+    "us": "Scrim と呼ぶ。",
+    "uk": "Gauze と呼ぶ用法が一般的。",
+    "note": "透け方は照明条件や布の種類に左右される。常に同じ見え方になるわけではない。",
+    "related": [
+      "ホリゾント幕",
+      "マスキング",
+      "シャークストゥース紗"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "目の粗い透ける布を使う幕。前後の照明の関係によって、幕面を見せたり、後方の人物や装置を透かして見せたりする。前から幕面へ光を当てて見せる状態と、後ろの人物や装置を明るくして透かす状態を使い分ける。効果は布だけでなく前後の明るさや不要な光の回り込みに依存するため、照明・美術が一緒に場面を検討する。投影用に使う場合も同じ素材で結果が変わる。紗幕の向こうの人物が現れる演出を作る。英国の Gauze と米国の Scrim の呼称差はあるが、すべての製品が同一の織りや目の細かさを持つわけではない。",
+    "examples": [
+      "紗幕の向こうの人物が現れる演出を作る。"
+    ],
+    "pitfalls": [
+      "英国の Gauze と米国の Scrim の呼称差はあるが、すべての製品が同一の織りや目の細かさを持つわけではない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-masking",
+    "name": "マスキング",
+    "reading": "ますきんぐ",
+    "english": "Masking",
+    "aliases": [
+      "目隠し",
+      "見切り"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "客席から見せたくない舞台裏や設備を、幕や装置などで隠すこと。隠すための幕や部材そのものを指す場合もある。",
+    "usage": "窓の奥にマスキングを設ける。",
+    "japan": "「マスキング」と呼ぶ。",
+    "us": "Masking の呼称が使われる。",
+    "uk": "Masking の呼称が使われる。",
+    "note": "",
+    "related": [
+      "袖幕",
+      "一文字幕",
+      "かがみ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-teaser",
+    "name": "ティーザー",
+    "reading": "てぃーざー",
+    "english": "Teaser",
+    "aliases": [
+      "Teaser border"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "プロセニアム上部で開口の高さを調整し、上方を隠すための幕や部材。側方のトーメンターと組み合わせて使う。",
+    "usage": "ティーザーの位置で開口高を整える。",
+    "japan": "「ティーザー」と呼ぶ。",
+    "us": "Teaser の呼称が使われる。",
+    "uk": "Teaser の呼称が使われる。",
+    "note": "すべての一文字幕を、狭い意味のティーザーと同一視しない。",
+    "related": [
+      "トーメンター",
+      "一文字幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-tormentor",
+    "name": "トーメンター",
+    "reading": "とーめんたー",
+    "english": "Tormentor",
+    "aliases": [
+      "Tormenter",
+      "トーメンタ"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "プロセニアム付近の左右に置き、開口幅や袖の見え方を調整する縦長の幕やパネル。構造は劇場によって異なる。",
+    "usage": "トーメンターで前方の袖を隠す。",
+    "japan": "「トーメンター」と呼ぶ。",
+    "us": "Tormentor の呼称が使われる。",
+    "uk": "Tormentor の呼称が使われる。",
+    "note": "Legs の一部を指して使う資料もあるため、劇場図面の区分を優先する。",
+    "related": [
+      "ティーザー",
+      "袖幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-safetycurtain",
+    "name": "防火幕",
+    "reading": "ぼうかまく",
+    "english": "Safety curtain / Fire curtain",
+    "aliases": [
+      "防火シャッター",
+      "Iron",
+      "Fire curtain",
+      "tagliafuoco",
+      "eiserner Vorhang",
+      "タグリアフオーコ"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台側と客席側を区画するために設ける防火用の設備。演出用の緞帳とは目的が異なり、劇場の防火計画に属する。",
+    "usage": "舞台図面で防火幕の位置を確認する。",
+    "japan": "「防火幕」と呼ぶ。",
+    "us": "Safety curtain / Fire curtain の呼称が使われる。",
+    "uk": "Safety curtain、または Iron と呼ぶ。",
+    "note": "演出幕の代用品として扱わない。名称だけで個別設備の防火性能は判断できない。",
+    "related": [
+      "緞帳",
+      "プロセニアム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      },
+      {
+        "label": "Deutsches Archiv für Theaterpädagogik・Bühnentechnik",
+        "url": "https://archivdatp.de/worterbuch-buhnentechnik/"
+      }
+    ],
+    "europe": "伊：tagliafuoco。独：eiserner Vorhang。防火目的の幕・区画設備を指す。"
+  },
+  {
+    "id": "stage-blackoutcurtain",
+    "name": "暗転幕",
+    "reading": "あんてんまく",
+    "english": "Blackout cloth / Scene-change curtain",
+    "aliases": [
+      "転換幕"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "暗転中の場面転換を客席から隠すために使う幕。幕の奥で作業し、次の場面を見せるタイミングを整える。",
+    "usage": "暗転幕の奥で大道具を転換する。",
+    "japan": "「暗転幕」と呼ぶ。",
+    "us": "Blackout cloth / Scene-change curtain の呼称が使われる。",
+    "uk": "Blackout cloth / Scene-change curtain の呼称が使われる。",
+    "note": "英語では布の遮光性を意味する blackout cloth と、用途を説明する表現を使い分ける。",
+    "related": [
+      "引割幕",
+      "大黒幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-cutcloth",
+    "name": "カットクロス",
+    "reading": "かっとくろす",
+    "english": "Cut cloth",
+    "aliases": [
+      "切抜き幕",
+      "Cut drop"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "輪郭や開口を切り抜いて作る背景用の布。必要に応じてネットなどで支え、木立や建物の間から奥の景色を見せる。",
+    "usage": "木立のカットクロスを背景の手前に吊る。",
+    "japan": "「カットクロス」と呼ぶ。",
+    "us": "Cut cloth の呼称が使われる。",
+    "uk": "Cut cloth の呼称が使われる。",
+    "note": "",
+    "related": [
+      "背景幕",
+      "遠見"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-floorcloth",
+    "name": "地がすり",
+    "reading": "じがすり",
+    "english": "Floorcloth / Ground cloth",
+    "aliases": [
+      "地絣",
+      "床布"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞台床を覆うように敷く布。床の色や質感を場面に合わせたり、既存の床面を視覚的にまとめたりする。",
+    "usage": "地がすりで舞台床を一つの色にまとめる。",
+    "japan": "「地がすり」と呼ぶ。",
+    "us": "Floorcloth / Ground cloth の呼称が使われる。",
+    "uk": "Floorcloth / Ground cloth の呼称が使われる。",
+    "note": "",
+    "related": [
+      "舞台床",
+      "リノリウム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台床を覆うように敷く布。床の色や質感を場面に合わせたり、既存の床面を視覚的にまとめたりする。舞台床の色や模様を一つの面にまとめるために使う。上に置く大道具や動く物、踊りの有無などにより求める表面の条件が異なるため、布の見え方だけで採用を決めない。絵や縫い目の位置を平面図へ対応させておくと、次回も同じ位置へ再現しやすい。地がすりで舞台床を一つの色にまとめる。床に敷く布と、弾性を持つ舞踊用床システムは同じ機能ではない。",
+    "examples": [
+      "地がすりで舞台床を一つの色にまとめる。"
+    ],
+    "pitfalls": [
+      "床に敷く布と、弾性を持つ舞踊用床システムは同じ機能ではない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-linoleum",
+    "name": "リノリウム",
+    "reading": "りのりうむ",
+    "english": "Dance floor / Linoleum",
+    "aliases": [
+      "リノ",
+      "ダンスマット",
+      "Marley floor"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "舞踊などで床の仕上げに用いるシート状の床材を指す現場語。実際にはビニル系ダンス床など、異なる素材を含むことがある。",
+    "usage": "公演で使用する床材の仕様を確認する。",
+    "japan": "「リノリウム」と呼ぶ。",
+    "us": "Dance floor / Linoleum の呼称が使われる。",
+    "uk": "Dance floor / Linoleum の呼称が使われる。",
+    "note": "素材としてのリノリウムと、慣用名の「リノ」を区別する。Marley は商標由来の呼称。",
+    "related": [
+      "地がすり",
+      "舞台床"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-furiotoshi",
+    "name": "振り落とし",
+    "reading": "ふりおとし",
+    "english": "Kabuki drop",
+    "aliases": [
+      "振落し",
+      "Kabuki reveal"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "吊られた幕をきっかけに合わせて落下させ、奥の場面を一度に見せる演出。また、そのための幕の仕掛けを指す。",
+    "usage": "幕の振り落としで新しい場面を見せる。",
+    "japan": "「振り落とし」と呼ぶ。",
+    "us": "Kabuki drop の呼称が使われる。",
+    "uk": "Kabuki drop の呼称が使われる。",
+    "note": "幕を落とす仕掛けの総称であり、特定の装置名や操作手順ではない。",
+    "related": [
+      "振り被せ",
+      "背景幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-furikabuse",
+    "name": "振り被せ",
+    "reading": "ふりかぶせ",
+    "english": "Drop-in reveal cloth",
+    "aliases": [
+      "振被せ",
+      "振りかぶせ"
+    ],
+    "category": "stage",
+    "subcategory": "幕・背景",
+    "definition": "巻くなどして上部に収めた幕を、きっかけで展開して場面を覆ったり背景を変えたりする演出。幕を外して落とす振り落としと区別する。",
+    "usage": "幕を振り被せて場面の印象を変える。",
+    "japan": "「振り被せ」と呼ぶ。",
+    "us": "Drop-in reveal cloth として機能を説明する。",
+    "uk": "Drop-in reveal cloth として機能を説明する。",
+    "note": "英語は機能の説明で、厳密な一対一の定訳ではない。",
+    "related": [
+      "振り落とし",
+      "背景幕"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-scenery",
+    "name": "大道具",
+    "reading": "おおどうぐ",
+    "english": "Scenery / Set",
+    "aliases": [
+      "舞台装置",
+      "セット",
+      "Scenic elements",
+      "Kulissen"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "建物、壁、階段、床など、舞台上の空間を構成する比較的大きな装置。小道具との区分は規模や運用によって異なる。",
+    "usage": "大道具の配置を舞台平面図で確認する。",
+    "japan": "「大道具」と呼ぶ。",
+    "us": "Scenery / Set の呼称が使われる。",
+    "uk": "Scenery / Set の呼称が使われる。",
+    "note": "",
+    "related": [
+      "小道具",
+      "張物",
+      "舞台美術"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ],
+    "europe": "独：Kulissen は舞台を構成する背景・装置に使う語。Bühnenbild は舞台の視覚的構成全体にも用いる。"
+  },
+  {
+    "id": "stage-setdesign",
+    "name": "舞台美術",
+    "reading": "ぶたいびじゅつ",
+    "english": "Set design / Scenic design",
+    "aliases": [
+      "装置デザイン",
+      "セノグラフィー",
+      "Scenography",
+      "Bühnenbild",
+      "Szenenbild"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "舞台の空間や装置、背景などを設計し、作品の世界を視覚的に構成する仕事やその表現。大道具の製作だけを意味しない。",
+    "usage": "舞台美術と照明の関係を打ち合わせる。",
+    "japan": "「舞台美術」と呼ぶ。",
+    "us": "Set design / Scenic design の呼称が使われる。",
+    "uk": "Set design / Scenic design の呼称が使われる。",
+    "note": "Scenography は衣装や照明なども含む広い空間表現を指すことがある。",
+    "related": [
+      "大道具",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ],
+    "europe": "独：Bühnenbild、Szenenbild。舞台空間の視覚的な構成に関する語。"
+  },
+  {
+    "id": "stage-flat",
+    "name": "張物",
+    "reading": "はりもの",
+    "english": "Flat",
+    "aliases": [
+      "張り物",
+      "パネル",
+      "フラット"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "木などの枠に板や布を張った、壁や背景に使う平面的な舞台装置。開口を設けて扉や窓を組み込むこともある。",
+    "usage": "張物で室内の壁面を構成する。",
+    "japan": "「張物」と呼ぶ。",
+    "us": "Flat の呼称が使われる。",
+    "uk": "Flat の呼称が使われる。",
+    "note": "",
+    "related": [
+      "大道具",
+      "かがみ",
+      "人形立て"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-platform",
+    "name": "平台",
+    "reading": "ひらだい",
+    "english": "Platform / Rostrum",
+    "aliases": [
+      "平",
+      "プラットフォーム",
+      "Rostrum",
+      "Bühnenpodest",
+      "Buhnenpodest"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "舞台上に段差や高い床を設けるための平らな台。脚や支持部材と組み合わせて、演技や演奏のための床面を構成する。",
+    "usage": "平台を並べて演奏者のひな壇を作る。",
+    "japan": "「平台」と呼ぶ。",
+    "us": "Platform、または用途に応じて Riser。",
+    "uk": "Platform や Rostrum。",
+    "note": "寸法、脚の構成、支持方法は製品や劇場によって異なる。",
+    "related": [
+      "箱馬",
+      "開き足",
+      "二重"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ],
+    "europe": "独：Bühnenpodest。モジュールなどで構成する高い床の要素。",
+    "kind": "term",
+    "detail": "舞台上に段差や高い床を設けるための平らな台。脚や支持部材と組み合わせて、演技や演奏のための床面を構成する。床面を高くする部材として、脚や箱馬などと組み合わせて台組みを作る。日本の備品に使われる平台と、海外のモジュール床や rostrum は近い用途を持つが、寸法や接続、支持の仕組みが異なる。備品表では台の外寸だけでなく構成する部材を分けて把握する。平台を並べて演奏者のひな壇を作る。同じ呼称や近い外寸であっても、他の脚や床ユニットと互換だとは考えない。",
+    "examples": [
+      "平台を並べて演奏者のひな壇を作る。"
+    ],
+    "pitfalls": [
+      "同じ呼称や近い外寸であっても、他の脚や床ユニットと互換だとは考えない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-hakouma",
+    "name": "箱馬",
+    "reading": "はこうま",
+    "english": "Box support / Stage block",
+    "aliases": [
+      "箱足",
+      "はこあし"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "平台などを支え、床面の高さを作るための箱状の部材。日本の舞台で用いられ、同じ呼称でも寸法や構造は一律ではない。",
+    "usage": "台組みに必要な箱馬を会館の備品表で確認する。",
+    "japan": "「箱馬」と呼ぶ。",
+    "us": "Box support / Stage block として機能を説明する。",
+    "uk": "Box support / Stage block として機能を説明する。",
+    "note": "英語は機能を表す説明。撮影用 Apple box と仕様を同一視しない。",
+    "related": [
+      "平台",
+      "開き足",
+      "二重"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "平台などを支え、床面の高さを作るための箱状の部材。日本の舞台で用いられ、同じ呼称でも寸法や構造は一律ではない。平台を支える箱状の部材で、どの面を使うかなどによって組み合わせる床の高さに関係する。日本の舞台の台組みでよく現れるが、会場や製品で寸法や作りに差があるため、慣用の寸法を決めつけず実際の備品を確認する。道具の陰に隠れる部材も台組みの一部として数える。台組みに必要な箱馬を会館の備品表で確認する。撮影用の Apple box と同じ形に見えても、材質や寸法、用途を同一の仕様として扱わない。",
+    "examples": [
+      "台組みに必要な箱馬を会館の備品表で確認する。"
+    ],
+    "pitfalls": [
+      "撮影用の Apple box と同じ形に見えても、材質や寸法、用途を同一の仕様として扱わない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-hirakiashi",
+    "name": "開き足",
+    "reading": "ひらきあし",
+    "english": "Folding platform legs",
+    "aliases": [
+      "開脚"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "平台を所定の高さで支えるための、開閉する脚の部材。箱馬などとともに、日本の舞台で台組みに使われる。",
+    "usage": "平台に用いる開き足の種類を確認する。",
+    "japan": "「開き足」と呼ぶ。",
+    "us": "Folding platform legs として機能を説明する。",
+    "uk": "Folding platform legs として機能を説明する。",
+    "note": "高さや互換性は劇場・製品によって異なる。",
+    "related": [
+      "平台",
+      "箱馬",
+      "二重"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-niju",
+    "name": "二重",
+    "reading": "にじゅう",
+    "english": "Raised platform / Rostra",
+    "aliases": [
+      "二重舞台",
+      "台組み"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "舞台床の上にさらに設ける高い床や、その台組み。平台と支持部材などで構成し、場面の高低差や演奏台を作る。",
+    "usage": "二重の上を演技区域に含める。",
+    "japan": "「二重」と呼ぶ。",
+    "us": "Raised platform / Rostra として機能を説明する。",
+    "uk": "Raised platform / Rostra として機能を説明する。",
+    "note": "二階建ての舞台だけを意味する語ではない。",
+    "related": [
+      "平台",
+      "箱馬",
+      "蹴込み"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台床の上にさらに設ける高い床や、その台組み。平台と支持部材などで構成し、場面の高低差や演奏台を作る。舞台床の上にさらに高さのある演技面を作るための台組み。高さは装置の見え方だけでなく、出入りや他の道具との関係にも影響する。平台、支持部材、前面の蹴込みなどを分けて図示すると、製作や会場の備品確認で必要な構成を共有しやすい。二重の上を演技区域に含める。二重という呼称は二階建ての建物だけを指さず、数字から具体的な高さや段数は決まらない。",
+    "examples": [
+      "二重の上を演技区域に含める。"
+    ],
+    "pitfalls": [
+      "二重という呼称は二階建ての建物だけを指さず、数字から具体的な高さや段数は決まらない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-fascia",
+    "name": "蹴込み",
+    "reading": "けこみ",
+    "english": "Fascia / Stage skirt",
+    "aliases": [
+      "け込み",
+      "スカート"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "平台や二重の前面・側面に付け、脚や床下の空間を客席から隠す部分。板や布など、公演に合う素材を使う。",
+    "usage": "二重の前に蹴込みを付けて脚を隠す。",
+    "japan": "「蹴込み」と呼ぶ。",
+    "us": "Fascia / Stage skirt の呼称が使われる。",
+    "uk": "Fascia / Stage skirt の呼称が使われる。",
+    "note": "Fascia は板状の前面、Stage skirt は布の覆いを指す場合が多く、素材で説明を分ける。",
+    "related": [
+      "二重",
+      "平台",
+      "マスキング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-wagon",
+    "name": "引枠",
+    "reading": "ひきわく",
+    "english": "Scenery wagon",
+    "aliases": [
+      "引き枠",
+      "ワゴン",
+      "Wagon",
+      "Bühnenwagen",
+      "Buhnenwagen"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "大道具を載せて移動できる、車輪付きの台や枠。装置を組んだ状態で出し入れし、場面転換に利用する。",
+    "usage": "引枠に室内セットを載せて待機させる。",
+    "japan": "「引枠」と呼ぶ。",
+    "us": "Scenery wagon の呼称が使われる。",
+    "uk": "Scenery wagon の呼称が使われる。",
+    "note": "",
+    "related": [
+      "大道具",
+      "廻り舞台"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ],
+    "europe": "独：Bühnenwagen。舞台装置などを載せて移動する台。",
+    "kind": "term",
+    "detail": "大道具を載せて移動できる、車輪付きの台や枠。装置を組んだ状態で出し入れし、場面転換に利用する。道具を組んだ状態で移動させ、場面を短時間で切り替えるために使う。道具を載せる部分だけでなく、車輪や移動時の輪郭を含めて舞台面の空間を考える。舞台奥や袖で待機する位置と、本番で見せる位置を両方記録すると転換の流れが分かる。引枠に室内セットを載せて待機させる。手押し、レール、駆動付きなどの方式で条件は異なる。キャスターがあるだけで任意の床で同じように動くとは限らない。",
+    "examples": [
+      "引枠に室内セットを載せて待機させる。"
+    ],
+    "pitfalls": [
+      "手押し、レール、駆動付きなどの方式で条件は異なる。キャスターがあるだけで任意の床で同じように動くとは限らない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-brace",
+    "name": "人形立て",
+    "reading": "にんぎょうだて",
+    "english": "Stage brace / Jack",
+    "aliases": [
+      "支木",
+      "しぎ",
+      "Braces"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "張物やパネルを背面から支える部材。平面の装置を舞台上で立てて配置する際に用い、形状や構造はさまざま。",
+    "usage": "張物の背面に人形立てを配置する。",
+    "japan": "「人形立て」と呼ぶ。",
+    "us": "Stage brace / Jack の呼称が使われる。",
+    "uk": "Stage brace / Jack の呼称が使われる。",
+    "note": "名称は部材の概念を示す。個別の固定方法や強度を保証する説明ではない。",
+    "related": [
+      "張物",
+      "大道具"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "張物やパネルを背面から支える部材。平面の装置を舞台上で立てて配置する際に用い、形状や構造はさまざま。張物を背面から支えるための部材。舞台上で見せる壁面と、後ろで支える部分は別の要素で、配置図にはどちらの占有範囲も考える。伝統的な木製の支えと金属の伸縮式ブレースなどでは構成が異なり、部材名が近いことだけで同じ使い方へまとめない。張物の背面に人形立てを配置する。支えが付いたことだけで、張物のあらゆる転倒や外力へ対応できるという意味にはならない。",
+    "examples": [
+      "張物の背面に人形立てを配置する。"
+    ],
+    "pitfalls": [
+      "支えが付いたことだけで、張物のあらゆる転倒や外力へ対応できるという意味にはならない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-backing",
+    "name": "かがみ",
+    "reading": "かがみ",
+    "english": "Backing",
+    "aliases": [
+      "鏡",
+      "見返し"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "道具の扉や窓の奥に置き、開口から舞台裏が見えないようにする張物など。反射する鏡とは別の大道具用語。",
+    "usage": "窓を開けても裏が見えないよう、かがみを飾る。",
+    "japan": "「かがみ」と呼ぶ。",
+    "us": "Backing として機能を説明する。",
+    "uk": "Backing として機能を説明する。",
+    "note": "舞台装置の「かがみ」は鏡面材の意味ではない。",
+    "related": [
+      "張物",
+      "マスキング",
+      "見切れ"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "道具の扉や窓の奥に置き、開口から舞台裏が見えないようにする張物など。反射する鏡とは別の大道具用語。扉や窓の開口から、本来見せたくない舞台裏が見えることを防ぐための装置。場面の背景として絵を付ける場合もある。開口が閉じている状態だけでなく、演者が出入りする時や観客の端席からの視線を想定し、見える範囲を舞台平面図へ対応させる。窓を開けても裏が見えないよう、かがみを飾る。鏡面で像を反射する物や、能舞台の鏡板とは別の大道具用語。",
+    "examples": [
+      "窓を開けても裏が見えないよう、かがみを飾る。"
+    ],
+    "pitfalls": [
+      "鏡面で像を反射する物や、能舞台の鏡板とは別の大道具用語。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-distantview",
+    "name": "遠見",
+    "reading": "とおみ",
+    "english": "Distant scenery / Distant backing",
+    "aliases": [
+      "遠景"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "遠方の景色を表す背景や装置。近景の道具の奥に置き、絵や縮尺の違いによって遠い空間を感じさせる。",
+    "usage": "窓の奥に街の遠見を置く。",
+    "japan": "「遠見」と呼ぶ。",
+    "us": "Distant scenery / Distant backing として機能を説明する。",
+    "uk": "Distant scenery / Distant backing として機能を説明する。",
+    "note": "英語は描く対象や配置を説明する表現。",
+    "related": [
+      "背景幕",
+      "かがみ"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-boxset",
+    "name": "ボックスセット",
+    "reading": "ぼっくすせっと",
+    "english": "Box set",
+    "aliases": [
+      "箱型装置",
+      "室内装置"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "室内の壁を囲うように構成する舞台装置。三方の壁などによって室内を示し、客席側を開いて演技を見せる。",
+    "usage": "ボックスセットで居間を表現する。",
+    "japan": "「ボックスセット」と呼ぶ。",
+    "us": "Box set の呼称が使われる。",
+    "uk": "Box set の呼称が使われる。",
+    "note": "",
+    "related": [
+      "張物",
+      "大道具"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-periaktoi",
+    "name": "ペリアクトイ",
+    "reading": "ぺりあくとい",
+    "english": "Periaktoi",
+    "aliases": [
+      "ペリアクト",
+      "Periaktos"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "複数の面に異なる絵や仕上げを施し、回転させて場面を変える柱状の舞台装置。三角柱状のものが典型とされる。",
+    "usage": "ペリアクトイを回して背景を変える。",
+    "japan": "「ペリアクトイ」と呼ぶ。",
+    "us": "Periaktoi の呼称が使われる。",
+    "uk": "Periaktoi の呼称が使われる。",
+    "note": "",
+    "related": [
+      "廻り舞台",
+      "背景幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-props",
+    "name": "小道具",
+    "reading": "こどうぐ",
+    "english": "Props / Properties",
+    "aliases": [
+      "プロップ",
+      "Properties",
+      "Requisiten",
+      "レクヴィジーテン"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "演者が扱う物や、場面の生活感・状況を表す物品。手持ちの物だけでなく、家具や装飾品を含める区分もある。",
+    "usage": "場面ごとの小道具リストを作る。",
+    "japan": "「小道具」と呼ぶ。",
+    "us": "Props / Properties の呼称が使われる。",
+    "uk": "Props / Properties の呼称が使われる。",
+    "note": "家具を大道具に含めるか小道具に含めるかは、製作・運営上の分担で変わる。",
+    "related": [
+      "大道具",
+      "持道具",
+      "置道具",
+      "小道具台"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ],
+    "europe": "独：Requisiten。舞台の世界を構成する物品を指す。",
+    "kind": "term",
+    "detail": "演者が扱う物や、場面の生活感・状況を表す物品。手持ちの物だけでなく、家具や装飾品を含める区分もある。演者が持つ物や場面を構成する調度などを扱う分類で、道具の大きさだけで大道具と分けられるとは限らない。稽古で何をどう使うかが決まると、素材、数、受け渡し、予備の有無などの要求が具体化する。役や場面を表す資料と実物の識別を対応させることが重要になる。場面ごとの小道具リストを作る。家具を小道具に含めるかなど職務分担は制作体制で変わるため、一般の訳語だけで担当を決めない。",
+    "examples": [
+      "場面ごとの小道具リストを作る。"
+    ],
+    "pitfalls": [
+      "家具を小道具に含めるかなど職務分担は制作体制で変わるため、一般の訳語だけで担当を決めない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-handprops",
+    "name": "持道具",
+    "reading": "もちどうぐ",
+    "english": "Hand props",
+    "aliases": [
+      "持ち道具",
+      "手道具"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "演者が手に持ったり身に付けたりして扱う小道具。場面内の受け渡しや、出番ごとの準備位置を管理する。",
+    "usage": "持道具を登場順に小道具台へ並べる。",
+    "japan": "「持道具」と呼ぶ。",
+    "us": "Hand props の呼称が使われる。",
+    "uk": "Hand props の呼称が使われる。",
+    "note": "",
+    "related": [
+      "小道具",
+      "置道具",
+      "小道具台"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-setprops",
+    "name": "置道具",
+    "reading": "おきどうぐ",
+    "english": "Set props / Set dressing",
+    "aliases": [
+      "置き道具",
+      "飾り小道具"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "舞台の場面を作るために置く家具や調度品などの小道具。演者が直接扱う物との区分は、演出や制作体制で変わる。",
+    "usage": "置道具の位置を平面図に書き込む。",
+    "japan": "「置道具」と呼ぶ。",
+    "us": "Set props / Set dressing の呼称が使われる。",
+    "uk": "Set props / Set dressing の呼称が使われる。",
+    "note": "Set dressing は背景を整える装飾品などを指す用法があり、置道具全体と常に一致しない。",
+    "related": [
+      "小道具",
+      "持道具"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-consumableprops",
+    "name": "消え物",
+    "reading": "きえもの",
+    "english": "Consumable props",
+    "aliases": [
+      "消物",
+      "きえもの"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "食べ物や飲み物など、公演中の使用によって消費・変化し、補充や作り直しが必要になる小道具。場面ごとに準備数を管理する。",
+    "usage": "毎公演使う消え物の補充分を用意する。",
+    "japan": "「消え物」と呼ぶ。",
+    "us": "Consumable props の呼称が使われる。",
+    "uk": "Consumable props の呼称が使われる。",
+    "note": "壊れる小道具なども含めることがある。実際の物と模造品を区別して管理する。",
+    "related": [
+      "小道具",
+      "持道具"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-breakaway",
+    "name": "壊し道具",
+    "reading": "こわしどうぐ",
+    "english": "Breakaway prop",
+    "aliases": [
+      "ブレイクアウェイ",
+      "割れ物道具"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "場面の中で壊れることを演出するために製作する小道具や装置。通常の実用品とは別の、美術・演出用の物を指す。",
+    "usage": "壊し道具の見え方を稽古で確認する。",
+    "japan": "「壊し道具」と呼ぶ。",
+    "us": "Breakaway prop の呼称が使われる。",
+    "uk": "Breakaway prop の呼称が使われる。",
+    "note": "壊れるための製品であっても、それだけで安全性を保証するものではない。",
+    "related": [
+      "小道具",
+      "消え物"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-propstable",
+    "name": "小道具台",
+    "reading": "こどうぐだい",
+    "english": "Props table",
+    "aliases": [
+      "プロップテーブル",
+      "Props preset table"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "公演で使う小道具を、出番に合わせて置いておく台。置き場所の表示などで、受け渡しや戻し先を共有する。",
+    "usage": "持道具を使い終わったら小道具台へ戻す。",
+    "japan": "「小道具台」と呼ぶ。",
+    "us": "Props table の呼称が使われる。",
+    "uk": "Props table の呼称が使われる。",
+    "note": "",
+    "related": [
+      "持道具",
+      "小道具"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-practical",
+    "name": "プラクティカル",
+    "reading": "ぷらくてぃかる",
+    "english": "Practical",
+    "aliases": [
+      "実用道具",
+      "Practical prop"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "舞台装置や小道具のうち、見せかけだけでなく実際に機能する物。開く扉や点灯する電気スタンドなどを文脈に応じて指す。",
+    "usage": "台本にプラクティカルの扉であることを記す。",
+    "japan": "「プラクティカル」と呼ぶ。",
+    "us": "Practical の呼称が使われる。",
+    "uk": "Practical の呼称が使われる。",
+    "note": "照明では、舞台美術内で実際に点灯する照明器具を指すことが多い。",
+    "related": [
+      "張物",
+      "小道具"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-height",
+    "name": "たっぱ",
+    "reading": "たっぱ",
+    "english": "Height",
+    "aliases": [
+      "立端",
+      "建端",
+      "立っぱ"
+    ],
+    "category": "stage",
+    "subcategory": "大道具・小道具",
+    "definition": "大道具や建具などの高さを指す現場語。「立端」などと表記し、物の高さか、吊り位置の高さかを文脈で区別する。",
+    "usage": "道具のたっぱを図面で確認する。",
+    "japan": "「たっぱ」と呼ぶ。",
+    "us": "Height として機能を説明する。",
+    "uk": "Height として機能を説明する。",
+    "note": "英語では対象と基準を添えて height を用いる。",
+    "related": [
+      "間口",
+      "奥行"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-flytower",
+    "name": "フライタワー",
+    "reading": "ふらいたわー",
+    "english": "Fly tower / Fly loft",
+    "aliases": [
+      "舞台塔",
+      "フライロフト",
+      "Fly space"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台の上方にあり、吊った幕や道具を観客の視界外へ収めるための高い空間。劇場全体の舞台機構の一部をなす。",
+    "usage": "大道具がフライタワー内へ収まるか確認する。",
+    "japan": "「フライタワー」と呼ぶ。",
+    "us": "Fly tower / Fly loft の呼称が使われる。",
+    "uk": "Fly tower / Fly loft の呼称が使われる。",
+    "note": "",
+    "related": [
+      "すのこ",
+      "バトン",
+      "飛ばす"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "Theatres Trust・Types of stages and auditoria",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+      }
+    ]
+  },
+  {
+    "id": "stage-grid",
+    "name": "すのこ",
+    "reading": "すのこ",
+    "english": "Grid / Gridiron",
+    "aliases": [
+      "簀子",
+      "グリッド",
+      "Gridiron",
+      "Schnürboden",
+      "Schnurboden",
+      "graticcia",
+      "シュニュールボーデン"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台の高所にある格子状の作業床や構造。吊物機構の滑車などを配置する場所として使われる。",
+    "usage": "劇場の断面図ですのこ高さを確認する。",
+    "japan": "「すのこ」と呼ぶ。",
+    "us": "Grid / Gridiron の呼称が使われる。",
+    "uk": "Grid / Gridiron の呼称が使われる。",
+    "note": "照明配置の格子やデータ表のグリッドとは文脈が異なる。",
+    "related": [
+      "フライタワー",
+      "吊物"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      },
+      {
+        "label": "ATCL・Glossario dello spazio teatrale",
+        "url": "https://www.atcl-tir.it/glossario/"
+      }
+    ],
+    "europe": "独：Schnürboden。伊：graticcia。舞台上方の吊物設備に関わる格子状構造。"
+  },
+  {
+    "id": "stage-batten",
+    "name": "バトン",
+    "reading": "ばとん",
+    "english": "Batten / Bar",
+    "aliases": [
+      "吊りバトン",
+      "吊物バトン",
+      "パイプ",
+      "Bar"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "幕や大道具、照明などを吊るための横長の棒状部材。舞台上方から吊られ、公演の仕込み位置の基準にもなる。",
+    "usage": "会館のバトン番号に合わせて吊物を指定する。",
+    "japan": "「バトン」と呼ぶ。",
+    "us": "Batten / Bar の呼称が使われる。",
+    "uk": "Batten / Bar の呼称が使われる。",
+    "note": "照明用の電気設備を備えるバーと、大道具用のバトンを設備表で区別する。",
+    "related": [
+      "吊物",
+      "綱元"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "幕や大道具、照明などを吊るための横長の棒状部材。舞台上方から吊られ、公演の仕込み位置の基準にもなる。道具や幕を吊る横方向の部材で、番号や位置が仕込み図の基準になる。バトンそのものの外寸と、吊物系統全体の可動範囲や条件は別の情報。照明用の電源設備を備えるバーと、大道具用のバトンが並ぶ会場では設備表の用途と照合する。会館のバトン番号に合わせて吊物を指定する。バトンが空いて見えても、どの装置や幕でも自由に追加できることを意味しない。",
+    "examples": [
+      "会館のバトン番号に合わせて吊物を指定する。"
+    ],
+    "pitfalls": [
+      "バトンが空いて見えても、どの装置や幕でも自由に追加できることを意味しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-flyingscenery",
+    "name": "吊物",
+    "reading": "つりもの",
+    "english": "Flown scenery",
+    "aliases": [
+      "吊り物",
+      "フライングシーナリー"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "バトンなどから吊り下げる幕や大道具の総称。上下に動かして見せ隠しし、舞台の空間や場面を変える。",
+    "usage": "吊物一覧に道具名と使用位置を記す。",
+    "japan": "「吊物」と呼ぶ。",
+    "us": "Flown scenery の呼称が使われる。",
+    "uk": "Flown scenery の呼称が使われる。",
+    "note": "",
+    "related": [
+      "バトン",
+      "飛ばす",
+      "降ろす"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-rail",
+    "name": "綱元",
+    "reading": "つなもと",
+    "english": "Fly rail / Locking rail",
+    "aliases": [
+      "フライレール"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台の吊物を動かすための引綱や操作設備が集まる場所。手動の吊物機構では、担当者が昇降を扱う位置になる。",
+    "usage": "吊物の担当者と綱元で打ち合わせる。",
+    "japan": "「綱元」と呼ぶ。",
+    "us": "Fly rail / Locking rail の呼称が使われる。",
+    "uk": "Fly rail / Locking rail の呼称が使われる。",
+    "note": "用語の説明であり、綱や機構の操作方法を示すものではない。",
+    "related": [
+      "バトン",
+      "鎮",
+      "吊物"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-counterweight",
+    "name": "鎮",
+    "reading": "しず",
+    "english": "Counterweight",
+    "aliases": [
+      "しず",
+      "ウエート",
+      "ウェイト",
+      "カウンターウェイト"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "吊物の重さとの釣り合いを取るために用いる重り。カウンターウェイト式の吊物機構を構成する要素の一つ。",
+    "usage": "劇場の吊物機構が鎮式か確認する。",
+    "japan": "「鎮」と呼ぶ。",
+    "us": "Counterweight として機能を説明する。",
+    "uk": "Counterweight として機能を説明する。",
+    "note": "重りの量や交換手順は、設備固有の運用に従う事項。",
+    "related": [
+      "綱元",
+      "バトン"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-flyout",
+    "name": "飛ばす",
+    "reading": "とばす",
+    "english": "Fly out",
+    "aliases": [
+      "フライアウト",
+      "Out"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "幕や道具などの吊物を上昇させ、観客の視界から外すこと。台本の一部を省く意味でも使うため、対象を添える。",
+    "usage": "次のきっかけで背景幕を飛ばす。",
+    "japan": "「飛ばす」と呼ぶ。",
+    "us": "Fly out の呼称が使われる。",
+    "uk": "Fly out の呼称が使われる。",
+    "note": "通常は上げる方向。音量や照明の明るさの操作を意味する語ではない。",
+    "related": [
+      "降ろす",
+      "吊物"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-flyin",
+    "name": "降ろす",
+    "reading": "おろす",
+    "english": "Fly in",
+    "aliases": [
+      "下ろす",
+      "フライイン",
+      "In"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "吊られた幕や道具を下げ、必要な位置へ入れること。床へ下ろす場合と、演出用の高さへ下げる場合を区別する。",
+    "usage": "背景幕を所定の高さに降ろす。",
+    "japan": "「降ろす」と呼ぶ。",
+    "us": "Fly in の呼称が使われる。",
+    "uk": "Fly in の呼称が使われる。",
+    "note": "Fly in／out の in／out は、舞台に見せる位置への出し入れを指す。",
+    "related": [
+      "飛ばす",
+      "吊物"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-revolve",
+    "name": "廻り舞台",
+    "reading": "まわりぶたい",
+    "english": "Revolve / Revolving stage",
+    "aliases": [
+      "回り舞台",
+      "回転舞台",
+      "盆",
+      "ターンテーブル",
+      "Turntable",
+      "Drehbühne",
+      "Drehbuhne",
+      "ドレーブューネ"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台床の一部を回転させる仕掛け。道具や演者を載せた状態で向きを変え、場面転換や動きの表現に利用する。",
+    "usage": "廻り舞台で室内と屋外の場面を切り替える。",
+    "japan": "「廻り舞台」と呼ぶ。",
+    "us": "Revolve / Revolving stage の呼称が使われる。",
+    "uk": "Revolve / Revolving stage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "迫り",
+      "引枠",
+      "奈落"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ],
+    "europe": "独：Drehbühne。回転による場面の変化に用いる舞台。",
+    "kind": "term",
+    "detail": "舞台床の一部を回転させる仕掛け。道具や演者を載せた状態で向きを変え、場面転換や動きの表現に利用する。舞台の一部を回し、道具や人物の向きを変えることで場面転換や動きを作る。回る床の外形と、上に置いた装置が通る範囲は違うため、平面図では装置の移動中の輪郭も考える。既存の劇場設備か公演用の仮設かによって、使える構成や周囲との関係が変わる。廻り舞台で室内と屋外の場面を切り替える。回転台があることだけで、人や任意の重量の装置を載せて動かせるとは判断しない。",
+    "examples": [
+      "廻り舞台で室内と屋外の場面を切り替える。"
+    ],
+    "pitfalls": [
+      "回転台があることだけで、人や任意の重量の装置を載せて動かせるとは判断しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-lift",
+    "name": "迫り",
+    "reading": "せり",
+    "english": "Stage lift / Elevator stage",
+    "aliases": [
+      "セリ",
+      "せり上がり",
+      "Elevator stage",
+      "Hubpodium",
+      "Hubpodien",
+      "Versenkeinrichtung"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台床の一部を上下させる機構。人物や装置を出し入れしたり、高さの違う床を見せたりする演出に使う。",
+    "usage": "迫りを使って建物の下層を見せる。",
+    "japan": "「迫り」と呼ぶ。",
+    "us": "Stage lift / Elevator stage の呼称が使われる。",
+    "uk": "Stage lift / Elevator stage の呼称が使われる。",
+    "note": "",
+    "related": [
+      "奈落",
+      "廻り舞台",
+      "スッポン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      },
+      {
+        "label": "Deutsches Archiv für Theaterpädagogik・Bühnentechnik",
+        "url": "https://archivdatp.de/worterbuch-buhnentechnik/"
+      }
+    ],
+    "europe": "独：Hubpodium（複数 Hubpodien）、Versenkeinrichtung。床の昇降設備に関する語。",
+    "kind": "term",
+    "detail": "舞台床の一部を上下させる機構。人物や装置を出し入れしたり、高さの違う床を見せたりする演出に使う。床の高さを変えたり、装置や人物を床下から現したりする機構。舞台面の開口、床下の移動空間、上方の装置との関係が一つの動きに結び付く。平面図に加えて断面の情報を使うと、上演のどの状態を見せるかを他部署へ説明しやすい。迫りを使って建物の下層を見せる。上がる床と床の開口を開閉するだけのトラップドアは、同じ機構ではない。",
+    "examples": [
+      "迫りを使って建物の下層を見せる。"
+    ],
+    "pitfalls": [
+      "上がる床と床の開口を開閉するだけのトラップドアは、同じ機構ではない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-understage",
+    "name": "奈落",
+    "reading": "ならく",
+    "english": "Understage",
+    "aliases": [
+      "アンダーステージ"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "本舞台や花道の床下にある空間。迫りや廻り舞台の機構などが置かれ、劇場によって複数の階層を持つ。",
+    "usage": "迫りの設備は奈落側にも続いている。",
+    "japan": "「奈落」と呼ぶ。",
+    "us": "Understage の呼称が使われる。",
+    "uk": "Understage の呼称が使われる。",
+    "note": "舞台裏全体を指す語ではなく、主に舞台の床下を指す。",
+    "related": [
+      "迫り",
+      "廻り舞台",
+      "花道"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-trapdoor",
+    "name": "トラップドア",
+    "reading": "とらっぷどあ",
+    "english": "Trapdoor",
+    "aliases": [
+      "床ハッチ",
+      "落とし戸",
+      "Trap"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台床などに設ける開閉可能な床の開口。演者や物を出入りさせる演出に使われ、昇降する迫りとは機構が異なる。",
+    "usage": "床のトラップドアの位置を図面で共有する。",
+    "japan": "「トラップドア」と呼ぶ。",
+    "us": "Trapdoor の呼称が使われる。",
+    "uk": "Trapdoor の呼称が使われる。",
+    "note": "Trap は開口や一連の仕掛けを広く指す場合もある。",
+    "related": [
+      "奈落",
+      "迫り"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-flyingperformer",
+    "name": "フライング",
+    "reading": "ふらいんぐ",
+    "english": "Performer flying",
+    "aliases": [
+      "宙乗り",
+      "ワイヤーフライング",
+      "Flying effects"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "演者を吊り、空中を移動したり浮いて見えたりする表現を作る舞台効果。道具の昇降を指す flying と対象を区別する。",
+    "usage": "フライングのある場面を専門担当と計画する。",
+    "japan": "「フライング」と呼ぶ。",
+    "us": "Performer flying の呼称が使われる。",
+    "uk": "Performer flying の呼称が使われる。",
+    "note": "宙乗りは日本の伝統演出の文脈でも使う。用語説明は実施手順や安全確認の代替にならない。",
+    "related": [
+      "吊物",
+      "フライタワー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-hanamichi",
+    "name": "花道",
+    "reading": "はなみち",
+    "english": "Hanamichi",
+    "aliases": [
+      "本花道",
+      "はなみち"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎で舞台の下手側から客席の中を通り、後方の鳥屋につながる通路状の舞台。登退場だけでなく独立した演技にも使う。",
+    "usage": "花道の七三で役の見せ場を作る。",
+    "japan": "「花道」と呼ぶ。",
+    "us": "Hanamichi として機能を説明する。",
+    "uk": "Hanamichi として機能を説明する。",
+    "note": "ランウェイに似た形でも、歌舞伎固有の機能を持つため単純に同義とはしない。",
+    "related": [
+      "七三",
+      "鳥屋",
+      "仮花道",
+      "スッポン"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "日本芸術文化振興会・歌舞伎事典 花道",
+        "url": "https://www2.ntj.jac.go.jp/dglib/modules/kabuki_dic/entry.php?entryid=1245"
+      }
+    ],
+    "kind": "term",
+    "detail": "歌舞伎で舞台の下手側から客席の中を通り、後方の鳥屋につながる通路状の舞台。登退場だけでなく独立した演技にも使う。客席の中に演技する場所を伸ばし、本舞台とは異なる距離感や場所を表現できる歌舞伎の舞台構造。舞台から近い七三で見得や台詞などの見せ場を作ることもあり、登退場だけの通路として理解すると演出上の働きを捉えにくい。仮花道を加える作品では左右の関係も変わる。花道の七三で役の見せ場を作る。ランウェイや欧米のスラストと形が似ても、歴史や演出上の機能を同じ用語へ置換しない。",
+    "examples": [
+      "花道の七三で役の見せ場を作る。"
+    ],
+    "pitfalls": [
+      "ランウェイや欧米のスラストと形が似ても、歴史や演出上の機能を同じ用語へ置換しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-karihanamichi",
+    "name": "仮花道",
+    "reading": "かりはなみち",
+    "english": "Temporary hanamichi",
+    "aliases": [
+      "両花道"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "演目に応じて上手側へ追加する花道。下手側の本花道と向かい合わせに使い、客席を挟んだ演技を行うこともある。",
+    "usage": "本花道と仮花道の双方で台詞を交わす。",
+    "japan": "「仮花道」と呼ぶ。",
+    "us": "Temporary hanamichi として機能を説明する。",
+    "uk": "Temporary hanamichi として機能を説明する。",
+    "note": "単に仮設された本花道の意味とは区別する。",
+    "related": [
+      "花道",
+      "上手"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "日本芸術文化振興会・歌舞伎事典 花道",
+        "url": "https://www2.ntj.jac.go.jp/dglib/modules/kabuki_dic/entry.php?entryid=1245"
+      }
+    ]
+  },
+  {
+    "id": "stage-shichisan",
+    "name": "七三",
+    "reading": "しちさん",
+    "english": "Shichisan",
+    "aliases": [
+      "しちさん"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎の花道上で、揚幕からおよそ七分、舞台から三分の位置。演者が立ち止まり、台詞や見得などを見せる要所。",
+    "usage": "花道の七三で立ち止まる。",
+    "japan": "「七三」と呼ぶ。",
+    "us": "Shichisan として機能を説明する。",
+    "uk": "Shichisan として機能を説明する。",
+    "note": "花道の長さに対する慣用的な位置名であり、全劇場の同じ絶対距離を意味しない。",
+    "related": [
+      "花道",
+      "スッポン"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎事典 花道",
+        "url": "https://www2.ntj.jac.go.jp/dglib/modules/kabuki_dic/entry.php?entryid=1245"
+      }
+    ]
+  },
+  {
+    "id": "stage-suppon",
+    "name": "スッポン",
+    "reading": "すっぽん",
+    "english": "Suppon lift",
+    "aliases": [
+      "すっぽん"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "舞台寄りの花道に設ける小さな迫り。歌舞伎では幽霊や妖怪など、非現実的な存在の登場に使うことがある。",
+    "usage": "スッポンから不思議な存在が姿を現す。",
+    "japan": "「スッポン」と呼ぶ。",
+    "us": "Suppon lift として機能を説明する。",
+    "uk": "Suppon lift として機能を説明する。",
+    "note": "花道の迫りを指す固有の呼称。すべての舞台の小迫りを意味するわけではない。",
+    "related": [
+      "迫り",
+      "花道",
+      "七三"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-agemaku",
+    "name": "揚幕",
+    "reading": "あげまく",
+    "english": "Agemaku",
+    "aliases": [
+      "上げ幕"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎では花道の突き当たり、鳥屋の入口に掛ける幕。能では橋掛りの端に掛かる幕を同じ名で呼ぶ。",
+    "usage": "揚幕を通って花道へ登場する。",
+    "japan": "「揚幕」と呼ぶ。",
+    "us": "Agemaku として機能を説明する。",
+    "uk": "Agemaku として機能を説明する。",
+    "note": "歌舞伎と能では位置や意匠、開閉の扱いが異なる。",
+    "related": [
+      "鳥屋",
+      "花道",
+      "橋掛り"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-toya",
+    "name": "鳥屋",
+    "reading": "とや",
+    "english": "Toya",
+    "aliases": [
+      "とや"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎で、花道の客席後方側の端にある出入り用の小部屋。出演者が花道へ出る前や、引っ込んだ後に使う。",
+    "usage": "次の出を鳥屋で待つ。",
+    "japan": "「鳥屋」と呼ぶ。",
+    "us": "Toya として機能を説明する。",
+    "uk": "Toya として機能を説明する。",
+    "note": "英語で説明する際は、花道の入口にある待機空間であることを添える。",
+    "related": [
+      "花道",
+      "揚幕"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-joshikimaku",
+    "name": "定式幕",
+    "reading": "じょうしきまく",
+    "english": "Joshikimaku",
+    "aliases": [
+      "定式",
+      "じょうしき"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎で場面の始まりや終わりに引いて使う幕。黒・萌葱・柿色の縦縞が典型で、色の並びは劇場により異なる。",
+    "usage": "拍子木に合わせて定式幕が開く。",
+    "japan": "「定式幕」と呼ぶ。",
+    "us": "Joshikimaku として機能を説明する。",
+    "uk": "Joshikimaku として機能を説明する。",
+    "note": "引割幕や緞帳など、主幕全般の総称ではない。",
+    "related": [
+      "緞帳",
+      "揚幕"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-kuromisu",
+    "name": "黒御簾",
+    "reading": "くろみす",
+    "english": "Kuromisu",
+    "aliases": [
+      "下座",
+      "げざ",
+      "黒御簾音楽"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎の舞台下手にある、音楽や効果音を演奏する小部屋。窓に掛かる黒い御簾や、そこで演奏する音楽も指す。",
+    "usage": "雨の表現に黒御簾の音を用いる。",
+    "japan": "「黒御簾」と呼ぶ。",
+    "us": "Kuromisu として機能を説明する。",
+    "uk": "Kuromisu として機能を説明する。",
+    "note": "場所と音楽の両方を指す語なので、対象を文脈で区別する。",
+    "related": [
+      "下手",
+      "床"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-yuka",
+    "name": "床",
+    "reading": "ゆか",
+    "english": "Yuka",
+    "aliases": [
+      "竹本床",
+      "出語り床",
+      "ちょぼ",
+      "ちょぼ床"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "歌舞伎で、上手側に設ける竹本の語りと三味線の演奏場所。御簾を上げて姿を見せる演奏と、隠した演奏がある。",
+    "usage": "竹本の床を舞台図で確認する。",
+    "japan": "「床」と呼ぶ。",
+    "us": "Yuka として機能を説明する。",
+    "uk": "Yuka として機能を説明する。",
+    "note": "舞台の床面を意味する一般名詞の「床」とは別の固有用語。",
+    "related": [
+      "黒御簾",
+      "上手"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・歌舞伎の舞台",
+        "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/jp/stage/index.html"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-shosadai",
+    "name": "所作台",
+    "reading": "しょさだい",
+    "english": "Shosadai dance platform",
+    "aliases": [
+      "所作舞台"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "日本舞踊などで舞台床の上に敷く、板張りの舞踊用の床。見た目や踏み音を含め、演目に合った舞台面を作る。",
+    "usage": "日本舞踊のために所作台を使用する。",
+    "japan": "「所作台」と呼ぶ。",
+    "us": "Shosadai dance platform として機能を説明する。",
+    "uk": "Shosadai dance platform として機能を説明する。",
+    "note": "一般の平台やダンスマットとは仕様・用途が異なる。",
+    "related": [
+      "舞台床",
+      "花道"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-matsubame",
+    "name": "松羽目",
+    "reading": "まつばめ",
+    "english": "Matsubame",
+    "aliases": [
+      "松羽目物",
+      "松羽目板"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台の鏡板を模した、松の絵のある背景。歌舞伎や日本舞踊では、能・狂言に由来する演目などの背景に用いる。",
+    "usage": "松羽目の背景で舞踊を上演する。",
+    "japan": "「松羽目」と呼ぶ。",
+    "us": "Matsubame として機能を説明する。",
+    "uk": "Matsubame として機能を説明する。",
+    "note": "能舞台の鏡板そのものと、他ジャンルでそれを模した装置を区別する。",
+    "related": [
+      "鏡板",
+      "背景幕"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-nohstage",
+    "name": "能舞台",
+    "reading": "のうぶたい",
+    "english": "Noh stage",
+    "aliases": [
+      "能楽堂舞台"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能・狂言を演じるための独特の舞台。本舞台に橋掛り、後座、地謡座などを組み合わせ、観客が複数の方向から見る。",
+    "usage": "能舞台の構造に合わせて演者が位置を取る。",
+    "japan": "「能舞台」と呼ぶ。",
+    "us": "Noh stage として機能を説明する。",
+    "uk": "Noh stage として機能を説明する。",
+    "note": "額縁式の劇場舞台と同じ上下左右の感覚だけでは、各部を説明できない。",
+    "related": [
+      "橋掛り",
+      "鏡板",
+      "地謡座",
+      "後座"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "能楽協会・能楽の舞台",
+        "url": "https://www.nohgaku.or.jp/encyclopedia/whats/stage.html"
+      },
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-hashigakari",
+    "name": "橋掛り",
+    "reading": "はしがかり",
+    "english": "Hashigakari",
+    "aliases": [
+      "橋懸り",
+      "橋掛かり"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台の本舞台と鏡の間を結ぶ通路状の部分。登退場の経路であるとともに、本舞台とは別の場所を表す演技空間にもなる。",
+    "usage": "シテが橋掛りを進んで登場する。",
+    "japan": "「橋掛り」と呼ぶ。",
+    "us": "Hashigakari として機能を説明する。",
+    "uk": "Hashigakari として機能を説明する。",
+    "note": "花道と同じ訳語へまとめず、能舞台固有の構造として説明する。",
+    "related": [
+      "能舞台",
+      "鏡の間",
+      "揚幕"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      },
+      {
+        "label": "能楽協会・能楽の舞台",
+        "url": "https://www.nohgaku.or.jp/encyclopedia/whats/stage.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-kagamiita",
+    "name": "鏡板",
+    "reading": "かがみいた",
+    "english": "Kagami-ita",
+    "aliases": [
+      "かがみいた"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台の奥にある板壁で、松が描かれている部分。能の舞台空間を特徴付ける背景で、公演ごとに交換する写実的背景とは異なる。",
+    "usage": "鏡板を背にして演者が舞う。",
+    "japan": "「鏡板」と呼ぶ。",
+    "us": "Kagami-ita として機能を説明する。",
+    "uk": "Kagami-ita として機能を説明する。",
+    "note": "反射する鏡ではない。大道具の「かがみ」とも別の用語。",
+    "related": [
+      "能舞台",
+      "松羽目"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-kagaminoma",
+    "name": "鏡の間",
+    "reading": "かがみのま",
+    "english": "Kagami-no-ma",
+    "aliases": [
+      "鏡之間"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台で、橋掛りの揚幕の向こうにある空間。演者が姿を整えて出番を待ち、囃子方がお調べを行う場所でもある。",
+    "usage": "演者は鏡の間で面を着ける。",
+    "japan": "「鏡の間」と呼ぶ。",
+    "us": "Kagami-no-ma として機能を説明する。",
+    "uk": "Kagami-no-ma として機能を説明する。",
+    "note": "一般の楽屋と完全に同一の機能を持つ部屋ではない。",
+    "related": [
+      "橋掛り",
+      "揚幕",
+      "能舞台"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-jiutaiza",
+    "name": "地謡座",
+    "reading": "じうたいざ",
+    "english": "Jiutai-za",
+    "aliases": [
+      "地謡座敷"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台の本舞台に接して設けられる、地謡の演者が座る部分。観客から見て本舞台の右側に位置する。",
+    "usage": "地謡は地謡座に着座する。",
+    "japan": "「地謡座」と呼ぶ。",
+    "us": "Jiutai-za として機能を説明する。",
+    "uk": "Jiutai-za として機能を説明する。",
+    "note": "能舞台の部位の位置は、舞台図と見る向きを合わせて確認する。",
+    "related": [
+      "能舞台",
+      "後座"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      },
+      {
+        "label": "能楽協会・能楽の舞台",
+        "url": "https://www.nohgaku.or.jp/encyclopedia/whats/stage.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-atoza",
+    "name": "後座",
+    "reading": "あとざ",
+    "english": "Atoza",
+    "aliases": [
+      "横板",
+      "アト座"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台で本舞台の奥に続く部分。囃子方や後見の場所として使われ、床板の向きから横板とも呼ばれる。",
+    "usage": "囃子方は後座の所定の位置に座る。",
+    "japan": "「後座」と呼ぶ。",
+    "us": "Atoza として機能を説明する。",
+    "uk": "Atoza として機能を説明する。",
+    "note": "",
+    "related": [
+      "地謡座",
+      "能舞台"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      },
+      {
+        "label": "能楽協会・能楽の舞台",
+        "url": "https://www.nohgaku.or.jp/encyclopedia/whats/stage.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-kiridoguchi",
+    "name": "切戸口",
+    "reading": "きりどぐち",
+    "english": "Kiridoguchi",
+    "aliases": [
+      "切り戸口"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "能舞台の奥側にある小さな出入口。地謡や後見などの出入りに用い、橋掛りを使う登退場とは区別される。",
+    "usage": "後見が切戸口から出入りする。",
+    "japan": "「切戸口」と呼ぶ。",
+    "us": "Kiridoguchi として機能を説明する。",
+    "uk": "Kiridoguchi として機能を説明する。",
+    "note": "",
+    "related": [
+      "能舞台",
+      "後座",
+      "橋掛り"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "日本芸術文化振興会・能舞台の特色",
+        "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/kouzou/stage/tokusyoku.html"
+      }
+    ]
+  },
+  {
+    "id": "stage-preset",
+    "name": "板付き",
+    "reading": "いたつき",
+    "english": "Preset / Discovered onstage",
+    "aliases": [
+      "板付",
+      "いたつき"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "幕が開いた時や場面が始まった時に、出演者がすでに舞台上にいること。途中から登場する出方と区別する。",
+    "usage": "第一場は全員が板付きで始まる。",
+    "japan": "「板付き」と呼ぶ。",
+    "us": "Preset / Discovered onstage として機能を説明する。",
+    "uk": "Preset / Discovered onstage として機能を説明する。",
+    "note": "Preset は道具や機材の初期状態にも使うため、板付きだけを意味する語ではない。",
+    "related": [
+      "オンステージ",
+      "演技区域"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "幕が開いた時や場面が始まった時に、出演者がすでに舞台上にいること。途中から登場する出方と区別する。場面の開始時にすでに舞台上にいるという出演者の状態を表す。開幕前に登場して待つ場合と、暗転中に位置へ着く場合など、公演の見せ方により準備の流れが違う。進行台本では誰がどこで始まるかを、板付きという状態と位置の情報に分けて記す。第一場は全員が板付きで始まる。英語の preset は機材や道具の初期状態にも使うため、人物の板付きだけと同一視しない。",
+    "examples": [
+      "第一場は全員が板付きで始まる。"
+    ],
+    "pitfalls": [
+      "英語の preset は機材や道具の初期状態にも使うため、人物の板付きだけと同一視しない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-blocking",
+    "name": "ブロッキング",
+    "reading": "ぶろっきんぐ",
+    "english": "Blocking",
+    "aliases": [
+      "位置取り"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "舞台上の立ち位置や移動、相手との位置関係を組み立てること。演出上の動きを稽古で決め、記録して共有する。",
+    "usage": "台詞に合わせた移動をブロッキングで決める。",
+    "japan": "「ブロッキング」と呼ぶ。",
+    "us": "Blocking の呼称が使われる。",
+    "uk": "Blocking の呼称が使われる。",
+    "note": "立ち稽古は稽古の段階を指し、ブロッキングの完全な同義語ではない。",
+    "related": [
+      "センター",
+      "演技区域",
+      "立ち稽古",
+      "場当たり"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-scenechange",
+    "name": "場面転換",
+    "reading": "ばめんてんかん",
+    "english": "Scene change / Transition",
+    "aliases": [
+      "転換",
+      "シーンチェンジ"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "次の場面へ移るために、道具や出演者の配置などを変えること。暗転、明転、幕内転換など、見せ方は演出によって異なる。",
+    "usage": "場面転換の動きときっかけを合わせる。",
+    "japan": "「場面転換」と呼ぶ。",
+    "us": "Scene change / Transition の呼称が使われる。",
+    "uk": "Scene change / Transition の呼称が使われる。",
+    "note": "",
+    "related": [
+      "引枠",
+      "廻り舞台",
+      "暗転",
+      "明転"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-darkchange",
+    "name": "暗転",
+    "reading": "あんてん",
+    "english": "Blackout / Dark scene change",
+    "aliases": [
+      "B.O.",
+      "BO",
+      "ブラックアウト"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "舞台を暗くすること。また、暗くした状態で行う場面転換を指す。照明キューだけを示す場合と、転換全体を示す場合がある。",
+    "usage": "暗転の間に次の場面へ転換する。",
+    "japan": "「暗転」と呼ぶ。",
+    "us": "Blackout / Dark scene change の呼称が使われる。",
+    "uk": "Blackout / Dark scene change の呼称が使われる。",
+    "note": "Blackout は照明が消えた状態そのものを表すこともある。客席側まで必ず暗くする意味ではない。",
+    "related": [
+      "明転",
+      "場面転換",
+      "暗転幕"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-lightchange",
+    "name": "明転",
+    "reading": "めいてん",
+    "english": "Scene change in view",
+    "aliases": [
+      "見せ転換",
+      "Open scene change"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "舞台を明るくしたまま行う場面転換。転換の動きを観客に見せ、演技や作品のリズムの一部として扱うこともある。",
+    "usage": "出演者が明転で椅子を運ぶ。",
+    "japan": "「明転」と呼ぶ。",
+    "us": "Scene change in view として機能を説明する。",
+    "uk": "Scene change in view として機能を説明する。",
+    "note": "暗い状態から明るくする意味で使う現場もあるため、進行上の意図を確認する。",
+    "related": [
+      "暗転",
+      "場面転換"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-spike",
+    "name": "バミリ",
+    "reading": "ばみり",
+    "english": "Spike mark",
+    "aliases": [
+      "場ミリ",
+      "ばみる",
+      "スパイク",
+      "Spike"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "出演者の立ち位置や道具の設置位置を示す目印。床などに記し、場面ごとの位置を再現するために使う。",
+    "usage": "椅子の脚の位置をバミリで示す。",
+    "japan": "「バミリ」と呼ぶ。",
+    "us": "Spike mark の呼称が使われる。",
+    "uk": "Spike mark の呼称が使われる。",
+    "note": "テープや記号の色・形に普遍的な意味はない。公演内で凡例を共有する。",
+    "related": [
+      "ブロッキング",
+      "芯",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      },
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "出演者の立ち位置や道具の設置位置を示す目印。床などに記し、場面ごとの位置を再現するために使う。同じ立ち位置や道具位置を繰り返すための目印で、色や形、文字などの組み合わせを使う。複数の場面で同じ床面を使うと印が増えるため、公演内の凡例と位置図を対応させておくと引継ぎや再演で読みやすい。人物の足位置と道具の基準点を分けることもある。椅子の脚の位置をバミリで示す。色の意味は普遍的な規則ではない。見える印と、その印に対応する役や場面の資料を一緒に管理する。",
+    "examples": [
+      "椅子の脚の位置をバミリで示す。"
+    ],
+    "pitfalls": [
+      "色の意味は普遍的な規則ではない。見える印と、その印に対応する役や場面の資料を一緒に管理する。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-groundplan",
+    "name": "舞台平面図",
+    "reading": "ぶたいへいめんず",
+    "english": "Ground plan / Floor plan",
+    "aliases": [
+      "グランドプラン",
+      "フロアプラン",
+      "仕込み図",
+      "平面図",
+      "グラウンドプラン"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "舞台や道具の配置を上から見た図。開口、壁、床、立ち位置などを縮尺と基準線に沿って示し、各部署の計画を共有する。",
+    "usage": "舞台平面図に道具の配置を書き込む。",
+    "japan": "「舞台平面図」と呼ぶ。",
+    "us": "Ground plan / Floor plan の呼称が使われる。",
+    "uk": "Ground plan / Floor plan の呼称が使われる。",
+    "note": "仕込み図は照明・音響など各部署の設置図にも使われる広い語。",
+    "related": [
+      "芯",
+      "ブロッキング",
+      "舞台断面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ],
+    "kind": "term",
+    "detail": "舞台や道具の配置を上から見た図。開口、壁、床、立ち位置などを縮尺と基準線に沿って示し、各部署の計画を共有する。舞台と装置を上から見た図で、各部署が位置関係を共有するための基礎となる。縮尺と基準線、客席方向、舞台芯などを記すことで、左右や寸法の読み違いを減らす。再演やツアーでは会場側の図面と作品の装置図がどの基準で重なるかも確認する。舞台平面図に道具の配置を書き込む。仕込み図という呼称には照明や音響などの設置図も含まれる。平面図だけでは高さや立体の干渉はすべて分からない。",
+    "examples": [
+      "舞台平面図に道具の配置を書き込む。"
+    ],
+    "pitfalls": [
+      "仕込み図という呼称には照明や音響などの設置図も含まれる。平面図だけでは高さや立体の干渉はすべて分からない。"
+    ],
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "stage-section",
+    "name": "舞台断面図",
+    "reading": "ぶたいだんめんず",
+    "english": "Section",
+    "aliases": [
+      "セクション",
+      "断面図"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "舞台を縦に切った状態で示す図。床の高低、吊物の高さ、客席との関係など、平面図だけでは分からない情報を表す。",
+    "usage": "断面図で大道具の高さと吊物の干渉を確認する。",
+    "japan": "「舞台断面図」と呼ぶ。",
+    "us": "Section の呼称が使われる。",
+    "uk": "Section の呼称が使われる。",
+    "note": "Elevation は立面図を指すことがあるため、断面図と区別する。",
+    "related": [
+      "舞台平面図",
+      "たっぱ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "University of Victoria・Theatre 105 Handbook",
+        "url": "https://www.uvic.ca/finearts/theatre/assets/docs/thea-105-handbook.pdf"
+      },
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-curtaincall",
+    "name": "カーテンコール",
+    "reading": "かーてんこーる",
+    "english": "Curtain call",
+    "aliases": [
+      "終演挨拶",
+      "Bows"
+    ],
+    "category": "stage",
+    "subcategory": "演技・転換",
+    "definition": "終演後、観客の拍手に応えて出演者が舞台上で挨拶すること。幕の有無にかかわらず用いられる。",
+    "usage": "カーテンコールの並びを確認する。",
+    "japan": "「カーテンコール」と呼ぶ。",
+    "us": "Curtain call の呼称が使われる。",
+    "uk": "Curtain call の呼称が使われる。",
+    "note": "",
+    "related": [
+      "オンステージ",
+      "場面転換"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre・Stage glossary",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/17.-Stage-glossary_NationalTheatre_PublicActs_Toolkit-Resource-10.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-stagehand",
+    "name": "舞台スタッフ",
+    "reading": "ぶたいすたっふ",
+    "english": "Stagehand / Stage crew",
+    "aliases": [
+      "ステージハンド",
+      "舞台係",
+      "大道具方"
+    ],
+    "category": "stage",
+    "subcategory": "舞台の仕事",
+    "definition": "道具の設置、転換、撤去など、舞台の実務を担う担当者。舞台監督や各技術部門と連携して公演を支える。",
+    "usage": "舞台スタッフが場面転換を担当する。",
+    "japan": "「舞台スタッフ」と呼ぶ。",
+    "us": "Stagehand / Stage crew の呼称が使われる。",
+    "uk": "Stagehand / Stage crew の呼称が使われる。",
+    "note": "Stage crew の担当範囲は公演規模や職制で異なる。舞台技術者全員を同一の職務としない。",
+    "related": [
+      "大道具",
+      "場面転換"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "AACT・Theatre Terms",
+        "url": "https://aact.org/theatre-terms"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-flyoperator",
+    "name": "フライ担当",
+    "reading": "ふらいたんとう",
+    "english": "Fly operator / Fly crew",
+    "aliases": [
+      "吊物担当",
+      "フライマン",
+      "Flyperson"
+    ],
+    "category": "stage",
+    "subcategory": "舞台の仕事",
+    "definition": "幕や道具の吊物を扱う担当者。舞台進行に合わせた昇降や、吊物機構に関する作業を受け持つ。",
+    "usage": "フライ担当が吊物のきっかけを確認する。",
+    "japan": "「フライ担当」と呼ぶ。",
+    "us": "Fly operator / Fly crew の呼称が使われる。",
+    "uk": "Fly operator / Fly crew の呼称が使われる。",
+    "note": "職名や資格・役割分担は劇場や国、契約で異なる。",
+    "related": [
+      "綱元",
+      "吊物",
+      "飛ばす"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-scenicartist",
+    "name": "背景画家",
+    "reading": "はいけいがか",
+    "english": "Scenic artist",
+    "aliases": [
+      "舞台画家",
+      "塗装美術",
+      "シーニックアーティスト"
+    ],
+    "category": "stage",
+    "subcategory": "舞台の仕事",
+    "definition": "背景幕や舞台装置に、絵画的な描写や素材感を施す担当者。近くでの見え方だけでなく、客席からの視覚効果を作る。",
+    "usage": "背景画家が遠景の仕上げを担当する。",
+    "japan": "「背景画家」と呼ぶ。",
+    "us": "Scenic artist の呼称が使われる。",
+    "uk": "Scenic artist の呼称が使われる。",
+    "note": "",
+    "related": [
+      "背景幕",
+      "舞台美術",
+      "遠見"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Royal Conservatoire of Scotland・Scenic Production Handbook",
+        "url": "https://paperclip.rcs.ac.uk/images/archive/d/d7/20150807103246%21Scenic_Production_Handbook_for_Paperclip.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stage-propsmaster",
+    "name": "小道具担当",
+    "reading": "こどうぐたんとう",
+    "english": "Props master / Props supervisor",
+    "aliases": [
+      "小道具方",
+      "プロップマスター",
+      "Property master"
+    ],
+    "category": "stage",
+    "subcategory": "舞台の仕事",
+    "definition": "公演で使う小道具の調達、製作、管理などを受け持つ担当者。演出、美術、舞台進行と連携して必要な物を整える。",
+    "usage": "小道具担当に持道具の変更を共有する。",
+    "japan": "「小道具担当」と呼ぶ。",
+    "us": "Props master / Props supervisor の呼称が使われる。",
+    "uk": "Props master / Props supervisor の呼称が使われる。",
+    "note": "英国では小道具の準備や管理を舞台監督チームが分担する体制もあり、職名だけで担当を決めない。",
+    "related": [
+      "小道具",
+      "持道具",
+      "小道具台"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "AACT・Theatre Terms",
+        "url": "https://aact.org/theatre-terms"
+      },
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-upper-machinery",
+    "name": "上部舞台機構",
+    "reading": "じょうぶぶたいきこう",
+    "english": "Upper stage machinery",
+    "aliases": [
+      "Obermaschinerie",
+      "オーバーマシネリー",
+      "上部機構"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台上方にある、幕や道具などの吊物を扱う機構の総称。バトンや吊り設備などを含み、床側の機構と区別する。",
+    "usage": "舞台機構を上部機構と下部機構に分けて整理する。",
+    "japan": "上部・下部に分けて舞台機構を整理する。",
+    "us": "Upper stage machinery として説明する。",
+    "uk": "Upper stage machinery として説明する。",
+    "europe": "独：Obermaschinerie。舞台の演技床より上にある機構を指す。",
+    "note": "各劇場の設備範囲や名称に合わせて確認する。",
+    "related": [
+      "吊物",
+      "バトン",
+      "下部舞台機構"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "Deutsches Archiv für Theaterpädagogik・Bühnentechnik",
+        "url": "https://archivdatp.de/worterbuch-buhnentechnik/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ]
+  },
+  {
+    "id": "stage-lower-machinery",
+    "name": "下部舞台機構",
+    "reading": "かぶぶたいきこう",
+    "english": "Lower stage machinery",
+    "aliases": [
+      "Untermaschinerie",
+      "ウンターマシネリー",
+      "下部機構"
+    ],
+    "category": "stage",
+    "subcategory": "舞台機構・吊物",
+    "definition": "舞台床や床下に関わる機構の総称。迫り、回転する床、移動する床など、舞台の高さや配置を変える仕組みを含む。",
+    "usage": "迫りや廻り舞台を下部舞台機構として整理する。",
+    "japan": "上部・下部に分けて舞台機構を整理する。",
+    "us": "Lower stage machinery として説明する。",
+    "uk": "Lower stage machinery として説明する。",
+    "europe": "独：Untermaschinerie。舞台床側や床下に関わる機構を指す。",
+    "note": "各劇場の設備範囲や名称に合わせて確認する。",
+    "related": [
+      "迫り",
+      "廻り舞台",
+      "上部舞台機構"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "Deutsches Archiv für Theaterpädagogik・Bühnentechnik",
+        "url": "https://archivdatp.de/worterbuch-buhnentechnik/"
+      },
+      {
+        "label": "HOAC・Das Bühnen-Lexikon",
+        "url": "https://www.hoac.de/das-buehnen-lexikon/"
+      }
+    ]
+  },
+  {
+    "id": "stage-promptcorner",
+    "name": "プロンプトコーナー",
+    "reading": "ぷろんぷとこーなー",
+    "english": "Prompt corner",
+    "aliases": [
+      "Prompt desk",
+      "プロンプトデスク"
+    ],
+    "category": "stage",
+    "subcategory": "劇場・客席・形式",
+    "definition": "舞台袖で舞台進行の担当者が公演を見守り、各部署へきっかけを出すための場所。英国の劇場では通常 Stage left 側にある。",
+    "usage": "プロンプトコーナーから舞台進行を呼び出す。",
+    "japan": "舞台監督卓や進行卓など、機能に応じた呼称を使う。",
+    "us": "Stage management station など、公演体制に応じて説明する。",
+    "uk": "通常は Stage left 側に Prompt corner を設ける。",
+    "note": "担当者の職名や卓の位置は劇場・公演ごとに異なる。Prompt desk は卓そのものを指す。",
+    "related": [
+      "プロンプト側",
+      "舞台袖"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "The Old Vic・Theatre Glossary",
+        "url": "https://oldvictheatreglossary.com/"
+      }
+    ]
+  },
+  {
+    "id": "stage-sajiki",
+    "name": "桟敷",
+    "reading": "さじき",
+    "english": "Sajiki / Box seating",
+    "aliases": [
+      "桟敷席",
+      "さじき席"
+    ],
+    "category": "stage",
+    "subcategory": "伝統舞台",
+    "definition": "日本の伝統劇場などで、主に側面などに区画を設けた客席。座り方や高さ、位置は劇場によって異なり、歴史的な座席形式を含む。",
+    "usage": "歌舞伎劇場の桟敷席から花道を眺める。",
+    "japan": "伝統的な客席区分として桟敷と呼ぶ。",
+    "us": "Box seating が近い場合もあるが、日本固有の形式を説明する。",
+    "uk": "Boxes が近い場合もあるが、日本の桟敷と同一の仕様とは限らない。",
+    "note": "欧米のボックス席と一対一の対応にはしない。",
+    "related": [
+      "客席",
+      "花道",
+      "平土間客席"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  }
+]

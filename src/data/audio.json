@@ -1,0 +1,4818 @@
+[
+  {
+    "id": "audio-pa",
+    "name": "PA",
+    "reading": "ぴーえー",
+    "english": "Public address",
+    "aliases": [
+      "拡声",
+      "パブリックアドレス"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "声や音楽を多数の人に届けるための拡声設備や、その運用を指す。舞台ではマイクから客席スピーカーまでの系統を含む。",
+    "usage": "「会場のPA構成を確認する」のように使う。",
+    "japan": "ライブ音響設備や担当を「PA」と呼ぶことがある。",
+    "us": "Public address / PA。音楽の補強にはsound reinforcementも使う。",
+    "uk": "Public address / PA。音楽の補強にはsound reinforcementも使う。",
+    "note": "英語のPAは案内放送設備にも使う。ライブ音響だけに限定した言葉ではない。",
+    "related": [
+      "SR",
+      "ミキサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Tune a Sound System・Glossary",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/How-to-Tune-a-Sound-System.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-sr",
+    "name": "SR",
+    "reading": "えすあーる",
+    "english": "Sound reinforcement",
+    "aliases": [
+      "音響補強",
+      "サウンドリインフォースメント"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "生音を電気的に補い、会場全体で適切に聞こえるようにすること。PAと重なるが、音を補強する役割に着目した呼び方。",
+    "usage": "舞台の声と楽器を客席へ補強する設計を指す。",
+    "japan": "「SR」として使用。",
+    "us": "「Sound reinforcement」を使用。",
+    "uk": "「Sound reinforcement」を使用。",
+    "note": "PAとSRの使い分けは会社や現場により異なる。",
+    "related": [
+      "PA",
+      "FOH"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-foh",
+    "name": "FOH",
+    "reading": "えふおーえいち",
+    "english": "Front of house",
+    "aliases": [
+      "客席卓",
+      "ハウスミックス",
+      "フロントオブハウス"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "音響では客席向けの音を調整する場所や担当を指す。舞台上の演奏者へ返すモニターミックスと区別して使う。",
+    "usage": "「FOHとモニターで入力を共有する」。",
+    "japan": "音響では「客席卓」「FOH」など。",
+    "us": "音響ではFOH mix / FOH engineer。劇場運営では客席側全体も指す。",
+    "uk": "音響ではFOH mix / FOH engineer。劇場運営では客席・接客部門も指す。",
+    "note": "劇場運営では客席・ロビー側や接客部門全体も指すため、音響の文脈を明示する。",
+    "related": [
+      "PA",
+      "モニタースピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Top Five Tips for Better Live Sound",
+        "url": "https://hub.yamaha.com/proaudio/livesound/tools-of-the-trade-top-five-tips-for-better-live-sound/"
+      },
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "客席で聞く音と出演者の返しは目的が異なるため、同じ入力を受けても別のバランスで混ぜることがある。FOHという略語は場所、音響担当、客席向けミックスのいずれも指し得るので、担当表や系統図では何を指すか添えると伝わりやすい。技術資料では、FOHから直接送る信号と舞台側へ戻す信号を区別すると、客席・モニター・収録の各担当の境界が明確になる。",
+    "examples": [
+      "客席卓へ演奏用入力を、別系統で収録卓へ同じ入力を送る。"
+    ],
+    "pitfalls": [
+      "劇場運営ではロビーや接客部門を含む意味もある。音響のFOHだけを唯一の意味としない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-spl",
+    "name": "音圧レベル",
+    "reading": "おんあつれべる",
+    "english": "Sound pressure level",
+    "aliases": [
+      "SPL",
+      "dB SPL"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "空気の圧力変動の大きさを基準値に対する対数で表した量。測定値には周波数補正や時間特性などの条件が伴う。",
+    "usage": "客席各位置の音圧レベルを比較する。",
+    "japan": "「音圧レベル」として使用。",
+    "us": "「Sound pressure level」を使用。",
+    "uk": "「Sound pressure level」を使用。",
+    "note": "dBだけでは音圧か電気信号か判別できない。許容値や測定方法は別途確認が必要。",
+    "related": [
+      "デシベル",
+      "明瞭度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "TSI｜Sound and Noise Measurement Glossary",
+        "url": "https://tsi.com/getmedia/d2d4f4ba-1da7-4066-a936-c03ca040a905/Quest-002_Rev_A_Noise_Sound_Glossary_App_Note_US-web_1"
+      },
+      {
+        "label": "NTi Audio｜What are LAeq and LAFmax?",
+        "url": "https://www.nti-audio.com/en/support/know-how/what-are-laeq-and-lafmax"
+      }
+    ],
+    "detail": "数値には測定した場所、周波数重み付け、時間応答や平均区間が伴う。客席が変われば直接音と反射音の比も違うため、一地点の値だけで全席の状態を代表させず、目的に合わせた測定条件を記録する。ピーク、時間重み付き最大値、期間の平均は、同じ音でも異なる情報を表す。測定記号を分解して読むと記録を比較しやすい。",
+    "examples": [
+      "同じ曲を客席前方と後方で、同じ条件の測定値として比べる。"
+    ],
+    "pitfalls": [
+      "dBFSのようなデジタル音源のレベルから、機器と再生条件なしに客席音圧は計算できない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-frequency",
+    "name": "周波数",
+    "reading": "しゅうはすう",
+    "english": "Frequency",
+    "aliases": [
+      "Hz",
+      "ヘルツ",
+      "フリケンシー"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "周期的な振動が一秒間に繰り返される回数。音では主に高さに関係し、イコライザーで扱う帯域の位置を表す。",
+    "usage": "「低い周波数の成分が多い」と表現する。",
+    "japan": "「周波数」として使用。",
+    "us": "「Frequency」を使用。",
+    "uk": "「Frequency」を使用。",
+    "note": "",
+    "related": [
+      "イコライザー",
+      "サンプリング周波数"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-phase",
+    "name": "位相",
+    "reading": "いそう",
+    "english": "Phase",
+    "aliases": [
+      "フェーズ"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "周期的な波の進み具合、または複数の波の時間的な関係。似た音を重ねると、周波数ごとに強め合いや打ち消しが生じる。",
+    "usage": "複数のマイクやスピーカーの位相関係を調べる。",
+    "japan": "「位相」として使用。",
+    "us": "「Phase」を使用。",
+    "uk": "「Phase」を使用。",
+    "note": "極性を反転する操作と、時間のずれを補正する操作は同じではない。",
+    "related": [
+      "極性",
+      "コムフィルター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Techniques for Recording",
+        "url": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+      },
+      {
+        "label": "Rational Acoustics｜Smaart Suite Features",
+        "url": "https://www.rationalacoustics.com/pages/smaart-suite-features"
+      }
+    ],
+    "detail": "同じ周波数の波が重なるときに、山と谷の関係によって加算結果が変わる。信号の時間差は周波数によって異なる位相差となるため、ある帯域でそろっても他の帯域まで必ずそろうとは限らず、音源や処理の違いも考える。コムフィルターの周期的な山谷は、時間差のある似た信号の加算でも生じる。電気的な経路だけでなく反射音も同じ考え方で扱える。",
+    "examples": [
+      "メインと補助スピーカーの重なる帯域の位相を比較する。"
+    ],
+    "pitfalls": [
+      "極性反転をしても、時間遅延や周波数ごとの位相変化をすべて補正できるわけではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-polarity",
+    "name": "極性",
+    "reading": "きょくせい",
+    "english": "Polarity",
+    "aliases": [
+      "POL",
+      "極性反転",
+      "ポラリティー"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "信号の正負の向き。極性反転は波形の正負を入れ替える操作であり、信号を時間方向に移動することではない。",
+    "usage": "「この入力の極性を確認する」。",
+    "japan": "「極性」として使用。",
+    "us": "「Polarity」を使用。",
+    "uk": "「Polarity」を使用。",
+    "note": "卓のφやphaseボタンが実際には極性反転を行う場合がある。",
+    "related": [
+      "位相",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      },
+      {
+        "label": "Audio Precision｜APx500 User Manual",
+        "url": "https://www.ap.com/fileadmin-ap/technical-library/APx500_Users_Manual_v5-0-3.pdf?force="
+      }
+    ],
+    "detail": "正負を一括して入れ替える操作は、波形を後ろへずらす時間遅延とは異なる。複数マイクやスピーカーを混ぜたときに低域などの重なり方が変わるが、単独で聞く場合と混合した場合では確認する要点が違う。入力から出力までのどの段で反転しているかを記録すると、複数経路を組み替えた際の再現性を判断しやすい。",
+    "examples": [
+      "複数のドラムマイクを混ぜた際の低域変化を比較する。"
+    ],
+    "pitfalls": [
+      "卓のφやphaseという表示が実際には極性反転を意味する場合がある。機能の内容を確認する。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-range",
+    "name": "ダイナミックレンジ",
+    "reading": "だいなみっくれんじ",
+    "english": "Dynamic range",
+    "aliases": [
+      "Dレンジ"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "音や装置が扱う最小側と最大側のレベルの幅。機器ではノイズと最大無歪出力の関係、音源では強弱の幅を表す。",
+    "usage": "台詞の強弱と機器の扱える幅を区別して話す。",
+    "japan": "「ダイナミックレンジ」として使用。",
+    "us": "「Dynamic range」を使用。",
+    "uk": "「Dynamic range」を使用。",
+    "note": "",
+    "related": [
+      "ヘッドルーム",
+      "コンプレッサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-headroom",
+    "name": "ヘッドルーム",
+    "reading": "へっどるーむ",
+    "english": "Headroom",
+    "aliases": [
+      "余裕度"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "通常運用する信号レベルから、歪みやクリップが生じる上限までの余裕。急な大きい音を扱う際の重要な指標となる。",
+    "usage": "「ピークに対するヘッドルームを残す」。",
+    "japan": "「ヘッドルーム」として使用。",
+    "us": "「Headroom」を使用。",
+    "uk": "「Headroom」を使用。",
+    "note": "装置ごとの基準レベルと上限を確認して比較する。",
+    "related": [
+      "クリッピング",
+      "ゲイン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Tune a Sound System・Glossary",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/How-to-Tune-a-Sound-System.pdf"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "ピークの鋭い音源では平均レベルが低くても上限へ近づく場合がある。音声経路にはマイク、入力初段、内部バス、出力など複数の上限があり、最終メーターの余裕だけで全段の状態は判断できない。クレストファクターの大きい打音では、平均値よりも瞬間ピークが先に上限を決める。メーター方式を分けて読む理由となる。",
+    "examples": [
+      "台詞が急に大きくなったときの各段のメーターを見る。"
+    ],
+    "pitfalls": [
+      "基準レベルと上限が違う機器同士を、フェーダー位置だけで比較しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-clip",
+    "name": "クリッピング",
+    "reading": "くりっぴんぐ",
+    "english": "Clipping",
+    "aliases": [
+      "クリップ",
+      "オーバーロード",
+      "CLIP"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "信号が回路やデジタル表現の上限を超え、波形が正常に表せなくなること。歪みの原因となり、途中段でも発生する。",
+    "usage": "出力が小さくても入力段のクリップを確認する。",
+    "japan": "「クリッピング」として使用。",
+    "us": "「Clipping」を使用。",
+    "uk": "「Clipping」を使用。",
+    "note": "最終フェーダーを下げても、前段ですでに生じた歪みは消えない。",
+    "related": [
+      "ヘッドルーム",
+      "ゲイン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Tune a Sound System・Glossary",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/How-to-Tune-a-Sound-System.pdf"
+      },
+      {
+        "label": "Audio Precision｜APx500 User Manual",
+        "url": "https://www.ap.com/fileadmin-ap/technical-library/APx500_Users_Manual_v5-0-3.pdf?force="
+      }
+    ],
+    "detail": "アナログの入力段で生じた歪みを、デジタル卓の後段の音量操作で元に戻すことはできない。どの段で上限へ達したかを分け、ファイルの標本ピークと、変換後のトゥルーピークのような異なる検出方式も区別する。元の素材がすでに歪んでいる場合と、現在の経路で新しく歪む場合を区別する。音源と各監視点を対応させて原因を整理する。",
+    "examples": [
+      "客席音量は低いのに声が歪む際、入力段と出力段を分けて考える。"
+    ],
+    "pitfalls": [
+      "浮動小数点の内部処理の余裕を、入力回路やDA変換器の無制限な余裕と取り違えない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-feedback",
+    "name": "ハウリング",
+    "reading": "はうりんぐ",
+    "english": "Acoustic feedback",
+    "aliases": [
+      "フィードバック",
+      "鳴き",
+      "音響帰還"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "スピーカーの音をマイクが拾い、その信号が再び増幅される循環で特定の音が成長する現象。音響帰還ともいう。",
+    "usage": "「返しの系統でハウリングが出る」。",
+    "japan": "「ハウリング」「鳴き」などと呼ぶ。",
+    "us": "音響帰還はfeedbackと表す。",
+    "uk": "音響帰還はfeedbackと表す。",
+    "note": "英語ではfeedbackが一般的。エフェクトの反復量を表すfeedbackとは文脈で区別する。",
+    "related": [
+      "モニタースピーカー",
+      "ノッチフィルター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "ループを一周する間の増幅と位相の関係により、特定の成分が繰り返し強まる。マイクの向き、出演者の位置、客席と舞台の系統、室内反射などが関わるため、一つのEQ設定を全状況へ固定して適用するものではない。音響帰還は客席用だけでなく、返しや連絡マイクを通る経路でも成立し得る。循環する音の経路を単位にして考える。",
+    "examples": [
+      "客席向けと返し向けのどの系統で帰還するか整理する。"
+    ],
+    "pitfalls": [
+      "コンプレッサーや音声分離を入れれば、どの配置でも帰還が起きないという保証にはならない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-rt60",
+    "name": "残響時間",
+    "reading": "ざんきょうじかん",
+    "english": "Reverberation time",
+    "aliases": [
+      "RT60",
+      "T20",
+      "T30"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "音源停止後の残響が一定量減衰する速さを時間で表す指標。RT60は六十デシベルの減衰に相当する時間を指す。",
+    "usage": "ホールの帯域ごとの残響時間を調べる。",
+    "japan": "「残響時間」として使用。",
+    "us": "「Reverberation time」を使用。",
+    "uk": "「Reverberation time」を使用。",
+    "note": "T20・T30は測定できた減衰区間からRT60相当を求める表記で、測定条件を伴う。",
+    "related": [
+      "リバーブ",
+      "明瞭度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "NTi Audio｜XL2 Manual・Reverberation Time RT60",
+        "url": "https://www.nti-audio.com/Portals/0/data/en/XL2-Manual.pdf"
+      },
+      {
+        "label": "Brüel & Kjær｜Sound and Vibration Handbook",
+        "url": "https://www.bksv.com/downloads/svpockethandbook/index.html"
+      }
+    ],
+    "detail": "残響の減衰は周波数ごとに異なり、同じホールでも客席の吸音条件や測定位置で変わる。暗騒音によって長い減衰区間を測れない場合には、限られた区間から推定するため、T20・T30などの表記と測定条件を合わせて読む。残響の長さと、反射がどの方向から届くかは別の情報である。フラッターなど局所的な反復は総合的な時間だけでは説明しきれない。",
+    "examples": [
+      "無観客時と客席使用時の帯域別の残響を比較する。"
+    ],
+    "pitfalls": [
+      "数値が短いほど常に良いとは限らない。台詞、合唱、音楽など、空間の目的で望む条件が異なる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-comb",
+    "name": "コムフィルター",
+    "reading": "こむふぃるたー",
+    "english": "Comb filtering",
+    "aliases": [
+      "櫛形フィルター",
+      "コムフィルタリング"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "同じ音が異なる時間差で重なり、周波数特性に山と谷が繰り返し生じる現象。反射音や複数の収音・再生経路で起こる。",
+    "usage": "近接した複数マイクの音色変化を説明する。",
+    "japan": "「コムフィルター」として使用。",
+    "us": "「Comb filtering」を使用。",
+    "uk": "「Comb filtering」を使用。",
+    "note": "",
+    "related": [
+      "位相",
+      "ディレイ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Techniques for Recording",
+        "url": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+      }
+    ]
+  },
+  {
+    "id": "audio-intelligibility",
+    "name": "明瞭度",
+    "reading": "めいりょうど",
+    "english": "Speech intelligibility",
+    "aliases": [
+      "音声明瞭度",
+      "STI",
+      "STIPA"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "言葉をどれだけ聞き取りやすいかを表す考え方。音量だけでなく、残響、雑音、周波数特性などの影響を受ける。",
+    "usage": "「台詞の明瞭度を客席で確認する」。",
+    "japan": "「明瞭度」として使用。",
+    "us": "「Speech intelligibility」を使用。",
+    "uk": "「Speech intelligibility」を使用。",
+    "note": "STIは伝送特性から評価する指標であり、単なる音圧の大きさとは異なる。",
+    "related": [
+      "残響時間",
+      "音圧レベル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "TSI｜Sound and Noise Measurement Glossary",
+        "url": "https://tsi.com/getmedia/d2d4f4ba-1da7-4066-a936-c03ca040a905/Quest-002_Rev_A_Noise_Sound_Glossary_App_Note_US-web_1"
+      },
+      {
+        "label": "NTi Audio｜Acoustic Analyzer",
+        "url": "https://www.nti-audio.com/en/functions/acoustic-analyzer"
+      }
+    ],
+    "detail": "小さな子音が背景や長い残響に埋もれると、音量を上げただけでは言葉が明確にならないことがある。聞き取りの主観評価と、伝送を数値化したSTI・STIPAは関連するが同一の観察ではなく、目的に応じて評価方法を選ぶ。録音素材の言葉が明瞭でも、会場の反射や背景音で結果は変わる。素材、拡声系統、聴取位置の三つを分けると評価対象が定まる。",
+    "examples": [
+      "BGMがある場面と台詞だけの場面で、客席の聞き取りを比較する。"
+    ],
+    "pitfalls": [
+      "単一の大きい音圧やEQの高域増幅だけで、すべての客席の明瞭度が改善するとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-impedance",
+    "name": "インピーダンス",
+    "reading": "いんぴーだんす",
+    "english": "Impedance",
+    "aliases": [
+      "Z",
+      "入力インピーダンス",
+      "出力インピーダンス"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "交流信号の流れにくさを表す量で、単位はオーム。音響機器では出力側と入力側の関係が接続条件に影響する。",
+    "usage": "楽器出力と入力端子の適合を確認する。",
+    "japan": "「インピーダンス」として使用。",
+    "us": "「Impedance」を使用。",
+    "uk": "「Impedance」を使用。",
+    "note": "マイクと卓の接続では、同じ数値にそろえることを意味しない。",
+    "related": [
+      "DI",
+      "ラインレベル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Should I match impedances of my microphone to my mixer?",
+        "url": "https://service.shure.com/articles/en_US/Knowledge/should-i-match-impedances-of-my-microphone-to-my-mixer"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "マイクの信号を受ける場面では、入力側が出力側を過度に負荷しない関係を使うことが多い。スピーカーの負荷、楽器の高い出力インピーダンス、デジタル伝送線の特性インピーダンスは、同じ単位でも確認目的が異なる。DIやバッファーは、送出側と受け側の条件を整える役割を持つ。単に端子の形を変えるアダプターと、電気的な変換機器は異なる。",
+    "examples": [
+      "ギター出力を直接卓へ入れる構成とDIを介する構成を比べる。"
+    ],
+    "pitfalls": [
+      "「インピーダンスを合わせる」という言葉を、すべての音声接続で同じ数値へそろえる意味にしない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-dynamic-mic",
+    "name": "ダイナミックマイク",
+    "reading": "だいなみっくまいく",
+    "english": "Dynamic microphone",
+    "aliases": [
+      "ムービングコイルマイク",
+      "ダイナミック型"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "音で振動するコイルと磁界を利用して電気信号を作るマイク。ボーカルや楽器の収音に使われ、指向性とは別の分類。",
+    "usage": "歌唱用マイクの変換方式を表す。",
+    "japan": "「ダイナミックマイク」として使用。",
+    "us": "「Dynamic microphone」を使用。",
+    "uk": "「Dynamic microphone」を使用。",
+    "note": "「ダイナミック」は音量の強弱を調整する機能という意味ではない。",
+    "related": [
+      "コンデンサーマイク",
+      "指向性"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜How to Choose the Right Microphone",
+        "url": "https://www.shure.com/en-US/insights/shure-sound-tech-how-to-choose-the-right-mic"
+      }
+    ]
+  },
+  {
+    "id": "audio-condenser-mic",
+    "name": "コンデンサーマイク",
+    "reading": "こんでんさーまいく",
+    "english": "Condenser microphone",
+    "aliases": [
+      "コンデンサー型",
+      "容量型マイク"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "振動板と電極の間の容量変化を利用して音を電気信号へ変えるマイク。内部回路の動作に電源を必要とする。",
+    "usage": "台詞や楽器の収音方式を表す。",
+    "japan": "「コンデンサーマイク」として使用。",
+    "us": "「Condenser microphone」を使用。",
+    "uk": "「Condenser microphone」を使用。",
+    "note": "電源方式はファンタム、電池、専用電源など機種で異なる。",
+    "related": [
+      "ファンタム電源",
+      "ダイナミックマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Mic Basics: Transducers, Polar Patterns & Frequency Response",
+        "url": "https://www.shure.com/en-GB/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+      },
+      {
+        "label": "NTi Audio｜Measurement Microphones Manual",
+        "url": "https://www.nti-audio.com/Portals/0/data/en/Measurement-Microphones-Manual.pdf"
+      }
+    ],
+    "detail": "変換原理と指向性は別の分類なので、コンデンサー型にも無指向性・カーディオイドなどがある。電源が必要な点に加え、最大音圧、自己雑音、感度、装着形態などを用途に合わせて選び、方式名だけで適性を決めない。感度が高いことと、必要な音だけを選んで拾うことは別である。周囲の音の量は指向性や音源との距離でも変わる。",
+    "examples": [
+      "小型装着マイクと楽器用マイクで、電源条件と指向性を比べる。"
+    ],
+    "pitfalls": [
+      "「コンデンサーだから必ずハウリングしやすい」という単独の基準では判断できない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-ribbon-mic",
+    "name": "リボンマイク",
+    "reading": "りぼんまいく",
+    "english": "Ribbon microphone",
+    "aliases": [
+      "リボン型",
+      "ベロシティーマイク"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "薄い帯状の振動体を磁界の中で動かし、音を電気信号へ変換するマイク。構造や電源の要否は製品により異なる。",
+    "usage": "楽器の音色に合わせてリボン型を選ぶ。",
+    "japan": "「リボンマイク」として使用。",
+    "us": "「Ribbon microphone」を使用。",
+    "uk": "「Ribbon microphone」を使用。",
+    "note": "全製品が無電源とは限らない。接続条件は機種の説明書による。",
+    "related": [
+      "双指向性",
+      "ダイナミックマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜How to Choose the Right Microphone",
+        "url": "https://www.shure.com/en-US/insights/shure-sound-tech-how-to-choose-the-right-mic"
+      }
+    ]
+  },
+  {
+    "id": "audio-directivity",
+    "name": "指向性",
+    "reading": "しこうせい",
+    "english": "Polar pattern",
+    "aliases": [
+      "ポーラーパターン",
+      "方向特性"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "音の到来方向によってマイクの感度がどのように変わるかを表す特性。周波数によっても変化し、図で示される。",
+    "usage": "マイクの正面と感度の低い方向を確認する。",
+    "japan": "「指向性」として使用。",
+    "us": "「Polar pattern」を使用。",
+    "uk": "「Polar pattern」を使用。",
+    "note": "",
+    "related": [
+      "カーディオイド",
+      "無指向性"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Directionality and Polar Pattern Basics",
+        "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+      },
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "正面の感度と、周囲の音への感度の関係を示すため、同じ型名でも製品や周波数で形が変わる。マイクが向く方向だけでなく、感度の低い方向、背後のローブ、音源と周囲音の位置関係を合わせて読む。カーディオイド図は上から見た断面の場合がある。三次元の感度と周波数ごとの変化を、単一の図だけで代表させない。",
+    "examples": [
+      "指向性図を見て、出演者と返しスピーカーの位置関係を把握する。"
+    ],
+    "pitfalls": [
+      "「遠くまで拾う能力」と指向性は同義ではない。鋭い指向性でも背景や反射は入り得る。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-cardioid",
+    "name": "カーディオイド",
+    "reading": "かーでぃおいど",
+    "english": "Cardioid",
+    "aliases": [
+      "単一指向性",
+      "心臓形指向性"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "前方の音に強く、真後ろの音に対して感度が低い心臓形の指向性。ステージ用のボーカルマイクなどで使われる。",
+    "usage": "カーディオイド型の収音範囲を図で確認する。",
+    "japan": "「カーディオイド」として使用。",
+    "us": "「Cardioid」を使用。",
+    "uk": "「Cardioid」を使用。",
+    "note": "「単一指向性」はより広い分類にも使うため、厳密には型名を確認する。",
+    "related": [
+      "指向性",
+      "スーパーカーディオイド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Directionality and Polar Pattern Basics",
+        "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+      },
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "前方の音を優先する一方、低域では指向性の形が変わる製品もある。正面から外れた音の音色も正面と同じとは限らないため、出演者の動きや複数音源の収音では、感度の大きさだけでなく軸外特性も判断材料になる。近接効果を持つ構造では、距離を変えると音量だけでなく低域の比も変わる。出演者の距離変化と卓の音量操作は分けて考える。",
+    "examples": [
+      "歌手がマイクの向きを変えたときの音色と周囲音を比較する。"
+    ],
+    "pitfalls": [
+      "単一指向性という大分類だけで、スーパーカーディオイド等と同じ後方特性と考えない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-supercardioid",
+    "name": "スーパーカーディオイド",
+    "reading": "すーぱーかーでぃおいど",
+    "english": "Supercardioid",
+    "aliases": [
+      "超単一指向性"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "カーディオイドより前方の収音範囲が狭い指向性。側後方に感度の低い方向がある一方、真後ろにも収音する領域がある。",
+    "usage": "背面にも感度があることを図で確認する。",
+    "japan": "「スーパーカーディオイド」として使用。",
+    "us": "「Supercardioid」を使用。",
+    "uk": "「Supercardioid」を使用。",
+    "note": "ハイパーカーディオイドと同一の指向性ではない。",
+    "related": [
+      "カーディオイド",
+      "ハイパーカーディオイド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Directionality and Polar Pattern Basics",
+        "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+      },
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "前方を狭くする代わりに、真後ろにも感度のある部分を持つ。カーディオイドと感度の低い方向が異なるので、同じ返しスピーカーの位置をそのまま適切と考えず、実際の周波数別指向性図と音源の位置関係を確認する。前方の範囲が狭くなると、出演者が軸から外れた際の変化も重要になる。マイクの向きと可動範囲を一組で検討する。",
+    "examples": [
+      "異なる指向性の歌唱マイクを入れ替える際に特性図を比べる。"
+    ],
+    "pitfalls": [
+      "「超単一」という名前が、すべての後方音を完全に遮断する意味ではない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-hypercardioid",
+    "name": "ハイパーカーディオイド",
+    "reading": "はいぱーかーでぃおいど",
+    "english": "Hypercardioid",
+    "aliases": [
+      "鋭指向性"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "前方の収音範囲をさらに絞り、後方にも一定の感度を持つ指向性。正面以外への感度の落ち方がカーディオイドと異なる。",
+    "usage": "収音方向と周辺音の入り方を検討する。",
+    "japan": "「ハイパーカーディオイド」として使用。",
+    "us": "「Hypercardioid」を使用。",
+    "uk": "「Hypercardioid」を使用。",
+    "note": "名称だけでなく製品の周波数別指向性図を参照する。",
+    "related": [
+      "指向性",
+      "スーパーカーディオイド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Directionality and Polar Pattern Basics",
+        "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+      }
+    ]
+  },
+  {
+    "id": "audio-omni",
+    "name": "無指向性",
+    "reading": "むしこうせい",
+    "english": "Omnidirectional",
+    "aliases": [
+      "全指向性",
+      "オムニ",
+      "Omni"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "理想的には全方向の音に等しく感度を持つ指向性。音源だけでなく周囲の音も収音し、装着型マイクなどにも使われる。",
+    "usage": "無指向性の装着マイクの特徴を説明する。",
+    "japan": "「無指向性」として使用。",
+    "us": "「Omnidirectional」を使用。",
+    "uk": "「Omnidirectional」を使用。",
+    "note": "",
+    "related": [
+      "指向性",
+      "ラベリアマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Directionality and Polar Pattern Basics",
+        "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+      }
+    ]
+  },
+  {
+    "id": "audio-figure-eight",
+    "name": "双指向性",
+    "reading": "そうしこうせい",
+    "english": "Bidirectional",
+    "aliases": [
+      "Figure-eight",
+      "Figure 8",
+      "八の字指向性"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "前方と後方に感度があり、左右方向の感度が低い指向性。上から見た感度の形が八の字に似るためそう呼ばれる。",
+    "usage": "前後の音を拾う方式として説明する。",
+    "japan": "「双指向性」として使用。",
+    "us": "「Bidirectional」を使用。",
+    "uk": "「Bidirectional」を使用。",
+    "note": "",
+    "related": [
+      "指向性",
+      "リボンマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Mic Basics: Transducers, Polar Patterns & Frequency Response",
+        "url": "https://www.shure.com/en-GB/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+      }
+    ]
+  },
+  {
+    "id": "audio-shotgun",
+    "name": "ショットガンマイク",
+    "reading": "しょっとがんまいく",
+    "english": "Shotgun microphone",
+    "aliases": [
+      "ガンマイク",
+      "干渉管マイク"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "干渉管などを用いて側方からの音を抑え、前方に鋭い指向性を持たせたマイク。映像収録や舞台収音などに使う。",
+    "usage": "画面外から台詞を収音する用途を示す。",
+    "japan": "「ショットガンマイク」として使用。",
+    "us": "「Shotgun microphone」を使用。",
+    "uk": "「Shotgun microphone」を使用。",
+    "note": "望遠レンズのように遠方の音だけを拡大する装置ではない。",
+    "related": [
+      "指向性",
+      "かぶり"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Techniques for Recording",
+        "url": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+      }
+    ]
+  },
+  {
+    "id": "audio-lavalier",
+    "name": "ラベリアマイク",
+    "reading": "らべりあまいく",
+    "english": "Lavalier microphone",
+    "aliases": [
+      "ピンマイク",
+      "ラベリア",
+      "ラペルマイク",
+      "Lapel mic",
+      "Lav"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "衣服や身体に取り付けて使う小型マイク。装着位置、衣擦れ、指向性などが音に影響し、無線・有線の両方式がある。",
+    "usage": "登壇者の衣服に装着するマイクを示す。",
+    "japan": "「ピンマイク」「ラベリア」など。",
+    "us": "Lavalier / lav / lapel microphone。",
+    "uk": "Lavalier / lapel microphone。",
+    "note": "日本の「ピンマイク」は通常この種類を指す。マイク自体が無線とは限らない。",
+    "related": [
+      "ヘッドセットマイク",
+      "ワイヤレスマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜How to Choose the Right Microphone",
+        "url": "https://www.shure.com/en-US/insights/shure-sound-tech-how-to-choose-the-right-mic"
+      },
+      {
+        "label": "Shure｜Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ],
+    "detail": "口との距離だけでなく、胸元・髪・衣服の反射や遮蔽、衣擦れなどが収音へ影響する。舞台では見え方と動きへの対応も必要となり、マイク本体の指向性、無線送信機、装着方法を別の要素として考える。衣服へ固定する形状と、装着部位をどう選ぶかは別の要素である。見た目を隠す要求と音響的な遮蔽の影響を合わせて検討する。",
+    "examples": [
+      "衣裳変更の前後で同じ出演者の台詞音色を確認する。"
+    ],
+    "pitfalls": [
+      "ピンマイクという呼び名だけで無線方式やコネクター、必要電源の互換性は判断できない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-headset",
+    "name": "ヘッドセットマイク",
+    "reading": "へっどせっとまいく",
+    "english": "Headworn microphone",
+    "aliases": [
+      "ヘッドウォーン",
+      "ヘッドマイク",
+      "Headset microphone"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "頭部や耳まわりに装着し、口元近くの位置を保つマイク。話者が動いても口との距離を比較的一定にしやすい。",
+    "usage": "動きの多い出演者の収音方式として使う。",
+    "japan": "「ヘッドセット」「ヘッドマイク」など。",
+    "us": "Headworn microphone / headset microphone。",
+    "uk": "Headworn microphone / headset microphone。",
+    "note": "通話用ヘッドホン一体型を意味する場合もあるので用途を確認する。",
+    "related": [
+      "ラベリアマイク",
+      "ワイヤレスマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜How to Choose the Right Microphone",
+        "url": "https://www.shure.com/en-US/insights/shure-sound-tech-how-to-choose-the-right-mic"
+      },
+      {
+        "label": "Shure｜Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ],
+    "detail": "口との位置関係を保ちやすいが、装着のずれ、頭の動き、息の当たり方で音色が変わる。無指向性と単一指向性の両方の製品があるため、形状が似ていても同じ収音特性とは限らず、送信機への対応も確認する。歌と台詞で音源の強さや息の量が変わる場合もある。口との関係を保てる利点と、発声内容による変化を分けて確認する。",
+    "examples": [
+      "ダンスを伴う台詞で、装着位置の変化と収音を確認する。"
+    ],
+    "pitfalls": [
+      "通話用のヘッドホン一体型とは用途が異なる場合がある。型式と接続条件を具体的に示す。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-boundary",
+    "name": "バウンダリーマイク",
+    "reading": "ばうんだりーまいく",
+    "english": "Boundary microphone",
+    "aliases": [
+      "境界面マイク",
+      "バウンダリー型",
+      "PZM"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "床や机などの面の近くに振動板を配置して収音するマイク。舞台面、会議卓、楽器などの収音で用いられる。",
+    "usage": "舞台床に設置する薄型マイクの種類を示す。",
+    "japan": "「バウンダリーマイク」として使用。",
+    "us": "「Boundary microphone」を使用。",
+    "uk": "「Boundary microphone」を使用。",
+    "note": "PZMは特定方式・製品名に由来し、すべてのバウンダリー型と同義ではない。",
+    "related": [
+      "指向性",
+      "かぶり"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Techniques for Recording",
+        "url": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+      },
+      {
+        "label": "AKG｜PZM185 Manual",
+        "url": "https://se.akg.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwebf63198/pdfs/AKG_PZM185_Manual.pdf"
+      },
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "境界面の近くで直接音と反射音の関係を利用する方式で、取り付ける面や周辺の構造も収音へ影響する。舞台床へ置く場合は演技音だけでなく、足音、振動、客席側の雑音などをどう含めるかが設計上の要点になる。取り付け面の振動が入る場合、空気中の音と構造を伝わる音を区別する。マイクを置く面も収音系統の条件になる。",
+    "examples": [
+      "演技区域の台詞と足音を収録する用途を比較する。"
+    ],
+    "pitfalls": [
+      "床に置けばどの位置の小声も均等に明瞭となるわけではない。音源距離や指向性も関係する。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-proximity",
+    "name": "近接効果",
+    "reading": "きんせつこうか",
+    "english": "Proximity effect",
+    "aliases": [
+      "プロキシミティー効果"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "指向性マイクの一部で、音源を近づけるほど低域が強まる現象。マイクの方式や距離により程度が異なる。",
+    "usage": "口元との距離による声の低域変化を説明する。",
+    "japan": "「近接効果」として使用。",
+    "us": "「Proximity effect」を使用。",
+    "uk": "「Proximity effect」を使用。",
+    "note": "すべてのマイクで同じように起こる現象ではない。",
+    "related": [
+      "カーディオイド",
+      "ラベリアマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜How to Choose the Right Microphone",
+        "url": "https://www.shure.com/en-US/insights/shure-sound-tech-how-to-choose-the-right-mic"
+      }
+    ]
+  },
+  {
+    "id": "audio-phantom",
+    "name": "ファンタム電源",
+    "reading": "ふぁんたむでんげん",
+    "english": "Phantom power",
+    "aliases": [
+      "ファントム電源",
+      "+48V",
+      "P48"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "マイク用のバランス音声ケーブルを通じて、対応するマイクや機器へ直流電源を供給する方式。音声信号と同じ線を使う。",
+    "usage": "卓の入力にあるファンタムの設定を確認する。",
+    "japan": "「ファンタム電源」として使用。",
+    "us": "「Phantom power」を使用。",
+    "uk": "「Phantom power」を使用。",
+    "note": "電圧・対応機器・接続条件は機種による。すべてのマイクへ必要な電源ではない。",
+    "related": [
+      "コンデンサーマイク",
+      "DI"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ],
+    "detail": "対応する信号線へ共通の直流を与え、差動で扱う音声と共存させる仕組み。マイクだけでなく一部のDIにも使われるが、専用バイアス電源やボディーパックの供給方式とは同じではなく、機器ごとに対応を確認する。送信機用小型マイクのバイアス供給と、卓のP48を変換するアダプターには専用設計がある。端子を合わせるだけでは代替できない。",
+    "examples": [
+      "卓、DI、マイクそれぞれで、必要な電源方式を仕様から確認する。"
+    ],
+    "pitfalls": [
+      "ファンタムがあるから任意の小型マイクへ直接接続できるとは限らない。変換アダプターにも条件がある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-pop",
+    "name": "ポップノイズ",
+    "reading": "ぽっぷのいず",
+    "english": "Plosive noise",
+    "aliases": [
+      "吹かれ",
+      "吹かれ音",
+      "破裂音",
+      "Popping"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "発話時の強い息がマイクの振動板に当たるなどして生じる低い衝撃的な雑音。言葉の音そのものと区別して扱う。",
+    "usage": "台詞収音で息による雑音を確認する。",
+    "japan": "「ポップノイズ」として使用。",
+    "us": "「Plosive noise」を使用。",
+    "uk": "「Plosive noise」を使用。",
+    "note": "",
+    "related": [
+      "ハイパスフィルター",
+      "ラベリアマイク"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Microphone Techniques for Recording",
+        "url": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+      }
+    ]
+  },
+  {
+    "id": "audio-bleed",
+    "name": "かぶり",
+    "reading": "かぶり",
+    "english": "Bleed",
+    "aliases": [
+      "被り",
+      "回り込み",
+      "Spill",
+      "Leakage",
+      "被る"
+    ],
+    "category": "audio",
+    "subcategory": "マイク・収音",
+    "definition": "狙った音源以外の楽器音、周囲の音、スピーカー音などがマイクへ入ること。分離の程度やミックスの質感に影響する。",
+    "usage": "「ドラムが歌マイクへかぶっている」。",
+    "japan": "「かぶり」として使用。",
+    "us": "「Bleed」を使用。",
+    "uk": "「Bleed」を使用。",
+    "note": "必ずしも不要とは限らず、自然な一体感に寄与する場合もある。",
+    "related": [
+      "指向性",
+      "ハウリング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Mic Basics: Transducers, Polar Patterns & Frequency Response",
+        "url": "https://www.shure.com/en-GB/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-mixer",
+    "name": "ミキサー",
+    "reading": "みきさー",
+    "english": "Mixing console",
+    "aliases": [
+      "音響卓",
+      "卓",
+      "ミキシングコンソール",
+      "Desk",
+      "Board"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "複数の入力音を受け、音量や音質、定位、送り先を調整して出力へまとめる装置。アナログ型とデジタル型などがある。",
+    "usage": "「客席卓の入力数を確認する」。",
+    "japan": "「ミキサー」として使用。",
+    "us": "「Mixing console」を使用。",
+    "uk": "「Mixing console」を使用。",
+    "note": "英語ではconsole、desk、boardなども使うが、文脈により意味が広がる。",
+    "related": [
+      "入力チャンネル",
+      "バス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      },
+      {
+        "label": "Leeds Conservatoire｜Technical Survival Guide",
+        "url": "https://www.leedsconservatoire.ac.uk/media/u1gm0nd2/lc-technical-survival-guide-2021.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-channel",
+    "name": "入力チャンネル",
+    "reading": "にゅうりょくちゃんねる",
+    "english": "Input channel",
+    "aliases": [
+      "インプット",
+      "CH",
+      "チャンネルストリップ"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "一つの入力音を受けて処理・分配するミキサー内部の経路。物理的な入力端子と内部チャンネルの対応は変更できる場合がある。",
+    "usage": "「ボーカルを入力チャンネル三番に割り当てる」。",
+    "japan": "「入力チャンネル」として使用。",
+    "us": "「Input channel」を使用。",
+    "uk": "「Input channel」を使用。",
+    "note": "",
+    "related": [
+      "パッチ",
+      "ゲイン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-gain",
+    "name": "ゲイン",
+    "reading": "げいん",
+    "english": "Gain",
+    "aliases": [
+      "入力ゲイン",
+      "ヘッドアンプ",
+      "HA",
+      "Mic preamp"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "信号をどの程度増幅または減衰するかを表す量。卓ではマイク入力の初段増幅を指すことが多く、後段の音量操作と区別する。",
+    "usage": "入力信号に応じてヘッドアンプのゲインを確認する。",
+    "japan": "入力初段を「ゲイン」「ヘッドアンプ」「HA」など。",
+    "us": "Mic preamp / input gain。",
+    "uk": "Mic preamp / input gain。",
+    "note": "HAと略す現場用法に対し、英語資料ではpreampやinput gainなどを使う。",
+    "related": [
+      "トリム",
+      "ヘッドルーム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "入力初段の増幅は音声経路の出発点に近く、その後のバスや送りにも影響する。複数卓で同じヘッドアンプを共有する構成では、一方が変えることで他方の入力も動く場合があるため、共有部分と各卓独立の補正を分けて考える。前段の雑音と後段で加わる雑音の関係は、利得配分で変わる。SN比を考えるときは、どこで信号と雑音が生じるかを区別する。",
+    "examples": [
+      "FOHとモニターが同じ入力ラックを共有する系統を図にする。"
+    ],
+    "pitfalls": [
+      "フェーダー位置をそろえることと、各段の適切なレベルをそろえることは別の作業。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-trim",
+    "name": "トリム",
+    "reading": "とりむ",
+    "english": "Trim",
+    "aliases": [
+      "デジタルトリム",
+      "Digital trim"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "入力レベルを補正する調整機能。デジタル卓ではアナログのヘッドアンプ後に置かれるデジタル側の補正を指すことがある。",
+    "usage": "共有ヘッドアンプと各卓のトリムを区別する。",
+    "japan": "「トリム」として使用。",
+    "us": "「Trim」を使用。",
+    "uk": "「Trim」を使用。",
+    "note": "アナログ卓ではtrimが入力ゲインそのものを指す場合もあり、機種の信号図で確認する。",
+    "related": [
+      "ゲイン",
+      "入力チャンネル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "デジタル卓で共有ヘッドアンプの後を個別に補正する場合、トリムは他の卓に直接影響しない調整として使えることがある。ただし、取り出し位置や補償の実装は製品ごとに違うので、ゲインとの動作関係を資料で確認する。ゲイン補償を備える共有システムでも、何を補償しどの送りへ作用するかは実装による。自動補償と独立トリムは別の機能として読む。",
+    "examples": [
+      "共有入力のまま、各卓で扱いやすい内部レベルを作る。"
+    ],
+    "pitfalls": [
+      "デジタルトリムを下げても、前段のAD変換や入力回路で生じたクリップは回復しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-fader",
+    "name": "フェーダー",
+    "reading": "ふぇーだー",
+    "english": "Fader",
+    "aliases": [
+      "スライドフェーダー",
+      "レベルフェーダー"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "上下または左右に動かして信号レベルを調整する操作子。入力、バス、DCAなど、割り当てられた対象により働きが異なる。",
+    "usage": "「台詞のフェーダーを操作する」。",
+    "japan": "「フェーダー」として使用。",
+    "us": "「Fader」を使用。",
+    "uk": "「Fader」を使用。",
+    "note": "",
+    "related": [
+      "ゲイン",
+      "DCA・VCA"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-pan",
+    "name": "パン",
+    "reading": "ぱん",
+    "english": "Pan",
+    "aliases": [
+      "パンポット",
+      "Panning",
+      "PAN"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "モノラル入力を左右などの出力へどの比率で配るかを決める操作。ステレオ入力のバランス調整とは扱いが異なる。",
+    "usage": "効果音を左右の客席スピーカーへ定位させる。",
+    "japan": "「パン」として使用。",
+    "us": "「Pan」を使用。",
+    "uk": "「Pan」を使用。",
+    "note": "",
+    "related": [
+      "ステレオリンク",
+      "ミキサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-mute",
+    "name": "ミュート",
+    "reading": "みゅーと",
+    "english": "Mute",
+    "aliases": [
+      "消音",
+      "MUTE"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "指定した信号の通過を止める機能。どの出力や送り先に作用するかは、卓の構成と信号の取り出し位置によって異なる。",
+    "usage": "「休憩中の入力をミュートする」。",
+    "japan": "「ミュート」として使用。",
+    "us": "「Mute」を使用。",
+    "uk": "「Mute」を使用。",
+    "note": "メイン出力が止まっていても、ダイレクトアウトなど別経路は動作する場合がある。",
+    "related": [
+      "ミュートグループ",
+      "ダイレクトアウト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      }
+    ]
+  },
+  {
+    "id": "audio-pfl",
+    "name": "PFL",
+    "reading": "ぴーえふえる",
+    "english": "Pre-fader listen",
+    "aliases": [
+      "プリフェーダーリッスン",
+      "プリフェードリッスン"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "チャンネルフェーダーより前の信号を操作側のモニターで聞く機能。客席へ出すバランスとは独立に入力確認などを行う。",
+    "usage": "PFLで入力の音とレベルを確認する。",
+    "japan": "「PFL」として使用。",
+    "us": "「Pre-fader listen」を使用。",
+    "uk": "「Pre-fader listen」を使用。",
+    "note": "EQなどの前後のどこから取るかは機種の設定による。",
+    "related": [
+      "AFL",
+      "プリフェーダー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Setup",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/45947065818769-SQ-Setup"
+      },
+      {
+        "label": "Rational Acoustics｜Smaart Suite Features",
+        "url": "https://www.rationalacoustics.com/pages/smaart-suite-features"
+      }
+    ],
+    "detail": "客席へ出すフェーダーと独立に入力を確認できるが、EQやダイナミクスの前後のどこから聞くかは設定で変わる。ヘッドホンで確認できたことと、客席や返しへ正しく送られていることは別なので、監視点を明確にする。操作側の監視系へ複数チャンネルを加算する設定もある。単独確認中か、複数が選択されているかで聞こえる内容が変わる。",
+    "examples": [
+      "客席フェーダーを上げる前に入力音源の対応を確認する。"
+    ],
+    "pitfalls": [
+      "PFLで音が出ているだけで、すべての出力系統の接続が正常とは断定できない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-afl",
+    "name": "AFL",
+    "reading": "えーえふえる",
+    "english": "After-fader listen",
+    "aliases": [
+      "アフターフェーダーリッスン",
+      "ポストフェーダーリッスン"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "フェーダー後の信号を操作側のモニターで聞く機能。出力バスなどの調整後の状態を確認する用途に使われる。",
+    "usage": "出力ミックスのAFLを聞いて状態を確認する。",
+    "japan": "「AFL」として使用。",
+    "us": "「After-fader listen」を使用。",
+    "uk": "「After-fader listen」を使用。",
+    "note": "モノラル・ステレオや取り出し位置などの動作は機種で異なる。",
+    "related": [
+      "PFL",
+      "ポストフェーダー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Setup",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/45947065818769-SQ-Setup"
+      },
+      {
+        "label": "Rational Acoustics｜Smaart Suite Features",
+        "url": "https://www.rationalacoustics.com/pages/smaart-suite-features"
+      }
+    ],
+    "detail": "対象フェーダー後の音を聞くため、送りバスのバランスやレベルを確認する手がかりになる。客席の実際のスピーカー音は、その後の処理やアンプ、空間の影響も含むので、AFLは信号経路の一つの監視点として扱う。出力を監視する際は、バスそのものの音と、その先の物理端子から出る音を区別する。外部プロセッサー後まで含むかも確認点になる。",
+    "examples": [
+      "出演者用AUXの音を、客席用ミックスと分けて確認する。"
+    ],
+    "pitfalls": [
+      "AFLで聞くバランスと、舞台で本人が生音と合わせて聞くバランスは同じとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-dca",
+    "name": "DCA・VCA",
+    "reading": "でぃーしーえーぶいしーえー",
+    "english": "DCA / VCA group",
+    "aliases": [
+      "DCA",
+      "VCA",
+      "コントロールグループ"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "複数チャンネルのレベルを一括操作する制御グループ。音声を一つのバスへ加算するグループバスとは役割が異なる。",
+    "usage": "出演者の複数マイクを一つの操作子で追従させる。",
+    "japan": "「DCA・VCA」として使用。",
+    "us": "「DCA / VCA group」を使用。",
+    "uk": "「DCA / VCA group」を使用。",
+    "note": "DCAはデジタル制御、VCAは電圧制御に由来する。製品により機能名・影響範囲が異なる。",
+    "related": [
+      "グループバス",
+      "フェーダー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "グループへ音声を集めずに、元の各チャンネルのレベルなどをまとめて操作するのが要点となる。プリフェーダー送り、ミュート、ソロなどがどこまで連動するかは機種で異なり、制御対象と音が流れる経路を分けて読む。別のDCAへ同じチャンネルを重複割り当てできる機種では、制御の影響が重なる。グループ所属と実際の音声経路は別に記録する。",
+    "examples": [
+      "出演者群をまとめて操作しつつ、各チャンネルの処理を保つ。"
+    ],
+    "pitfalls": [
+      "DCA自体へEQやコンプを入れて合成音を処理する、というグループバスの発想と混同しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-mute-group",
+    "name": "ミュートグループ",
+    "reading": "みゅーとぐるーぷ",
+    "english": "Mute group",
+    "aliases": [
+      "MUTE GROUP",
+      "ミュートマスター"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "複数の入力や出力を一つの操作でまとめて消音するためのグループ。レベルの一括調整を行うDCAとは別の機能。",
+    "usage": "幕間に不要なマイク群をまとめてミュートする。",
+    "japan": "「ミュートグループ」として使用。",
+    "us": "「Mute group」を使用。",
+    "uk": "「Mute group」を使用。",
+    "note": "",
+    "related": [
+      "ミュート",
+      "DCA・VCA"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      }
+    ]
+  },
+  {
+    "id": "audio-scene",
+    "name": "シーン",
+    "reading": "しーん",
+    "english": "Scene",
+    "aliases": [
+      "スナップショット",
+      "Snapshot",
+      "シーンメモリー"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "デジタル卓などの設定状態を保存し、必要な時点で呼び出す単位。保存対象と呼び出し対象は機種や設定により異なる。",
+    "usage": "場面ごとの入力や処理設定をシーンに記録する。",
+    "japan": "「シーン」として使用。",
+    "us": "「Scene」を使用。",
+    "uk": "「Scene」を使用。",
+    "note": "演劇の場面自体を意味するsceneとは文脈で区別する。",
+    "related": [
+      "リコールセーフ",
+      "ミキサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      },
+      {
+        "label": "DiGiCo｜SD & Quantum Software Reference",
+        "url": "https://support.digico.biz/hc/en-gb/article_attachments/25229331250961"
+      }
+    ],
+    "detail": "本番で呼び出す設定には、入力、処理、ルーティング、フェーダーなど複数の種類がある。すべて保存できても、呼び出しではスコープやセーフにより対象外にできる場合があるので、保存内容と実際の反映範囲を別に管理する。シーンへ番号を付けることと、台本上のきっかけを対応付けることは別の管理になる。上演途中で追加する場合も対応表が役立つ。",
+    "examples": [
+      "場面ごとにマイクの状態を変え、継続中のBGMは呼び出し対象から外す。"
+    ],
+    "pitfalls": [
+      "シーン番号だけで再現性は決まらない。共通設定、外部機器、ソフトの版も結果に関わる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-recall-safe",
+    "name": "リコールセーフ",
+    "reading": "りこーるせーふ",
+    "english": "Recall safe",
+    "aliases": [
+      "セーフ",
+      "リコール除外",
+      "Scene safe"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "シーンなどの設定呼び出しで、特定のチャンネルや項目が上書きされないようにする機能。保護範囲は機種ごとに異なる。",
+    "usage": "継続中の音源を呼び出し対象から除外する。",
+    "japan": "「リコールセーフ」として使用。",
+    "us": "「Recall safe」を使用。",
+    "uk": "「Recall safe」を使用。",
+    "note": "機種によってsafe、scope、filterなどの用語と設定の構成が異なる。",
+    "related": [
+      "シーン",
+      "ミュート"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      },
+      {
+        "label": "DiGiCo｜SD & Quantum Software Reference",
+        "url": "https://support.digico.biz/hc/en-gb/article_attachments/25229331250961"
+      }
+    ],
+    "detail": "あるシーンを呼び出すときに変えたい設定と、そのまま継続したい設定を分けるために使う。機器によって全体のセーフ、項目ごとのフィルター、シーン側のスコープなどの階層があり、どこで保護されているかを確認する。一度の呼び出しだけを制限するスコープと、全体に効く保護の設定は区別する。設定が変わらない原因を探す際にも階層を確認する。",
+    "examples": [
+      "進行中の収録系統を、舞台場面のシーン変更から保護する。"
+    ],
+    "pitfalls": [
+      "現在の値を固定する保護であり、望む値へ自動修正する機能とは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-talkback",
+    "name": "トークバック",
+    "reading": "とーくばっく",
+    "english": "Talkback",
+    "aliases": [
+      "TB",
+      "連絡マイク"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "音響担当から出演者や舞台スタッフへ連絡する音声経路。客席向けのミックスと分けて指定の送り先へ送ることが多い。",
+    "usage": "客席卓から演奏者へ確認の声を届ける。",
+    "japan": "「トークバック」として使用。",
+    "us": "「Talkback」を使用。",
+    "uk": "「Talkback」を使用。",
+    "note": "インターカム全体を指す言葉ではない。",
+    "related": [
+      "AUX",
+      "モニタースピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Setup",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/45947065818769-SQ-Setup"
+      }
+    ]
+  },
+  {
+    "id": "audio-stereo-link",
+    "name": "ステレオリンク",
+    "reading": "すてれおりんく",
+    "english": "Stereo link",
+    "aliases": [
+      "チャンネルリンク",
+      "Channel link"
+    ],
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "二つのチャンネルの設定や操作を連動させ、左右一組として扱う機能。どのパラメーターが連動するかは機種により異なる。",
+    "usage": "左右の音源をステレオリンクで扱う。",
+    "japan": "「ステレオリンク」として使用。",
+    "us": "「Stereo link」を使用。",
+    "uk": "「Stereo link」を使用。",
+    "note": "",
+    "related": [
+      "パン",
+      "入力チャンネル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-bus",
+    "name": "バス",
+    "reading": "ばす",
+    "english": "Bus",
+    "aliases": [
+      "BUS",
+      "ミックスバス"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "複数の信号を集めて合成し、次の処理や出力へ渡す経路。メイン、AUX、グループ、マトリクスなど用途で分かれる。",
+    "usage": "客席用とモニター用に別のバスを使う。",
+    "japan": "「バス」として使用。",
+    "us": "「Bus」を使用。",
+    "uk": "「Bus」を使用。",
+    "note": "",
+    "related": [
+      "AUX",
+      "グループバス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-aux",
+    "name": "AUX",
+    "reading": "おぐじゅありー",
+    "english": "Auxiliary send",
+    "aliases": [
+      "オグジュアリー",
+      "オーグジュアリー",
+      "オックス",
+      "Aux send"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "メインのミックスとは別の比率で各入力を混ぜて送る補助経路。出演者用モニター、外部エフェクト、録音などに使う。",
+    "usage": "「モニター用のAUXを分ける」。",
+    "japan": "「AUX」として使用。",
+    "us": "「Auxiliary send」を使用。",
+    "uk": "「Auxiliary send」を使用。",
+    "note": "用途そのものを固定する名称ではなく、卓ごとに割り当てを確認する。",
+    "related": [
+      "プリフェーダー",
+      "センド・リターン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "同じ入力群から、客席とは異なる比率のミックスを作れる。誰に何を届ける送りか、元のフェーダーへ追従するか、どの処理後から取り出すかを区別すると、出演者の返しとエフェクト送りの構成を説明しやすい。送りの音量比は、入力の設定とAUXマスターの両方に関係する。各入力を動かす操作とミックス全体を動かす操作を分けて説明する。",
+    "examples": [
+      "歌手ごとに必要な楽器の比率が違うモニターミックスを作る。"
+    ],
+    "pitfalls": [
+      "AUXの番号だけでは用途やプリ・ポストの状態は決まらない。現場の割り当てを明記する。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-group-bus",
+    "name": "グループバス",
+    "reading": "ぐるーぷばす",
+    "english": "Group bus",
+    "aliases": [
+      "サブグループ",
+      "Subgroup",
+      "GROUP"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "複数の入力音を合成して一つのまとまりとして処理・操作する経路。合成した音をメインなどへ送ることができる。",
+    "usage": "ドラム全体をグループバスへまとめる。",
+    "japan": "「グループバス」として使用。",
+    "us": "「Group bus」を使用。",
+    "uk": "「Group bus」を使用。",
+    "note": "制御だけを行うDCAと異なり、実際に音声が流れる経路。",
+    "related": [
+      "DCA・VCA",
+      "バス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      },
+      {
+        "label": "DiGiCo｜SD & Quantum Software Reference",
+        "url": "https://support.digico.biz/hc/en-gb/article_attachments/25229331250961"
+      }
+    ],
+    "detail": "信号を合成した後の経路に共通のEQやコンプレッサーを置き、一つの音として処理できる。入力をグループ経由でメインへ送る構成と、入力からメインへも並行して送る構成では加算の結果が変わるため、経路を確認する。グループ内で音量関係を作る段階と、合成後の一つの音を処理する段階は別である。処理が他の送りへ回る経路も確認する。",
+    "examples": [
+      "ドラム群をまとめた音へ共通のコンプレッサーを使う。"
+    ],
+    "pitfalls": [
+      "同じ入力を二重に送ると音量や位相関係が変わる。DCAの制御だけとは違う。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-matrix",
+    "name": "マトリクス",
+    "reading": "まとりくす",
+    "english": "Matrix",
+    "aliases": [
+      "マトリックス",
+      "MTX",
+      "Matrix mix"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "複数のミックスやバスを組み合わせ、別の出力ミックスを作る仕組み。客席の補助スピーカーや録音用の分配などに使う。",
+    "usage": "メイン音を客席後方用のマトリクスへ送る。",
+    "japan": "「マトリクス」として使用。",
+    "us": "「Matrix」を使用。",
+    "uk": "「Matrix」を使用。",
+    "note": "入力チャンネルから直接送れるかなど、構成は卓により異なる。",
+    "related": [
+      "バス",
+      "ディレイスピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      },
+      {
+        "label": "d&b audiotechnik｜DS100M",
+        "url": "https://www.dbaudio.com/global/en/products/processing-and-matrix/ds100m/"
+      }
+    ],
+    "detail": "既存のメインや複数バスを受け取り、補助スピーカーや収録向けの別出力を作る用途で使う。入力から直接送れる機種もあるため、必ずバスの後だけと決めず、元になる信号と処理点を系統図で確認する。客席用の主ミックスから収録用を作る場合、舞台の生音の寄与は客席と録音で異なる。出力分配だけで十分か、目的から検討する。",
+    "examples": [
+      "メインの音を前方補助と後方補助へ別の条件で送る。"
+    ],
+    "pitfalls": [
+      "マトリクスという名前でも入力源の制限やモノ・ステレオ構成は機種で異なる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-insert",
+    "name": "インサート",
+    "reading": "いんさーと",
+    "english": "Insert",
+    "aliases": [
+      "INSERT",
+      "挿入接続"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "音声経路の途中から信号を外部または内部の処理へ送り、その戻りを同じ経路へ組み込む接続。直列の処理として扱う。",
+    "usage": "チャンネルへコンプレッサーをインサートする。",
+    "japan": "「インサート」として使用。",
+    "us": "「Insert」を使用。",
+    "uk": "「Insert」を使用。",
+    "note": "端子や送受の配線は機種で異なる。TRS端子が常に同じ用途とは限らない。",
+    "related": [
+      "センド・リターン",
+      "TRS端子"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Use Inserts",
+        "url": "https://hub.yamaha.com/proaudio/livesound/how-to-use-inserts/"
+      },
+      {
+        "label": "FabFilter｜Pro-C 3 Time Controls",
+        "url": "https://www.fabfilter.com/help/pro-c/using/timecontrols"
+      }
+    ],
+    "detail": "処理した音を元の位置へ戻す直列経路として考えると、リバーブなどの並列センドとの違いが分かる。デジタル卓では内部プラグインや外部ネットワーク機器も挿入でき、処理遅延、バイパス、故障時の通過条件も重要になる。外部処理へ出した経路では、変換や伝送も音声の遅れへ加わる。未処理の経路と混ぜる場合は、両方の時刻関係も確認点になる。",
+    "examples": [
+      "外部処理を台詞チャンネルの途中へ組み込む構成を読む。"
+    ],
+    "pitfalls": [
+      "TRS一本のインサート端子と、デジタルの内部挿入点では物理接続も動作も異なる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-send-return",
+    "name": "センド・リターン",
+    "reading": "せんどりたーん",
+    "english": "Send and return",
+    "aliases": [
+      "SEND",
+      "RETURN",
+      "エフェクトセンド",
+      "エフェクトリターン"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "処理したい音を別経路へ送り、処理後の音を卓へ戻す構成。リバーブなどでは原音と戻り音を混ぜる並列経路として使う。",
+    "usage": "リバーブの送り量と戻り量を区別する。",
+    "japan": "「センド・リターン」として使用。",
+    "us": "「Send and return」を使用。",
+    "uk": "「Send and return」を使用。",
+    "note": "",
+    "related": [
+      "AUX",
+      "インサート"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Use Inserts",
+        "url": "https://hub.yamaha.com/proaudio/livesound/how-to-use-inserts/"
+      }
+    ]
+  },
+  {
+    "id": "audio-pre-fader",
+    "name": "プリフェーダー",
+    "reading": "ぷりふぇーだー",
+    "english": "Pre-fader",
+    "aliases": [
+      "Pre-fade",
+      "PRE"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "対象のフェーダーより前で信号を取り出す位置を示す言葉。通常、そのフェーダー操作に追従しない送りとして使われる。",
+    "usage": "客席の音量操作と独立した送りを示す。",
+    "japan": "「プリフェーダー」として使用。",
+    "us": "「Pre-fader」を使用。",
+    "uk": "「Pre-fader」を使用。",
+    "note": "プリフェーダーでも、ゲイン・EQ・ミュートなどの影響は取り出し位置と機種による。",
+    "related": [
+      "ポストフェーダー",
+      "AUX"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      },
+      {
+        "label": "DiGiCo｜SD & Quantum Software Reference",
+        "url": "https://support.digico.biz/hc/en-gb/article_attachments/25229331250961"
+      }
+    ],
+    "detail": "フェーダーの前という位置を示すだけなので、マイクゲイン、EQ、ゲート、ミュートのどれが反映されるかは別の条件となる。送り先ごとに取り出し位置を変える機種もあり、客席操作から独立という説明だけでは全経路を表せない。ダイレクトアウトなどにも複数の取り出し点がある。フェーダー前後だけでなく、信号図上のどの処理まで含むかを具体的に示す。",
+    "examples": [
+      "客席レベルを変えても出演者の返しを保つ構成を確認する。"
+    ],
+    "pitfalls": [
+      "プリフェーダーだから入力側の操作すべてに影響されない、と考えない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-post-fader",
+    "name": "ポストフェーダー",
+    "reading": "ぽすとふぇーだー",
+    "english": "Post-fader",
+    "aliases": [
+      "Post-fade",
+      "POST"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "対象のフェーダーより後で信号を取り出す位置を示す言葉。元のチャンネルのフェーダー操作に送りのレベルが追従する。",
+    "usage": "原音に追従するエフェクト送りを示す。",
+    "japan": "「ポストフェーダー」として使用。",
+    "us": "「Post-fader」を使用。",
+    "uk": "「Post-fader」を使用。",
+    "note": "",
+    "related": [
+      "プリフェーダー",
+      "センド・リターン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      },
+      {
+        "label": "DiGiCo｜SD & Quantum Software Reference",
+        "url": "https://support.digico.biz/hc/en-gb/article_attachments/25229331250961"
+      }
+    ],
+    "detail": "元のチャンネルフェーダーへ追従する送りとして、エフェクトや別ミックスの構成に使われる。チャンネルの処理やパン、DCA、ミュートの影響も系統ごとに異なるので、単にフェーダーの後という説明から必要な動作を具体化する。元の入力をDCAで動かした際の送りの挙動も製品によって変わり得る。フェーダーと制御グループの影響を資料で分けて読む。",
+    "examples": [
+      "歌を下げたとき、リバーブへ送る量も一緒に下がる構成を読む。"
+    ],
+    "pitfalls": [
+      "フェーダー後でも、すべての出力の最終段という意味ではない。後段の処理やレベルは別。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-direct-out",
+    "name": "ダイレクトアウト",
+    "reading": "だいれくとあうと",
+    "english": "Direct out",
+    "aliases": [
+      "DIR OUT",
+      "直接出力"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "入力チャンネルの音を個別に外へ取り出す出力。マルチトラック録音や別システムへの分配などに使われる。",
+    "usage": "各マイクを録音機へ個別に送る。",
+    "japan": "「ダイレクトアウト」として使用。",
+    "us": "「Direct out」を使用。",
+    "uk": "「Direct out」を使用。",
+    "note": "処理・フェーダー・ミュートの前後のどこから取るかを確認する。",
+    "related": [
+      "入力チャンネル",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      }
+    ]
+  },
+  {
+    "id": "audio-patch",
+    "name": "パッチ",
+    "reading": "ぱっち",
+    "english": "Patch",
+    "aliases": [
+      "パッチング",
+      "入力パッチ",
+      "出力パッチ",
+      "Patching"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "機器の端子と信号経路を接続・割り当てすること。ケーブルによる物理接続と、卓内部の設定の両方に用いる。",
+    "usage": "舞台の端子番号と卓の入力パッチを照合する。",
+    "japan": "「パッチ」として使用。",
+    "us": "「Patch」を使用。",
+    "uk": "「Patch」を使用。",
+    "note": "",
+    "related": [
+      "ステージボックス",
+      "入力チャンネル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-stagebox",
+    "name": "ステージボックス",
+    "reading": "すてーじぼっくす",
+    "english": "Stage box",
+    "aliases": [
+      "ステージラック",
+      "入出力ボックス",
+      "Stage rack"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "舞台側でマイクなどを接続する入出力の箱。アナログの接続箱と、変換回路や遠隔制御を備えたデジタル型がある。",
+    "usage": "舞台袖のステージボックスへ入力を集める。",
+    "japan": "「ステージボックス」として使用。",
+    "us": "「Stage box」を使用。",
+    "uk": "「Stage box」を使用。",
+    "note": "",
+    "related": [
+      "マルチケーブル",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-splitter",
+    "name": "スプリッター",
+    "reading": "すぷりったー",
+    "english": "Microphone splitter",
+    "aliases": [
+      "マイクスプリッター",
+      "分岐器",
+      "Split"
+    ],
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "一つの入力信号を複数の卓やシステムへ分配する装置。FOH、モニター、収録などで同じ音源を共有するために使う。",
+    "usage": "マイクを客席卓とモニター卓へ分配する。",
+    "japan": "「スプリッター」として使用。",
+    "us": "「Microphone splitter」を使用。",
+    "uk": "「Microphone splitter」を使用。",
+    "note": "単純分岐、トランス分離、アクティブ型などで特性と接続条件が異なる。",
+    "related": [
+      "FOH",
+      "ステージボックス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Radial Engineering｜OX8 User Guide",
+        "url": "https://www.radialeng.com/wp-content/uploads/2018/04/OX8-Manual-WEB-09-2024.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-eq",
+    "name": "イコライザー",
+    "reading": "いこらいざー",
+    "english": "Equalizer",
+    "aliases": [
+      "EQ",
+      "等化器",
+      "イコライザ"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "周波数帯域ごとの信号レベルを調整して音色や特性を変える処理。入力の音作りやスピーカー系統の補正などに使う。",
+    "usage": "声や楽器の帯域バランスを調整する。",
+    "japan": "「イコライザー」として使用。",
+    "us": "「Equalizer」を使用。",
+    "uk": "「Equalizer」を使用。",
+    "note": "",
+    "related": [
+      "パラメトリックEQ",
+      "グラフィックEQ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Equalization",
+        "url": "https://hub.yamaha.com/proaudio/livesound/eq/"
+      }
+    ]
+  },
+  {
+    "id": "audio-peq",
+    "name": "パラメトリックEQ",
+    "reading": "ぱらめとりっくいーきゅー",
+    "english": "Parametric equalizer",
+    "aliases": [
+      "PEQ",
+      "パライコ",
+      "パラメトリックイコライザー"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "中心周波数、増減量、帯域幅などを設定して特定帯域を調整するイコライザー。設定できる項目は機種により異なる。",
+    "usage": "狙った周波数の周辺を細かく調整する。",
+    "japan": "「パラメトリックEQ」として使用。",
+    "us": "「Parametric equalizer」を使用。",
+    "uk": "「Parametric equalizer」を使用。",
+    "note": "",
+    "related": [
+      "Q",
+      "イコライザー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Equalization",
+        "url": "https://hub.yamaha.com/proaudio/livesound/eq/"
+      },
+      {
+        "label": "FabFilter｜Pro-Q 4 Dynamic EQ",
+        "url": "https://www.fabfilter.com/help/pro-q/using/dynamic-eq"
+      }
+    ],
+    "detail": "特定の中心周波数へどの幅でどれだけ作用させるかを決める。似た曲線でも位相特性や処理方式が違う場合があり、音量の変化だけでなく、他のマイクや未処理経路と混ぜたときの関係も判断材料になる。中心の位置、帯域幅、増減量を別々に扱うと設定の意図を伝えやすい。単に「低音を下げる」より、何を残したいかも共有できる。",
+    "examples": [
+      "声の必要な帯域を残しつつ、特定の共振成分を扱う。"
+    ],
+    "pitfalls": [
+      "細かい設定が可能なことと、常に多数の帯域を調整する必要があることは別。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-geq",
+    "name": "グラフィックEQ",
+    "reading": "ぐらふぃっくいーきゅー",
+    "english": "Graphic equalizer",
+    "aliases": [
+      "GEQ",
+      "グライコ",
+      "グラフィックイコライザー"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "あらかじめ決まった複数帯域をそれぞれ増減するイコライザー。スライダー位置が周波数特性の形を視覚的に示す。",
+    "usage": "出力系統の帯域バランスを確認する。",
+    "japan": "「グラフィックEQ」として使用。",
+    "us": "「Graphic equalizer」を使用。",
+    "uk": "「Graphic equalizer」を使用。",
+    "note": "",
+    "related": [
+      "イコライザー",
+      "パラメトリックEQ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Better Sound for Commercial Installations・Equalizers",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/docs/better_sound/part3_03.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-hpf",
+    "name": "ハイパスフィルター",
+    "reading": "はいぱすふぃるたー",
+    "english": "High-pass filter",
+    "aliases": [
+      "HPF",
+      "ローカット",
+      "Low-cut filter"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "高い側の周波数を通し、設定した境界より低い帯域を減衰させる処理。減衰の傾きと境界周波数が特性を決める。",
+    "usage": "声の不要な低域を整理する用途を示す。",
+    "japan": "「ハイパスフィルター」として使用。",
+    "us": "「High-pass filter」を使用。",
+    "uk": "「High-pass filter」を使用。",
+    "note": "低域を完全に無くす壁ではなく、周波数に応じて徐々に減衰する。",
+    "related": [
+      "ローパスフィルター",
+      "ポップノイズ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Equalization",
+        "url": "https://hub.yamaha.com/proaudio/livesound/eq/"
+      },
+      {
+        "label": "FabFilter｜Pro-Q 4 Processing Mode",
+        "url": "https://prod.fabfilter.com/help/pro-q/using/processingmode"
+      }
+    ],
+    "detail": "境界より低い成分を徐々に減衰させるため、境界の設定値だけでなく傾きや方式も結果へ影響する。足音や息の雑音を減らせる一方、必要な低音まで変わる可能性があり、音源と用途に合わせて効果を判断する。減衰する帯域の位相も処理方式に応じて変化する。別のマイクや低域系統と合成する場面では、振幅の図だけでは判断しきれない。",
+    "examples": [
+      "台詞マイクの低い衝撃音と必要な声の成分を比較する。"
+    ],
+    "pitfalls": [
+      "数値以下を完全に切り落とす理想的な壁ではない。ローカットとHPFは同じ方向の働き。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-lpf",
+    "name": "ローパスフィルター",
+    "reading": "ろーぱすふぃるたー",
+    "english": "Low-pass filter",
+    "aliases": [
+      "LPF",
+      "ハイカット",
+      "High-cut filter"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "低い側の周波数を通し、設定した境界より高い帯域を減衰させる処理。サブウーファーの帯域分けなどにも使う。",
+    "usage": "高域側を制限する処理の種類を示す。",
+    "japan": "「ローパスフィルター」として使用。",
+    "us": "「Low-pass filter」を使用。",
+    "uk": "「Low-pass filter」を使用。",
+    "note": "",
+    "related": [
+      "ハイパスフィルター",
+      "クロスオーバー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Equalization",
+        "url": "https://hub.yamaha.com/proaudio/livesound/eq/"
+      }
+    ]
+  },
+  {
+    "id": "audio-notch",
+    "name": "ノッチフィルター",
+    "reading": "のっちふぃるたー",
+    "english": "Notch filter",
+    "aliases": [
+      "ノッチ",
+      "帯域阻止フィルター"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "狭い周波数帯域を深く減衰させるフィルター。特定の共振や不要成分への処理に使われ、広い帯域の音量調整とは区別する。",
+    "usage": "特定の周波数の鳴きを扱う処理を示す。",
+    "japan": "「ノッチフィルター」として使用。",
+    "us": "「Notch filter」を使用。",
+    "uk": "「Notch filter」を使用。",
+    "note": "",
+    "related": [
+      "Q",
+      "ハウリング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Equalization",
+        "url": "https://hub.yamaha.com/proaudio/livesound/eq/"
+      }
+    ]
+  },
+  {
+    "id": "audio-q",
+    "name": "Q",
+    "reading": "きゅー",
+    "english": "Quality factor",
+    "aliases": [
+      "キュー",
+      "Q値",
+      "帯域幅"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "フィルターやEQの鋭さを示す値。ピーキングEQでは一般に値が大きいほど、中心周波数の周りの影響帯域が狭くなる。",
+    "usage": "「狭い帯域を扱うためQを確認する」。",
+    "japan": "「Q」として使用。",
+    "us": "「Quality factor」を使用。",
+    "uk": "「Quality factor」を使用。",
+    "note": "Qとオクターブ単位の帯域幅は表記が異なる。機種の表示方式を確認する。",
+    "related": [
+      "パラメトリックEQ",
+      "ノッチフィルター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Equalization",
+        "url": "https://hub.yamaha.com/proaudio/livesound/eq/"
+      }
+    ]
+  },
+  {
+    "id": "audio-compressor",
+    "name": "コンプレッサー",
+    "reading": "こんぷれっさー",
+    "english": "Compressor",
+    "aliases": [
+      "コンプ",
+      "COMP",
+      "ダイナミクスコンプレッサー"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "入力レベルの変化に応じて利得を変え、主に大きな音を抑えて強弱の幅を整える処理。音色や立ち上がりにも影響する。",
+    "usage": "台詞や歌の音量変化を扱う処理として使う。",
+    "japan": "「コンプレッサー」として使用。",
+    "us": "「Compressor」を使用。",
+    "uk": "「Compressor」を使用。",
+    "note": "音声ファイルを小さくするデータ圧縮とは異なる。",
+    "related": [
+      "スレッショルド",
+      "リミッター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜コンプレッサーとは",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/effects/compressor.html"
+      },
+      {
+        "label": "FabFilter｜Pro-C 3 Manual",
+        "url": "https://www.fabfilter.com/downloads/pdf/help/ffproc3-manual.pdf"
+      }
+    ],
+    "detail": "しきい値、レシオ、ニー、時間応答が組み合わさって動作するため、どれか一つの値だけでは処理量は決まらない。出力補償による音量上昇と、強弱差の変化を分けて聞き、原音の子音や打音、余韻への影響も確認する。ゲインリダクションは減衰量、メイクアップはその後の補償である。処理量の表示と最終の出力メーターを分けて読む。",
+    "examples": [
+      "ささやきから大声まである台詞の強弱を整える目的を考える。"
+    ],
+    "pitfalls": [
+      "ファイルのデータ圧縮ではない。強く圧縮すれば常に言葉が明瞭になるわけでもない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-limiter",
+    "name": "リミッター",
+    "reading": "りみったー",
+    "english": "Limiter",
+    "aliases": [
+      "LIMIT",
+      "ピークリミッター"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "大きい入力に対して強い圧縮をかけ、出力レベルの上昇を抑える処理。信号管理や機器側の制御などで用いられる。",
+    "usage": "出力処理の機能名として確認する。",
+    "japan": "「リミッター」として使用。",
+    "us": "「Limiter」を使用。",
+    "uk": "「Limiter」を使用。",
+    "note": "動作方式や時間特性により結果が変わり、これだけで安全な音量や機器保護を保証しない。",
+    "related": [
+      "コンプレッサー",
+      "ヘッドルーム"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Use a Compressor",
+        "url": "https://hub.yamaha.com/proaudio/livesound/tools-of-the-trade-how-to-use-a-compressor/"
+      },
+      {
+        "label": "Audio Precision｜APx500 User Manual",
+        "url": "https://www.ap.com/fileadmin-ap/technical-library/APx500_Users_Manual_v5-0-3.pdf?force="
+      }
+    ],
+    "detail": "大きいピークへ強く作用するが、検出方式、アタック、先読み、戻り方で挙動は変わる。標本ピークの制御とトゥルーピークの制御、機器メーカーの保護処理を区別して、どの上限をどこで扱っているかを明確にする。先読みを使う方式は急なピークへ対応する時間を作る一方、信号経路へ遅れを加える。返しと配信用では重要な条件が異なる。",
+    "examples": [
+      "配信用ファイルのピーク管理とスピーカーの保護機能を分けて読む。"
+    ],
+    "pitfalls": [
+      "リミッターがあることだけで、聴取者の安全な音量や機器の絶対的な保護は保証しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-gate",
+    "name": "ノイズゲート",
+    "reading": "のいずげーと",
+    "english": "Noise gate",
+    "aliases": [
+      "ゲート",
+      "GATE"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "入力が指定した条件を下回ると信号を減衰させる処理。音が出ていない区間の雑音やかぶりを目立ちにくくする用途がある。",
+    "usage": "打楽器マイクの無音区間を扱う処理を示す。",
+    "japan": "「ノイズゲート」として使用。",
+    "us": "「Noise gate」を使用。",
+    "uk": "「Noise gate」を使用。",
+    "note": "必要な余韻や小さい音まで減衰する場合がある。",
+    "related": [
+      "エキスパンダー",
+      "スレッショルド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      },
+      {
+        "label": "FabFilter｜Pro-G Manual",
+        "url": "https://www.fabfilter.com/downloads/pdf/help/ffprog-manual.pdf"
+      }
+    ],
+    "detail": "検出条件より小さい信号を減衰させ、発音していない間の雑音やかぶりを抑える。開閉のしきい値、保持、アタック、リリースで語尾や余韻も変わるため、単なるオン・オフの切替としてだけは扱わない。検出側へ帯域制限を持つ場合、どの音へ反応するかを主信号の音色と別に調整できる。検出と音声の通る経路は違う役割を持つ。",
+    "examples": [
+      "打楽器の余韻を残しながら無音区間を整理する目的を理解する。"
+    ],
+    "pitfalls": [
+      "発話中の背景を選択的に分離するデノイズとは別。小さい子音まで消える場合もある。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-expander",
+    "name": "エキスパンダー",
+    "reading": "えきすぱんだー",
+    "english": "Expander",
+    "aliases": [
+      "EXP",
+      "ダウンワードエキスパンダー"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "入力の大小に応じて強弱差を広げる処理。小さい信号をさらに下げる方式は、ゲートより緩やかな減衰にも使われる。",
+    "usage": "小音量域の雑音を扱う処理の種類を示す。",
+    "japan": "「エキスパンダー」として使用。",
+    "us": "「Expander」を使用。",
+    "uk": "「Expander」を使用。",
+    "note": "ワイヤレスのコンパンダー内にある復元処理を指す場合もある。",
+    "related": [
+      "ノイズゲート",
+      "コンプレッサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-threshold",
+    "name": "スレッショルド",
+    "reading": "すれっしょるど",
+    "english": "Threshold",
+    "aliases": [
+      "しきい値",
+      "閾値",
+      "THR"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "コンプレッサーやゲートなどで、レベルに応じた処理が変化する基準値。値の単位や基準は処理機器ごとに異なる。",
+    "usage": "「コンプレッサーのしきい値を確認する」。",
+    "japan": "「スレッショルド」として使用。",
+    "us": "「Threshold」を使用。",
+    "uk": "「Threshold」を使用。",
+    "note": "",
+    "related": [
+      "コンプレッサー",
+      "ノイズゲート"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜コンプレッサーとは",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/effects/compressor.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-attack",
+    "name": "アタックタイム",
+    "reading": "あたっくたいむ",
+    "english": "Attack time",
+    "aliases": [
+      "アタック",
+      "ATTACK"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "ダイナミクス処理が入力の変化に反応して所定の減衰や開放へ進む速さを決める時間パラメーター。音の立ち上がりに関係する。",
+    "usage": "打音の先端の出方を説明するときに使う。",
+    "japan": "「アタックタイム」として使用。",
+    "us": "「Attack time」を使用。",
+    "uk": "「Attack time」を使用。",
+    "note": "単純な待ち時間とは限らず、時間の定義は機種により異なる。",
+    "related": [
+      "リリースタイム",
+      "コンプレッサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Use a Compressor",
+        "url": "https://hub.yamaha.com/proaudio/livesound/tools-of-the-trade-how-to-use-a-compressor/"
+      }
+    ]
+  },
+  {
+    "id": "audio-release",
+    "name": "リリースタイム",
+    "reading": "りりーすたいむ",
+    "english": "Release time",
+    "aliases": [
+      "リリース",
+      "RELEASE"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "入力の状態が変わった後、ダイナミクス処理が減衰量などを戻していく速さを決める時間パラメーター。余韻の出方に関係する。",
+    "usage": "圧縮後の音量の戻り方を説明する。",
+    "japan": "「リリースタイム」として使用。",
+    "us": "「Release time」を使用。",
+    "uk": "「Release time」を使用。",
+    "note": "コンプレッサーとゲートでは戻る動作の向きが異なる。",
+    "related": [
+      "アタックタイム",
+      "ノイズゲート"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Use a Compressor",
+        "url": "https://hub.yamaha.com/proaudio/livesound/tools-of-the-trade-how-to-use-a-compressor/"
+      }
+    ]
+  },
+  {
+    "id": "audio-sidechain",
+    "name": "サイドチェーン",
+    "reading": "さいどちぇーん",
+    "english": "Sidechain",
+    "aliases": [
+      "キー入力",
+      "Key input",
+      "KEY IN"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "コンプレッサーやゲートの動作判断に使う検出信号の経路。処理される本体の音とは別の信号を利用できる場合がある。",
+    "usage": "台詞を基準にBGMを下げる検出経路を示す。",
+    "japan": "「サイドチェーン」として使用。",
+    "us": "「Sidechain」を使用。",
+    "uk": "「Sidechain」を使用。",
+    "note": "",
+    "related": [
+      "ダッキング",
+      "コンプレッサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      },
+      {
+        "label": "FabFilter｜Pro-C 3 Manual",
+        "url": "https://www.fabfilter.com/downloads/pdf/help/ffproc3-manual.pdf"
+      }
+    ],
+    "detail": "何を処理するかという主信号の経路と、何を基準に動くかという検出の経路を分けると理解しやすい。検出側にだけEQを入れる構成では、主信号の音色を直接変えずに、反応する帯域を変えられる。ディエッサーでは歯擦音の検出、ダッキングでは別の話者の検出などへ応用される。検出源が何かを明記すると同じ処理でも目的が伝わる。",
+    "examples": [
+      "ナレーションを検出し、BGM側の音量を下げる構成を読む。"
+    ],
+    "pitfalls": [
+      "外部キーの入力がない状態で処理がどう働くかは製品による。主信号の送り先と混同しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-reverb",
+    "name": "リバーブ",
+    "reading": "りばーぶ",
+    "english": "Reverb",
+    "aliases": [
+      "残響付加",
+      "リバーブレーター"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "反射が重なって減衰する残響の響きを付加・再現する処理。実際の部屋の残響とは分けて、ミックス内で調整できる。",
+    "usage": "歌声へ空間の響きを加える。",
+    "japan": "「リバーブ」として使用。",
+    "us": "「Reverb」を使用。",
+    "uk": "「Reverb」を使用。",
+    "note": "",
+    "related": [
+      "残響時間",
+      "センド・リターン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Use Inserts",
+        "url": "https://hub.yamaha.com/proaudio/livesound/how-to-use-inserts/"
+      }
+    ]
+  },
+  {
+    "id": "audio-delay",
+    "name": "ディレイ",
+    "reading": "でぃれい",
+    "english": "Delay",
+    "aliases": [
+      "遅延",
+      "ディレー",
+      "エコー"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "音を時間的に遅らせる処理。反復する効果音作りにも、離れたスピーカー同士の到達時間調整にも使われる。",
+    "usage": "効果用の反復と系統調整用の遅延を区別する。",
+    "japan": "「ディレイ」として使用。",
+    "us": "「Delay」を使用。",
+    "uk": "「Delay」を使用。",
+    "note": "エコーは聞き分けられる反射音を指す場合があり、ディレイと常に同義ではない。",
+    "related": [
+      "レイテンシー",
+      "ディレイスピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Setup",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/45947065818769-SQ-Setup"
+      },
+      {
+        "label": "Ableton｜How Latency Works",
+        "url": "https://help.ableton.com/hc/en-us/articles/360010545559-How-Latency-Works"
+      }
+    ],
+    "detail": "同じ遅延でも、SEとして反復を聞かせる用途と、離れたスピーカーの到達をそろえる用途では設計目的が異なる。必要な経路だけを遅らせるため、音源、直接音、客席位置、他の出力とどの時点を基準に比較するかを明確にする。フィードバックを持つ効果用ディレイでは、繰り返し回数や減衰が音作りの一部になる。一回の到達調整と別のパラメーターとして扱う。",
+    "examples": [
+      "前方の生声と客席補助スピーカーの到達関係を考える。"
+    ],
+    "pitfalls": [
+      "機器で設定した時間だけで経路全体の遅れは決まらない。変換・処理の遅延も加わる。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-ducking",
+    "name": "ダッキング",
+    "reading": "だっきんぐ",
+    "english": "Ducking",
+    "aliases": [
+      "ダッカー",
+      "Ducker",
+      "自動減衰"
+    ],
+    "category": "audio",
+    "subcategory": "信号処理・音響効果",
+    "definition": "別の音声や制御信号が入ったときに、対象の音量を自動的に下げる処理。案内の間だけBGMを抑える用途などに使う。",
+    "usage": "ナレーション中のBGM音量を自動的に下げる。",
+    "japan": "「ダッキング」として使用。",
+    "us": "「Ducking」を使用。",
+    "uk": "「Ducking」を使用。",
+    "note": "",
+    "related": [
+      "サイドチェーン",
+      "コンプレッサー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ Reference Guide",
+        "url": "https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_6_0_iss2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-fade",
+    "name": "フェード",
+    "reading": "ふぇーど",
+    "english": "Fade",
+    "aliases": [
+      "フェードイン",
+      "フェードアウト",
+      "Fade in",
+      "Fade out"
+    ],
+    "category": "audio",
+    "subcategory": "音源再生・キュー",
+    "definition": "音量などの値を時間をかけて変化させること。徐々に現れるフェードインと、徐々に消えるフェードアウトなどがある。",
+    "usage": "場面転換に合わせてBGMをフェードする。",
+    "japan": "「フェード」として使用。",
+    "us": "「Fade」を使用。",
+    "uk": "「Fade」を使用。",
+    "note": "音響以外にも照明・映像で使う。開始値、終了値、時間、曲線を区別する。",
+    "related": [
+      "クロスフェード",
+      "音響キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Figure 53｜QLab 5・Fading Audio",
+        "url": "https://qlab.app/docs/v5/audio/fading-audio/"
+      }
+    ]
+  },
+  {
+    "id": "audio-crossfade",
+    "name": "クロスフェード",
+    "reading": "くろすふぇーど",
+    "english": "Crossfade",
+    "aliases": [
+      "X-fade",
+      "クロスフェイド"
+    ],
+    "category": "audio",
+    "subcategory": "音源再生・キュー",
+    "definition": "一方の音を下げるのと重ねて別の音を上げ、二つの音を移り変わらせること。重ねる時間と音量曲線で聞こえ方が変わる。",
+    "usage": "環境音から次の場面の音へつなぐ。",
+    "japan": "「クロスフェード」として使用。",
+    "us": "「Crossfade」を使用。",
+    "uk": "「Crossfade」を使用。",
+    "note": "",
+    "related": [
+      "フェード",
+      "音響キュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Figure 53｜QLab 5・Fading Audio",
+        "url": "https://qlab.app/docs/v5/audio/fading-audio/"
+      }
+    ]
+  },
+  {
+    "id": "audio-audio-cue",
+    "name": "音響キュー",
+    "reading": "おんきょうきゅー",
+    "english": "Sound cue",
+    "aliases": [
+      "Audio cue",
+      "SEキュー",
+      "音キュー"
+    ],
+    "category": "audio",
+    "subcategory": "音源再生・キュー",
+    "definition": "上演中に音の再生・停止・音量変化などを実行する単位、またはその実行の合図。番号ときっかけを対応させて管理する。",
+    "usage": "「台詞の終わりで音響キューを出す」。",
+    "japan": "「音響キュー」として使用。",
+    "us": "「Sound cue」を使用。",
+    "uk": "「Sound cue」を使用。",
+    "note": "キューは音源ファイルだけを意味せず、再生制御や変化の指示も含む。",
+    "related": [
+      "フェード",
+      "サウンドチェック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Figure 53｜QLab 5・Cues",
+        "url": "https://qlab.app/docs/v5/fundamentals/cues/"
+      }
+    ]
+  },
+  {
+    "id": "audio-powered",
+    "name": "パワードスピーカー",
+    "reading": "ぱわーどすぴーかー",
+    "english": "Powered loudspeaker",
+    "aliases": [
+      "アクティブスピーカー",
+      "セルフパワード",
+      "Active speaker"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "駆動用パワーアンプを内蔵したスピーカー。通常は外部から音声信号と電源を受け、内部アンプでユニットを駆動する。",
+    "usage": "アンプ内蔵型かどうかを機材表で確認する。",
+    "japan": "「パワードスピーカー」として使用。",
+    "us": "「Powered loudspeaker」を使用。",
+    "uk": "「Powered loudspeaker」を使用。",
+    "note": "activeは能動クロスオーバー方式を表す文脈もある。",
+    "related": [
+      "パッシブスピーカー",
+      "パワーアンプ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Using DSP, Part 1: Powered Loudspeakers",
+        "url": "https://hub.yamaha.com/proaudio/livesound/using-dsp-part-1-powered-loudspeakers/"
+      }
+    ]
+  },
+  {
+    "id": "audio-passive",
+    "name": "パッシブスピーカー",
+    "reading": "ぱっしぶすぴーかー",
+    "english": "Passive loudspeaker",
+    "aliases": [
+      "アンプ非内蔵スピーカー",
+      "Passive speaker"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "駆動用パワーアンプを内蔵せず、外部アンプからスピーカー用の信号を受けるスピーカー。対応するアンプや配線を要する。",
+    "usage": "外部パワーアンプを使う構成を示す。",
+    "japan": "「パッシブスピーカー」として使用。",
+    "us": "「Passive loudspeaker」を使用。",
+    "uk": "「Passive loudspeaker」を使用。",
+    "note": "",
+    "related": [
+      "パワードスピーカー",
+      "スピーカーケーブル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-amp",
+    "name": "パワーアンプ",
+    "reading": "ぱわーあんぷ",
+    "english": "Power amplifier",
+    "aliases": [
+      "パワアン",
+      "電力増幅器",
+      "Amp"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "音声信号をスピーカーユニットを駆動できる電力に増幅する装置。外部機器としてもスピーカー内蔵としても使われる。",
+    "usage": "スピーカーを駆動する増幅段を示す。",
+    "japan": "「パワーアンプ」として使用。",
+    "us": "「Power amplifier」を使用。",
+    "uk": "「Power amplifier」を使用。",
+    "note": "",
+    "related": [
+      "パッシブスピーカー",
+      "ゲイン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Tune a Sound System・Glossary",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/How-to-Tune-a-Sound-System.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-subwoofer",
+    "name": "サブウーファー",
+    "reading": "さぶうーふぁー",
+    "english": "Subwoofer",
+    "aliases": [
+      "サブ",
+      "サブロー",
+      "Sub"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "低い周波数帯域の再生を主に担当するスピーカー。メイン系統と帯域を分担し、設置や時間・極性の関係が再生に影響する。",
+    "usage": "低域を担当する出力系統を機材図に記す。",
+    "japan": "「サブウーファー」として使用。",
+    "us": "「Subwoofer」を使用。",
+    "uk": "「Subwoofer」を使用。",
+    "note": "",
+    "related": [
+      "クロスオーバー",
+      "メインスピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Using DSP, Part 1: Powered Loudspeakers",
+        "url": "https://hub.yamaha.com/proaudio/livesound/using-dsp-part-1-powered-loudspeakers/"
+      }
+    ]
+  },
+  {
+    "id": "audio-main",
+    "name": "メインスピーカー",
+    "reading": "めいんすぴーかー",
+    "english": "Main loudspeaker",
+    "aliases": [
+      "メインPA",
+      "Main PA",
+      "Main system"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "客席へ主な音を届けるスピーカー系統。左右構成、中央構成など会場により異なり、補助スピーカーと組み合わせて使う。",
+    "usage": "客席向けの主系統を示す。",
+    "japan": "「メインスピーカー」として使用。",
+    "us": "「Main loudspeaker」を使用。",
+    "uk": "「Main loudspeaker」を使用。",
+    "note": "",
+    "related": [
+      "フロントフィル",
+      "PA"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Using DSP, Part 1: Powered Loudspeakers",
+        "url": "https://hub.yamaha.com/proaudio/livesound/using-dsp-part-1-powered-loudspeakers/"
+      }
+    ]
+  },
+  {
+    "id": "audio-monitor",
+    "name": "モニタースピーカー",
+    "reading": "もにたーすぴーかー",
+    "english": "Stage monitor",
+    "aliases": [
+      "返し",
+      "ころがし",
+      "転がし",
+      "Wedge",
+      "Foldback",
+      "ウェッジ",
+      "はね返りスピーカー",
+      "はねかえりスピーカー"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "舞台上の出演者へ必要な音を返すスピーカー。床置きのくさび形が代表的だが、配置や形状にはさまざまな種類がある。",
+    "usage": "「歌用の返しへ必要な楽器音を送る」。",
+    "japan": "舞台用は「返し」「ころがし」など。",
+    "us": "Stage monitor / wedgeなど。",
+    "uk": "Stage monitor / foldback / wedgeなど。",
+    "note": "monitorは調整室の確認用スピーカーも指す。wedgeは主に床置きの形状を指す。",
+    "related": [
+      "AUX",
+      "イヤーモニター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Using DSP, Part 1: Powered Loudspeakers",
+        "url": "https://hub.yamaha.com/proaudio/livesound/using-dsp-part-1-powered-loudspeakers/"
+      },
+      {
+        "label": "Leeds Conservatoire｜Technical Survival Guide",
+        "url": "https://www.leedsconservatoire.ac.uk/media/u1gm0nd2/lc-technical-survival-guide-2021.pdf"
+      },
+      {
+        "label": "Shure｜Personal Monitor Systems",
+        "url": "https://content-files.shure.com/Pubs/psm-selection-and-operation-of-personal-monitor-systems/us_pro_guidepersonalmonitor_ea.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "detail": "客席向けの完成音ではなく、演奏や台詞のために必要な情報を出演者へ届ける役割を持つ。舞台の生音と足し合わされるので、卓で聞いたミックスだけでは本人の聞こえ方は決まらず、配置と実際の音源も合わせて考える。本人の演奏を大きく返すだけが目的ではなく、リズムや音程の手がかりを届ける役割もある。必要な情報と音量を分けて聞き取る。",
+    "examples": [
+      "歌手と演奏者で異なる返しのミックスを作る。"
+    ],
+    "pitfalls": [
+      "モニターという語には調整室の確認用も含まれる。舞台用かを明記する。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-frontfill",
+    "name": "フロントフィル",
+    "reading": "ふろんとふぃる",
+    "english": "Front fill",
+    "aliases": [
+      "前方補助スピーカー",
+      "Front-fill"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "メインスピーカーだけでは届きにくい客席前方を補うスピーカー。主系統と音量や音の到達時間を合わせて設計する。",
+    "usage": "最前列周辺を補う系統名として使う。",
+    "japan": "「フロントフィル」として使用。",
+    "us": "「Front fill」を使用。",
+    "uk": "「Front fill」を使用。",
+    "note": "",
+    "related": [
+      "メインスピーカー",
+      "マトリクス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      }
+    ]
+  },
+  {
+    "id": "audio-delay-speaker",
+    "name": "ディレイスピーカー",
+    "reading": "でぃれいすぴーかー",
+    "english": "Delay loudspeaker",
+    "aliases": [
+      "ディレイタワー",
+      "ディレイフィル",
+      "Delay fill"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "主系統から離れた客席などを補うスピーカー。主系統との音の到達関係に合わせて、電気的な遅延を設定する構成が多い。",
+    "usage": "客席後方の補助系統を示す。",
+    "japan": "「ディレイスピーカー」として使用。",
+    "us": "「Delay loudspeaker」を使用。",
+    "uk": "「Delay loudspeaker」を使用。",
+    "note": "",
+    "related": [
+      "ディレイ",
+      "マトリクス"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Allen & Heath｜SQ+ Routing",
+        "url": "https://support.allen-heath.com/hc/en-gb/articles/46600488459025-SQ-Routing"
+      }
+    ]
+  },
+  {
+    "id": "audio-line-array",
+    "name": "ラインアレイ",
+    "reading": "らいんあれい",
+    "english": "Line array",
+    "aliases": [
+      "ラインアレー",
+      "ラインアレイスピーカー"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "複数のスピーカーユニットや筐体を列状に配置して、相互の干渉を含めた指向性を設計するスピーカー構成。",
+    "usage": "客席を覆うアレイの種類を示す。",
+    "japan": "「ラインアレイ」として使用。",
+    "us": "「Line array」を使用。",
+    "uk": "「Line array」を使用。",
+    "note": "単に複数台を縦に並べれば、意図した特性になるとは限らない。",
+    "related": [
+      "メインスピーカー",
+      "指向性"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Loudspeakers",
+        "url": "https://usa.yamaha.com/products/contents/proaudio/loudspeakers/index.html"
+      },
+      {
+        "label": "L-Acoustics｜L1 System",
+        "url": "https://l-acoustics.com/products/l1-system/"
+      }
+    ],
+    "detail": "複数の放射源が組み合わさって指向性を作るため、一本ずつの性能だけでなく、列全体の長さ、角度、帯域、客席までの距離が関わる。設計ソフトの予測と会場条件を合わせて、カバーする範囲と余裕を評価する。音響素子ごとの処理を行う製品では、筐体だけでなく対応するアンプとDSPもシステムの条件になる。名前の似た旧構成と区別して仕様を読む。",
+    "examples": [
+      "前方から後方までの客席を覆うアレイ構成を資料で比較する。"
+    ],
+    "pitfalls": [
+      "「遠くまで同じ音量」という単純な性質を全帯域・全距離へ当てはめない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-crossover",
+    "name": "クロスオーバー",
+    "reading": "くろすおーばー",
+    "english": "Crossover",
+    "aliases": [
+      "チャンネルデバイダー",
+      "クロス",
+      "X-over"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "再生する周波数帯域を分け、各スピーカーやユニットへ送る仕組み。周波数だけでなくフィルターの種類と傾きも関係する。",
+    "usage": "メインとサブの帯域分担を示す。",
+    "japan": "「クロスオーバー」として使用。",
+    "us": "「Crossover」を使用。",
+    "uk": "「Crossover」を使用。",
+    "note": "",
+    "related": [
+      "サブウーファー",
+      "ローパスフィルター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Using DSP, Part 1: Powered Loudspeakers",
+        "url": "https://hub.yamaha.com/proaudio/livesound/using-dsp-part-1-powered-loudspeakers/"
+      },
+      {
+        "label": "FabFilter｜Pro-Q 4 Processing Mode",
+        "url": "https://prod.fabfilter.com/help/pro-q/using/processingmode"
+      }
+    ],
+    "detail": "境界周波数だけでなく、フィルターの傾き、位相、音響的な到達差が、帯域の重なる部分の加算へ影響する。電気的な設定値と、スピーカーから実際に出た音のクロスオーバーは同じものとして扱わず、経路全体で確認する。メインとサブの間では極性と時間差も加算へ影響する。単独で聞いた帯域の状態と、重ねたときの変化を分けて判断する。",
+    "examples": [
+      "メインとサブの帯域のつながりを伝達関数で比較する。"
+    ],
+    "pitfalls": [
+      "両方へ同じ境界の数字を入れるだけで、音響的に滑らかにつながるとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-iem",
+    "name": "イヤーモニター",
+    "reading": "いやーもにたー",
+    "english": "In-ear monitor",
+    "aliases": [
+      "IEM",
+      "インイヤーモニター",
+      "イヤモニ",
+      "Personal monitor"
+    ],
+    "category": "audio",
+    "subcategory": "スピーカー・空間音響",
+    "definition": "出演者が耳に装着するイヤホンで必要な音を聞くモニター方式。専用のミックスを有線または無線で届ける。",
+    "usage": "出演者ごとのイヤーモニター系統を確認する。",
+    "japan": "「イヤーモニター」として使用。",
+    "us": "「In-ear monitor」を使用。",
+    "uk": "「In-ear monitor」を使用。",
+    "note": "無線だけを意味する名称ではない。",
+    "related": [
+      "モニタースピーカー",
+      "AUX"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜PSM 900 In-Ear Personal Monitoring System",
+        "url": "https://www.shure.com/en-GB/products/in-ear-monitoring/psm900"
+      },
+      {
+        "label": "Shure｜Personal Monitor Systems",
+        "url": "https://content-files.shure.com/Pubs/psm-selection-and-operation-of-personal-monitor-systems/us_pro_guidepersonalmonitor_ea.pdf"
+      }
+    ],
+    "detail": "耳へ直接届けるため、客席や床置きモニターとは聞こえ方や必要な情報が異なる。出演者ごとのミックス、周囲音の扱い、有線・無線の経路、遅延を分けて考え、送信ラックだけでなく本人の受信側まで系統として把握する。装着によって周囲の生音が減るため、必要に応じて周囲音の収音を混ぜる構成もある。客席の完成ミックスをそのまま送る目的とは異なる。",
+    "examples": [
+      "クリックとガイドを客席へ出さず、出演者の専用ミックスへ送る。"
+    ],
+    "pitfalls": [
+      "IEMは無線だけの名称ではない。方式の違う機器間の互換性や音量条件は個別に確認する。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-xlr",
+    "name": "XLR端子",
+    "reading": "えっくすえるあーるたんし",
+    "english": "XLR connector",
+    "aliases": [
+      "キャノン",
+      "キャノン端子",
+      "XLR",
+      "Cannon"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "音響で広く使うロック付きコネクターの系統。三極はバランス音声でよく使うが、極数や用途の異なるものもある。",
+    "usage": "「三極XLRの音声ケーブル」と用途を添える。",
+    "japan": "「XLR」「キャノン」とも呼ぶ。",
+    "us": "XLR connectorと表す。",
+    "uk": "XLR connectorと表す。",
+    "note": "外形が同じでも、デジタル音声や照明制御などで必要なケーブル仕様は異なる。",
+    "related": [
+      "バランス伝送",
+      "TRS端子"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-trs",
+    "name": "TRS端子",
+    "reading": "てぃーあーるえすたんし",
+    "english": "TRS connector",
+    "aliases": [
+      "TRS",
+      "ステレオフォーン",
+      "フォーン端子",
+      "TRS jack"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "チップ・リング・スリーブの三接点を持つフォーン端子。バランスのモノラル音声、ステレオ音声、インサートなどに使う。",
+    "usage": "端子形状に加えて信号の用途を確認する。",
+    "japan": "「TRS端子」として使用。",
+    "us": "「TRS connector」を使用。",
+    "uk": "「TRS connector」を使用。",
+    "note": "三接点だからステレオとは限らない。配線は接続先の仕様による。",
+    "related": [
+      "TS端子",
+      "インサート"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-ts",
+    "name": "TS端子",
+    "reading": "てぃーえすたんし",
+    "english": "TS connector",
+    "aliases": [
+      "TS",
+      "モノラルフォーン",
+      "TS jack"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "チップとスリーブの二接点を持つフォーン端子。楽器などのアンバランス信号や、一部のスピーカー接続に使われる。",
+    "usage": "楽器用のTS接続を示す。",
+    "japan": "「TS端子」として使用。",
+    "us": "「TS connector」を使用。",
+    "uk": "「TS connector」を使用。",
+    "note": "同じ端子形状でも、楽器用ケーブルとスピーカー用ケーブルは用途が違う。",
+    "related": [
+      "TRS端子",
+      "アンバランス伝送"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-balanced",
+    "name": "バランス伝送",
+    "reading": "ばらんすでんそう",
+    "english": "Balanced connection",
+    "aliases": [
+      "バランス接続",
+      "平衡伝送",
+      "Balanced audio"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "対になる二本の信号線と受信側の差動処理を利用し、両線へ共通に入る雑音の影響を抑える伝送方式。",
+    "usage": "長い音声経路の伝送方式を確認する。",
+    "japan": "「バランス伝送」として使用。",
+    "us": "「Balanced connection」を使用。",
+    "uk": "「Balanced connection」を使用。",
+    "note": "二本に必ず対称な信号が出るとは限らず、端子形状だけでは判定できない。",
+    "related": [
+      "アンバランス伝送",
+      "XLR端子"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "受信側が二本の線の差を取り出すことで、共通に加わった雑音の影響を減らす。実際の耐性は線路の対称性、送出・受信回路、接続条件によるため、端子の形だけではバランス回線の性能を判断できない。必要信号と同じ差動成分として入った雑音まで消せるわけではない。共通成分を抑えるCMRRという評価と、雑音全般の少なさは区別する。",
+    "examples": [
+      "長いマイク回線の送出から受信までの方式を確認する。"
+    ],
+    "pitfalls": [
+      "TRSはステレオを運ぶ場合もあり、XLRでも別用途がある。接点数と信号方式は別に確認する。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-unbalanced",
+    "name": "アンバランス伝送",
+    "reading": "あんばらんすでんそう",
+    "english": "Unbalanced connection",
+    "aliases": [
+      "不平衡伝送",
+      "アンバランス接続",
+      "Unbalanced audio"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "基準となる線に対して一本の信号線の電圧を伝える方式。楽器や民生音声で使われ、外来雑音の影響を受けやすい場合がある。",
+    "usage": "楽器出力の接続方式を確認する。",
+    "japan": "「アンバランス伝送」として使用。",
+    "us": "「Unbalanced connection」を使用。",
+    "uk": "「Unbalanced connection」を使用。",
+    "note": "",
+    "related": [
+      "バランス伝送",
+      "DI"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-di",
+    "name": "DI",
+    "reading": "でぃーあい",
+    "english": "Direct injection box",
+    "aliases": [
+      "ダイレクトボックス",
+      "ダイレクトインジェクション",
+      "Direct box"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "主に楽器などの出力を卓のマイク入力で扱いやすい信号へ変換する機器。インピーダンスや伝送方式の変換などを行う。",
+    "usage": "ギターやキーボードの信号を卓へ渡す構成を示す。",
+    "japan": "「DI」として使用。",
+    "us": "「Direct injection box」を使用。",
+    "uk": "「Direct injection box」を使用。",
+    "note": "アクティブ型とパッシブ型があり、必要電源や対応レベルは製品による。",
+    "related": [
+      "インピーダンス",
+      "バランス伝送"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜How to Tune a Sound System・Glossary",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/How-to-Tune-a-Sound-System.pdf"
+      },
+      {
+        "label": "Extron｜Audio Gain Structure Best Practices",
+        "url": "https://media.extron.com/public/download/files/whitepaper/gain_structure_best_practices_rev_c.pdf"
+      }
+    ],
+    "detail": "楽器の出力を卓へ直接受け渡す際の条件を整える機器で、バランス化、インピーダンス変換、減衰、分離などの機能を製品に応じて持つ。アクティブ型とパッシブ型では電源や扱える信号の条件が違うため、音源と入力先を合わせて選ぶ。音声を分離するトランスを持つ構成と、能動回路で受ける構成では特徴が異なる。電源の要否と分離の有無を別の仕様として読む。",
+    "examples": [
+      "ステージのキーボードを客席卓へ渡す系統を図にする。"
+    ],
+    "pitfalls": [
+      "すべてのDIがスピーカーレベルを受けられるわけではない。パッドや分離機能も製品による。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-multicore",
+    "name": "マルチケーブル",
+    "reading": "まるちけーぶる",
+    "english": "Multicore cable",
+    "aliases": [
+      "マルチ",
+      "アナログマルチ",
+      "Audio snake",
+      "Snake"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "複数の音声回線を一本のケーブルにまとめたもの。舞台と卓の間などで多数の入出力をまとめて引き回すために使う。",
+    "usage": "「舞台から卓までのマルチ」を図面に記す。",
+    "japan": "「マルチ」「マルチケーブル」など。",
+    "us": "Audio snake / multicore cableなど。",
+    "uk": "Multicore cable / audio snakeなど。",
+    "note": "英語のsnakeもよく使われる。デジタル伝送との区別には方式を添える。",
+    "related": [
+      "ステージボックス",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Leeds Conservatoire｜Technical Survival Guide",
+        "url": "https://www.leedsconservatoire.ac.uk/media/u1gm0nd2/lc-technical-survival-guide-2021.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-speaker-cable",
+    "name": "スピーカーケーブル",
+    "reading": "すぴーかーけーぶる",
+    "english": "Loudspeaker cable",
+    "aliases": [
+      "スピーカー線",
+      "Speaker cable"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "パワーアンプからパッシブスピーカーへ電力を含む音声を送る専用ケーブル。マイク・ライン用と用途や構造が異なる。",
+    "usage": "アンプ出力からスピーカーまでの配線を示す。",
+    "japan": "「スピーカーケーブル」として使用。",
+    "us": "「Loudspeaker cable」を使用。",
+    "uk": "「Loudspeaker cable」を使用。",
+    "note": "スピコンはコネクターの呼称として使われる。ライン用ケーブルの別名ではない。",
+    "related": [
+      "パッシブスピーカー",
+      "パワーアンプ",
+      "speakON"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ケーブルと端子",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/cable.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-line-level",
+    "name": "ラインレベル",
+    "reading": "らいんれべる",
+    "english": "Line level",
+    "aliases": [
+      "LINE",
+      "ライン信号"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "ミキサーや再生機器などの間で扱う音声信号のレベル区分。一般にマイクの微弱な出力より大きく、機器ごとに基準がある。",
+    "usage": "入力がマイク用かライン用かを確認する。",
+    "japan": "ラインレベルとマイクレベルを区別する。",
+    "us": "Line levelとmic levelを区別する。",
+    "uk": "Line levelとmic levelを区別する。",
+    "note": "マイクレベルとラインレベルは同じ規格値の別名ではない。",
+    "related": [
+      "ゲイン",
+      "DI",
+      "マイクレベル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-wireless-mic",
+    "name": "ワイヤレスマイク",
+    "reading": "わいやれすまいく",
+    "english": "Wireless microphone",
+    "aliases": [
+      "無線マイク",
+      "ラジオマイク",
+      "Radio mic",
+      "RF mic"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "マイクの音声を送信機から受信機へ電波で伝える方式。ハンドヘルド型や、小型マイクをつなぐボディーパック型がある。",
+    "usage": "出演者用の送受信機の組を管理する。",
+    "japan": "「ワイヤレスマイク」「無線マイク」。帯域などの条件は国内制度で確認する。",
+    "us": "Wireless microphone / radio mic。使用条件は米国の制度で確認する。",
+    "uk": "Wireless microphone / radio mic。使用条件は英国の制度で確認する。",
+    "note": "利用できる帯域・出力・免許等は国や地域により異なり、この用語解説だけでは判断しない。",
+    "related": [
+      "ボディーパック",
+      "ダイバーシティー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      },
+      {
+        "label": "Shure｜WMAS",
+        "url": "https://www.shure.com/en-US/wmas"
+      }
+    ],
+    "detail": "音声を扱うマイク部分、音声を電波へ乗せる送信部分、受信して音声へ戻す部分で構成する。周波数の一致だけでなく、変調方式、製品シリーズ、暗号化やファームウェア、地域版の条件が組み合わせの可否に関わる。音声を運ぶRF経路と、送信機設定を遠隔制御する経路を分けて持つ製品もある。音が通ることと遠隔操作できることを区別する。",
+    "examples": [
+      "持込送信機を会場受信ラックで使えるか、型式から確認する。"
+    ],
+    "pitfalls": [
+      "使用可能帯域や手続きは国・地域と製品で異なる。別国の機器を同じ名称だけで互換としない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-bodypack",
+    "name": "ボディーパック",
+    "reading": "ぼでぃーぱっく",
+    "english": "Bodypack",
+    "aliases": [
+      "ベルトパック",
+      "Beltpack",
+      "腰パック"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "衣服や身体に取り付ける小型の送信機または受信機。装着マイク、楽器、イヤーモニターなど、役割により構成が異なる。",
+    "usage": "マイク送信機かIEM受信機かを添えて呼ぶ。",
+    "japan": "「ボディーパック」として使用。",
+    "us": "「Bodypack」を使用。",
+    "uk": "「Bodypack」を使用。",
+    "note": "インターカムにもbeltpackの呼び方があるため用途を区別する。",
+    "related": [
+      "ラベリアマイク",
+      "イヤーモニター"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-rf",
+    "name": "RF",
+    "reading": "あーるえふ",
+    "english": "Radio frequency",
+    "aliases": [
+      "高周波",
+      "電波",
+      "RFレベル"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "無線で信号を運ぶ高周波、またはその回路や受信状態を示す表記。受信機では音声側を示すAFと区別して使う。",
+    "usage": "「RFは来ているが音声が出ない」と系統を分けて確認する。",
+    "japan": "「RF」として使用。",
+    "us": "「Radio frequency」を使用。",
+    "uk": "「Radio frequency」を使用。",
+    "note": "",
+    "related": [
+      "ワイヤレスマイク",
+      "ドロップアウト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-diversity",
+    "name": "ダイバーシティー",
+    "reading": "だいばーしてぃー",
+    "english": "Diversity",
+    "aliases": [
+      "ダイバーシティ受信",
+      "ダイバシティ"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "複数の受信経路などを利用して、場所や反射による電波の弱まりの影響を減らす方式。切替や合成などの実装がある。",
+    "usage": "無線受信機の受信方式を機材仕様で確認する。",
+    "japan": "「ダイバーシティー」として使用。",
+    "us": "「Diversity」を使用。",
+    "uk": "「Diversity」を使用。",
+    "note": "アンテナが二本あるだけでは方式や性能を断定できない。",
+    "related": [
+      "マルチパス",
+      "ドロップアウト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-squelch",
+    "name": "スケルチ",
+    "reading": "すけるち",
+    "english": "Squelch",
+    "aliases": [
+      "スケルチ回路",
+      "RF squelch"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "必要な電波を受信できないときなどに、受信機の音声出力を抑える機能。不要な雑音が出るのを防ぐために用いられる。",
+    "usage": "無線受信機の機能名として確認する。",
+    "japan": "「スケルチ」として使用。",
+    "us": "「Squelch」を使用。",
+    "uk": "「Squelch」を使用。",
+    "note": "音声処理のノイズゲートとは検出対象や目的が異なる。",
+    "related": [
+      "RF",
+      "ノイズゲート"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-intermod",
+    "name": "相互変調",
+    "reading": "そうごへんちょう",
+    "english": "Intermodulation",
+    "aliases": [
+      "IM",
+      "IMD",
+      "インターモジュレーション"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "複数の周波数成分が非線形な回路などで混ざり、新しい周波数成分を生む現象。無線機器の同時使用で干渉要因になる。",
+    "usage": "複数波を使用する際の干渉要因を示す。",
+    "japan": "「相互変調」として使用。",
+    "us": "「Intermodulation」を使用。",
+    "uk": "「Intermodulation」を使用。",
+    "note": "音声回路の歪みを指す文脈もある。単純な同一周波数の重複とは別の現象。",
+    "related": [
+      "ワイヤレスマイク",
+      "RF"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-multipath",
+    "name": "マルチパス",
+    "reading": "まるちぱす",
+    "english": "Multipath",
+    "aliases": [
+      "多重経路",
+      "マルチパス干渉"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "直接届く電波と、壁などで反射した電波が異なる経路を通って受信点へ届くこと。強め合いや打ち消しで受信状態が変わる。",
+    "usage": "会場内の位置による受信変化を説明する。",
+    "japan": "「マルチパス」として使用。",
+    "us": "「Multipath」を使用。",
+    "uk": "「Multipath」を使用。",
+    "note": "",
+    "related": [
+      "ダイバーシティー",
+      "ドロップアウト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-dropout",
+    "name": "ドロップアウト",
+    "reading": "どろっぷあうと",
+    "english": "Dropout",
+    "aliases": [
+      "音切れ",
+      "瞬断",
+      "受信断"
+    ],
+    "category": "audio",
+    "subcategory": "ワイヤレス・RF",
+    "definition": "信号が連続して得られず、一時的に音が途切れる現象。無線、デジタル伝送、再生処理など、発生原因は系統により異なる。",
+    "usage": "どの経路で音切れが起きたかを記録する。",
+    "japan": "「ドロップアウト」として使用。",
+    "us": "「Dropout」を使用。",
+    "uk": "「Dropout」を使用。",
+    "note": "無線ではマルチパスや干渉などが要因になるが、すべての音切れがRF由来ではない。",
+    "related": [
+      "RF",
+      "レイテンシー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Selection and Operation of Wireless Microphone Systems",
+        "url": "https://content-files.shure.com/Pubs/selection-and-operation-of-wireless-microphone-systems/selection_and_operation_of_wireless_microphone_systems_english.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-interface",
+    "name": "オーディオインターフェース",
+    "reading": "おーでぃおいんたーふぇーす",
+    "english": "Audio interface",
+    "aliases": [
+      "オーディオI/F",
+      "音声インターフェース",
+      "USBオーディオ"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "コンピューターと外部の音声機器の間で入出力を行う装置。アナログ変換、デジタル接続、モニター機能などの構成は製品による。",
+    "usage": "再生用コンピューターの音声出力先を示す。",
+    "japan": "「オーディオインターフェース」として使用。",
+    "us": "「Audio interface」を使用。",
+    "uk": "「Audio interface」を使用。",
+    "note": "",
+    "related": [
+      "AD・DA変換",
+      "レイテンシー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜What is an Audio Interface?",
+        "url": "https://hub.yamaha.com/proaudio/recording/what-is-an-audio-interface/"
+      }
+    ]
+  },
+  {
+    "id": "audio-ad-da",
+    "name": "AD・DA変換",
+    "reading": "えーでぃーでぃーえーへんかん",
+    "english": "A/D and D/A conversion",
+    "aliases": [
+      "ADC",
+      "DAC",
+      "AD変換",
+      "DA変換"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "アナログの連続した音声信号とデジタルの数値表現を相互に変換する処理。入力側がAD、出力側がDAに対応する。",
+    "usage": "マイク入力からデジタル処理への変換段を示す。",
+    "japan": "「AD・DA変換」として使用。",
+    "us": "「A/D and D/A conversion」を使用。",
+    "uk": "「A/D and D/A conversion」を使用。",
+    "note": "",
+    "related": [
+      "サンプリング周波数",
+      "ビット深度"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜What is an Audio Interface?",
+        "url": "https://hub.yamaha.com/proaudio/recording/what-is-an-audio-interface/"
+      }
+    ]
+  },
+  {
+    "id": "audio-sample-rate",
+    "name": "サンプリング周波数",
+    "reading": "さんぷりんぐしゅうはすう",
+    "english": "Sample rate",
+    "aliases": [
+      "サンプルレート",
+      "Sampling frequency",
+      "Fs"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "デジタル音声で一秒間に扱う標本の数。単位はHzで、音声の周波数範囲や接続機器間の同期条件に関係する。",
+    "usage": "再生データと機器のサンプルレートを確認する。",
+    "japan": "「サンプリング周波数」として使用。",
+    "us": "「Sample rate」を使用。",
+    "uk": "「Sample rate」を使用。",
+    "note": "値が高ければ、あらゆる条件で音が良くなるという意味ではない。",
+    "related": [
+      "ビット深度",
+      "ワードクロック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Audio quality in networked systems",
+        "url": "https://europe.yamaha.com/en/business/audio/resources/self-training/audio-quality/05-audio-quality.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-bit-depth",
+    "name": "ビット深度",
+    "reading": "びっとしんど",
+    "english": "Bit depth",
+    "aliases": [
+      "量子化ビット数",
+      "ビット数",
+      "Word length"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "デジタル音声の一つの標本を表すビットの数。表現できる細かさや量子化の特性に関係し、サンプルレートとは別の項目。",
+    "usage": "音声ファイルの二十四ビットなどの表記を確認する。",
+    "japan": "「ビット深度」として使用。",
+    "us": "「Bit depth」を使用。",
+    "uk": "「Bit depth」を使用。",
+    "note": "整数形式と浮動小数点形式ではビット数の意味合いが異なる。",
+    "related": [
+      "サンプリング周波数",
+      "ダイナミックレンジ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜What is an Audio Interface?",
+        "url": "https://hub.yamaha.com/proaudio/recording/what-is-an-audio-interface/"
+      }
+    ]
+  },
+  {
+    "id": "audio-wordclock",
+    "name": "ワードクロック",
+    "reading": "わーどくろっく",
+    "english": "Word clock",
+    "aliases": [
+      "WC",
+      "WCLK",
+      "クロック同期",
+      "Wordclock"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "デジタル音声機器の標本処理のタイミングをそろえる基準。専用線やデジタル音声・ネットワーク内の同期情報で共有する。",
+    "usage": "接続機器のクロック源を確認する。",
+    "japan": "「ワードクロック」として使用。",
+    "us": "「Word clock」を使用。",
+    "uk": "「Word clock」を使用。",
+    "note": "曲や映像の位置を示すタイムコードとは別の同期。",
+    "related": [
+      "サンプリング周波数",
+      "Dante"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Audio quality in networked systems",
+        "url": "https://europe.yamaha.com/en/business/audio/resources/self-training/audio-quality/05-audio-quality.html"
+      },
+      {
+        "label": "RME｜SteadyClock Theory and Operation",
+        "url": "https://www.archiv.rme-audio.de/en/support/techinfo/steadyclock.php"
+      }
+    ],
+    "detail": "同じサンプルレートという表示でも、別々の基準で動く機器の標本タイミングは一致しているとは限らない。デジタル音声の送受信では一つの時刻関係を共有する必要があり、機器の基準源と追従関係を系統として整理する。受信機器が同期を失った場合の動作は機種により異なる。基準を共有する経路と、音声データを運ぶ経路を図の中で別に把握する。",
+    "examples": [
+      "卓、収録機、変換器の基準源と同期状態を記録する。"
+    ],
+    "pitfalls": [
+      "曲の再生位置を示すLTCなどとは違う。タイムコードが一致しても標本処理の同期を保証しない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-latency",
+    "name": "レイテンシー",
+    "reading": "れいてんしー",
+    "english": "Latency",
+    "aliases": [
+      "遅延時間",
+      "レーテンシー"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "信号が入力されてから出力されるまでに生じる時間の遅れ。変換、処理、バッファー、ネットワークなど複数段の遅れが加わる。",
+    "usage": "舞台上のモニター経路全体の遅れを把握する。",
+    "japan": "「レイテンシー」として使用。",
+    "us": "「Latency」を使用。",
+    "uk": "「Latency」を使用。",
+    "note": "演出として設定するディレイとは区別するが、実際の経路では合算される。",
+    "related": [
+      "ディレイ",
+      "オーディオインターフェース"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Dante｜How is latency adjusted in a Dante system?",
+        "url": "https://support.getdante.com/hc/en-gb/articles/5508275296415-How-is-latency-adjusted-in-a-Dante-system"
+      },
+      {
+        "label": "Ableton｜How Latency Works",
+        "url": "https://help.ableton.com/hc/en-us/articles/360010545559-How-Latency-Works"
+      }
+    ],
+    "detail": "変換器、バッファー、卓、プラグイン、無線、ネットワークの遅れは経路に応じて積み重なる。往復のモニター経路と一方向の出力では数え方も違い、単体機器の公称値を足すだけで実環境の全条件を代表させない。同じ入力が異なる処理を通って再び合わさると、時間差が音色を変える場合がある。単体の遅延値だけでなく合流地点の関係も調べる。",
+    "examples": [
+      "生声とイヤモニからの声が重なる経路全体を把握する。"
+    ],
+    "pitfalls": [
+      "小さいバッファーへ変更しても、別のプラグインや変換の遅延が同じだけ減るとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-dante",
+    "name": "Dante",
+    "reading": "だんて",
+    "english": "Dante",
+    "aliases": [
+      "ダンテ",
+      "Audinate Dante"
+    ],
+    "category": "audio",
+    "subcategory": "デジタル音声伝送",
+    "definition": "Audinateが開発するネットワークを使った音声・映像の伝送技術。対応機器間でチャンネルの接続や同期を行う。",
+    "usage": "舞台ラックと卓の音声伝送方式を示す。",
+    "japan": "「Dante」として使用。",
+    "us": "「Dante」を使用。",
+    "uk": "「Dante」を使用。",
+    "note": "同じLAN端子でも、すべての機器がDanteに対応するわけではない。",
+    "related": [
+      "サブスクリプション",
+      "ワードクロック"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Dante｜Information for Network Administrators",
+        "url": "https://www.getdante.com/wp-content/uploads/2025/12/Information-for-Network-Admins-v6.pdf"
+      }
+    ],
+    "detail": "音声が通る伝送、標本の時刻を合わせる同期、どこへ何を送るかを決める制御を分けると理解しやすい。対応機器のチャンネル数だけでなく、フロー数、レート、冗長、利用する管理機能の条件まで含めて構成する。コンピューター用のDVS、管理用のDirector、クラウド制作向けのConnectは役割が違う。同じDanteの名前でも、必要な機能を担当別に整理する。",
+    "examples": [
+      "ステージラックから卓と録音用PCへ音を分配する計画を作る。"
+    ],
+    "pitfalls": [
+      "RJ45端子や同じネットワークへの接続だけで、サブスクリプションや同期が成立するとは限らない。"
+    ],
+    "kind": "term",
+    "verifiedAt": "2026-11-03"
+  },
+  {
+    "id": "audio-subscription",
+    "name": "サブスクリプション",
+    "reading": "さぶすくりぷしょん",
+    "english": "Subscription",
+    "aliases": [
+      "Dante subscription",
+      "受信接続",
+      "ルーティング購読"
+    ],
+    "category": "audio",
+    "subcategory": "デジタル音声伝送",
+    "definition": "Danteなどで、受信チャンネルがどの送信チャンネルを受け取るかを指定する接続関係。物理ケーブルとは別の論理的な経路。",
+    "usage": "Dante Controller上の送受信の接続関係を示す。",
+    "japan": "「サブスクリプション」として使用。",
+    "us": "「Subscription」を使用。",
+    "uk": "「Subscription」を使用。",
+    "note": "この文脈では定額課金の契約を意味しない。",
+    "related": [
+      "Dante",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Dante｜Information for Network Administrators",
+        "url": "https://www.getdante.com/wp-content/uploads/2025/12/Information-for-Network-Admins-v6.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-unicast",
+    "name": "ユニキャスト",
+    "reading": "ゆにきゃすと",
+    "english": "Unicast",
+    "aliases": [
+      "一対一通信",
+      "Unicast flow"
+    ],
+    "category": "audio",
+    "subcategory": "デジタル音声伝送",
+    "definition": "一つの送信先へデータを送る通信方式。同じ音を別の相手へも送る場合、送信側から別のデータの流れが必要となる。",
+    "usage": "ネットワーク音声のフロー方式を確認する。",
+    "japan": "「ユニキャスト」として使用。",
+    "us": "「Unicast」を使用。",
+    "uk": "「Unicast」を使用。",
+    "note": "",
+    "related": [
+      "マルチキャスト",
+      "Dante"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Dante｜Unicast, Multicast & Broadcast",
+        "url": "https://www.getdante.com/resources/catalog/video-tutorials/dante-certification-level-2-chapter-08-unicast-multicast-and-broadcast/"
+      }
+    ]
+  },
+  {
+    "id": "audio-multicast",
+    "name": "マルチキャスト",
+    "reading": "まるちきゃすと",
+    "english": "Multicast",
+    "aliases": [
+      "一対多通信",
+      "Multicast flow"
+    ],
+    "category": "audio",
+    "subcategory": "デジタル音声伝送",
+    "definition": "受信を希望する複数の相手へ、一つの送信ストリームをネットワーク内で分配する方式。同じ音の多地点への配信などに使う。",
+    "usage": "多数の受信先に同じ音を送る方式を示す。",
+    "japan": "「マルチキャスト」として使用。",
+    "us": "「Multicast」を使用。",
+    "uk": "「Multicast」を使用。",
+    "note": "不要な場所へ流さないためのネットワーク設計も関係する。",
+    "related": [
+      "ユニキャスト",
+      "Dante"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Dante｜Unicast, Multicast & Broadcast",
+        "url": "https://www.getdante.com/resources/catalog/video-tutorials/dante-certification-level-2-chapter-08-unicast-multicast-and-broadcast/"
+      }
+    ]
+  },
+  {
+    "id": "audio-multitrack",
+    "name": "マルチトラック録音",
+    "reading": "まるちとらっくろくおん",
+    "english": "Multitrack recording",
+    "aliases": [
+      "マルチ録音",
+      "多重録音",
+      "マルチトラック"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "複数の音声を別々のトラックに記録すること。客席向けにまとめた音とは別に、各入力を後から調整できる形で残せる。",
+    "usage": "各マイクを独立したトラックとして収録する。",
+    "japan": "「マルチトラック録音」として使用。",
+    "us": "「Multitrack recording」を使用。",
+    "uk": "「Multitrack recording」を使用。",
+    "note": "ステレオの完成ミックスを録ることとは区別する。",
+    "related": [
+      "ダイレクトアウト",
+      "オーディオインターフェース"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜What is an Audio Interface?",
+        "url": "https://hub.yamaha.com/proaudio/recording/what-is-an-audio-interface/"
+      }
+    ]
+  },
+  {
+    "id": "audio-soundcheck",
+    "name": "サウンドチェック",
+    "reading": "さうんどちぇっく",
+    "english": "Soundcheck",
+    "aliases": [
+      "音チェック",
+      "サウンド・チェック"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "出演者の声や演奏を実際に出して、客席向け・舞台向けの音のバランスや聞こえ方を確認する工程。回線の確認だけとは区別する。",
+    "usage": "演奏者と客席・モニターの状態を確認する。",
+    "japan": "「サウンドチェック」として使用。",
+    "us": "「Soundcheck」を使用。",
+    "uk": "「Soundcheck」を使用。",
+    "note": "現場によって含む作業範囲は異なる。",
+    "related": [
+      "ラインチェック",
+      "モニタースピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Ready, Set, Go: Soundcheck and Rehearsal Routines",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/Ready-Set-Go-Soundcheck-and-Rehearsal-Routines.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-linecheck",
+    "name": "ラインチェック",
+    "reading": "らいんちぇっく",
+    "english": "Line check",
+    "aliases": [
+      "回線チェック",
+      "ライン・チェック"
+    ],
+    "category": "audio",
+    "subcategory": "録音・編集",
+    "definition": "音源から卓までの信号経路が、予定したチャンネルに正しく入り動作するかを確認する工程。音作りや演奏全体の確認とは区別する。",
+    "usage": "入力番号と音源名の対応を確認する。",
+    "japan": "「ラインチェック」として使用。",
+    "us": "「Line check」を使用。",
+    "uk": "「Line check」を使用。",
+    "note": "",
+    "related": [
+      "サウンドチェック",
+      "パッチ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜Ready, Set, Go: Soundcheck and Rehearsal Routines",
+        "url": "https://www.yamaha.com/US/houseofworship/downloadables/Audio-System-How-to-Guides/Ready-Set-Go-Soundcheck-and-Rehearsal-Routines.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-decibel",
+    "name": "デシベル",
+    "reading": "でしべる",
+    "english": "Decibel",
+    "aliases": [
+      "dB",
+      "デシベル値"
+    ],
+    "category": "audio",
+    "subcategory": "音の基礎・聴覚",
+    "definition": "基準に対する比を対数で表す単位。音響では音圧や電気信号のレベル、増幅量などに使い、何を基準にした値かが重要になる。",
+    "usage": "音圧のdB SPLと、電圧基準のdBuなどを区別する。",
+    "japan": "「デシベル」「dB」。基準を添えて表す。",
+    "us": "Decibel / dB。dB SPL、dBu、dBFSなどの基準を区別する。",
+    "uk": "Decibel / dB。dB SPL、dBu、dBFSなどの基準を区別する。",
+    "note": "dBの数値だけを比較しても、基準や測定条件が違えば同じ大きさとはいえない。",
+    "related": [
+      "音圧レベル",
+      "ゲイン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Shure｜Audio Systems Guide for Music Educators",
+        "url": "https://content-files.shure.com/dievision/archive/damfiles/default/global/documents/publications/en/conferencing-presentation/us_pro_audiomusiceducators_ea.pdf-12363cf321082e7788566e9e49146e2b.pdf"
+      }
+    ]
+  },
+  {
+    "id": "audio-mic-level",
+    "name": "マイクレベル",
+    "reading": "まいくれべる",
+    "english": "Mic level",
+    "aliases": [
+      "Microphone level",
+      "MIC",
+      "マイク信号"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "マイクが出す比較的微弱な音声信号のレベル区分。マイクの感度や音源の大きさで変わり、通常は入力初段で増幅して扱う。",
+    "usage": "マイク入力とライン入力の仕様を照合する。",
+    "japan": "「マイクレベル」「マイク入力」。",
+    "us": "Mic level / microphone input。",
+    "uk": "Mic level / microphone input。",
+    "note": "一定の一つの電圧を意味しない。端子が同じでもラインレベルと同じ扱いにはならない。",
+    "related": [
+      "ラインレベル",
+      "ゲイン"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ｜PAビギナーズガイド・ミキサー",
+        "url": "https://jp.yamaha.com/audio/portable-pa/explore/pa-beginners-guide/equipments/mixer.html"
+      }
+    ]
+  },
+  {
+    "id": "audio-speakon",
+    "name": "speakON",
+    "reading": "すぴこん",
+    "english": "speakON loudspeaker connector",
+    "aliases": [
+      "スピコン",
+      "Speakon",
+      "スピーカー用コネクター"
+    ],
+    "category": "audio",
+    "subcategory": "ケーブル・信号",
+    "definition": "Neutrikによるスピーカー接続用のロック式コネクター。主にパワーアンプとパッシブスピーカーを結ぶ電力を伴う音声に使う。",
+    "usage": "スピーカー線の端子の種類を機材表に記す。",
+    "japan": "「スピコン」と呼ばれることがある。",
+    "us": "speakON / loudspeaker connector。",
+    "uk": "speakON / loudspeaker connector。",
+    "note": "極数や配線の対応を確認する。交流電源を供給するpowerCONとは異なる製品。",
+    "related": [
+      "スピーカーケーブル",
+      "パッシブスピーカー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Neutrik｜speakON FAQ",
+        "url": "https://www.neutrik.com/en/neutrik/faq/speakon"
+      }
+    ]
+  }
+]

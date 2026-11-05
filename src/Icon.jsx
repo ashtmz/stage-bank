@@ -1,0 +1,31 @@
+const paths = {
+  history: <><path d="M3 11a9 9 0 1 1 2 7M3 4v7h7M12 7v6l4 2"/></>,
+  costume: <><path d="m8 3-6 4 3 5 3-2v11h8V10l3 2 3-5-6-4c0 4-8 4-8 0Z"/></>,
+  music: <><path d="M9 18V5l12-3v13M9 8l12-3"/><ellipse cx="6" cy="19" rx="3" ry="2"/><ellipse cx="18" cy="16" rx="3" ry="2"/></>,
+  network: <><rect x="8" y="2" width="8" height="5" rx="1"/><rect x="1" y="17" width="6" height="5" rx="1"/><rect x="17" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M4 17v-5h16v5"/></>,
+  book: <><path d="M12 5C8 2 4 3 2 4v16c4-2 7-1 10 1 3-2 6-3 10-1V4c-2-1-6-2-10 1Z"/><path d="M12 5v16"/></>,
+  list: <><path d="M8 5h13M8 12h13M8 19h13"/><path d="M3 5h.1M3 12h.1M3 19h.1"/></>,
+  bookmark: <path d="M6 3h12v19l-6-4-6 4V3Z"/>,
+  stage: <><path d="M3 3h18v18M3 3v18M3 5c0 7 3 9 6 9V3m12 2c0 7-3 9-6 9V3M3 21l6-7M21 21l-6-7"/></>,
+  audio: <><path d="m11 4-6 5H2v6h3l6 5V4ZM15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></>,
+  light: <><path d="M8 18c0-4-3-4-3-9a7 7 0 0 1 14 0c0 5-3 5-3 9M8 18h8v3H8ZM10 24h4"/></>,
+  video: <><rect x="2" y="3" width="20" height="15" rx="1"/><path d="M12 18v4M7 22h10"/></>,
+  clipboard: <><path d="M8 4H4v18h16V4h-4M8 9h8M8 13h8M8 17h5"/><rect x="8" y="2" width="8" height="4" rx="1"/></>,
+  safety: <><path d="M2 19h20M4 18v-5a8 8 0 0 1 5-8m6 0a8 8 0 0 1 5 8v5M9 12V3h6v9"/></>,
+  database: <><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 4 18 4 18 0V5M3 12c0 4 18 4 18 0"/></>,
+  search: <><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></>,
+  close: <path d="m5 5 14 14M5 19 19 5"/>,
+  plus: <path d="M12 4v16M4 12h16"/>,
+  arrow: <path d="M6 18 18 6M6 6h12v12"/>,
+  link: <><path d="m10 14 4-4m-6 1-2 2a4 4 0 0 0 6 6l2-2m-4-10 2-2a4 4 0 0 1 6 6l-2 2"/></>,
+  back: <path d="m14 5-7 7 7 7M7 12h14"/>,
+  menu: <path d="M3 5h18M3 12h18M3 19h18"/>,
+  sort: <><path d="M8 3v18m-4-4 4 4 4-4M16 21V3m-4 4 4-4 4 4"/></>,
+  check: <path d="m4 12 5 5L20 6"/>,
+  download: <path d="M12 2v14m-5-5 5 5 5-5M3 17v5h18v-5"/>,
+  upload: <path d="M12 17V3m-5 5 5-5 5 5M3 17v5h18v-5"/>,
+  note: <><path d="M20 14v7H3V4h11M10 14l1-4L20 1l3 3-9 9-4 1Z"/></>,
+};
+export default function Icon({ name, size = 20, filled = false, ...props }) {
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.55" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name] || paths.book}</svg>;
+}

@@ -1,0 +1,2096 @@
+[
+  {
+    "id": "video-sdi",
+    "name": "SDI",
+    "reading": "えすでぃーあい",
+    "english": "Serial Digital Interface",
+    "aliases": [
+      "シリアルデジタルインターフェース"
+    ],
+    "category": "video",
+    "subcategory": "映像信号・接続",
+    "definition": "業務用のデジタル映像信号を伝送するインターフェース。同軸ケーブルや光伝送の構成があり、対応する信号形式は機器により異なる。",
+    "usage": "「カメラ映像を SDI でスイッチャーへ送る。」",
+    "japan": "「SDI」と呼ぶ。",
+    "us": "Serial Digital Interface。",
+    "uk": "Serial Digital Interface。",
+    "note": "",
+    "related": [
+      "HDMI",
+      "NDI"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-hdmi",
+    "name": "HDMI",
+    "reading": "えいちでぃーえむあい",
+    "english": "High-Definition Multimedia Interface",
+    "aliases": [
+      "エイチディーエムアイ"
+    ],
+    "category": "video",
+    "subcategory": "映像信号・接続",
+    "definition": "映像と音声などをデジタル伝送する接続方式。パソコン、映像機器、ディスプレイなどで使われる。",
+    "usage": "「送出用パソコンの HDMI 出力を確認する。」",
+    "japan": "「HDMI」と呼ぶ。",
+    "us": "High-Definition Multimedia Interface。",
+    "uk": "High-Definition Multimedia Interface。",
+    "note": "",
+    "related": [
+      "SDI",
+      "NDI"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HDMI Licensing Administrator｜Technology",
+        "url": "https://www.hdmi.org/spec/index"
+      }
+    ]
+  },
+  {
+    "id": "video-ndi",
+    "name": "NDI",
+    "reading": "えぬでぃーあい",
+    "english": "Network Device Interface",
+    "aliases": [
+      "ネットワークデバイスインターフェース"
+    ],
+    "category": "video",
+    "subcategory": "IP映像・伝送",
+    "definition": "IP ネットワーク上で映像・音声・メタデータをやり取りする技術群。単独のコーデック名ではなく、形式により帯域や遅延が異なる。",
+    "usage": "「舞台カメラの NDI 映像を配信用パソコンで受ける。」",
+    "japan": "「NDI」と呼ぶ。",
+    "us": "Network Device Interface。",
+    "uk": "Network Device Interface。",
+    "note": "",
+    "related": [
+      "SDI",
+      "HDMI"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "NDI｜What is NDI?",
+        "url": "https://docs.ndi.video/all/getting-started/what-is-ndi"
+      }
+    ]
+  },
+  {
+    "id": "video-switcher",
+    "name": "映像スイッチャー",
+    "reading": "えいぞうすいっちゃー",
+    "english": "Video switcher",
+    "aliases": [
+      "ビデオミキサー",
+      "Vision mixer"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "複数の映像入力から出力する映像を選び、切替や合成を行う機器。音響のミキサーとは扱う主信号が異なる。",
+    "usage": "「映像スイッチャーでカメラとスライドを切り替える。」",
+    "japan": "「映像スイッチャー」と呼ぶ。",
+    "us": "Video switcher。",
+    "uk": "Vision mixer とも呼ぶ。",
+    "note": "",
+    "related": [
+      "プログラム",
+      "プレビュー",
+      "マルチビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-program",
+    "name": "プログラム",
+    "reading": "ぷろぐらむ",
+    "english": "Program / Programme",
+    "aliases": [
+      "PGM",
+      "本線"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "スイッチャーで実際に送出中の映像、またはその出力系統。公演の演目表を意味するプログラムとは文脈が異なる。",
+    "usage": "「客席スクリーンにはプログラム出力を送る。」",
+    "japan": "「プログラム」と呼ぶ。",
+    "us": "Program（PGM）。",
+    "uk": "一般綴りは programme。機器の表示は Program の場合もある。",
+    "note": "",
+    "related": [
+      "映像スイッチャー",
+      "プレビュー",
+      "マルチビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-preview",
+    "name": "プレビュー",
+    "reading": "ぷれびゅー",
+    "english": "Preview",
+    "aliases": [
+      "PVW",
+      "次映像"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "本番出力へ切り替える前に確認する映像や出力。プログラムとは別に、次に使用する素材を点検できる。",
+    "usage": "「プレビューでスライドのページを確認する。」",
+    "japan": "「プレビュー」と呼ぶ。",
+    "us": "Preview。",
+    "uk": "Preview。",
+    "note": "",
+    "related": [
+      "映像スイッチャー",
+      "プログラム",
+      "マルチビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-multiview",
+    "name": "マルチビュー",
+    "reading": "まるちびゅー",
+    "english": "Multiview",
+    "aliases": [
+      "マルチビューワー"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "複数の入力やプログラム、プレビューなどを一つの画面に分割表示する監視機能。",
+    "usage": "「マルチビューに全カメラを表示する。」",
+    "japan": "「マルチビュー」と呼ぶ。",
+    "us": "Multiview。",
+    "uk": "Multiview。",
+    "note": "",
+    "related": [
+      "映像スイッチャー",
+      "プログラム",
+      "プレビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-aux",
+    "name": "AUX 出力（映像）",
+    "reading": "おーぐじりありしゅつりょく",
+    "english": "Auxiliary output",
+    "aliases": [
+      "AUX",
+      "補助出力"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "本線と別の映像を選択して送れる補助出力。会場モニターや収録用など、目的に応じた出力系統を構成する。",
+    "usage": "「演者用モニターには AUX からスライドを送る。」",
+    "japan": "「AUX 出力（映像）」と呼ぶ。",
+    "us": "Auxiliary output。",
+    "uk": "Auxiliary output。",
+    "note": "",
+    "related": [
+      "映像スイッチャー",
+      "プログラム",
+      "プレビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-cut",
+    "name": "カット（映像）",
+    "reading": "かっと",
+    "english": "Cut",
+    "aliases": [
+      "ハードカット"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "映像を重ねる移行時間を設けず、ある入力から別の入力へ切り替えること。撮影の停止指示や編集単位の意味もある。",
+    "usage": "「次の話者へカットで切り替える。」",
+    "japan": "「カット（映像）」と呼ぶ。",
+    "us": "Cut。",
+    "uk": "Cut。",
+    "note": "",
+    "related": [
+      "映像スイッチャー",
+      "プログラム",
+      "プレビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-dissolve",
+    "name": "ディゾルブ",
+    "reading": "でぃぞるぶ",
+    "english": "Dissolve",
+    "aliases": [
+      "ミックス",
+      "Mix transition"
+    ],
+    "category": "video",
+    "subcategory": "映像切替・合成",
+    "definition": "前の映像を薄くしながら次の映像を重ね、徐々に切り替えるトランジション。",
+    "usage": "「曲の終わりで背景映像をディゾルブする。」",
+    "japan": "「ディゾルブ」と呼ぶ。",
+    "us": "Dissolve。",
+    "uk": "Dissolve。",
+    "note": "",
+    "related": [
+      "映像スイッチャー",
+      "プログラム",
+      "プレビュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design｜ATEM SDI",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ]
+  },
+  {
+    "id": "video-projector",
+    "name": "プロジェクター",
+    "reading": "ぷろじぇくたー",
+    "english": "Video projector",
+    "aliases": [
+      "映写機",
+      "PJ"
+    ],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "光学系を使って映像をスクリーンや舞台面へ投影する機器。設置条件、明るさ、レンズの選定が画面に影響する。",
+    "usage": "「舞台奥の幕へプロジェクターで投影する。」",
+    "japan": "「プロジェクター」と呼ぶ。",
+    "us": "Video projector。",
+    "uk": "Video projector。",
+    "note": "",
+    "related": [
+      "投写比",
+      "レンズシフト",
+      "台形補正"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Epson｜Projector range guide",
+        "url": "https://www.epson.co.nz/brochures/Projector%20range%20guide%20August%202025.pdf"
+      }
+    ]
+  },
+  {
+    "id": "video-throw",
+    "name": "投写比",
+    "reading": "とうしゃひ",
+    "english": "Throw ratio",
+    "aliases": [
+      "投射比",
+      "スローレシオ"
+    ],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "投写距離を投写画面の幅で割った比率。必要な画面幅と設置距離に適するレンズを考える際に使う。",
+    "usage": "「仕込み図で必要な投写比を確認する。」",
+    "japan": "「投写比」と呼ぶ。",
+    "us": "Throw ratio。",
+    "uk": "Throw ratio。",
+    "note": "",
+    "related": [
+      "プロジェクター",
+      "レンズシフト",
+      "台形補正"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Epson｜Projector range guide",
+        "url": "https://www.epson.co.nz/brochures/Projector%20range%20guide%20August%202025.pdf"
+      }
+    ]
+  },
+  {
+    "id": "video-lensshift",
+    "name": "レンズシフト",
+    "reading": "れんずしふと",
+    "english": "Lens shift",
+    "aliases": [],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "レンズの位置を動かして投影画面を上下左右へ移動する光学的な調整機能。対応方向と範囲は機種により異なる。",
+    "usage": "「画面位置をレンズシフトで合わせる。」",
+    "japan": "「レンズシフト」と呼ぶ。",
+    "us": "Lens shift。",
+    "uk": "Lens shift。",
+    "note": "",
+    "related": [
+      "プロジェクター",
+      "投写比",
+      "台形補正"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Epson｜Projector range guide",
+        "url": "https://www.epson.co.nz/brochures/Projector%20range%20guide%20August%202025.pdf"
+      }
+    ]
+  },
+  {
+    "id": "video-keystone",
+    "name": "台形補正",
+    "reading": "だいけいほせい",
+    "english": "Keystone correction",
+    "aliases": [
+      "キーストーン補正"
+    ],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "斜め方向から投影したときに生じる台形の歪みを補正する機能。レンズシフトによる位置調整とは別の処理。",
+    "usage": "「設置角度による歪みを台形補正で調整する。」",
+    "japan": "「台形補正」と呼ぶ。",
+    "us": "Keystone correction。",
+    "uk": "Keystone correction。",
+    "note": "",
+    "related": [
+      "プロジェクター",
+      "投写比",
+      "レンズシフト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Epson｜Projector range guide",
+        "url": "https://www.epson.co.nz/brochures/Projector%20range%20guide%20August%202025.pdf"
+      }
+    ]
+  },
+  {
+    "id": "video-edgeb",
+    "name": "エッジブレンディング",
+    "reading": "えっじぶれんでぃんぐ",
+    "english": "Edge blending",
+    "aliases": [
+      "ブレンド"
+    ],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "複数台の投影範囲が重なる部分の明るさなどを調整し、一続きの画面に見せる処理。",
+    "usage": "「横長の背景を二台のエッジブレンディングで作る。」",
+    "japan": "「エッジブレンディング」と呼ぶ。",
+    "us": "Edge blending。",
+    "uk": "Edge blending。",
+    "note": "",
+    "related": [
+      "プロジェクター",
+      "投写比",
+      "レンズシフト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "QLab｜Video output",
+        "url": "https://qlab.app/docs/v5/video/video-output/"
+      }
+    ]
+  },
+  {
+    "id": "video-mapping",
+    "name": "プロジェクションマッピング",
+    "reading": "ぷろじぇくしょんまっぴんぐ",
+    "english": "Projection mapping",
+    "aliases": [
+      "マッピング"
+    ],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "立体物や舞台装置の形状・位置に合わせて映像を変形し、投影範囲を割り当てる表現手法。",
+    "usage": "「装置の窓に合わせてマッピングする。」",
+    "japan": "「プロジェクションマッピング」と呼ぶ。",
+    "us": "Projection mapping。",
+    "uk": "Projection mapping。",
+    "note": "",
+    "related": [
+      "プロジェクター",
+      "投写比",
+      "レンズシフト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "QLab｜Video output",
+        "url": "https://qlab.app/docs/v5/video/video-output/"
+      }
+    ]
+  },
+  {
+    "id": "video-surface",
+    "name": "サーフェス",
+    "reading": "さーふぇす",
+    "english": "Surface",
+    "aliases": [
+      "投影面"
+    ],
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "映像を配置・出力する面を表す語。実際の投影面を指す場合と、ソフトウェア内部の仮想面を指す場合がある。",
+    "usage": "「壁面ごとにサーフェスを分けて調整する。」",
+    "japan": "「サーフェス」と呼ぶ。",
+    "us": "Surface。",
+    "uk": "Surface。",
+    "note": "QLab の旧版では仮想出力面を surface と呼ぶ。QLab 5 の stage と名称・構成が異なる。",
+    "related": [
+      "プロジェクター",
+      "投写比",
+      "レンズシフト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "QLab 3｜Surfaces",
+        "url": "https://qlab.app/docs/v3/video/surfaces/"
+      },
+      {
+        "label": "QLab｜Video output",
+        "url": "https://qlab.app/docs/v5/video/video-output/"
+      }
+    ]
+  },
+  {
+    "id": "video-stage",
+    "name": "ステージ（映像）",
+    "reading": "すてーじ",
+    "english": "Video stage",
+    "aliases": [
+      "仮想ステージ"
+    ],
+    "category": "video",
+    "subcategory": "送出・再生・描画",
+    "definition": "QLab 5 で映像キューを配置する仮想的な画面。実際の舞台や、旧版のサーフェスという名称と区別して用いる。",
+    "usage": "「QLab のステージから出力ルートを設定する。」",
+    "japan": "「ステージ（映像）」と呼ぶ。",
+    "us": "Video stage。",
+    "uk": "Video stage。",
+    "note": "",
+    "related": [
+      "メディアサーバー",
+      "プレイヘッド",
+      "プリウェイト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "QLab｜Video output",
+        "url": "https://qlab.app/docs/v5/video/video-output/"
+      }
+    ]
+  },
+  {
+    "id": "video-server",
+    "name": "メディアサーバー",
+    "reading": "めでぃあさーばー",
+    "english": "Media server",
+    "aliases": [
+      "映像サーバー"
+    ],
+    "category": "video",
+    "subcategory": "送出・再生・描画",
+    "definition": "複数の映像素材の再生・合成・出力を管理するシステム。舞台映像ではキューや外部制御と連携させることがある。",
+    "usage": "「背景映像をメディアサーバーから送出する。」",
+    "japan": "「メディアサーバー」と呼ぶ。",
+    "us": "Media server。",
+    "uk": "Media server。",
+    "note": "",
+    "related": [
+      "ステージ（映像）",
+      "プレイヘッド",
+      "プリウェイト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "QLab｜Video output",
+        "url": "https://qlab.app/docs/v5/video/video-output/"
+      }
+    ]
+  },
+  {
+    "id": "video-playhead",
+    "name": "プレイヘッド",
+    "reading": "ぷれいへっど",
+    "english": "Playhead",
+    "aliases": [
+      "再生位置"
+    ],
+    "category": "video",
+    "subcategory": "送出・再生・描画",
+    "definition": "現在の再生位置や次に実行するキューの位置を示すもの。タイムライン方式とキュー方式で表示の意味が異なる。",
+    "usage": "「再開するキューへプレイヘッドを移す。」",
+    "japan": "「プレイヘッド」と呼ぶ。",
+    "us": "Playhead。",
+    "uk": "Playhead。",
+    "note": "",
+    "related": [
+      "ステージ（映像）",
+      "メディアサーバー",
+      "プリウェイト"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Figure 53｜The workspace",
+        "url": "https://reference.qlab.app/docs/v5/fundamentals/workspace/"
+      }
+    ]
+  },
+  {
+    "id": "video-prewait",
+    "name": "プリウェイト",
+    "reading": "ぷりうぇいと",
+    "english": "Pre-wait",
+    "aliases": [
+      "開始前待ち"
+    ],
+    "category": "video",
+    "subcategory": "送出・再生・描画",
+    "definition": "キューを起動してから、その内容の実行が始まるまでに設ける待ち時間。主にキュー再生ソフトの用語。",
+    "usage": "「効果音のプリウェイトを確認する。」",
+    "japan": "「プリウェイト」と呼ぶ。",
+    "us": "Pre-wait。",
+    "uk": "Pre-wait。",
+    "note": "",
+    "related": [
+      "ステージ（映像）",
+      "メディアサーバー",
+      "プレイヘッド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Figure 53｜The workspace",
+        "url": "https://reference.qlab.app/docs/v5/fundamentals/workspace/"
+      }
+    ]
+  },
+  {
+    "id": "video-postwait",
+    "name": "ポストウェイト",
+    "reading": "ぽすとうぇいと",
+    "english": "Post-wait",
+    "aliases": [
+      "開始後待ち"
+    ],
+    "category": "video",
+    "subcategory": "送出・再生・描画",
+    "definition": "キュー本体の開始後から自動継続までの待ち時間を示す設定。QLab ではキュー本体の終了から数える時間とは限らない。",
+    "usage": "「自動継続するキューのポストウェイトを調整する。」",
+    "japan": "「ポストウェイト」と呼ぶ。",
+    "us": "Post-wait。",
+    "uk": "Post-wait。",
+    "note": "自動継続の方法によって次キューの起点が変わるため、ソフトの仕様と区別する。",
+    "related": [
+      "ステージ（映像）",
+      "メディアサーバー",
+      "プレイヘッド"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Figure 53｜The workspace",
+        "url": "https://reference.qlab.app/docs/v5/fundamentals/workspace/"
+      }
+    ]
+  },
+  {
+    "id": "video-osc",
+    "name": "OSC",
+    "reading": "おーえすしー",
+    "english": "Open Sound Control",
+    "aliases": [],
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "アドレスと引数を持つメッセージでソフトウェアや機器を制御する形式。音響に限らず照明・映像の連携にも使われる。",
+    "usage": "「OSC で映像ソフトへ再生指示を送る。」",
+    "japan": "「OSC」と呼ぶ。",
+    "us": "Open Sound Control。",
+    "uk": "Open Sound Control。",
+    "note": "",
+    "related": [
+      "MIDI",
+      "MSC",
+      "タイムコード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Cycling ’74｜OpenSoundControl",
+        "url": "https://docs.cycling74.com/userguide/OSC/"
+      }
+    ]
+  },
+  {
+    "id": "video-midi",
+    "name": "MIDI",
+    "reading": "みでぃ",
+    "english": "Musical Instrument Digital Interface",
+    "aliases": [],
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "演奏情報などを機器間で伝える規格群。音声そのものではなく、ノートや制御値などの情報を扱う。",
+    "usage": "「MIDI のメッセージで外部機器を制御する。」",
+    "japan": "「MIDI」と呼ぶ。",
+    "us": "Musical Instrument Digital Interface。",
+    "uk": "Musical Instrument Digital Interface。",
+    "note": "",
+    "related": [
+      "OSC",
+      "MSC",
+      "タイムコード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜MIDI General Topics",
+        "url": "https://support.etcconnect.com/ETC/Getting_Started_with_ETC_and_FAQ/MIDI_General_Topics"
+      }
+    ]
+  },
+  {
+    "id": "video-msc",
+    "name": "MSC",
+    "reading": "えむえすしー",
+    "english": "MIDI Show Control",
+    "aliases": [],
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "MIDI の仕組みを使い、GO や停止などのショー制御命令を機器間でやり取りする方式。MTC とは役割が異なる。",
+    "usage": "「MSC で照明卓のキューを呼び出す。」",
+    "japan": "「MSC」と呼ぶ。",
+    "us": "MIDI Show Control。",
+    "uk": "MIDI Show Control。",
+    "note": "",
+    "related": [
+      "OSC",
+      "MIDI",
+      "タイムコード"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜MSC commands",
+        "url": "https://support.etcconnect.com/ETC/Consoles/Eos_Family/Software_and_Programming/Understanding_the_MSC_Commands_Eos_Family_Receives_and_Transmits"
+      }
+    ]
+  },
+  {
+    "id": "video-timecode",
+    "name": "タイムコード",
+    "reading": "たいむこーど",
+    "english": "Timecode",
+    "aliases": [
+      "TC"
+    ],
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "時・分・秒・フレームなどの位置情報を表し、再生や各分野のキューを時間軸で同期させるために使う符号。",
+    "usage": "「音源のタイムコードに照明と映像を合わせる。」",
+    "japan": "「タイムコード」と呼ぶ。",
+    "us": "Timecode。",
+    "uk": "Timecode。",
+    "note": "",
+    "related": [
+      "OSC",
+      "MIDI",
+      "MSC"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Timecode",
+        "url": "https://www.etcconnect.com/webdocs/Controls/EosFamilyOnlineHelp/en/Content/22_Show_Control/02_Timecode/TIMECODE.htm"
+      }
+    ]
+  },
+  {
+    "id": "video-mtc",
+    "name": "MTC",
+    "reading": "えむてぃーしー",
+    "english": "MIDI Time Code",
+    "aliases": [],
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "MIDI メッセージで時間位置を伝える方式。ショーの時間同期に使われ、GO 命令を送る MSC とは異なる。",
+    "usage": "「MTC を受信してキューリストを同期する。」",
+    "japan": "「MTC」と呼ぶ。",
+    "us": "MIDI Time Code。",
+    "uk": "MIDI Time Code。",
+    "note": "",
+    "related": [
+      "OSC",
+      "MIDI",
+      "MSC"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜MIDI General Topics",
+        "url": "https://support.etcconnect.com/ETC/Getting_Started_with_ETC_and_FAQ/MIDI_General_Topics"
+      }
+    ]
+  },
+  {
+    "id": "video-ltc",
+    "name": "LTC",
+    "reading": "えるてぃーしー",
+    "english": "Linear Timecode",
+    "aliases": [
+      "リニアタイムコード"
+    ],
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "時間情報を連続した信号として記録・伝送するタイムコードの方式。音声用の経路を利用して扱われることがある。",
+    "usage": "「再生系から LTC を同期用機器へ送る。」",
+    "japan": "「LTC」と呼ぶ。",
+    "us": "Linear Timecode。",
+    "uk": "Linear Timecode。",
+    "note": "",
+    "related": [
+      "OSC",
+      "MIDI",
+      "MSC"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ETC｜Timecode",
+        "url": "https://www.etcconnect.com/webdocs/Controls/EosFamilyOnlineHelp/en/Content/22_Show_Control/02_Timecode/TIMECODE.htm"
+      }
+    ]
+  },
+  {
+    "id": "production-sm",
+    "name": "舞台監督",
+    "reading": "ぶたいかんとく",
+    "english": "Stage manager",
+    "aliases": [
+      "舞監",
+      "SM",
+      "ステマネ"
+    ],
+    "category": "production",
+    "subcategory": "スタッフ・役割",
+    "definition": "稽古と本番の進行を支え、出演者と技術各部門をつなぐ担当。具体的な職務や権限は公演・国・組織により異なる。",
+    "usage": "「転換のタイミングを舞台監督と確認する。」",
+    "japan": "「舞台監督」と呼ぶ。",
+    "us": "Stage manager / Production stage manager。キュー出しも担当することがある。",
+    "uk": "SM・DSM・ASM のチームで職務を分ける体制がある。",
+    "note": "日本の舞台監督と海外の Stage manager は、職務範囲が一対一で対応するとは限らない。",
+    "related": [
+      "DSM",
+      "ASM",
+      "プロダクションマネージャー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust｜Who works in a theatre?",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/253"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "production-dsm",
+    "name": "DSM",
+    "reading": "でぃーえすえむ",
+    "english": "Deputy stage manager",
+    "aliases": [
+      "デピュティステージマネージャー"
+    ],
+    "category": "production",
+    "subcategory": "スタッフ・役割",
+    "definition": "英国の舞台監督チームの役職。台本を追いながら稽古の記録や本番のキュー出しなどを担う体制が一般的。",
+    "usage": "「DSM が照明と音響のキューをコールする。」",
+    "japan": "「DSM」と呼ぶ。",
+    "us": "役職構成は公演による。英国の DSM と同じ分担とは限らない。",
+    "uk": "Deputy stage manager（DSM）。主に台本を追ってキューをコールする。",
+    "note": "",
+    "related": [
+      "舞台監督",
+      "ASM",
+      "プロダクションマネージャー"
+    ],
+    "regions": [
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Equity｜Stage management roles",
+        "url": "https://www.equity.org.uk/advice-and-support/area-of-work/stage-management-hub/job-descriptions-for-stage-management"
+      }
+    ]
+  },
+  {
+    "id": "production-asm",
+    "name": "ASM",
+    "reading": "えーえすえむ",
+    "english": "Assistant stage manager",
+    "aliases": [
+      "舞台監督助手"
+    ],
+    "category": "production",
+    "subcategory": "スタッフ・役割",
+    "definition": "舞台監督チームの補助担当。小道具の準備や袖での進行などを担うが、日本の舞監助手と担当範囲が必ずしも一致しない。",
+    "usage": "「ASM が袖の準備状況を伝える。」",
+    "japan": "「ASM」と呼ぶ。",
+    "us": "Assistant stage manager。",
+    "uk": "Assistant stage manager。小道具や袖進行などを分担する。",
+    "note": "",
+    "related": [
+      "舞台監督",
+      "DSM",
+      "プロダクションマネージャー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Equity｜Stage management roles",
+        "url": "https://www.equity.org.uk/advice-and-support/area-of-work/stage-management-hub/job-descriptions-for-stage-management"
+      }
+    ]
+  },
+  {
+    "id": "production-pm",
+    "name": "プロダクションマネージャー",
+    "reading": "ぷろだくしょんまねーじゃー",
+    "english": "Production manager",
+    "aliases": [
+      "PM"
+    ],
+    "category": "production",
+    "subcategory": "スタッフ・役割",
+    "definition": "公演を実現するため、技術部門を横断して工程・人員・予算などを調整する担当。舞台監督とは分担して働く。",
+    "usage": "「搬入工程をプロダクションマネージャーと調整する。」",
+    "japan": "「プロダクションマネージャー」と呼ぶ。",
+    "us": "Production manager。",
+    "uk": "Production manager。",
+    "note": "",
+    "related": [
+      "舞台監督",
+      "DSM",
+      "ASM"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust｜Who works in a theatre?",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/253"
+      }
+    ]
+  },
+  {
+    "id": "production-director",
+    "name": "演出家",
+    "reading": "えんしゅつか",
+    "english": "Director",
+    "aliases": [
+      "演出"
+    ],
+    "category": "production",
+    "subcategory": "スタッフ・役割",
+    "definition": "作品の解釈や表現方針を定め、出演者の演技と美術・照明・音響などを統合して上演を構成する担当。",
+    "usage": "「演出家の意図を各デザイナーと共有する。」",
+    "japan": "「演出家」と呼ぶ。",
+    "us": "Director。",
+    "uk": "Director。",
+    "note": "",
+    "related": [
+      "舞台監督",
+      "DSM",
+      "ASM"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Theatres Trust｜Who works in a theatre?",
+        "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/253"
+      }
+    ]
+  },
+  {
+    "id": "production-book",
+    "name": "進行台本",
+    "reading": "しんこうだいほん",
+    "english": "Prompt book / Show script",
+    "aliases": [
+      "プロンプトブック",
+      "進行本"
+    ],
+    "category": "production",
+    "subcategory": "進行資料・記録",
+    "definition": "せりふや進行順に、技術キュー・転換・出演者の動きなどを記録した進行用の台本。資料の形式は公演により異なる。",
+    "usage": "「変更したキューを進行台本へ記入する。」",
+    "japan": "「進行台本」と呼ぶ。",
+    "us": "Prompt book。",
+    "uk": "Prompt book。",
+    "note": "",
+    "related": [
+      "キューシート",
+      "香盤",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Stage Management Association｜Employing a stage manager",
+        "url": "https://www.stagemanagementassociation.co.uk/index.php/what-is-stage-management/employing-a-stage-manager"
+      }
+    ]
+  },
+  {
+    "id": "production-cuesheet",
+    "name": "キューシート",
+    "reading": "きゅーしーと",
+    "english": "Cue sheet",
+    "aliases": [
+      "キュー表"
+    ],
+    "category": "production",
+    "subcategory": "進行資料・記録",
+    "definition": "音・照明・映像などの実行内容とタイミングをまとめた表。各部門の操作確認や進行の共有に使う。",
+    "usage": "「照明と音響のキューシートを照合する。」",
+    "japan": "「キューシート」と呼ぶ。",
+    "us": "Cue sheet。",
+    "uk": "Cue sheet。",
+    "note": "",
+    "related": [
+      "進行台本",
+      "香盤",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "SUNY New Paltz｜Production handbook",
+        "url": "https://www.newpaltz.edu/fpa/theatre/productions/production-handbook/"
+      }
+    ]
+  },
+  {
+    "id": "production-kouban",
+    "name": "香盤",
+    "reading": "こうばん",
+    "english": "Cast scene breakdown",
+    "aliases": [
+      "香盤表"
+    ],
+    "category": "production",
+    "subcategory": "進行資料・記録",
+    "definition": "出演者と場面の対応や出番を整理した表。稽古、公演、衣裳や小道具の準備のために用いる。",
+    "usage": "「香盤で次の場面の出演者を確認する。」",
+    "japan": "「香盤」と呼ぶ。",
+    "us": "Cast scene breakdown / Scene breakdown など。",
+    "uk": "Scene breakdown など。",
+    "note": "日本語の香盤は用途に幅があり、単一の英語資料名と完全には対応しない。",
+    "related": [
+      "進行台本",
+      "キューシート",
+      "舞台平面図"
+    ],
+    "regions": [
+      "JP"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ]
+  },
+  {
+    "id": "production-blocking",
+    "name": "立ち稽古",
+    "reading": "たちげいこ",
+    "english": "Blocking rehearsal",
+    "aliases": [],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "出演者の立ち位置、出入り、移動などを実際に動きながら組み立てる稽古。",
+    "usage": "「立ち稽古で袖へのはけ方を確認する。」",
+    "japan": "「立ち稽古」と呼ぶ。",
+    "us": "Blocking rehearsal。",
+    "uk": "Blocking rehearsal。",
+    "note": "",
+    "related": [
+      "通し稽古",
+      "テクニカルリハーサル",
+      "キュートゥキュー",
+      "ブロッキング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ]
+  },
+  {
+    "id": "production-run",
+    "name": "通し稽古",
+    "reading": "とおしげいこ",
+    "english": "Run-through",
+    "aliases": [
+      "通し",
+      "ランスルー"
+    ],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "作品全体や一定のまとまりを、進行順に続けて行う稽古。必ずしも衣裳や技術要素がすべて揃う段階とは限らない。",
+    "usage": "「午後は一幕の通し稽古を行う。」",
+    "japan": "「通し稽古」と呼ぶ。",
+    "us": "Run-through。",
+    "uk": "Run-through。",
+    "note": "",
+    "related": [
+      "立ち稽古",
+      "テクニカルリハーサル",
+      "キュートゥキュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre｜Rehearsal process",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/05.-Rehearsal-schedule_NationalTheatre_PublicActs_Toolkit-Guide-5.pdf"
+      }
+    ]
+  },
+  {
+    "id": "production-tech",
+    "name": "テクニカルリハーサル",
+    "reading": "てくにかるりはーさる",
+    "english": "Technical rehearsal",
+    "aliases": [
+      "テクリハ",
+      "Tech rehearsal"
+    ],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "照明・音響・映像・転換などの技術要素と出演者の動きを合わせ、キューや進行を確認する稽古。",
+    "usage": "「テクリハで転換と照明のタイミングを合わせる。」",
+    "japan": "「テクニカルリハーサル」と呼ぶ。",
+    "us": "Technical rehearsal。",
+    "uk": "Technical rehearsal。",
+    "note": "",
+    "related": [
+      "立ち稽古",
+      "通し稽古",
+      "キュートゥキュー"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre｜Rehearsal diaries",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2024/01/GreatWave-RehearsalDiaries.pdf"
+      }
+    ]
+  },
+  {
+    "id": "production-qtoq",
+    "name": "キュートゥキュー",
+    "reading": "きゅーとぅきゅー",
+    "english": "Cue-to-cue",
+    "aliases": [
+      "Q to Q",
+      "Q2Q"
+    ],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "技術キューがある箇所を中心に、間を省略しながら進める稽古。全編を連続して行う通し稽古とは目的が異なる。",
+    "usage": "「転換の多い場面をキュートゥキューで確認する。」",
+    "japan": "「キュートゥキュー」と呼ぶ。",
+    "us": "Cue-to-cue。",
+    "uk": "Cue-to-cue。",
+    "note": "",
+    "related": [
+      "立ち稽古",
+      "通し稽古",
+      "テクニカルリハーサル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "SUNY New Paltz｜Production handbook",
+        "url": "https://www.newpaltz.edu/fpa/theatre/productions/production-handbook/"
+      }
+    ]
+  },
+  {
+    "id": "production-papertech",
+    "name": "ペーパーテック",
+    "reading": "ぺーぱーてっく",
+    "english": "Paper tech",
+    "aliases": [],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "実機での稽古に先立ち、台本上でキューの内容・番号・タイミングなどを関係者で整理する打ち合わせ。",
+    "usage": "「ペーパーテックで各部門のキューを突き合わせる。」",
+    "japan": "「ペーパーテック」と呼ぶ。",
+    "us": "Paper tech。",
+    "uk": "Paper tech。",
+    "note": "",
+    "related": [
+      "立ち稽古",
+      "通し稽古",
+      "テクニカルリハーサル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "SUNY New Paltz｜Production handbook",
+        "url": "https://www.newpaltz.edu/fpa/theatre/productions/production-handbook/"
+      }
+    ]
+  },
+  {
+    "id": "production-dress",
+    "name": "ドレスリハーサル",
+    "reading": "どれすりはーさる",
+    "english": "Dress rehearsal",
+    "aliases": [
+      "ドレス",
+      "総稽古"
+    ],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "衣裳やメイク、技術要素を含め、本番に近い状態で行う稽古。ゲネプロとの使い分けは制作現場により異なる。",
+    "usage": "「ドレスリハーサルで早替えを確認する。」",
+    "japan": "「ドレスリハーサル」と呼ぶ。",
+    "us": "Dress rehearsal。",
+    "uk": "Dress rehearsal。",
+    "note": "",
+    "related": [
+      "立ち稽古",
+      "通し稽古",
+      "テクニカルリハーサル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre｜Rehearsal process",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/05.-Rehearsal-schedule_NationalTheatre_PublicActs_Toolkit-Guide-5.pdf"
+      }
+    ]
+  },
+  {
+    "id": "production-gp",
+    "name": "ゲネプロ",
+    "reading": "げねぷろ",
+    "english": "Final dress rehearsal",
+    "aliases": [
+      "GP",
+      "Generalprobe",
+      "ゲネラルプローベ"
+    ],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "本番前の総仕上げとして行う総稽古を指す日本の現場語。ドイツ語 Generalprobe に由来する。",
+    "usage": "「ゲネプロ後に最終の修正を共有する。」",
+    "japan": "「ゲネプロ」と呼ぶ。",
+    "us": "Final dress rehearsal など。",
+    "uk": "Final dress rehearsal など。",
+    "note": "ゲネプロとドレスリハーサルの区別は現場による。GP の略語も文脈を添えて使う。",
+    "related": [
+      "立ち稽古",
+      "通し稽古",
+      "テクニカルリハーサル"
+    ],
+    "regions": [
+      "JP",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ],
+    "europe": "独：Generalprobe。伊：prova generale。"
+  },
+  {
+    "id": "production-sitz",
+    "name": "ジッツプローベ",
+    "reading": "じっつぷろーべ",
+    "english": "Sitzprobe",
+    "aliases": [
+      "Sitz",
+      "オケ合わせ"
+    ],
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "オペラやミュージカルで、主に演技の動きをつけず歌手とオーケストラの音楽を合わせる稽古。ドイツ語由来。",
+    "usage": "「舞台稽古の前にジッツプローベを行う。」",
+    "japan": "「ジッツプローベ」と呼ぶ。",
+    "us": "Sitzprobe。",
+    "uk": "Sitzprobe。",
+    "note": "",
+    "related": [
+      "立ち稽古",
+      "通し稽古",
+      "テクニカルリハーサル"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "SUNY New Paltz｜Production handbook",
+        "url": "https://www.newpaltz.edu/fpa/theatre/productions/production-handbook/"
+      }
+    ],
+    "europe": "独：Sitzprobe。英語圏でも借用語として使う。"
+  },
+  {
+    "id": "production-standby",
+    "name": "スタンバイ",
+    "reading": "すたんばい",
+    "english": "Standby",
+    "aliases": [
+      "待機"
+    ],
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "間もなく実行する操作や出演に備えるよう知らせる予告。通常、実行そのものの合図とは区別する。",
+    "usage": "「照明 12 番、音響 8 番、スタンバイ。」",
+    "japan": "「スタンバイ」と呼ぶ。",
+    "us": "Standby。",
+    "uk": "Standby。",
+    "note": "",
+    "related": [
+      "GO",
+      "ハーフアワーコール",
+      "マチネ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Stage Management Association｜Employing a stage manager",
+        "url": "https://www.stagemanagementassociation.co.uk/index.php/what-is-stage-management/employing-a-stage-manager"
+      }
+    ]
+  },
+  {
+    "id": "production-go",
+    "name": "GO",
+    "reading": "ごー",
+    "english": "Go",
+    "aliases": [
+      "ゴー",
+      "きっかけ"
+    ],
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "準備されたキューや動作を実行する合図。予告のスタンバイと区別し、現場で定めた呼び方を用いる。",
+    "usage": "「照明 12 番、GO。」",
+    "japan": "「GO」と呼ぶ。",
+    "us": "Go。",
+    "uk": "Go。",
+    "note": "",
+    "related": [
+      "スタンバイ",
+      "ハーフアワーコール",
+      "マチネ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Stage Management Association｜Employing a stage manager",
+        "url": "https://www.stagemanagementassociation.co.uk/index.php/what-is-stage-management/employing-a-stage-manager"
+      }
+    ]
+  },
+  {
+    "id": "production-halfhour",
+    "name": "ハーフアワーコール",
+    "reading": "はーふあわーこーる",
+    "english": "Half-hour call",
+    "aliases": [
+      "Half hour",
+      "開演30分前コール"
+    ],
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "英語圏の公演で用いられる、開演まで約30分であることを出演者らに知らせる呼び出し。集合の決まりは公演ごとに異なる。",
+    "usage": "「ハーフアワーコールの時点で準備状況を確認する。」",
+    "japan": "「ハーフアワーコール」と呼ぶ。",
+    "us": "Half-hour call。",
+    "uk": "Half-hour call。",
+    "note": "",
+    "related": [
+      "スタンバイ",
+      "GO",
+      "マチネ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Toronto Metropolitan University｜Notes about rehearsals",
+        "url": "https://pressbooks.library.torontomu.ca/productionhandbook/chapter/notes-about-rehearsals/"
+      }
+    ]
+  },
+  {
+    "id": "production-matinee",
+    "name": "マチネ",
+    "reading": "まちね",
+    "english": "Matinee",
+    "aliases": [
+      "昼公演",
+      "Matinée"
+    ],
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "昼間、特に午後に行う公演を指す語。フランス語由来で、夕方以降の公演との区別に使う。",
+    "usage": "「今日はマチネと夜公演がある。」",
+    "japan": "「マチネ」と呼ぶ。",
+    "us": "Matinee。",
+    "uk": "Matinee。",
+    "note": "",
+    "related": [
+      "スタンバイ",
+      "GO",
+      "ハーフアワーコール"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK",
+      "EU"
+    ],
+    "sources": [
+      {
+        "label": "National Theatre｜Rehearsal process",
+        "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/05.-Rehearsal-schedule_NationalTheatre_PublicActs_Toolkit-Guide-5.pdf"
+      }
+    ],
+    "europe": "仏：matinée。公演文脈では昼公演を指す。"
+  },
+  {
+    "id": "safety-loadin",
+    "name": "搬入",
+    "reading": "はんにゅう",
+    "english": "Load-in / Get-in",
+    "aliases": [
+      "ロードイン",
+      "ゲットイン"
+    ],
+    "category": "safety",
+    "subcategory": "搬入・設営",
+    "definition": "公演に使う装置や機材を会場内へ運び入れること。現場への設置を指す仕込みとは作業の範囲が異なる。",
+    "usage": "「搬入順を各セクションで確認する。」",
+    "japan": "「搬入」と呼ぶ。",
+    "us": "Load-in。",
+    "uk": "Get-in / Load-in。",
+    "note": "",
+    "related": [
+      "仕込み",
+      "搬出"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-fitup",
+    "name": "仕込み",
+    "reading": "しこみ",
+    "english": "Fit-up / Installation",
+    "aliases": [
+      "建て込み",
+      "セットアップ"
+    ],
+    "category": "safety",
+    "subcategory": "搬入・設営",
+    "definition": "公演のために装置や機材を所定の位置へ設置し、使用できる状態を整える作業の総称。",
+    "usage": "「午前中に舞台と照明の仕込みを行う。」",
+    "japan": "「仕込み」と呼ぶ。",
+    "us": "Load-in / Setup など。搬入と設営を続けて呼ぶ場合がある。",
+    "uk": "Fit-up / Get-in など。",
+    "note": "",
+    "related": [
+      "搬入",
+      "バラシ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-strike",
+    "name": "バラシ",
+    "reading": "ばらし",
+    "english": "Strike / Get-out",
+    "aliases": [
+      "撤去",
+      "ばらし"
+    ],
+    "category": "safety",
+    "subcategory": "搬入・設営",
+    "definition": "仕込んだ装置・機材などを解体して撤去する作業。搬出を含めて呼ぶ場合もあり、工程名の範囲を確認する。",
+    "usage": "「終演後のバラシの手順を共有する。」",
+    "japan": "「バラシ」と呼ぶ。",
+    "us": "Strike。搬出作業は load-out。",
+    "uk": "Strike / Get-out。",
+    "note": "",
+    "related": [
+      "仕込み",
+      "搬出"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-loadout",
+    "name": "搬出",
+    "reading": "はんしゅつ",
+    "english": "Load-out",
+    "aliases": [
+      "ロードアウト"
+    ],
+    "category": "safety",
+    "subcategory": "搬入・設営",
+    "definition": "公演で使用した装置や機材を会場の外へ運び出すこと。解体・撤去と運搬の工程を分けて考えることもある。",
+    "usage": "「機材を梱包して搬出の準備をする。」",
+    "japan": "「搬出」と呼ぶ。",
+    "us": "Load-out。",
+    "uk": "Get-out。解体を含む撤収全体を指すこともある。",
+    "note": "",
+    "related": [
+      "搬入",
+      "バラシ"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学｜オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-risk",
+    "name": "リスクアセスメント",
+    "reading": "りすくあせすめんと",
+    "english": "Risk assessment",
+    "aliases": [
+      "RA",
+      "危険性評価"
+    ],
+    "category": "safety",
+    "subcategory": "安全管理",
+    "definition": "作業の危険源を特定し、起こりやすさと影響などを評価して対策を検討すること。",
+    "usage": "「吊り物を使う演出についてリスクアセスメントを行う。」",
+    "japan": "「リスクアセスメント」と呼ぶ。",
+    "us": "Risk assessment。",
+    "uk": "Risk assessment。",
+    "note": "",
+    "related": [
+      "PPE",
+      "高所作業",
+      "人力運搬"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Theatre health and safety",
+        "url": "https://www.hse.gov.uk/entertainment/theatre-tv/theatre.htm"
+      }
+    ]
+  },
+  {
+    "id": "safety-ppe",
+    "name": "PPE",
+    "reading": "ぴーぴーいー",
+    "english": "Personal protective equipment",
+    "aliases": [
+      "個人用保護具"
+    ],
+    "category": "safety",
+    "subcategory": "安全管理",
+    "definition": "作業する人が身に着ける保護具の総称。必要な種類は危険源や作業内容によって異なる。",
+    "usage": "「作業内容に適した PPE を確認する。」",
+    "japan": "「PPE」と呼ぶ。",
+    "us": "Personal protective equipment。",
+    "uk": "Personal protective equipment。",
+    "note": "",
+    "related": [
+      "リスクアセスメント",
+      "高所作業",
+      "人力運搬"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ScreenSkills｜Work at height on productions",
+        "url": "https://www.ukstandards.org.uk/en/nos-finder/SKSTTL36/work-at-height-on-productions"
+      }
+    ]
+  },
+  {
+    "id": "safety-height",
+    "name": "高所作業",
+    "reading": "こうしょさぎょう",
+    "english": "Work at height",
+    "aliases": [],
+    "category": "safety",
+    "subcategory": "安全管理",
+    "definition": "落下によって負傷するおそれのある位置で行う作業。劇場では作業床、脚立、昇降設備などが関係する。",
+    "usage": "「高所作業の予定を仕込み打ち合わせで共有する。」",
+    "japan": "「高所作業」と呼ぶ。",
+    "us": "Work at height。",
+    "uk": "Work at height。",
+    "note": "",
+    "related": [
+      "リスクアセスメント",
+      "PPE",
+      "人力運搬"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "ScreenSkills｜Work at height on productions",
+        "url": "https://www.ukstandards.org.uk/en/nos-finder/SKSTTL36/work-at-height-on-productions"
+      }
+    ]
+  },
+  {
+    "id": "safety-secondary",
+    "name": "二次落下防止",
+    "reading": "にじらっかぼうし",
+    "english": "Secondary suspension / Safety bonding",
+    "aliases": [
+      "セーフティー",
+      "落下防止ワイヤー",
+      "保安鎖"
+    ],
+    "category": "safety",
+    "subcategory": "吊り・荷重",
+    "definition": "主な取付部が機能しなくなった場合に備え、機材などの落下を抑えるために設ける独立した保持。",
+    "usage": "「照明器具の二次落下防止の状態を確認する。」",
+    "japan": "「二次落下防止」と呼ぶ。",
+    "us": "Secondary suspension。",
+    "uk": "Secondary suspension。",
+    "note": "",
+    "related": [
+      "リギング",
+      "SWL",
+      "スリング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Theatre health and safety",
+        "url": "https://www.hse.gov.uk/entertainment/theatre-tv/theatre.htm"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-rigging",
+    "name": "リギング",
+    "reading": "りぎんぐ",
+    "english": "Rigging",
+    "aliases": [
+      "吊り込み"
+    ],
+    "category": "safety",
+    "subcategory": "吊り・荷重",
+    "definition": "装置や機材を吊り、支持し、必要に応じて昇降させるための仕組みや関連作業。単なるロープ結びだけを指す語ではない。",
+    "usage": "「リギングの計画を担当者と確認する。」",
+    "japan": "「リギング」と呼ぶ。",
+    "us": "Rigging。",
+    "uk": "Rigging。",
+    "note": "",
+    "related": [
+      "二次落下防止",
+      "SWL",
+      "スリング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Safe lifting by machine",
+        "url": "https://www.hse.gov.uk/work-equipment-machinery/lift-equipment.htm"
+      }
+    ]
+  },
+  {
+    "id": "safety-swl",
+    "name": "SWL",
+    "reading": "えすだぶりゅーえる",
+    "english": "Safe working load",
+    "aliases": [
+      "安全使用荷重"
+    ],
+    "category": "safety",
+    "subcategory": "吊り・荷重",
+    "definition": "所定の条件で機材や設備を安全に扱うために示される荷重。構成や使用条件によって値が変わる場合がある。",
+    "usage": "「使用する構成に対応した SWL を資料で確認する。」",
+    "japan": "「SWL」と呼ぶ。",
+    "us": "Safe working load。",
+    "uk": "Safe working load。",
+    "note": "破断荷重とは異なる。機器や使用条件の資料に示された値を区別して読む。",
+    "related": [
+      "二次落下防止",
+      "リギング",
+      "スリング"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜LOLER overview",
+        "url": "https://www.hse.gov.uk/work-equipment-machinery/loler-overview.htm"
+      }
+    ]
+  },
+  {
+    "id": "safety-sling",
+    "name": "スリング",
+    "reading": "すりんぐ",
+    "english": "Lifting sling",
+    "aliases": [
+      "吊りベルト",
+      "玉掛け用具"
+    ],
+    "category": "safety",
+    "subcategory": "吊り・荷重",
+    "definition": "荷と吊り上げ機器の間に用いる吊り具。繊維、ワイヤーロープ、チェーンなどの種類がある。",
+    "usage": "「吊り計画に記載されたスリングの種類を確認する。」",
+    "japan": "「スリング」と呼ぶ。",
+    "us": "Lifting sling。",
+    "uk": "Lifting sling。",
+    "note": "",
+    "related": [
+      "二次落下防止",
+      "リギング",
+      "SWL"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Safe lifting by machine",
+        "url": "https://www.hse.gov.uk/work-equipment-machinery/lift-equipment.htm"
+      }
+    ]
+  },
+  {
+    "id": "safety-shackle",
+    "name": "シャックル",
+    "reading": "しゃっくる",
+    "english": "Shackle",
+    "aliases": [],
+    "category": "safety",
+    "subcategory": "吊り・荷重",
+    "definition": "弓形などの本体とピンで構成され、吊り具や荷の接続に使われる金具。形状や表示は用途によって異なる。",
+    "usage": "「吊り具一覧にシャックルの仕様を記載する。」",
+    "japan": "「シャックル」と呼ぶ。",
+    "us": "Shackle。",
+    "uk": "Shackle。",
+    "note": "",
+    "related": [
+      "二次落下防止",
+      "リギング",
+      "SWL"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Safe use of lifting equipment",
+        "url": "https://www.hse.gov.uk/pubns/priced/l113.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-pointload",
+    "name": "点荷重",
+    "reading": "てんかじゅう",
+    "english": "Point load",
+    "aliases": [
+      "集中荷重"
+    ],
+    "category": "safety",
+    "subcategory": "吊り・荷重",
+    "definition": "ある一点または局所に集中して加わる荷重。広い範囲に分散して加わる荷重と区別する。",
+    "usage": "「トラスの計画で点荷重の位置を確認する。」",
+    "japan": "「点荷重」と呼ぶ。",
+    "us": "Point load。",
+    "uk": "Point load。",
+    "note": "",
+    "related": [
+      "二次落下防止",
+      "リギング",
+      "SWL"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "Prolyte｜Point loads / Distributed loads",
+        "url": "https://www.prolyte.com/getmedia/91bf45e2-6257-4842-9231-eb4a508644a5/LOADING-TABLE-TRUSS-TYPE-S52SV-LENGTHS-EN-20153.pdf.aspx?ext=.pdf"
+      }
+    ]
+  },
+  {
+    "id": "safety-manual",
+    "name": "人力運搬",
+    "reading": "じんりきうんぱん",
+    "english": "Manual handling",
+    "aliases": [
+      "マニュアルハンドリング"
+    ],
+    "category": "safety",
+    "subcategory": "安全管理",
+    "definition": "人の力で荷物を持ち上げる、下ろす、押す、引く、運ぶなどの取り扱い。舞台装置や機材の移動にも関係する。",
+    "usage": "「大道具の人力運搬に必要な人員と経路を検討する。」",
+    "japan": "「人力運搬」と呼ぶ。",
+    "us": "Manual handling。",
+    "uk": "Manual handling。",
+    "note": "",
+    "related": [
+      "リスクアセスメント",
+      "PPE",
+      "高所作業"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Theatre health and safety",
+        "url": "https://www.hse.gov.uk/entertainment/theatre-tv/theatre.htm"
+      }
+    ]
+  },
+  {
+    "id": "safety-rescue",
+    "name": "救助計画",
+    "reading": "きゅうじょけいかく",
+    "english": "Rescue plan",
+    "aliases": [
+      "レスキュープラン"
+    ],
+    "category": "safety",
+    "subcategory": "安全管理",
+    "definition": "事故や設備停止などで自力で移動できない人を救助するための事前の計画。特に高所作業で重要になる。",
+    "usage": "「高所作業に関する救助計画を関係者と共有する。」",
+    "japan": "「救助計画」と呼ぶ。",
+    "us": "Rescue plan。",
+    "uk": "Rescue plan。",
+    "note": "",
+    "related": [
+      "リスクアセスメント",
+      "PPE",
+      "高所作業"
+    ],
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ],
+    "sources": [
+      {
+        "label": "HSE｜Theatre health and safety",
+        "url": "https://www.hse.gov.uk/entertainment/theatre-tv/theatre.htm"
+      }
+    ]
+  }
+]

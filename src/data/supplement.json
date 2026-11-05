@@ -1,0 +1,901 @@
+[
+  {
+    "id": "audio-bgm",
+    "name": "BGM",
+    "reading": "びーじーえむ",
+    "english": "Background music",
+    "category": "audio",
+    "subcategory": "音源再生・キュー",
+    "definition": "背景として流す音楽。開場中の雰囲気づくりや場面の補助などに使い、演奏そのものを主として聴かせる場面とは区別する。",
+    "usage": "開場時の BGM を音響キューに入れる。",
+    "aliases": [
+      "バックグラウンドミュージック",
+      "背景音楽"
+    ],
+    "related": [
+      "SE",
+      "音響キュー"
+    ],
+    "sources": [
+      {
+        "label": "ヤマハ・BGM と音響システム",
+        "url": "https://jp.yamaha.com/business/audio/resources/self-training/better-sound/part1-04.html"
+      },
+      {
+        "label": "ラジオ関西・技術スタッフによるポン出し解説",
+        "url": "https://jocr.jp/raditopi/2021/07/04/347161/"
+      }
+    ],
+    "japan": "「BGM」と呼ぶ。",
+    "us": "Background music の呼称で説明する。",
+    "uk": "Background music の呼称で説明する。",
+    "note": "BGM の略し方の通じ方は相手による。英語では background music と伝えると明確。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "audio-se",
+    "name": "SE",
+    "reading": "えすいー",
+    "english": "Sound effects",
+    "category": "audio",
+    "subcategory": "音源再生・キュー",
+    "definition": "効果音を指す略称。場面に必要な環境音や動作音、演出的な音などを指し、短い音だけに限定されるものではない。",
+    "usage": "扉が閉じる SE をきっかけに合わせて再生する。",
+    "aliases": [
+      "効果音",
+      "SFX",
+      "Sound effect",
+      "サウンドエフェクト"
+    ],
+    "related": [
+      "BGM",
+      "音響キュー",
+      "ポン出し"
+    ],
+    "sources": [
+      {
+        "label": "ラジオ関西・技術スタッフによるポン出し解説",
+        "url": "https://jocr.jp/raditopi/2021/07/04/347161/"
+      },
+      {
+        "label": "ユナイテッドプロダクションズ・業界用語集",
+        "url": "https://united-p.co.jp/tv-industry-terminology/"
+      }
+    ],
+    "japan": "「SE」と呼ぶ。",
+    "us": "Sound effects、略して SFX とする用法がある。",
+    "uk": "Sound effects、略して SFX とする用法がある。",
+    "note": "日本の現場では SE の略称が多い。照明や映像のエフェクト全体を示す語とは区別する。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "audio-triggerplay",
+    "name": "ポン出し",
+    "reading": "ぽんだし",
+    "english": "Triggered playback / Instant playback",
+    "category": "audio",
+    "subcategory": "音源再生・キュー",
+    "definition": "あらかじめ用意した音素材を、ボタンやパッドなどの操作できっかけに合わせて再生すること。機材の種類に限定されない。",
+    "usage": "台詞に合わせて効果音をポン出しする。",
+    "aliases": [
+      "ポンだし",
+      "ワンショット再生",
+      "サンプル再生"
+    ],
+    "related": [
+      "SE",
+      "音響キュー",
+      "フットスイッチ"
+    ],
+    "sources": [
+      {
+        "label": "ラジオ関西・技術スタッフによるポン出し解説",
+        "url": "https://jocr.jp/raditopi/2021/07/04/347161/"
+      }
+    ],
+    "japan": "「ポン出し」と呼ぶ。",
+    "us": "Triggered playback / Instant playback の呼称で説明する。",
+    "uk": "Triggered playback / Instant playback の呼称で説明する。",
+    "note": "英語は再生方法の説明。「ワンショット」は一回再生の方式を示す場合もあり、すべてのポン出しが短い一回再生とは限らない。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "audio-footswitch",
+    "name": "フットスイッチ",
+    "reading": "ふっとすいっち",
+    "english": "Footswitch",
+    "category": "audio",
+    "subcategory": "ミキサー・操作",
+    "definition": "足で踏んで機器へ操作信号を送るスイッチ。再生・停止や機能切替など、割り当てた操作を手を使わずに行うために用いる。",
+    "usage": "再生開始をフットスイッチに割り当てる。",
+    "aliases": [
+      "フット・スイッチ",
+      "ペダルスイッチ"
+    ],
+    "related": [
+      "ポン出し"
+    ],
+    "sources": [
+      {
+        "label": "Roland・R-88 CONTROL端子",
+        "url": "https://support.roland.com/hc/ja/articles/4404532161179-R-88-CONTROL-%E7%AB%AF%E5%AD%90%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E4%BD%95%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B"
+      }
+    ],
+    "japan": "「フットスイッチ」と呼ぶ。",
+    "us": "Footswitch の呼称で説明する。",
+    "uk": "Footswitch の呼称で説明する。",
+    "note": "ラッチ式、モーメンタリー式、極性などの仕様があり、接続機器ごとに対応が異なる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "audio-intercom",
+    "name": "インカム",
+    "reading": "いんかむ",
+    "english": "Intercom",
+    "category": "audio",
+    "subcategory": "ルーティング・接続",
+    "definition": "舞台進行や技術スタッフ間の連絡に使う通話システム。有線・無線や複数の回線構成があり、公演用の音声出力とは区別する。",
+    "usage": "舞台監督からの合図をインカムで受ける。",
+    "aliases": [
+      "インターカム",
+      "インターコム",
+      "Intercommunication"
+    ],
+    "related": [
+      "スタンバイ",
+      "GO"
+    ],
+    "sources": [
+      {
+        "label": "Clear-Com・Guide to Partyline Intercoms",
+        "url": "https://www.clearcom.com/downloadcenter/technicaldocs/ComprehensiveGuidetoPartyline/Comprehensive_Guide_to_Clear_Com_Analog_Digital_Partyline_Ebook.pdf"
+      },
+      {
+        "label": "ユナイテッドプロダクションズ・業界用語集",
+        "url": "https://united-p.co.jp/tv-industry-terminology/"
+      }
+    ],
+    "japan": "「インカム」と呼ぶ。",
+    "us": "Intercom の呼称で説明する。",
+    "uk": "Intercom の呼称で説明する。",
+    "note": "ヘッドセットマイクや演者向けモニターと、機能や回線を同一視しない。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "production-walkthrough",
+    "name": "場当たり",
+    "reading": "ばあたり",
+    "english": "Walk-through / Spacing rehearsal",
+    "category": "production",
+    "subcategory": "稽古・リハーサル",
+    "definition": "本番の舞台で立ち位置や出入り、装置との関係、技術上のきっかけなどを確認する作業。全編を連続して演じる稽古とは限らない。",
+    "usage": "舞台が使える時間に場当たりを行う。",
+    "aliases": [
+      "場当り",
+      "位置確認",
+      "Walk through"
+    ],
+    "related": [
+      "立ち稽古",
+      "テクニカルリハーサル",
+      "通し稽古"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学・オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ],
+    "japan": "「場当たり」と呼ぶ。",
+    "us": "Walk-through / Spacing rehearsal の呼称で説明する。",
+    "uk": "Walk-through / Spacing rehearsal の呼称で説明する。",
+    "note": "英語は目的に応じた説明。場当たりとテクニカルリハーサルの範囲は現場により重なる。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "production-houseopen",
+    "name": "開場",
+    "reading": "かいじょう",
+    "english": "House open / Doors open",
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "観客を客席や会場へ入れ始めること。作品の上演が始まる開演とは別の時点で、ロビー開場だけを先に行う場合もある。",
+    "usage": "開場の時刻と開演の時刻を分けて案内する。",
+    "aliases": [
+      "客席開場",
+      "Doors",
+      "客入れ",
+      "入れ込み"
+    ],
+    "related": [
+      "開演",
+      "客席"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学・オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      },
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "japan": "「開場」と呼ぶ。",
+    "us": "House open / Doors open の呼称で説明する。",
+    "uk": "House open / Doors open の呼称で説明する。",
+    "note": "ロビー開場と客席開場は同時とは限らない。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "production-start",
+    "name": "開演",
+    "reading": "かいえん",
+    "english": "Start of performance / Curtain up",
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "公演の上演を始めること。観客の入場を始める開場と区別し、台本や案内では実際に上演が始まる時点を示す。",
+    "usage": "開演に合わせて客電と音のきっかけを合わせる。",
+    "aliases": [
+      "本番開始",
+      "Curtain up"
+    ],
+    "related": [
+      "開場",
+      "終演",
+      "GO"
+    ],
+    "sources": [
+      {
+        "label": "昭和音楽大学・オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      },
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      }
+    ],
+    "japan": "「開演」と呼ぶ。",
+    "us": "Start of performance / Curtain up の呼称で説明する。",
+    "uk": "Start of performance / Curtain up の呼称で説明する。",
+    "note": "Curtain up は幕のない公演でも、開演を意味する表現として使われる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "production-finish",
+    "name": "終演",
+    "reading": "しゅうえん",
+    "english": "End of performance",
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "その公演の上演が終わること。観客の退場や装置の撤去が完了する時点とは異なり、公演後の工程と区別して扱う。",
+    "usage": "終演後にカーテンコールと退場案内を行う。",
+    "aliases": [
+      "上演終了",
+      "Show end"
+    ],
+    "related": [
+      "開演",
+      "カーテンコール",
+      "バラシ"
+    ],
+    "sources": [
+      {
+        "label": "札幌市教育文化会館・舞台ご利用の手引き",
+        "url": "https://www.kyobun.org/pdf/download/other_tebiki.pdf"
+      },
+      {
+        "label": "昭和音楽大学・オペラ舞台用語集",
+        "url": "https://www.tosei-showa-music.ac.jp/files/abm00009507.pdf"
+      }
+    ],
+    "japan": "「終演」と呼ぶ。",
+    "us": "End of performance の呼称で説明する。",
+    "uk": "End of performance の呼称で説明する。",
+    "note": "カーテンコールを終演時刻に含めるかは、案内や運用上の定義を確認する。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "production-behind",
+    "name": "押し",
+    "reading": "おし",
+    "english": "Behind schedule / Running late",
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "予定していた時刻より進行が遅れている状態。どの時点の予定と比べて何分遅れているかを示し、連絡に使う。",
+    "usage": "進行が予定より五分押しになっている。",
+    "aliases": [
+      "押す",
+      "押している",
+      "時間押し"
+    ],
+    "related": [
+      "巻き",
+      "尺"
+    ],
+    "sources": [
+      {
+        "label": "ユナイテッドプロダクションズ・業界用語集",
+        "url": "https://united-p.co.jp/tv-industry-terminology/"
+      }
+    ],
+    "japan": "「押し」と呼ぶ。",
+    "us": "Behind schedule / Running late の呼称で説明する。",
+    "uk": "Behind schedule / Running late の呼称で説明する。",
+    "note": "舞台装置を押して動かす意味とは別の、時間に関する現場語。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "production-ahead",
+    "name": "巻き",
+    "reading": "まき",
+    "english": "Ahead of schedule / Pick up the pace",
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "予定より早く進んでいる状態。また、進行を早めるよう求める指示にも使うため、現状の報告か変更指示かを区別する。",
+    "usage": "三分巻きで進んでいることを共有する。",
+    "aliases": [
+      "巻く",
+      "巻いている",
+      "時間巻き"
+    ],
+    "related": [
+      "押し",
+      "尺"
+    ],
+    "sources": [
+      {
+        "label": "ユナイテッドプロダクションズ・業界用語集",
+        "url": "https://united-p.co.jp/tv-industry-terminology/"
+      }
+    ],
+    "japan": "「巻き」と呼ぶ。",
+    "us": "Ahead of schedule / Pick up the pace の呼称で説明する。",
+    "uk": "Ahead of schedule / Pick up the pace の呼称で説明する。",
+    "note": "素材を巻き戻す操作の意味とは区別する。進行を早める指示は、必要な工程を省く意味とは限らない。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "production-duration",
+    "name": "尺",
+    "reading": "しゃく",
+    "english": "Duration / Running time",
+    "category": "production",
+    "subcategory": "本番・進行",
+    "definition": "映像・音素材や演目などの時間の長さを指す現場語。開始時刻とは別に、どれだけの時間がかかるかを表す。",
+    "usage": "映像素材の尺を三分でそろえる。",
+    "aliases": [
+      "素材尺",
+      "上演尺",
+      "ランニングタイム"
+    ],
+    "related": [
+      "押し",
+      "巻き",
+      "フレームレート"
+    ],
+    "sources": [
+      {
+        "label": "ユナイテッドプロダクションズ・業界用語集",
+        "url": "https://united-p.co.jp/tv-industry-terminology/"
+      }
+    ],
+    "japan": "「尺」と呼ぶ。",
+    "us": "Duration / Running time の呼称で説明する。",
+    "uk": "Duration / Running time の呼称で説明する。",
+    "note": "大道具では長さの単位「尺」も使う。時間の話か、寸法の話かを文脈で区別する。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "lighting-pixelmapping",
+    "name": "ピクセルマッピング",
+    "reading": "ぴくせるまっぴんぐ",
+    "english": "Pixel mapping",
+    "category": "lighting",
+    "subcategory": "卓・プログラム",
+    "definition": "灯体や発光セルを画素のように配置し、画像や映像などの内容に合わせて明るさや色を制御する手法。実際の配列とデータを対応させる。",
+    "usage": "LEDバーの配列に映像の色をピクセルマッピングする。",
+    "aliases": [
+      "PixelMapping",
+      "ピクセルマップ"
+    ],
+    "related": [
+      "LEDバー",
+      "メディアサーバー"
+    ],
+    "sources": [
+      {
+        "label": "ETC・Hog PixelMapping",
+        "url": "https://www.etcconnect.com/webdocs/Controls/HOG/HTML/en/sect-pixelmapping.htm"
+      }
+    ],
+    "japan": "「ピクセルマッピング」と呼ぶ。",
+    "us": "Pixel mapping の呼称で説明する。",
+    "uk": "Pixel mapping の呼称で説明する。",
+    "note": "映像を立体物へ投影するプロジェクションマッピングとは、主に制御対象が異なる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "lighting-constantpower",
+    "name": "不滅電源",
+    "reading": "ふめつでんげん",
+    "english": "Constant power / Non-dimmed supply",
+    "category": "lighting",
+    "subcategory": "制御・信号",
+    "definition": "照明卓の調光に連動して電源が絞られない供給系統を指す現場語。常時給電の範囲や主電源の扱いは、施設の設備によって異なる。",
+    "usage": "ムービングライト用の不滅電源を設備表で確認する。",
+    "aliases": [
+      "直電源",
+      "非調光電源",
+      "常時電源",
+      "不滅"
+    ],
+    "related": [
+      "ディマー",
+      "ムービングライト"
+    ],
+    "sources": [
+      {
+        "label": "座・高円寺・技術資料",
+        "url": "https://za-koenji.jp/files/za-koenji1_technical_plan.pdf"
+      },
+      {
+        "label": "ETC・SmartPack ThruPower",
+        "url": "https://www.etcconnect.com/products/legacy/power-controls/smartpack/installation-packs.aspx"
+      },
+      {
+        "label": "全国公立文化施設協会・劇場用語ハンドブック",
+        "url": "https://www.zenkoubun.jp/publication/pdf/afca/h25_yougo_hb2014.pdf"
+      }
+    ],
+    "japan": "「不滅電源」と呼ぶ。",
+    "us": "Constant power / Non-dimmed supply の呼称で説明する。",
+    "uk": "Constant power / Non-dimmed supply の呼称で説明する。",
+    "note": "停電しない電源や UPS を意味しない。調光器を最大にした出力や、単にオン・オフするノンディム設定と同一視しない。",
+    "regions": [
+      "JP"
+    ]
+  },
+  {
+    "id": "lighting-smoke",
+    "name": "スモーク",
+    "reading": "すもーく",
+    "english": "Theatrical fog / Smoke effect",
+    "category": "lighting",
+    "subcategory": "演出・作業",
+    "definition": "煙状の霧などを発生させ、光の筋や空間の雰囲気を見せる舞台効果。霧の密度や持続性などは、機器と使用する液剤で異なる。",
+    "usage": "スモークを使う場面の見え方を確認する。",
+    "aliases": [
+      "フォグ",
+      "スモークマシン",
+      "Fog machine"
+    ],
+    "related": [
+      "ヘイズ",
+      "バックライト"
+    ],
+    "sources": [
+      {
+        "label": "Rosco・Fog and Haze Fluids",
+        "url": "https://us.rosco.com/en/products/brand/fog-and-haze-fluids"
+      },
+      {
+        "label": "Actors’ Equity・Theatrical Smoke and Haze",
+        "url": "https://actorsequity.org/resources/producers/safe-and-sanitary/smoke-and-haze"
+      }
+    ],
+    "japan": "「スモーク」と呼ぶ。",
+    "us": "Theatrical fog / Smoke effect の呼称で説明する。",
+    "uk": "Theatrical fog / Smoke effect の呼称で説明する。",
+    "note": "燃焼で生じる煙と一律に同じ物ではない。ヘイズとの呼び分けや使用条件は、製品資料と会場の運用で確認する。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-resolution",
+    "name": "解像度",
+    "reading": "かいぞうど",
+    "english": "Resolution",
+    "category": "video",
+    "subcategory": "映像形式・走査",
+    "definition": "デジタル映像や画面を構成する画素の数。横と縦の画素数で表すことが多く、画面の縦横比やフレームレートとは別の情報。",
+    "usage": "送出映像と画面の解像度を確認する。",
+    "aliases": [
+      "画素数",
+      "ピクセル寸法"
+    ],
+    "related": [
+      "フレームレート",
+      "アスペクト比",
+      "EDID"
+    ],
+    "sources": [
+      {
+        "label": "EIZO・映像画質の要素とフレームレート",
+        "url": "https://www.eizo.co.jp/eizolibrary/color_management/hdr/"
+      }
+    ],
+    "japan": "「解像度」と呼ぶ。",
+    "us": "Resolution の呼称で説明する。",
+    "uk": "Resolution の呼称で説明する。",
+    "note": "画素数だけで、映像の鮮明さや品質のすべてが決まるわけではない。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-framerate",
+    "name": "フレームレート",
+    "reading": "ふれーむれーと",
+    "english": "Frame rate",
+    "category": "video",
+    "subcategory": "映像形式・走査",
+    "definition": "動画の一秒あたりのフレーム数。動きの表現や再生互換性に関わり、解像度とは別に素材と機器の設定を確認する。",
+    "usage": "素材と出力のフレームレートを照合する。",
+    "aliases": [
+      "fps",
+      "Frames per second",
+      "コマ数"
+    ],
+    "related": [
+      "解像度",
+      "ゲンロック",
+      "尺"
+    ],
+    "sources": [
+      {
+        "label": "JEITA・フレームレートについて",
+        "url": "https://home.jeita.or.jp/cgi-bin/page/detail.cgi?n=748"
+      },
+      {
+        "label": "EIZO・映像画質の要素とフレームレート",
+        "url": "https://www.eizo.co.jp/eizolibrary/color_management/hdr/"
+      }
+    ],
+    "japan": "「フレームレート」と呼ぶ。",
+    "us": "Frame rate の呼称で説明する。",
+    "uk": "Frame rate の呼称で説明する。",
+    "note": "フレーム数とインターレースのフィールド数、画面のリフレッシュレートを区別する。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-aspect",
+    "name": "アスペクト比",
+    "reading": "あすぺくとひ",
+    "english": "Aspect ratio",
+    "category": "video",
+    "subcategory": "投影・マッピング",
+    "definition": "映像や画面の横幅と高さの比率。解像度の数値そのものではなく、形の比を示し、画面へ収める方法を決める際に用いる。",
+    "usage": "素材のアスペクト比とスクリーンの比率を合わせる。",
+    "aliases": [
+      "縦横比",
+      "画面比率",
+      "アスペクトレシオ"
+    ],
+    "related": [
+      "解像度",
+      "プロジェクター"
+    ],
+    "sources": [
+      {
+        "label": "エプソン・画面比率とスクリーン",
+        "url": "https://www.epson.jp/products/projector/screen/"
+      }
+    ],
+    "japan": "「アスペクト比」と呼ぶ。",
+    "us": "Aspect ratio の呼称で説明する。",
+    "uk": "Aspect ratio の呼称で説明する。",
+    "note": "ピクセル自体の縦横比を示す pixel aspect ratio と、画面全体の比率を区別する。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-alpha",
+    "name": "アルファチャンネル",
+    "reading": "あるふぁちゃんねる",
+    "english": "Alpha channel",
+    "category": "video",
+    "subcategory": "キー・アルファ",
+    "definition": "画像や映像の各画素について、透明・不透明の情報を持つチャンネル。色の情報とは別に、他の映像へ重ねる範囲を示す。",
+    "usage": "背景が透けるタイトル素材をアルファ付きで用意する。",
+    "aliases": [
+      "透明度チャンネル",
+      "Alpha",
+      "α"
+    ],
+    "related": [
+      "キー／フィル",
+      "キーヤー",
+      "クロマキー"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design・ATEM SDI Getting Started",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      },
+      {
+        "label": "Blackmagic Design・Fusion Tool Reference",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion9_Tool_Reference.pdf"
+      }
+    ],
+    "japan": "「アルファチャンネル」と呼ぶ。",
+    "us": "Alpha channel の呼称で説明する。",
+    "uk": "Alpha channel の呼称で説明する。",
+    "note": "色を持つすべての映像形式が、アルファチャンネルを保持できるわけではない。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-keyfill",
+    "name": "キー／フィル",
+    "reading": "きーふぃる",
+    "english": "Key and fill",
+    "category": "video",
+    "subcategory": "キー・アルファ",
+    "definition": "合成する映像の色などを持つフィル信号と、抜きや重なりの範囲を示すキー信号を組み合わせて扱う方式。",
+    "usage": "タイトルのキーとフィルを別々の入力へ送る。",
+    "aliases": [
+      "Key/Fill",
+      "Key + Fill",
+      "キーフィル",
+      "フィル／キー"
+    ],
+    "related": [
+      "アルファチャンネル",
+      "キーヤー",
+      "SDI"
+    ],
+    "sources": [
+      {
+        "label": "vMix・Key and Fill output",
+        "url": "https://www.vmix.com/help25/KeyFill.html"
+      }
+    ],
+    "japan": "「キー／フィル」と呼ぶ。",
+    "us": "Key and fill の呼称で説明する。",
+    "uk": "Key and fill の呼称で説明する。",
+    "note": "キーとフィルの接続順、ストレート／プリマルチプライドの扱いは、送受信機器の仕様を合わせる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-keyer",
+    "name": "キーヤー",
+    "reading": "きーやー",
+    "english": "Keyer",
+    "category": "video",
+    "subcategory": "キー・アルファ",
+    "definition": "キー信号や色・明るさなどの条件を使い、映像の一部を別の映像へ重ねる合成機能。背景と前景の組み合わせを作る。",
+    "usage": "キーヤーでタイトルをカメラ映像に重ねる。",
+    "aliases": [
+      "キー合成",
+      "Keying",
+      "キーヤ"
+    ],
+    "related": [
+      "キー／フィル",
+      "クロマキー",
+      "アルファチャンネル"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design・ATEM SDI Getting Started",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      },
+      {
+        "label": "vMix・Key and Fill output",
+        "url": "https://www.vmix.com/help25/KeyFill.html"
+      }
+    ],
+    "japan": "「キーヤー」と呼ぶ。",
+    "us": "Keyer の呼称で説明する。",
+    "uk": "Keyer の呼称で説明する。",
+    "note": "上流・下流のキーヤーなど、合成する段階や入力条件は機器によって異なる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-chromakey",
+    "name": "クロマキー",
+    "reading": "くろまきー",
+    "english": "Chroma key",
+    "category": "video",
+    "subcategory": "キー・アルファ",
+    "definition": "指定した色の領域を手掛かりにして背景を抜き、別の映像と合成する方式。緑や青の背景を用いる表現が代表的。",
+    "usage": "緑の背景をクロマキーで抜いて合成する。",
+    "aliases": [
+      "色抜き",
+      "グリーンバック",
+      "Chroma keying"
+    ],
+    "related": [
+      "キーヤー",
+      "アルファチャンネル"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design・Fusion Tool Reference",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion9_Tool_Reference.pdf"
+      },
+      {
+        "label": "Blackmagic Design・ATEM SDI Getting Started",
+        "url": "https://www.blackmagicdesign.com/products/atemsdi/gettingstarted"
+      }
+    ],
+    "japan": "「クロマキー」と呼ぶ。",
+    "us": "Chroma key の呼称で説明する。",
+    "uk": "Chroma key の呼称で説明する。",
+    "note": "グリーンバックは背景の作り方を指す語。アルファ付き素材の合成とは、抜き情報の得方が異なる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-edid",
+    "name": "EDID",
+    "reading": "いーでぃーあいでぃー",
+    "english": "Extended Display Identification Data",
+    "category": "video",
+    "subcategory": "映像信号・接続",
+    "definition": "ディスプレイなどの対応解像度やリフレッシュレート等を、映像の送出機器へ伝える情報。送出形式の選択に関係する。",
+    "usage": "接続先の EDID を確認して出力形式をそろえる。",
+    "aliases": [
+      "拡張ディスプレイ識別データ"
+    ],
+    "related": [
+      "解像度",
+      "HDMI",
+      "HDCP"
+    ],
+    "sources": [
+      {
+        "label": "DVIGear・DisplayNet Glossary",
+        "url": "https://docs.displaynet.com/appendix/glossary"
+      }
+    ],
+    "japan": "「EDID」と呼ぶ。",
+    "us": "Extended Display Identification Data の呼称で説明する。",
+    "uk": "Extended Display Identification Data の呼称で説明する。",
+    "note": "映像そのものや暗号化の規格ではない。途中の切替器や変換器が EDID を管理する構成もある。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-hdcp",
+    "name": "HDCP",
+    "reading": "えいちでぃーしーぴー",
+    "english": "High-bandwidth Digital Content Protection",
+    "category": "video",
+    "subcategory": "映像信号・接続",
+    "definition": "対応機器間の認証などによって保護対象のデジタル映像・音声を扱うコンテンツ保護技術。接続する機器の対応に関係する。",
+    "usage": "HDCP のある信号を扱える機器構成か確認する。",
+    "aliases": [
+      "コンテンツ保護",
+      "著作権保護信号"
+    ],
+    "related": [
+      "HDMI",
+      "EDID"
+    ],
+    "sources": [
+      {
+        "label": "DVIGear・DisplayNet Glossary",
+        "url": "https://docs.displaynet.com/appendix/glossary"
+      }
+    ],
+    "japan": "「HDCP」と呼ぶ。",
+    "us": "High-bandwidth Digital Content Protection の呼称で説明する。",
+    "uk": "High-bandwidth Digital Content Protection の呼称で説明する。",
+    "note": "EDID による対応形式の通知とは別の仕組み。映像の著作権を取得したことを示す情報ではない。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  },
+  {
+    "id": "video-genlock",
+    "name": "ゲンロック",
+    "reading": "げんろっく",
+    "english": "Genlock",
+    "category": "video",
+    "subcategory": "同期・外部制御",
+    "definition": "基準信号に映像機器の動作タイミングを同期させること。複数の映像機器でタイミングをそろえるために用いる。",
+    "usage": "カメラと送出機器のゲンロック対応を確認する。",
+    "aliases": [
+      "外部同期",
+      "Gen-lock",
+      "リファレンス同期"
+    ],
+    "related": [
+      "フレームレート",
+      "SDI",
+      "タイムコード"
+    ],
+    "sources": [
+      {
+        "label": "Blackmagic Design・Teranex Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/TeranexManual.pdf"
+      }
+    ],
+    "japan": "「ゲンロック」と呼ぶ。",
+    "us": "Genlock の呼称で説明する。",
+    "uk": "Genlock の呼称で説明する。",
+    "note": "タイムコードが示す時刻・位置の共有と、映像信号のタイミング同期は役割が異なる。",
+    "regions": [
+      "JP",
+      "US",
+      "UK"
+    ]
+  }
+]
