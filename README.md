@@ -10,6 +10,21 @@
 
 配布用ファイルは `npm run build` で `dist/` に作成できます。確認は `npm run preview`（<http://127.0.0.1:4173/>）。`dist/index.html` の直接ファイル起動ではなく、HTTP サーバーで配信してください。
 
+## GitHub Pagesで公開する
+
+公開先リポジトリは [ashtmz/stage-bank](https://github.com/ashtmz/stage-bank)。初回設定後は、公開URLを開くだけで利用でき、閲覧用のコマンド操作やローカルサーバーの起動は不要です。
+
+1. GitHubのプランを確認します。GitHub Freeでは公開リポジトリ、GitHub Pro等では非公開リポジトリでもPagesを利用できます。リポジトリの公開範囲は必要に応じて所有者が選択します。
+2. リポジトリの [Settings → Pages](https://github.com/ashtmz/stage-bank/settings/pages) で、Build and deployment の Source を **GitHub Actions** にします。
+3. このフォルダの公開用設定 `.github/workflows/pages.yml` と README の変更を `main` にコミットし、GitHubへ送ります。GitHub Desktopなら Commit → Push origin で操作できます。Pages設定を有効にする前に送った場合は、[Actions](https://github.com/ashtmz/stage-bank/actions) の **Publish to GitHub Pages → Run workflow** から実行します。
+4. Actionsの公開完了後、`https://ashtmz.github.io/stage-bank/` を開きます。更新履歴は `https://ashtmz.github.io/stage-bank/#update=latest` です。
+
+公開時はデータ検証・テストを実行し、成功したものだけを `/stage-bank/` 向けにビルドします。アップロード対象は `dist/` のみです。以後、`main` へ送った変更は同じ手順で自動再公開されます。
+
+このチャットの月次更新はローカルの用語データと更新インデックスを編集します。公開サイトへ反映するには、その変更もGitHubへ送る必要があります。ローカル画面と公開サイトの保存済み用語・メモは別の保存先になるため、移行する場合は「データ」から書き出し・読み込みを使います。
+
+設定の根拠：[GitHub Pagesの公開元](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)、[ViteのGitHub Pages手順](https://vite.dev/guide/static-deploy.html#github-pages)。
+
 ## 探す・残す
 
 - 左側の分野を選び、「小分類」で場所・機材・作業などに絞り込みます。
